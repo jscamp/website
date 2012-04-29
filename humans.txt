@@ -1,0 +1,14 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Author: Thomas Gorissen, Sebastiaan Deckers, Sayanee Basu
+  Company: Nerdherd Pte Ltd
+  Site: http://jscamp.asia
+  Twitter: @jscamp_asia
+  From: Singapore (with love <3)
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, HTML5-Boilerplate
+  Tools: Coda, Github, CodeKit and a Mac

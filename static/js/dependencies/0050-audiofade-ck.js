@@ -1,0 +1,3 @@
+/**
+ * Audio fade in support
+ */(function(a,b){b.tools=b.tools||{};b.tools.fadeIn=function(a,b,c,d){function g(){var b=Math.min(c,a.volume+e);a.volume=b;a.volume<c&&setTimeout(g,d)}function h(){a.removeEventListener("playing",f);g()}c||(c=1);b||(b=1e3);d||(d=50);var e=c/(b/d),f=null;a.volume=0;a.addEventListener("playing",h);a.play()};b.tools.fadeOut=function(a,b,c,d){function g(){var b=Math.max(0,a.volume-f);a.volume=b;if(a.volume>c)setTimeout(g,d);else{a.pause();a.volume=e}}var e=a.volume;c||(c=0);b||(b=1e3);d||(d=50);var f=(a.volume-c)/(b/d);if(!f)throw"Could not calculate volume adjustment step";g()}})($,window.krusovice={});

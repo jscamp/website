@@ -1,0 +1,139 @@
+@import "nib-index.styl"
+@charset "utf-8";
+
+global-reset()
+
+@css {
+	input::-moz-focus-inner, button::-moz-focus-inner { border: 0; }
+}
+
+backgroundColor = #fff
+jscampYellow = orange
+jscampBrown = brown
+jscampGreen = green
+jscampBlue = #38ACEC
+
+#gradient
+	position absolute
+	top 0px
+	left 0px
+	bottom 0px
+	right 0px
+	overflow auto
+	background linear-gradient(top left, #D1EBFF 0%, white 60%)
+
+#logoanim
+	font-size 5em
+	font-weight bold
+	font-family Courier
+	position relative
+	float left
+	width 800px
+	height 580px
+	transform scale(0.5)
+	
+	img
+		display none
+	
+#la_logo
+	line-height 0.8em
+	position absolute
+	top 170px
+	left 50px
+	
+	#la_jscamp
+		color jscampBlue
+	
+	#la_asia
+		color jscampYellow
+	
+	#la_undisclosured
+		color white
+		background-color black
+		font-size 0.58em
+		line-height 1em
+		transform rotate(-9deg)
+		position relative
+		left -30px
+		animation punch 1s linear
+	
+	#ls_info
+		font-size 0.28em
+		line-height 1em
+		margin 1.5em 0 0 0.6em
+		color #444
+		animation fadein 1.5s linear
+
+#la_landscape
+	position absolute
+	top 350px
+	left -50px
+	font-size 3.5em
+
+	div
+		position absolute
+
+	#la_palm
+		color jscampGreen
+		font-size 1.05em
+		top -0.98em
+		left 1.6em
+		transform rotate(-80deg)
+		animation palm 10s infinite ease-in-out
+		
+	#la_trunk
+		color jscampBrown
+		top -0.5em
+		left 1.55em
+		
+	#la_sea
+		color jscampBlue
+		position relative
+		animation sea 8s infinite ease-in-out
+	
+	#la_beach
+		color jscampYellow
+
+#restofwebsite
+	display none
+
+@keyframes punch
+	0%
+		opacity 0
+	72%
+		opacity 0
+	75% 
+		opacity 1
+		transform scale(3), rotate(-3deg)
+	90% 
+		transform scale(0.9), rotate(-9deg)
+	100% 
+		transform scale(1), rotate(-9deg)
+
+@keyframes sea
+	0% 
+		left -0.15em
+	50% 
+		left 0.05em
+	100% 
+		left -0.15em
+		
+@keyframes fadein
+	0% 
+		opacity 0
+	80% 
+		opacity 0
+	100% 
+		opacity 1
+
+@keyframes palm
+	0% 
+		transform rotate(-80deg)
+	40% 
+		transform rotate(-82deg)
+	55% 
+		transform rotate(-88deg)
+	85% 
+		transform rotate(-82deg)
+	100% 
+		transform rotate(-80deg)
