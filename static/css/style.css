@@ -114,11 +114,6 @@ input::-moz-focus-inner, button::-moz-focus-inner { border: 0; }
   float: left;
   width: 800px;
   height: 580px;
-  -webkit-transform: scale(0.5);
-  -moz-transform: scale(0.5);
-  -o-transform: scale(0.5);
-  -ms-transform: scale(0.5);
-  transform: scale(0.5);
 }
 #logoanim img {
   display: none;
