@@ -13,7 +13,9 @@ jscampBrown = brown
 jscampGreen = green
 jscampBlue = #38ACEC
 
-#gradient
+@import "jscamp/typography.styl"
+
+#body
 	position absolute
 	top 0px
 	left 0px
@@ -29,7 +31,7 @@ jscampBlue = #38ACEC
 	position relative
 	float left
 	width 800px
-	height 580px
+	height 450px
 	
 	img
 		display none
@@ -37,7 +39,7 @@ jscampBlue = #38ACEC
 #la_logo
 	line-height 0.8em
 	position absolute
-	top 170px
+	top 70px
 	left 50px
 	
 	#la_jscamp
@@ -65,7 +67,7 @@ jscampBlue = #38ACEC
 
 #la_landscape
 	position absolute
-	top 350px
+	top 250px
 	left -50px
 	font-size 3.5em
 
@@ -95,6 +97,31 @@ jscampBlue = #38ACEC
 
 #restofwebsite
 	display none
+	clear both
+	position relative;
+	margin 0 auto
+	width 960px
+
+#sponsors
+	display none	
+	float left
+	width 400px
+	position relative
+
+	h1
+		text-align center
+
+ul#sponsor-list li 
+	margin 0
+	width:100%
+	margin 10px 
+	img
+		display block
+		margin-left auto
+		margin-right auto
+
+
+
 
 @keyframes punch
 	0%
@@ -136,3 +163,5 @@ jscampBlue = #38ACEC
 		transform rotate(-82deg)
 	100% 
 		transform rotate(-80deg)
+
+@import "jscamp/responsive.styl"		
