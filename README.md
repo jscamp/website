@@ -1,0 +1,1 @@
+[JS Camp Asia](http://jscamp.asia/) - The JavaScript conference for Asia, Singapore, late 2012
