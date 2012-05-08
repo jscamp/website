@@ -98,30 +98,74 @@ jscampBlue = #38ACEC
 #restofwebsite
 	display none
 	clear both
-	position relative;
+	position relative
 	margin 0 auto
 	width 960px
 
 #sponsors
 	display none	
 	float left
-	width 400px
+	width 300px
 	position relative
 
 	h1
+		margin 10px 0
 		text-align center
 
-ul#sponsor-list li 
-	margin 0
-	width:100%
-	margin 10px 
-	img
-		display block
-		margin-left auto
-		margin-right auto
+ul#sponsor-list 
+	margin 0 0 30px 0
+	li 
+		margin 0
+		width:100%
+		margin 10px 
+		img
+			display block
+			margin-left auto
+			margin-right auto
 
+#register
+	font-family Courier
+	font-size 2.3em
+	background-color jscampBlue
+	color white
+	padding 0px 30px 7px
+	text-align center
+	font-weight bold
+	text-decoration none	
+	border-radius 5px
+	left 50%
+	margin 20px 0 0 40px
+	transition-duration(0.2s)
+	&:hover
+		background-color jscampYellow
 
+nav
+	float left
+	width 25%
+	display block
+	li
+		font-family Courier
+		font-size 2.3em
+		transition-duration(0.2s)
+		margin 5px 0
+	a
+		color jscampBlue
+		text-decoration none
+		font-weight bold	
+		&:hover
+			color jscampYellow
 
+.fixed
+	position fixed
+	top -1px
+	right 0
+	left 0
+	
+#speakers, #about, #venue, #program
+	display block
+	float right
+	width 70%
+	height 300px
 
 @keyframes punch
 	0%
