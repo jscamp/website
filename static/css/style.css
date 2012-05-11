@@ -49,6 +49,7 @@ nav #nav_logo #ls_info{font-size:5px;margin:10px 0 0 0}
 #social li:nth-child(2):hover{background:url("../img/twitter-hover.png") no-repeat 2px 0}
 #social li:nth-child(3){background:url("../img/email.png") no-repeat 9px 0;}
 #social li:nth-child(3):hover{background:url("../img/email-hover.png") no-repeat 11px 0}
+#social a{display:block;height:100%;width:100%}
 .fixed{position:fixed;top:-1px;right:0;left:0}
 #speakers,#about,#venue,#program{display:block;float:right;width:70%;height:300px}
 @media (max-width: 1200px){#sponsors{margin:0 auto;float:none}
