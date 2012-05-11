@@ -55,7 +55,7 @@ jscampBlue = #38ACEC
 		line-height 1em
 		transform rotate(-9deg)
 		position relative
-		left -30px
+		left -0.7em
 		animation punch 1s linear
 	
 	#ls_info
@@ -143,6 +143,9 @@ nav
 	float left
 	width 25%
 	display block
+	height 100px
+	position relative
+
 	li
 		font-family Courier
 		font-size 2.3em
@@ -154,6 +157,50 @@ nav
 		font-weight bold	
 		&:hover
 			color jscampYellow
+	#nav_logo
+		font-weight bold
+		font-family Courier
+		transform scale(3)
+		clearfix()
+		position absolute
+		left 0
+		bottom 0
+		
+		#la_logo
+			margin-left -50px
+		#la_undisclosured
+			font-size .6em
+			padding 0 0 3px 0
+			margin-left -3px
+			line-height 0.5
+		#ls_info
+			font-size 5px
+			margin 10px 0 0 0
+
+#social 
+	margin 0
+	display block
+	overflow hidden
+	li
+		float left
+		width 60px
+		display block
+		height 33px
+		span
+			display none
+		&:nth-child(1)
+			background url(../img/facebook.png) no-repeat
+			&:hover
+				background url(../img/facebook-hover.png) no-repeat 2px 0
+		&:nth-child(2)
+			background url(../img/twitter.png) no-repeat
+			&:hover
+				background url(../img/twitter-hover.png) no-repeat 2px 0
+		&:nth-child(3)
+			background url(../img/email.png) no-repeat 9px 0
+			&:hover
+				background url(../img/email-hover.png) no-repeat 11px 0
+
 
 .fixed
 	position fixed

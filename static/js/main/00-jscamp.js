@@ -1,12 +1,6 @@
 
 _.delay(function() {
-	$("#restofwebsite").fadeIn(2000, function(){
-	  $(document).scroll(function(){
-	    if ($(window).scrollTop() > 240) {
-          return $("nav").addClass("fixed")
-  	  }
-  	});
-	});
+	$("#restofwebsite").fadeIn(2000);
 	$("#sponsors").fadeIn(2000);
 }, 2000);
 
