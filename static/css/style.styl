@@ -14,23 +14,29 @@ jscampGreen = green
 jscampBlue = #38ACEC
 
 #gradient
-	position absolute
+	position fixed
 	top 0px
 	left 0px
 	bottom 0px
 	right 0px
 	overflow auto
 	background linear-gradient(top left, #D1EBFF 0%, white 60%)
+	z-index 0
+
+#body
+	position absolute
+	top 0px
+	left 0px
+	right 0px
 
 #logoanim
 	font-size 5em
 	font-weight bold
-	font-family Courier
+	font-family Courier, monospace
 	position relative
-	float left
 	width 800px
-	height 580px
-	transform scale(0.5)
+	height 440px
+	margin 0 auto
 	
 	img
 		display none
@@ -38,7 +44,7 @@ jscampBlue = #38ACEC
 #la_logo
 	line-height 0.8em
 	position absolute
-	top 170px
+	top 70px
 	left 50px
 	
 	#la_jscamp
@@ -54,19 +60,21 @@ jscampBlue = #38ACEC
 		line-height 1em
 		transform rotate(-9deg)
 		position relative
-		left -30px
+		left -0.8em
 		animation punch 1s linear
 	
 	#ls_info
 		font-size 0.28em
 		line-height 1em
-		margin 1.5em 0 0 0.6em
+		margin 1.5em 0 0 -3em
+		text-align center
+		line-height 1.35em
 		color #444
 		animation fadein 1.5s linear
 
 #la_landscape
 	position absolute
-	top 350px
+	top 240px
 	left -50px
 	font-size 3.5em
 
@@ -76,8 +84,8 @@ jscampBlue = #38ACEC
 	#la_palm
 		color jscampGreen
 		font-size 1.05em
-		top -0.98em
-		left 1.6em
+		top -0.99em
+		left 1.63em
 		transform rotate(-80deg)
 		animation palm 10s infinite ease-in-out
 		
@@ -96,6 +104,45 @@ jscampBlue = #38ACEC
 
 #restofwebsite
 	display none
+	text-align center
+	padding-bottom 80px
+
+
+#lbcont
+	overflow hidden
+	margin 10px auto 50px auto
+	width 420px			
+
+a#twitter
+	display inline-block
+	font-size 4.7em
+	width 1.1em
+	height 1em
+	font-weight bold
+	color white
+	background #4099FF
+	text-decoration none
+	font-family Courier, monospace
+	margin 0 25px
+	border-radius 5px
+	position relative
+
+a#facebook
+	display inline-block
+	font-size 4.7em
+	width 1.1em
+	height 1em
+	font-weight bold
+	color white
+	background #3B5998
+	text-decoration none
+	font-family Courier, monospace
+	margin 0 25px
+	border-radius 5px
+	position relative
+
+a#twitter:hover, a#facebook:hover
+	animation jump 0.6s 1 ease-out
 
 @keyframes punch
 	0%
@@ -137,3 +184,24 @@ jscampBlue = #38ACEC
 		transform rotate(-82deg)
 	100% 
 		transform rotate(-80deg)
+		
+@keyframes jump
+	0%
+		top 0px
+	20%
+		top -30px
+	24%
+		top -40px
+	28%
+		top -30px
+	48%
+		top 0px
+	64%
+		top 10px
+	80%
+		top 0px
+	90%
+		top 4px
+	100%
+		top 0px
+	
