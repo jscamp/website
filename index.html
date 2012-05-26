@@ -26,7 +26,10 @@
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
+	<link rel="stylesheet" href="static/css/1140.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="static/css/style.css" />
+	
+	<script type="text/javascript" src="static/js/0010-css3-mediaqueries.js"></script>
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static/js/libs/es5.js"></script><![endif]-->
@@ -57,16 +60,27 @@
 			</audio>
 		</div>
 		
-		<div id="restofwebsite">
+		<div id="restofwebsite" class="container">
 
-			<div id="lbcont">
-				<div rel="OWN5HM35" class="lrdiscoverwidget" data-logo="off" data-background="off" data-share-url="jscamp.asia" data-css=""></div><script type="text/javascript" src="http://launchrock-ignition.s3.amazonaws.com/ignition.1.1.js"></script>
+			<div class="row">
+				<div class="fourcol last">
+				
+				</div>
+				<div class="fourcol last">
+				
+				</div>
+				<div class="fourcol last">
+				
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="twelvecol last">
+					<a href="http://twitter.com/jscamp_asia" id="twitter">t</a>
+					<a href="https://www.facebook.com/pages/JScampAsia-Undisclosured/224477610989663" id="facebook">f</a>
+				</div>
 			</div>
 			
-			<div>
-			<a href="http://twitter.com/jscamp_asia" id="twitter">t</a>
-			<a href="https://www.facebook.com/pages/JScampAsia-Undisclosured/224477610989663" id="facebook">f</a>
-			</div>
 		</div>
 		
 	</div>
@@ -80,58 +94,12 @@
 
 	<!-- Setup Adz bootstrapping -->
 	<script type="text/javascript">
-	(function() {
-		var userAgent = {
-			string: navigator.userAgent.toLowerCase()
-		};
-			
-		if(jQuery.browser.msie) {
-			userAgent.tooOld = jQuery.browser.version < 9;
-			userAgent.url = "http://www.microsoft.com/internetexplorer/";
-		}
-		else if(jQuery.browser.mozilla) {
-			userAgent.v = jQuery.browser.version.split('.');
-			userAgent.tooOld = (userAgent.v[0] == 1 && userAgent.v[1] < 9) || (userAgent.v[0] == 1 && userAgent.v[1] == 9 && userAgent.v[2] < 2);
-			if(/firefox/.test(userAgent.string)) {
-				userAgent.url = "http://www.mozilla.org/firefox/";
-			}
-		}
-		else if(jQuery.browser.webkit) {
-			userAgent.v = jQuery.browser.version.split('.');
-			userAgent.tooOld = (userAgent.v[0] < 534) || (userAgent.v[0] == 534 && userAgent.v[1] < 17);
-			if(/chrome/.test(userAgent.string)) {
-				userAgent.url = "http://www.google.com/chrome/";
-			}
-			else if(/safari/.test(userAgent.string)) {
-				userAgent.url = "http://www.apple.com/safari/";
-			}
-		}
-		else if(jQuery.browser.opera) {
-			userAgent.tooOld = jQuery.browser.version < 10;
-			userAgent.url = "http://www.opera.com/";
-		}
-		else {
-			alert("Surely you want to update your browser before attending this conference, because this one won't do.");
-			alert("Here be dragons…");
-		}
-		
-		if(userAgent.tooOld) {
-			if(userAgent.url) {
-				if(confirm("What about… a new browser?! :)"))
-					window.location = userAgent.url;
-				else
-					alert("Here be dragons…");
-			}
-			else {
-				alert("Surely you want to update your browser before attending this conference, because this one won't do.");
-				alert("Here be dragons…");
-			}
-		}
-	})();
+
 	</script>
 
 	<!-- scripts concatenated and minified via ant build script-->
 	<script type="text/javascript" src="static/js/dependencies/0000-headers-ck.js"></script>
+	<script type="text/javascript" src="static/js/dependencies/0005-browsercheck-ck.js"></script>
 	<script type="text/javascript" src="static/js/dependencies/0020-underscore-ck.js"></script>
 	<script type="text/javascript" src="static/js/dependencies/0050-audiofade-ck.js"></script>
 	<script type="text/javascript" src="static/js/main/00-jscamp-ck.js"></script>
