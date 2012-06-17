@@ -25,7 +25,6 @@ $(window).scroll(function(e) {
 	var wasScrolling = scrolling;
 	scrolling = true;
 	var newScrollPos = $(window).scrollTop();
-	console.log(newScrollPos);
 	var wHeight = $(window).height();
 	var up = newScrollPos < scrollPos;
 	var locked = newScrollPos % wHeight == 0;
