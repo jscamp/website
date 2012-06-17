@@ -2,6 +2,11 @@
 @charset "utf-8";
 
 global-reset()
+/*
+@font-face
+   font-family Courier
+   font-style normal
+   src url(../font/Courier.ttf)*/
 
 @css {
 	input::-moz-focus-inner, button::-moz-focus-inner { border: 0; }
@@ -13,29 +18,37 @@ jscampBrown = brown
 jscampGreen = green
 jscampBlue = #38ACEC
 
-#gradient
-	position fixed
-	top 0px
-	left 0px
-	bottom 0px
-	right 0px
-	overflow auto
-	background linear-gradient(top left, #D1EBFF 0%, white 60%)
-	z-index 0
+body
+	font-family Courier, monospace
 
 #body
 	position absolute
 	top 0px
 	left 0px
+	bottom 0px
 	right 0px
+
+.page
+	width 100%
+	height 100%
+
+#homepage
+	overflow auto
+	background linear-gradient(top left, #D1EBFF 0%, white 60%)
+	
+#conferencepage
+	background jscampBlue
+	
+#venuepage
+	background jscampYellow
 
 #logoanim
 	font-size 5em
 	font-weight bold
-	font-family Courier, monospace
+
 	position relative
 	width 800px
-	height 440px
+	height 380px
 	margin 0 auto
 	
 	img
@@ -44,8 +57,7 @@ jscampBlue = #38ACEC
 #la_logo
 	line-height 0.8em
 	position absolute
-	top 70px
-	left 50px
+	left 80px
 	
 	#la_jscamp
 		color jscampBlue
@@ -74,8 +86,8 @@ jscampBlue = #38ACEC
 
 #la_landscape
 	position absolute
-	top 240px
-	left -50px
+	top 170px
+	left -20px
 	font-size 3.5em
 
 	div
@@ -102,47 +114,135 @@ jscampBlue = #38ACEC
 	#la_beach
 		color jscampYellow
 
-#restofwebsite
-	display none
+#messageCont
+	position relative
+	margin 0 auto
+	width 700px
+	height 130px
+	font-weight bold
 	text-align center
-	padding-bottom 80px
+	transform perspective(500px)
+	transform-origin center center
+	transform-style preserve-3d
+
+	&.flipped
+		.front
+			transform rotateX(-180deg)
+		.back
+			transform rotateX(0deg)
+	
+	div
+		position absolute
+		top 0px
+		bottom 0px
+		left 0px
+		right 0px
+		backface-visibility hidden
+		transition all 0.4s ease-out
 
 
-#lbcont
-	overflow hidden
-	margin 10px auto 50px auto
-	width 420px			
+		&.front
+			border-radius 8px
+			border 1px solid jscampYellow
+			background jscampYellow
+			color #fff
+			transform rotateX(0deg)
+			
+		&.back
+			visibility hidden
+			transform rotateX(180deg)
 
-a#twitter
-	display inline-block
-	font-size 4.7em
-	width 1.1em
-	height 1em
-	font-weight bold
+	
+	#message
+		padding 31px 40px
+
+		line-height 1.4em
+		font-size 1.5em
+
+	
+	#sponsors
+		font-size 0.8em
+		padding 15px 30px 25px 30px
+		
+		img
+			margin 10px
+			border 1px solid #eee
+			border-radius 8px
+			
+#top
+	position fixed
+	top 0px
+	left 0px
+	right 0px
+	display none
+
+	table
+		width 100%
+		font-size 1.7em
+		line-height 1.0em
+		
+		td
+			padding 3px 6px 4px 6px
+			font-weight bold
+			
+			a
+				float right
+				font-size 0.5em
+				color #fff
+				text-decoration none
+				padding-right 5px
+				
+
+		td:nth-child(1)
+			background #D1EBFF
+			width 6em
+		td:nth-child(2)
+			background #000
+			color #fff
+			width 2.4em
+			font-size 0.8em
+		td:nth-child(3)
+			background jscampBrown
+			width 0.2em
+		td:nth-child(4)
+			background jscampGreen
+			width 2em
+		td:nth-child(5)
+			background jscampYellow
+		td:nth-child(6)
+			background jscampBlue
+			width 30%
+			
+#scrollinfo
+	display none
+	position fixed
+	bottom 0px
+	left 0px
+	right 0px
+	text-align center
+	
+	span
+		position relative
+		left 0.1em
+		display block
+		transform rotate(90deg)
+		font-size 5em
+		color #ddd
+		animation bounce 0.6s infinite ease-out
+
+.jscamp
+	color jscampBlue
+.asia
+	color jscampYellow
+
+a.twitter
 	color white
-	background #4099FF
-	text-decoration none
-	font-family Courier, monospace
-	margin 0 25px
-	border-radius 5px
-	position relative
+	background #4099FF !important
 
-a#facebook
-	display inline-block
-	font-size 4.7em
-	width 1.1em
-	height 1em
-	font-weight bold
+a.facebook
 	color white
-	background #3B5998
-	text-decoration none
-	font-family Courier, monospace
-	margin 0 25px
-	border-radius 5px
-	position relative
+	background #3B5998 !important
 
-a#twitter:hover, a#facebook:hover
-	animation jump 0.6s 1 ease-out
 
 @keyframes punch
 	0%
@@ -185,23 +285,15 @@ a#twitter:hover, a#facebook:hover
 	100% 
 		transform rotate(-80deg)
 		
-@keyframes jump
+@keyframes bounce
 	0%
 		top 0px
 	20%
-		top -30px
+		top -10px
 	24%
-		top -40px
+		top -11px
 	28%
-		top -30px
-	48%
-		top 0px
-	64%
-		top 10px
-	80%
-		top 0px
-	90%
-		top 4px
+		top -10px
 	100%
 		top 0px
 	
