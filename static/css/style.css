@@ -120,19 +120,13 @@ body {
   background: -ms-linear-gradient(top left, #d1ebff 0%, #fff 60%);
   background: linear-gradient(top left, #d1ebff 0%, #fff 60%);
 }
-#conferencepage {
-  background: #38acec;
-}
-#venuepage {
-  background: #ffa500;
-}
 #logoanim {
   font-size: 5em;
   font-weight: bold;
   position: relative;
   width: 800px;
   height: 380px;
-  margin: 0 auto;
+  margin: 30px auto 0 auto;
 }
 #logoanim img {
   display: none;
@@ -222,6 +216,7 @@ body {
   color: #ffa500;
 }
 #messageCont {
+  display: none;
   position: relative;
   margin: 0 auto;
   width: 700px;
@@ -315,6 +310,83 @@ body {
   -o-border-radius: 8px;
   -ms-border-radius: 8px;
   border-radius: 8px;
+}
+#aboutpage {
+  background: #000;
+  color: #fff;
+}
+#biglove,
+#abouttext {
+  margin: 60px auto;
+  text-align: center;
+}
+#biglove {
+  width: 800px;
+  font-size: 4em;
+  font-weight: bold;
+}
+#js {
+  color: #000;
+  width: 3em;
+  height: 3em;
+  font-size: 0.5em;
+  font-family: Helvetica, Arial;
+  padding: 0.8em 0.2em 0em 0.6em;
+  background: #ffe100;
+}
+#asia {
+  color: #008000;
+}
+#love {
+  color: #f00;
+}
+#abouttext {
+  color: #fff;
+  width: 432px;
+  line-height: 1.2em;
+}
+#conferencepage {
+  background: #ffa500;
+}
+.sessiontype {
+  width: 800px;
+  margin: 0 auto;
+}
+.sessiontype .sessionicon {
+  float: left;
+  width: 10em;
+  height: 10em;
+  background: #008000;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+}
+.sessiontype .sessiondesc {
+  margin-left: 11.6em;
+}
+.sessiontype .sessiondesc .title {
+  font-size: 4em;
+  font-weight: bold;
+}
+.sessiontype .speakers {
+  margin-top: 15px;
+}
+.sessiontype .speakers li {
+  float: left;
+  margin: 0 50px 16px 0;
+  width: 6em;
+  height: 6em;
+  background: #ff9100;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+}
+#venuepage {
+  background: #008000;
 }
 #top {
   position: fixed;

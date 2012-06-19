@@ -17,6 +17,7 @@ jscampYellow = orange
 jscampBrown = brown
 jscampGreen = green
 jscampBlue = #38ACEC
+mWidth = 800px
 
 body
 	font-family Courier, monospace
@@ -35,21 +36,15 @@ body
 #homepage
 	overflow auto
 	background linear-gradient(top left, #D1EBFF 0%, white 60%)
-	
-#conferencepage
-	background jscampBlue
-	
-#venuepage
-	background jscampYellow
 
 #logoanim
 	font-size 5em
 	font-weight bold
 
 	position relative
-	width 800px
+	width mWidth
 	height 380px
-	margin 0 auto
+	margin 30px auto 0 auto
 	
 	img
 		display none
@@ -115,6 +110,7 @@ body
 		color jscampYellow
 
 #messageCont
+	display none
 	position relative
 	margin 0 auto
 	width 700px
@@ -168,6 +164,80 @@ body
 			margin 10px
 			border 1px solid #eee
 			border-radius 8px
+			
+
+#aboutpage
+	background #000
+	color #fff
+
+#biglove, #abouttext
+
+	margin 60px auto
+	text-align center
+
+#biglove
+	width mWidth
+	font-size 4em
+	font-weight bold
+
+	
+#js
+	color #000
+	width 3em
+	height 3em
+	font-size 0.5em
+	font-family Helvetica, Arial
+	padding 0.8em 0.2em 0em 0.6em
+	background #FFE100
+	
+#asia
+	color jscampGreen
+	
+#love
+	color red
+	
+#abouttext
+	color #fff
+	width mWidth - 46%
+	line-height 1.2em
+
+#conferencepage
+	background jscampYellow
+	
+.sessiontype
+	width mWidth
+	margin 0 auto
+	
+	.sessionicon
+		float left
+		width 10em	
+		height 10em
+		background jscampGreen
+		border-radius 8px
+		
+	.sessiondesc
+		margin-left 11.6em
+		
+		.title
+			font-size 4em
+			font-weight bold
+
+	.speakers
+		margin-top 15px
+		
+		li
+			float left
+			margin 0 50px 16px 0
+			width 6em
+			height 6em
+			background #FF9100
+			border-radius 8px
+			
+	
+#venuepage
+	background jscampGreen
+
+
 			
 #top
 	position fixed

@@ -1,6 +1,8 @@
 scrollPos = 0;
 scrolling = false;
 
+$("#messageCont").slideDown();
+
 _.delay(function() {
 	$("#messageCont").removeClass("flipped");
 }, 2000);
