@@ -24,6 +24,9 @@ body
 	
 a
 	color jscampBrown
+	
+.clear
+	clear both
 
 #body
 	position absolute
@@ -35,6 +38,7 @@ a
 .page
 	width 100%
 	height 100%
+	min-height 680px
 
 #bg
 	position fixed
@@ -52,7 +56,7 @@ a
 	position relative
 	width mWidth
 	height 380px
-	margin 30px auto 0 auto
+	margin 50px auto 0 auto
 	
 	img
 		display none
@@ -77,14 +81,13 @@ a
 		transform rotate(-9deg)
 		position relative
 		left -0.8em
-		font-family 'Doppio One'
 		animation punch 1s linear
 	
 	#ls_info
 		font-family 'Doppio One'
 		font-size 0.28em
 		line-height 1em
-		margin 1.5em 0 0 -3em
+		margin 1.2em 0 0 -3em
 		text-align center
 		line-height 1.35em
 		color #444
@@ -177,7 +180,7 @@ a
 			
 
 .headline
-	background jscampYellow
+	background jscampGreen
 	color #fff
 	padding 80px 0 70px 0
 	margin-bottom 100px
@@ -195,6 +198,7 @@ a
 	font-size 1em
 	
 #js
+	margin-left 5px
 	color #000
 	width 3em
 	height 3em
@@ -205,12 +209,16 @@ a
 	
 #sessions
 	width mWidth
+	position relative
 	margin 0 auto
 	
-	.sessionicon
+	#sessionicon
+		-webkit-touch-callout none
+		user-select none
+		position relative
 		float left
 		
-		div		
+		> div		
 			cursor pointer
 			width 1.7em
 			height 1.1em
@@ -223,7 +231,9 @@ a
 			font-size 4em
 			padding 0.3em 0 0.2em 0
 			margin-bottom 20px
-			position relative
+			position absolute
+			top 0px
+			transition all 0.5s ease-out
 			
 			&#workshops
 				padding 0.2em 0
@@ -234,7 +244,7 @@ a
 					padding 2.1em 0
 				
 			span
-				display none
+				opacity 0
 				position absolute
 				top 0px
 				left 0px
@@ -244,27 +254,46 @@ a
 				padding 1.7em 0
 				background jscampBlue
 				border-radius 8px
+			
+			&.current 
+				background jscampBlue
+			
+			&:hover span
+				opacity 1
+
 				
-			&:hover span, &.current span
-				display block
+	.moved
+		#workshops
+			top 1.9em
+		#sprints
+			top 3.8em
 		
 	.sessiondesc
 		margin-left 9em
+		display none
+		
+		&.current
+			display block
 		
 		.intro
 			display block
 			padding-bottom 25px
+			line-height 1.2em
 			
 			h4
-				display inline
+				line-height 1.3em
 				font-size 5.2em
 				font-weight bold
 				font-family Courier, monospace
+				color jscampBlue
 
 	.speakers
 		float left
 		margin 0 20px 0 0
-		width 12.3em
+		width 12.8em
+		
+		&:last-child
+			margin 0
 		
 		li
 			margin 0 0 18px 0
@@ -304,11 +333,11 @@ a
 	
 #venue
 	clear both
-	padding 100px 0
+	padding 100px 0 0 0
 	
 	#venuebg
-		padding 100px
-		background jscampGreen
+		padding 100px 0 1000px 0
+		background jscampYellow
 
 			
 #top
@@ -340,7 +369,8 @@ table.colors
 	td:nth-child(1)
 		font-family Courier, monospace
 		background #D1EBFF
-		width 6.5em
+		width 7em
+		text-align center
 	td:nth-child(2)
 		background #000
 		color #fff

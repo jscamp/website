@@ -103,6 +103,9 @@ body {
 a {
   color: #a52a2a;
 }
+.clear {
+  clear: both;
+}
 #body {
   position: absolute;
   top: 0px;
@@ -113,6 +116,7 @@ a {
 .page {
   width: 100%;
   height: 100%;
+  min-height: 680px;
 }
 #bg {
   position: fixed;
@@ -134,7 +138,7 @@ a {
   position: relative;
   width: 800px;
   height: 380px;
-  margin: 30px auto 0 auto;
+  margin: 50px auto 0 auto;
 }
 #logoanim img {
   display: none;
@@ -162,7 +166,6 @@ a {
   transform: rotate(-9deg);
   position: relative;
   left: -0.8em;
-  font-family: 'Doppio One';
   -webkit-animation: punch 1s linear;
   -moz-animation: punch 1s linear;
   -o-animation: punch 1s linear;
@@ -173,7 +176,7 @@ a {
   font-family: 'Doppio One';
   font-size: 0.28em;
   line-height: 1em;
-  margin: 1.5em 0 0 -3em;
+  margin: 1.2em 0 0 -3em;
   text-align: center;
   line-height: 1.35em;
   color: #444;
@@ -322,7 +325,7 @@ a {
   border-radius: 8px;
 }
 .headline {
-  background: #ffa500;
+  background: #008000;
   color: #fff;
   padding: 80px 0 70px 0;
   margin-bottom: 100px;
@@ -340,6 +343,7 @@ a {
   font-size: 1em;
 }
 #js {
+  margin-left: 5px;
   color: #000;
   width: 3em;
   height: 3em;
@@ -350,12 +354,20 @@ a {
 }
 #sessions {
   width: 800px;
+  position: relative;
   margin: 0 auto;
 }
-#sessions .sessionicon {
+#sessions #sessionicon {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
   float: left;
 }
-#sessions .sessionicon div {
+#sessions #sessionicon > div {
   cursor: pointer;
   width: 1.7em;
   height: 1.1em;
@@ -372,18 +384,25 @@ a {
   font-size: 4em;
   padding: 0.3em 0 0.2em 0;
   margin-bottom: 20px;
-  position: relative;
+  position: absolute;
+  top: 0px;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
-#sessions .sessionicon div#workshops {
+#sessions #sessionicon > div#workshops {
   padding: 0.2em 0;
   height: 1.2em;
 }
-#sessions .sessionicon div#workshops span {
+#sessions #sessionicon > div#workshops span {
   font-size: 0.3em;
   padding: 2.1em 0;
 }
-#sessions .sessionicon div span {
-  display: none;
+#sessions #sessionicon > div span {
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -398,27 +417,45 @@ a {
   -ms-border-radius: 8px;
   border-radius: 8px;
 }
-#sessions .sessionicon div:hover span,
-#sessions .sessionicon div.current span {
-  display: block;
+#sessions #sessionicon > div.current {
+  background: #38acec;
+}
+#sessions #sessionicon > div:hover span {
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+#sessions .moved #workshops {
+  top: 1.9em;
+}
+#sessions .moved #sprints {
+  top: 3.8em;
 }
 #sessions .sessiondesc {
   margin-left: 9em;
+  display: none;
+}
+#sessions .sessiondesc.current {
+  display: block;
 }
 #sessions .sessiondesc .intro {
   display: block;
   padding-bottom: 25px;
+  line-height: 1.2em;
 }
 #sessions .sessiondesc .intro h4 {
-  display: inline;
+  line-height: 1.3em;
   font-size: 5.2em;
   font-weight: bold;
   font-family: Courier, monospace;
+  color: #38acec;
 }
 #sessions .speakers {
   float: left;
   margin: 0 20px 0 0;
-  width: 12.3em;
+  width: 12.8em;
+}
+#sessions .speakers:last-child {
+  margin: 0;
 }
 #sessions .speakers li {
   margin: 0 0 18px 0;
@@ -469,11 +506,11 @@ a {
 }
 #venue {
   clear: both;
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 #venue #venuebg {
-  padding: 100px;
-  background: #008000;
+  padding: 100px 0 1000px 0;
+  background: #ffa500;
 }
 #top {
   position: fixed;
@@ -503,7 +540,8 @@ table.colors td a {
 table.colors td:nth-child(1) {
   font-family: Courier, monospace;
   background: #d1ebff;
-  width: 6.5em;
+  width: 7em;
+  text-align: center;
 }
 table.colors td:nth-child(2) {
   background: #000;
