@@ -464,12 +464,12 @@ a {
 #sessions .speakers li .bio {
   padding: 15px 20px 20px 20px;
   font-weight: 20;
-  line-height: 1.2em;
+  line-height: 1.3em;
   font-size: 0.9em;
 }
 #venue {
   clear: both;
-  padding: 160px 0;
+  padding: 100px 0;
 }
 #venue #venuebg {
   padding: 100px;
@@ -486,11 +486,12 @@ table.colors {
   width: 100%;
   font-size: 1.7em;
   line-height: 1em;
-  margin-bottom: 3px;
+  border-bottom: 1px solid #f4faff;
 }
 table.colors td {
-  padding: 3px 6px 4px 6px;
+  padding: 3px 6px 5px 6px;
   font-weight: bold;
+  height: 5px;
 }
 table.colors td a {
   float: right;
@@ -524,30 +525,6 @@ table.colors td:nth-child(5) {
 table.colors td:nth-child(6) {
   background: #38acec;
   width: 30%;
-}
-#scrollinfo {
-  display: none;
-  position: absolute;
-  bottom: 10px;
-  left: 0px;
-  right: 0px;
-  text-align: center;
-}
-#scrollinfo span {
-  position: relative;
-  display: block;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-  font-size: 2em;
-  color: #ddd;
-  -webkit-animation: bounce 0.6s infinite ease-out;
-  -moz-animation: bounce 0.6s infinite ease-out;
-  -o-animation: bounce 0.6s infinite ease-out;
-  -ms-animation: bounce 0.6s infinite ease-out;
-  animation: bounce 0.6s infinite ease-out;
 }
 .jscamp {
   color: #38acec;

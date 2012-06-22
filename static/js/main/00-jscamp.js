@@ -12,12 +12,12 @@ _.delay(function() {
 _.delay(function() {
 	scrollPos = $(window).scrollTop();
 	if(scrollPos == 0)
-		$("#scrollinfo").show();
+		$("#homepage").animate({height: "680px"}, 800);
 }, 10000);
 
 $(window).scroll(_.once(function() {
 	$("#top").fadeIn();
-	$("#scrollinfo").fadeOut();
+	$("#homepage").animate({height: "680px"}, 800);
 }));
 
 
