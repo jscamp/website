@@ -20,7 +20,10 @@ jscampBlue = #38ACEC
 mWidth = 800px
 
 body
-	font-family Courier, monospace
+	font-family 'Doppio One'
+	
+a
+	color jscampBrown
 
 #body
 	position absolute
@@ -33,13 +36,18 @@ body
 	width 100%
 	height 100%
 
-#homepage
-	overflow auto
+#bg
+	position fixed
 	background linear-gradient(top left, #D1EBFF 0%, white 60%)
+	top 0px
+	left 0px
+	right 0px
+	bottom 0px
 
 #logoanim
 	font-size 5em
 	font-weight bold
+	font-family Courier, monospace
 
 	position relative
 	width mWidth
@@ -53,6 +61,7 @@ body
 	line-height 0.8em
 	position absolute
 	left 80px
+
 	
 	#la_jscamp
 		color jscampBlue
@@ -68,9 +77,11 @@ body
 		transform rotate(-9deg)
 		position relative
 		left -0.8em
+		font-family 'Doppio One'
 		animation punch 1s linear
 	
 	#ls_info
+		font-family 'Doppio One'
 		font-size 0.28em
 		line-height 1em
 		margin 1.5em 0 0 -3em
@@ -115,7 +126,6 @@ body
 	margin 0 auto
 	width 700px
 	height 130px
-	font-weight bold
 	text-align center
 	transform perspective(500px)
 	transform-origin center center
@@ -151,7 +161,6 @@ body
 	
 	#message
 		padding 31px 40px
-
 		line-height 1.4em
 		font-size 1.5em
 
@@ -159,6 +168,7 @@ body
 	#sponsors
 		font-size 0.8em
 		padding 15px 30px 25px 30px
+		font-family 'Doppio One'
 		
 		img
 			margin 10px
@@ -166,20 +176,23 @@ body
 			border-radius 8px
 			
 
-#aboutpage
-	background #000
+.headline
+	background jscampYellow
 	color #fff
-
-#biglove, #abouttext
-
-	margin 60px auto
-	text-align center
-
-#biglove
+	padding 80px 0 70px 0
+	margin-bottom 100px
+	
+.headline > h2
+	margin 0 auto
 	width mWidth
-	font-size 4em
+	font-size 5em
 	font-weight bold
-
+	font-family Courier, monospace
+	
+.headline > h3
+	margin 30px auto 0 auto
+	width mWidth
+	font-size 1em
 	
 #js
 	color #000
@@ -190,53 +203,112 @@ body
 	padding 0.8em 0.2em 0em 0.6em
 	background #FFE100
 	
-#asia
-	color jscampGreen
-	
-#love
-	color red
-	
-#abouttext
-	color #fff
-	width mWidth - 46%
-	line-height 1.2em
-
-#conferencepage
-	background jscampYellow
-	
-.sessiontype
+#sessions
 	width mWidth
 	margin 0 auto
 	
 	.sessionicon
 		float left
-		width 10em	
-		height 10em
-		background jscampGreen
-		border-radius 8px
+		
+		div		
+			cursor pointer
+			width 1.7em
+			height 1.1em
+			font-family Courier, monospace
+			font-weight bold
+			color #fff
+			background jscampYellow
+			border-radius 8px
+			text-align center
+			font-size 4em
+			padding 0.3em 0 0.2em 0
+			margin-bottom 20px
+			position relative
+			
+			&#workshops
+				padding 0.2em 0
+				height 1.2em
+				
+				span
+					font-size 0.3em
+					padding 2.1em 0
+				
+			span
+				display none
+				position absolute
+				top 0px
+				left 0px
+				bottom 0px
+				right 0px
+				font-size 0.36em
+				padding 1.7em 0
+				background jscampBlue
+				border-radius 8px
+				
+			&:hover span, &.current span
+				display block
 		
 	.sessiondesc
-		margin-left 11.6em
+		margin-left 9em
 		
-		.title
-			font-size 4em
-			font-weight bold
+		.intro
+			display block
+			padding-bottom 25px
+			
+			h4
+				display inline
+				font-size 5.2em
+				font-weight bold
+				font-family Courier, monospace
 
 	.speakers
-		margin-top 15px
+		float left
+		margin 0 20px 0 0
+		width 12.3em
 		
 		li
-			float left
-			margin 0 50px 16px 0
-			width 6em
-			height 6em
-			background #FF9100
+			margin 0 0 18px 0
+			border 1px solid #f2f2f2
+			background #fff
 			border-radius 8px
 			
+			.img
+				border-radius 8px 8px 0 0
+				background jscampYellow
+				height 150px
+				
+				.who
+					width 150px
+					height 150px
+					font-size 8em
+					background #ddd
+					color #fff
+					text-align center
+				
+				> *
+					border-radius 8px 0 0 0
+					
+			.name
+				font-family Courier, monospace
+				color jscampBlue
+				font-weight bold
+				font-size 1.55em
+				padding 15px 20px 0 20px
+				
+			.bio
+				padding 15px 20px 20px 20px
+				font-weight 20
+				line-height 1.2em
+				font-size 0.9em
+			
 	
-#venuepage
-	background jscampGreen
-
+#venue
+	clear both
+	padding 160px 0
+	
+	#venuebg
+		padding 100px
+		background jscampGreen
 
 			
 #top
@@ -246,57 +318,58 @@ body
 	right 0px
 	display none
 
-	table
-		width 100%
-		font-size 1.7em
-		line-height 1.0em
+table.colors
+	width 100%
+	font-size 1.7em
+	line-height 1.0em
+	margin-bottom 3px
+	
+	td
+		padding 3px 6px 4px 6px
+		font-weight bold
 		
-		td
-			padding 3px 6px 4px 6px
-			font-weight bold
-			
-			a
-				float right
-				font-size 0.5em
-				color #fff
-				text-decoration none
-				padding-right 5px
-				
-
-		td:nth-child(1)
-			background #D1EBFF
-			width 6em
-		td:nth-child(2)
-			background #000
+		a
+			float right
+			font-size 0.5em
 			color #fff
-			width 2.4em
-			font-size 0.8em
-		td:nth-child(3)
-			background jscampBrown
-			width 0.2em
-		td:nth-child(4)
-			background jscampGreen
-			width 2em
-		td:nth-child(5)
-			background jscampYellow
-		td:nth-child(6)
-			background jscampBlue
-			width 30%
+			text-decoration none
+			padding-right 5px
+			
+
+	td:nth-child(1)
+		font-family Courier, monospace
+		background #D1EBFF
+		width 6.5em
+	td:nth-child(2)
+		background #000
+		color #fff
+		width 2.4em
+		font-size 0.75em
+	td:nth-child(3)
+		background jscampBrown
+		width 0.2em
+	td:nth-child(4)
+		background jscampGreen
+		width 2em
+	td:nth-child(5)
+		background jscampYellow
+	td:nth-child(6)
+		background jscampBlue
+		width 30%
 			
 #scrollinfo
 	display none
-	position fixed
-	bottom 0px
+	position absolute
+	bottom 10px
 	left 0px
 	right 0px
 	text-align center
 	
 	span
 		position relative
-		left 0.1em
 		display block
 		transform rotate(90deg)
-		font-size 5em
+		font-size 2em
 		color #ddd
 		animation bounce 0.6s infinite ease-out
 

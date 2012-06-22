@@ -1,6 +1,3 @@
-scrollPos = 0;
-scrolling = false;
-
 $("#messageCont").slideDown();
 
 _.delay(function() {
@@ -18,31 +15,10 @@ _.delay(function() {
 		$("#scrollinfo").show();
 }, 10000);
 
-scrolled = _.once(function() {
+$(window).scroll(_.once(function() {
 	$("#top").fadeIn();
 	$("#scrollinfo").fadeOut();
-});
-
-$(window).scroll(function(e) {
-	var wasScrolling = scrolling;
-	scrolling = true;
-	var newScrollPos = $(window).scrollTop();
-	var wHeight = $(window).height();
-	var up = newScrollPos < scrollPos;
-	var locked = newScrollPos % wHeight == 0;
-
-	if(!wasScrolling && !locked) {
-		var scrollto = (parseInt(newScrollPos / wHeight) + !up) * wHeight;
-		$('html,body').animate({scrollTop: scrollto}, 300);
-	}
-	else if(locked)
-		scrolling = false;
-		
-	if(newScrollPos > 0)
-		scrolled();
-		
-	scrollPos = newScrollPos;
-})
+}));
 
 
 krusovice.tools.fadeIn(document.getElementById("la_oceansound"),500,0.4,50);

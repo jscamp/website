@@ -98,7 +98,10 @@ a img {
    src url(../font/Courier.ttf)*/
 input::-moz-focus-inner, button::-moz-focus-inner { border: 0; }
 body {
-  font-family: Courier, monospace;
+  font-family: 'Doppio One';
+}
+a {
+  color: #a52a2a;
 }
 #body {
   position: absolute;
@@ -111,18 +114,23 @@ body {
   width: 100%;
   height: 100%;
 }
-#homepage {
-  overflow: auto;
+#bg {
+  position: fixed;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #d1ebff), color-stop(0.6, #fff));
   background: -webkit-linear-gradient(top left, #d1ebff 0%, #fff 60%);
   background: -moz-linear-gradient(top left, #d1ebff 0%, #fff 60%);
   background: -o-linear-gradient(top left, #d1ebff 0%, #fff 60%);
   background: -ms-linear-gradient(top left, #d1ebff 0%, #fff 60%);
   background: linear-gradient(top left, #d1ebff 0%, #fff 60%);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 #logoanim {
   font-size: 5em;
   font-weight: bold;
+  font-family: Courier, monospace;
   position: relative;
   width: 800px;
   height: 380px;
@@ -154,6 +162,7 @@ body {
   transform: rotate(-9deg);
   position: relative;
   left: -0.8em;
+  font-family: 'Doppio One';
   -webkit-animation: punch 1s linear;
   -moz-animation: punch 1s linear;
   -o-animation: punch 1s linear;
@@ -161,6 +170,7 @@ body {
   animation: punch 1s linear;
 }
 #la_logo #ls_info {
+  font-family: 'Doppio One';
   font-size: 0.28em;
   line-height: 1em;
   margin: 1.5em 0 0 -3em;
@@ -221,7 +231,6 @@ body {
   margin: 0 auto;
   width: 700px;
   height: 130px;
-  font-weight: bold;
   text-align: center;
   -webkit-transform: perspective(500px);
   -moz-transform: perspective(500px);
@@ -301,6 +310,7 @@ body {
 #messageCont #sponsors {
   font-size: 0.8em;
   padding: 15px 30px 25px 30px;
+  font-family: 'Doppio One';
 }
 #messageCont #sponsors img {
   margin: 10px;
@@ -311,19 +321,23 @@ body {
   -ms-border-radius: 8px;
   border-radius: 8px;
 }
-#aboutpage {
-  background: #000;
+.headline {
+  background: #ffa500;
   color: #fff;
+  padding: 80px 0 70px 0;
+  margin-bottom: 100px;
 }
-#biglove,
-#abouttext {
-  margin: 60px auto;
-  text-align: center;
-}
-#biglove {
+.headline > h2 {
+  margin: 0 auto;
   width: 800px;
-  font-size: 4em;
+  font-size: 5em;
   font-weight: bold;
+  font-family: Courier, monospace;
+}
+.headline > h3 {
+  margin: 30px auto 0 auto;
+  width: 800px;
+  font-size: 1em;
 }
 #js {
   color: #000;
@@ -334,58 +348,131 @@ body {
   padding: 0.8em 0.2em 0em 0.6em;
   background: #ffe100;
 }
-#asia {
-  color: #008000;
-}
-#love {
-  color: #f00;
-}
-#abouttext {
-  color: #fff;
-  width: 432px;
-  line-height: 1.2em;
-}
-#conferencepage {
-  background: #ffa500;
-}
-.sessiontype {
+#sessions {
   width: 800px;
   margin: 0 auto;
 }
-.sessiontype .sessionicon {
+#sessions .sessionicon {
   float: left;
-  width: 10em;
-  height: 10em;
-  background: #008000;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -o-border-radius: 8px;
-  -ms-border-radius: 8px;
-  border-radius: 8px;
 }
-.sessiontype .sessiondesc {
-  margin-left: 11.6em;
-}
-.sessiontype .sessiondesc .title {
-  font-size: 4em;
+#sessions .sessionicon div {
+  cursor: pointer;
+  width: 1.7em;
+  height: 1.1em;
+  font-family: Courier, monospace;
   font-weight: bold;
+  color: #fff;
+  background: #ffa500;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 4em;
+  padding: 0.3em 0 0.2em 0;
+  margin-bottom: 20px;
+  position: relative;
 }
-.sessiontype .speakers {
-  margin-top: 15px;
+#sessions .sessionicon div#workshops {
+  padding: 0.2em 0;
+  height: 1.2em;
 }
-.sessiontype .speakers li {
-  float: left;
-  margin: 0 50px 16px 0;
-  width: 6em;
-  height: 6em;
-  background: #ff9100;
+#sessions .sessionicon div#workshops span {
+  font-size: 0.3em;
+  padding: 2.1em 0;
+}
+#sessions .sessionicon div span {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  font-size: 0.36em;
+  padding: 1.7em 0;
+  background: #38acec;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -o-border-radius: 8px;
   -ms-border-radius: 8px;
   border-radius: 8px;
 }
-#venuepage {
+#sessions .sessionicon div:hover span,
+#sessions .sessionicon div.current span {
+  display: block;
+}
+#sessions .sessiondesc {
+  margin-left: 9em;
+}
+#sessions .sessiondesc .intro {
+  display: block;
+  padding-bottom: 25px;
+}
+#sessions .sessiondesc .intro h4 {
+  display: inline;
+  font-size: 5.2em;
+  font-weight: bold;
+  font-family: Courier, monospace;
+}
+#sessions .speakers {
+  float: left;
+  margin: 0 20px 0 0;
+  width: 12.3em;
+}
+#sessions .speakers li {
+  margin: 0 0 18px 0;
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+}
+#sessions .speakers li .img {
+  -webkit-border-radius: 8px 8px 0 0;
+  -moz-border-radius: 8px 8px 0 0;
+  -o-border-radius: 8px 8px 0 0;
+  -ms-border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
+  background: #ffa500;
+  height: 150px;
+}
+#sessions .speakers li .img .who {
+  width: 150px;
+  height: 150px;
+  font-size: 8em;
+  background: #ddd;
+  color: #fff;
+  text-align: center;
+}
+#sessions .speakers li .img > * {
+  -webkit-border-radius: 8px 0 0 0;
+  -moz-border-radius: 8px 0 0 0;
+  -o-border-radius: 8px 0 0 0;
+  -ms-border-radius: 8px 0 0 0;
+  border-radius: 8px 0 0 0;
+}
+#sessions .speakers li .name {
+  font-family: Courier, monospace;
+  color: #38acec;
+  font-weight: bold;
+  font-size: 1.55em;
+  padding: 15px 20px 0 20px;
+}
+#sessions .speakers li .bio {
+  padding: 15px 20px 20px 20px;
+  font-weight: 20;
+  line-height: 1.2em;
+  font-size: 0.9em;
+}
+#venue {
+  clear: both;
+  padding: 160px 0;
+}
+#venue #venuebg {
+  padding: 100px;
   background: #008000;
 }
 #top {
@@ -395,65 +482,66 @@ body {
   right: 0px;
   display: none;
 }
-#top table {
+table.colors {
   width: 100%;
   font-size: 1.7em;
   line-height: 1em;
+  margin-bottom: 3px;
 }
-#top table td {
+table.colors td {
   padding: 3px 6px 4px 6px;
   font-weight: bold;
 }
-#top table td a {
+table.colors td a {
   float: right;
   font-size: 0.5em;
   color: #fff;
   text-decoration: none;
   padding-right: 5px;
 }
-#top table td:nth-child(1) {
+table.colors td:nth-child(1) {
+  font-family: Courier, monospace;
   background: #d1ebff;
-  width: 6em;
+  width: 6.5em;
 }
-#top table td:nth-child(2) {
+table.colors td:nth-child(2) {
   background: #000;
   color: #fff;
   width: 2.4em;
-  font-size: 0.8em;
+  font-size: 0.75em;
 }
-#top table td:nth-child(3) {
+table.colors td:nth-child(3) {
   background: #a52a2a;
   width: 0.2em;
 }
-#top table td:nth-child(4) {
+table.colors td:nth-child(4) {
   background: #008000;
   width: 2em;
 }
-#top table td:nth-child(5) {
+table.colors td:nth-child(5) {
   background: #ffa500;
 }
-#top table td:nth-child(6) {
+table.colors td:nth-child(6) {
   background: #38acec;
   width: 30%;
 }
 #scrollinfo {
   display: none;
-  position: fixed;
-  bottom: 0px;
+  position: absolute;
+  bottom: 10px;
   left: 0px;
   right: 0px;
   text-align: center;
 }
 #scrollinfo span {
   position: relative;
-  left: 0.1em;
   display: block;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  font-size: 5em;
+  font-size: 2em;
   color: #ddd;
   -webkit-animation: bounce 0.6s infinite ease-out;
   -moz-animation: bounce 0.6s infinite ease-out;
