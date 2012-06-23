@@ -328,12 +328,12 @@ body {
   border-radius: 8px;
 }
 #info {
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0.6, #008000), color-stop(1, #009f00));
-  background: -webkit-linear-gradient(bottom left, #008000 60%, #009f00 100%);
-  background: -moz-linear-gradient(bottom left, #008000 60%, #009f00 100%);
-  background: -o-linear-gradient(bottom left, #008000 60%, #009f00 100%);
-  background: -ms-linear-gradient(bottom left, #008000 60%, #009f00 100%);
-  background: linear-gradient(bottom left, #008000 60%, #009f00 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0, #009000), color-stop(0.2, #008000), color-stop(0.6, #008000), color-stop(1, #009f00));
+  background: -webkit-linear-gradient(bottom left, #009000 0%, #008000 20%, #008000 60%, #009f00 100%);
+  background: -moz-linear-gradient(bottom left, #009000 0%, #008000 20%, #008000 60%, #009f00 100%);
+  background: -o-linear-gradient(bottom left, #009000 0%, #008000 20%, #008000 60%, #009f00 100%);
+  background: -ms-linear-gradient(bottom left, #009000 0%, #008000 20%, #008000 60%, #009f00 100%);
+  background: linear-gradient(bottom left, #009000 0%, #008000 20%, #008000 60%, #009f00 100%);
   color: #fff;
   padding: 80px 0 70px 0;
   margin-bottom: 100px;
@@ -363,7 +363,7 @@ body {
 }
 #info table {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 #info table td {
   vertical-align: top;
@@ -408,7 +408,7 @@ body {
   line-height: 1.6em;
 }
 #info table #facts p {
-  margin: 50px 0 10px 0;
+  margin: 100px 0 10px 0;
   font-size: 0.85em;
   line-height: 1.3em;
   font-family: 'Open Sans';
@@ -494,7 +494,7 @@ body {
 }
 #twtr-widget-1 .twtr-timeline {
   height: auto !important;
-  min-height: 392px;
+  min-height: 442px;
   z-index: 0;
 }
 #twtr-widget-1 .twtr-tweet {
