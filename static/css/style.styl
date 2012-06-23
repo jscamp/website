@@ -39,6 +39,10 @@ a
 	width 100%
 	height 100%
 	min-height 680px
+	
+.content
+	margin 0 auto
+	width mWidth
 
 #bg
 	position fixed
@@ -54,9 +58,8 @@ a
 	font-family Courier, monospace
 
 	position relative
-	width mWidth
 	height 380px
-	margin 50px auto 0 auto
+	margin-top 50px
 	
 	img
 		display none
@@ -179,25 +182,111 @@ a
 			border-radius 8px
 			
 
-.headline
+#info
 	background jscampGreen
 	color #fff
 	padding 80px 0 70px 0
 	margin-bottom 100px
+	font-weight 1
 	
-.headline > h2
-	margin 0 auto
-	width mWidth
-	font-size 5em
-	font-weight bold
-	font-family Courier, monospace
+	h2
+
+		font-size 5em
+		font-weight bold
+		font-family Courier, monospace
 	
-.headline > h3
-	margin 30px auto 0 auto
-	width mWidth
-	font-size 1em
-	line-height 1.3em
+	h3
+		margin-top 30px
+		font-size 1em
+		line-height 1.3em
+		
+	h4
+		font-size 1.4em
+		line-height 1.6em
+		margin-bottom 25px
+		font-weight bold
+
+	p
+		font-weight 40
+
+			
+	table
+		zoom 1
+		width 100%
+		margin-top 50px
+		
+		td
+			vertical-align top
+			font-size 0.95em
+			
+		
+		#tweets
+			padding-left 30px
+			width 280px
+
+
+#twtr-widget-1
+	font-family 'Doppio One' !important
+	font-size 0.9em !important
 	
+	.twtr-profile-img
+		border-radius 3px
+	
+	h3
+		display none
+		
+	h4
+		line-height 1.4em !important
+		font-size 1.7em !important
+		font-weight 600
+		
+		a
+			display inline-block
+		
+		a:before
+			content: "@"
+			
+	.twtr-timeline
+		height auto !important
+	
+	.twtr-tweet
+		position relative
+		border 0
+		margin 15px 0
+		
+		.twtr-tweet-text
+			margin-top 1em
+		
+			a
+				text-decoration underline !important
+		
+			em
+				color green
+				font-size 0.8em !important
+				text-align right
+				
+				a
+					color white !important
+					text-decoration none !important
+					
+					&:hover
+						text-decoration underline !important
+					
+				.twtr-timestamp
+					text-decoration none !important
+					position absolute
+					top 0px
+					left 8px
+					font-weight bold
+					font-size 1.3em
+	.twtr-ft span
+		float none
+		text-align left
+		
+		a
+			margin-left 27px
+
+		
 #js
 	margin-left 5px
 	color #000
@@ -212,9 +301,7 @@ a
 	color #EB0E0E
 	
 #sessions
-	width mWidth
 	position relative
-	margin 0 auto
 	
 	#sessionicon
 		-webkit-touch-callout none
@@ -359,7 +446,7 @@ a
 	clear both
 	padding 100px 0 0 0
 	
-	#venuebg
+	#venuedesc
 		padding 100px 0 1000px 0
 		background jscampYellow
 

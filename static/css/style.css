@@ -118,6 +118,10 @@ a {
   height: 100%;
   min-height: 680px;
 }
+.content {
+  margin: 0 auto;
+  width: 800px;
+}
 #bg {
   position: fixed;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #d1ebff), color-stop(0.6, #fff));
@@ -136,9 +140,8 @@ a {
   font-weight: bold;
   font-family: Courier, monospace;
   position: relative;
-  width: 800px;
   height: 380px;
-  margin: 50px auto 0 auto;
+  margin-top: 50px;
 }
 #logoanim img {
   display: none;
@@ -324,24 +327,110 @@ a {
   -ms-border-radius: 8px;
   border-radius: 8px;
 }
-.headline {
+#info {
   background: #008000;
   color: #fff;
   padding: 80px 0 70px 0;
   margin-bottom: 100px;
+  font-weight: 1;
 }
-.headline > h2 {
-  margin: 0 auto;
-  width: 800px;
+#info h2 {
   font-size: 5em;
   font-weight: bold;
   font-family: Courier, monospace;
 }
-.headline > h3 {
-  margin: 30px auto 0 auto;
-  width: 800px;
+#info h3 {
+  margin-top: 30px;
   font-size: 1em;
   line-height: 1.3em;
+}
+#info h4 {
+  font-size: 1.4em;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+#info p {
+  font-weight: 40;
+}
+#info table {
+  zoom: 1;
+  width: 100%;
+  margin-top: 50px;
+}
+#info table td {
+  vertical-align: top;
+  font-size: 0.95em;
+}
+#info table #tweets {
+  padding-left: 30px;
+  width: 280px;
+}
+#twtr-widget-1 {
+  font-family: 'Doppio One' !important;
+  font-size: 0.9em !important;
+}
+#twtr-widget-1 .twtr-profile-img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+#twtr-widget-1 h3 {
+  display: none;
+}
+#twtr-widget-1 h4 {
+  line-height: 1.4em !important;
+  font-size: 1.7em !important;
+  font-weight: 600;
+}
+#twtr-widget-1 h4 a {
+  display: inline-block;
+}
+#twtr-widget-1 h4 a:before {
+  content: "@";
+}
+#twtr-widget-1 .twtr-timeline {
+  height: auto !important;
+}
+#twtr-widget-1 .twtr-tweet {
+  position: relative;
+  border: 0;
+  margin: 15px 0;
+}
+#twtr-widget-1 .twtr-tweet .twtr-tweet-text {
+  margin-top: 1em;
+}
+#twtr-widget-1 .twtr-tweet .twtr-tweet-text a {
+  text-decoration: underline !important;
+}
+#twtr-widget-1 .twtr-tweet .twtr-tweet-text em {
+  color: #008000;
+  font-size: 0.8em !important;
+  text-align: right;
+}
+#twtr-widget-1 .twtr-tweet .twtr-tweet-text em a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+#twtr-widget-1 .twtr-tweet .twtr-tweet-text em a:hover {
+  text-decoration: underline !important;
+}
+#twtr-widget-1 .twtr-tweet .twtr-tweet-text em .twtr-timestamp {
+  text-decoration: none !important;
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+#twtr-widget-1 .twtr-ft span {
+  float: none;
+  text-align: left;
+}
+#twtr-widget-1 .twtr-ft span a {
+  margin-left: 27px;
 }
 #js {
   margin-left: 5px;
@@ -357,9 +446,7 @@ a {
   color: #eb0e0e;
 }
 #sessions {
-  width: 800px;
   position: relative;
-  margin: 0 auto;
 }
 #sessions #sessionicon {
   -webkit-touch-callout: none;
@@ -540,7 +627,7 @@ a {
   clear: both;
   padding: 100px 0 0 0;
 }
-#venue #venuebg {
+#venue #venuedesc {
   padding: 100px 0 1000px 0;
   background: #ffa500;
 }

@@ -43,7 +43,7 @@
 		<tr>
 			<td>
 		
-			<div id="logoanim">
+			<div id="logoanim" class="content">
 				<img src="static/img/jscampasia.jpg" border="0"/>
 				<div id="la_logo">
 					<div id="la_jscamp">jscamp</div>
@@ -95,20 +95,63 @@
 			</td>
 		</tr>
 		</table>	
-		<div class="headline">
-			<h2>
-				<span id="js">JS</span>
-				+ <span id="asia">Asia</span> = <span id="love">&lt;3</span>
-			</h2>
-			<h3>
-					Finally, a JavaScript conference in Asia.
-						With all its awesome!<br/>
-						Forget bacon. Here comes chicken rice!
-			</h3>
+		<div id="info">
+			<div id="infodesc" class="content">
+				<h2>
+					<span id="js">JS</span>
+					+ <span id="asia">Asia</span> = <span id="love">&lt;3</span>
+				</h2>
+				<h3>
+						Finally, a JavaScript conference in Asia.
+							With all its awesome!<br/>
+							Forget bacon. Here comes chicken rice!
+				</h3>
+				<table border="0">
+				<tr>
+					<td>
+						<h4>Mark this date!</h4>
+						
+						<p>
+							Test this
+						</p>
+					</td>
+					<td id="tweets">
+						<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+						<script>
+						new TWTR.Widget({
+						  version: 2,
+						  type: 'profile',
+						  rpp: 3,
+						  interval: 30000,
+						  width: '280',
+						  height: '300',
+						  theme: {
+						    shell: {
+						      background: '#008000',
+						      color: '#ffffff'
+						    },
+						    tweets: {
+						      background: '#008000',
+						      color: '#ffffff',
+						      links: '#ffffff'
+						    }
+						  },
+						  features: {
+						    scrollbar: false,
+						    loop: false,
+						    live: true,
+						    behavior: 'all'
+						  }
+						}).render().setUser('jscamp_asia').start();
+						</script>
+					</td>
+				</tr>
+				</table>
+			</div>
 		</div>	
 
 		
-		<div id="sessions">
+		<div id="sessions" class="content">
 			<div id="sessionicon">
 				<div id="sprints">&gt;&gt;<span>Sprints</span></div>
 				<div id="workshops">()<span>Workshops</span></div>
@@ -260,7 +303,7 @@
 				</td>
 			</tr>
 			</table>
-			<div id="venuebg">
+			<div id="venuedesc" class="content">
 			
 			</div>
 		</div>
