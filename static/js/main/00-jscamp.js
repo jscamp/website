@@ -32,7 +32,7 @@ $(window).scroll(function() {
 		sHeight = 340,
 		vTop = $("#venue").position().top - 115;
 		
-	if(scrollTop + wHeight/2 >= sTop) {
+	if(scrollTop + wHeight/3*2 >= sTop) {
 		$("#sessionicon").addClass("moved");
 		_.delay(highlightTalks,1000);
 	}
@@ -53,7 +53,7 @@ $("#sessionicon div").click(function() {
 	
 	$("#sessions .sessiondesc").removeClass("current");
 	$("#" + $(this).attr("id") + "desc").addClass("current")
-	$.scrollTo($("#sessions").position().top - 100);
+	$.scrollTo($("#sessions").position().top - 100, {duration:300});
 });
 
 

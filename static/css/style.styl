@@ -196,6 +196,7 @@ a
 	margin 30px auto 0 auto
 	width mWidth
 	font-size 1em
+	line-height 1.3em
 	
 #js
 	margin-left 5px
@@ -206,6 +207,9 @@ a
 	font-family Helvetica, Arial
 	padding 0.8em 0.2em 0em 0.6em
 	background #FFE100
+	
+#love
+	color #EB0E0E
 	
 #sessions
 	width mWidth
@@ -317,6 +321,26 @@ a
 				> *
 					border-radius 8px 0 0 0
 					
+			.links
+				float right
+				
+				a
+					display block
+					width 40px
+					height 40px
+					cursor pointer
+					border-radius 22px
+					margin 6px 6px
+					
+					&:hover
+						background-color jscampBlue
+						animation rotate 0.3s linear
+			
+					&.twitter
+						background-image url(../img/twitter.png)
+						background-repeat no-repeat
+						background-position 6px 6px
+					
 			.name
 				font-family Courier, monospace
 				color jscampBlue
@@ -393,14 +417,6 @@ table.colors
 .asia
 	color jscampYellow
 
-a.twitter
-	color white
-	background #4099FF !important
-
-a.facebook
-	color white
-	background #3B5998 !important
-
 
 @keyframes punch
 	0%
@@ -443,15 +459,9 @@ a.facebook
 	100% 
 		transform rotate(-80deg)
 		
-@keyframes bounce
+@keyframes rotate
 	0%
-		top 0px
-	20%
-		top -10px
-	24%
-		top -11px
-	28%
-		top -10px
+		transform rotate(0deg)
 	100%
-		top 0px
+		transform rotate(359deg)
 	
