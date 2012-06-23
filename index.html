@@ -10,7 +10,7 @@
 	<title>JScamp.Asia - Undisclosured</title>
 
 	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
-	<meta name="viewport" content="width=800, initial-scale=1.0" />
+	<meta name="viewport" content="width=1000, initial-scale=1.0" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta property="og:title" content="JScamp.Asia - Undisclosured"/>
 	<meta property="og:type" content="website"/>
@@ -30,7 +30,7 @@
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static/js/libs/es5.js"></script><![endif]-->
-	<link href='http://fonts.googleapis.com/css?family=Doppio+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -38,7 +38,7 @@
 	<div id="bg"></div>
 
 	<div id="body">
-	
+		<a name="homepage"></a>
 		<table id="homepage" class="page">
 		<tr>
 			<td>
@@ -94,7 +94,8 @@
 			<td>
 			</td>
 		</tr>
-		</table>	
+		</table>
+		<a name="info"></a>
 		<div id="info">
 			<div id="infodesc" class="content">
 				<h2>
@@ -108,12 +109,24 @@
 				</h3>
 				<table border="0">
 				<tr>
-					<td>
-						<h4>Mark this date!</h4>
+					<td id="facts">
+						<h4>The Facts</h4>
+						
+						<ul>
+							<li><a href="JSCamp.Asia 2012.ics"><span class="icon date">00:00</span>29th + 30th November 2012</a></li>
+							<li><a href="#talks"><span class="icon talks">/*</span>16 talks in 2 tracks</a></li>
+							<li><a href="#workshops"><span class="icon workshops">()</span>6 workshops</a></li>
+							<li><a href="#sprints"><span class="icon sprints">&gt;&gt;</span>2 day Coding Sprints</a></li>
+							<li><a href="#venue"><span class="icon venue">@</span>NUSS Kent Ridge Guild House, Singapore</a></li>
+						</ul>
 						
 						<p>
-							Test this
+							Drop your E-Mail and we'll remind you when ticket and pricing information become available!
 						</p>
+						<form>
+							<input type="email" name="email" placeholder="your@email.com"/>
+							<input type="submit" value="Keep me updated" />
+						</form>
 					</td>
 					<td id="tweets">
 						<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
@@ -144,12 +157,13 @@
 						  }
 						}).render().setUser('jscamp_asia').start();
 						</script>
+						<span class="facebook">f</span>
+						<a href="http://facebook.com/javascriptcamp">Find us on Facebook</a>
 					</td>
 				</tr>
 				</table>
 			</div>
 		</div>	
-
 		
 		<div id="sessions" class="content">
 			<div id="sessionicon">
@@ -261,7 +275,7 @@
 				<span class="intro">
 					<h4>Sprints</h4>
 					The weekend after the conference we have a very special offer. Interested people can come together in Singapores trendy co-working spaces
-					and contribute as a group to open source JavaScript projects. That means a combined 4 days of JavaScript goodness.<br/>
+					and contribute as a group to open source JavaScript projects. That means a combined 4 days of JavaScript goodness.<br/><br/>
 					If you're interested in using our conference to find contributors for your project and have the best people in the region work on it, please apply in our <a href="http://jscamp.wufoo.com/forms/call-for-speakers">Call for Speakers</a>.
 				</span>
 				<ul class="speakers">
@@ -286,6 +300,7 @@
 
 		</div>
 		
+		<a name="venue"></a>
 		<div id="venue">
 			<table class="colors">
 			<tr>
@@ -303,8 +318,10 @@
 				</td>
 			</tr>
 			</table>
-			<div id="venuedesc" class="content">
-			
+			<div id="venuedesc">
+				<div class="content">
+				
+				</div>
 			</div>
 		</div>
 		

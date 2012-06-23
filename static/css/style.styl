@@ -20,11 +20,11 @@ jscampBlue = #38ACEC
 mWidth = 800px
 
 body
-	font-family 'Doppio One'
-	
-a
-	color jscampBrown
-	
+	font-family 'Open Sans'
+	-moz-text-rendering optimizeLegibility
+	-webkit-font-smoothing antialiased
+	-moz-font-smooth never
+
 .clear
 	clear both
 
@@ -174,7 +174,6 @@ a
 	#sponsors
 		font-size 0.8em
 		padding 15px 30px 25px 30px
-		font-family 'Doppio One'
 		
 		img
 			margin 10px
@@ -187,8 +186,14 @@ a
 	color #fff
 	padding 80px 0 70px 0
 	margin-bottom 100px
-	font-weight 1
 	
+	a
+		color #fff
+		text-decoration none
+	
+		&:hover
+			text-decoration underline
+		
 	h2
 
 		font-size 5em
@@ -197,48 +202,128 @@ a
 	
 	h3
 		margin-top 30px
-		font-size 1em
+		font-size 1.1em
+		font-family 'Doppio One'
 		line-height 1.3em
 		
 	h4
-		font-size 1.4em
-		line-height 1.6em
-		margin-bottom 25px
-		font-weight bold
-
-	p
-		font-weight 40
-
+		font-size 1.65em
+		font-family 'Doppio One'
+		margin 14px 0 30px 0
 			
 	table
-		zoom 1
 		width 100%
 		margin-top 50px
 		
 		td
 			vertical-align top
-			font-size 0.95em
+		
+		#facts
+			font-size 1.1em
+		
+			a
+				display block
+				cursor pointer
+				font-family 'Open Sans'
+				font-weight 300
+				
+				&:hover	.icon
+						background jscampBlue
 			
+			li
+				.icon
+					text-decoration none
+					width 48px
+					height 48px
+					display inline-block
+					font-family Courier, monospace
+					font-weight bold
+					background jscampYellow
+					border-radius 3px
+					text-align center
+					line-height 1.5em
+					font-size 1.6em
+					margin 0 20px 10px 5px
+							
+					&.date
+						font-size 0.75em
+						line-height 3.7em
+					&.sprints, &.talks, &.venue
+						line-height 1.6em
+
+						
+			p
+				margin 50px 0 10px 0
+				font-size 0.85em
+				line-height 1.3em
+				font-family 'Open Sans'
+				
+			
+			form
+				position relative
+				margin-bottom 20px
+				
+				input
+					border 0
+					border-radius 3px
+					padding 0 15px
+					line-height 1.4em
+					height 42px
+					font-size 1.2em
+					font-family Courier, monospace
+				
+				input[name='email']
+					width 260px
+					position absolute
+					top 0px
+					left 0px
+					
+				input[type='submit']
+					position absolute
+					top 0px
+					left 300px
+					cursor pointer
+					font-family 'Doppio One'
+					font-size 0.8em
+					background jscampYellow
+					color #fff
+					position relative
+					font-weight bold
+					
+					&:hover
+						background jscampBlue
+					
 		
 		#tweets
 			padding-left 30px
 			width 280px
-
-
+			font-size 0.9em
+			
+			.facebook
+				font-family 'Doppio One'
+				display inline-block
+				width 16px
+				font-size 1.4em
+				text-align center
+				font-weight bold
+				margin 0 5px 0 11px
+		
 #twtr-widget-1
-	font-family 'Doppio One' !important
-	font-size 0.9em !important
+	font-family 'Open Sans' !important
+	font-size 1em !important
 	
 	.twtr-profile-img
+		display none
 		border-radius 3px
 	
 	h3
 		display none
 		
 	h4
+		font-family 'Doppio One' !important
 		line-height 1.4em !important
-		font-size 1.7em !important
-		font-weight 600
+		font-size 2em !important
+		margin-left 0 !important
 		
 		a
 			display inline-block
@@ -248,6 +333,8 @@ a
 			
 	.twtr-timeline
 		height auto !important
+		min-height 392px
+		z-index 0
 	
 	.twtr-tweet
 		position relative
@@ -268,6 +355,7 @@ a
 				a
 					color white !important
 					text-decoration none !important
+					font-family 'Doppio One' !important
 					
 					&:hover
 						text-decoration underline !important
@@ -279,12 +367,15 @@ a
 					left 8px
 					font-weight bold
 					font-size 1.3em
-	.twtr-ft span
-		float none
-		text-align left
-		
-		a
-			margin-left 27px
+	.twtr-ft
+		margin 0 0 -6px 0
+	
+		span
+			float none
+			text-align left
+			
+			a
+				margin-left 27px
 
 		
 #js
@@ -302,6 +393,9 @@ a
 	
 #sessions
 	position relative
+	
+	a
+		color jscampBrown
 	
 	#sessionicon
 		-webkit-touch-callout none
@@ -369,10 +463,12 @@ a
 		.intro
 			display block
 			padding-bottom 25px
-			line-height 1.2em
+			line-height 1.3em
+			font-family 'Doppio One'
 			
 			h4
 				line-height 1.3em
+				margin-bottom 10px
 				font-size 5.2em
 				font-weight bold
 				font-family Courier, monospace
@@ -483,6 +579,7 @@ table.colors
 		width 7em
 		text-align center
 	td:nth-child(2)
+		font-family 'Doppio One'
 		background #000
 		color #fff
 		width 2.4em
@@ -496,6 +593,7 @@ table.colors
 	td:nth-child(5)
 		background jscampYellow
 	td:nth-child(6)
+		font-family 'Doppio One'
 		background jscampBlue
 		width 30%
 
