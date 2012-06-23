@@ -312,6 +312,7 @@ body {
   padding: 31px 40px;
   line-height: 1.4em;
   font-size: 1.5em;
+  font-weight: bold;
 }
 #messageCont #sponsors {
   font-size: 0.8em;
@@ -327,7 +328,12 @@ body {
   border-radius: 8px;
 }
 #info {
-  background: #008000;
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0.6, #008000), color-stop(1, #009f00));
+  background: -webkit-linear-gradient(bottom left, #008000 60%, #009f00 100%);
+  background: -moz-linear-gradient(bottom left, #008000 60%, #009f00 100%);
+  background: -o-linear-gradient(bottom left, #008000 60%, #009f00 100%);
+  background: -ms-linear-gradient(bottom left, #008000 60%, #009f00 100%);
+  background: linear-gradient(bottom left, #008000 60%, #009f00 100%);
   color: #fff;
   padding: 80px 0 70px 0;
   margin-bottom: 100px;
@@ -534,7 +540,6 @@ body {
   margin-left: 27px;
 }
 #js {
-  margin-left: 5px;
   color: #000;
   width: 3em;
   height: 3em;
@@ -542,9 +547,6 @@ body {
   font-family: Helvetica, Arial;
   padding: 0.8em 0.2em 0em 0.6em;
   background: #ffe100;
-}
-#love {
-  color: #eb0e0e;
 }
 #sessions {
   position: relative;
