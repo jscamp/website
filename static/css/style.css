@@ -327,6 +327,22 @@ body {
   -ms-border-radius: 8px;
   border-radius: 8px;
 }
+h2 {
+  font-size: 5em;
+  font-weight: bold;
+  font-family: Courier, monospace;
+}
+h3 {
+  margin-top: 30px;
+  font-size: 1.1em;
+  font-family: 'Doppio One';
+  line-height: 1.3em;
+}
+h4 {
+  font-size: 1.65em;
+  font-family: 'Doppio One';
+  margin: 14px 0 30px 0;
+}
 #info {
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0, #009000), color-stop(0.2, #008000), color-stop(0.6, #008000), color-stop(1, #009f00));
   background: -webkit-linear-gradient(bottom left, #009000 0%, #008000 20%, #008000 60%, #009f00 100%);
@@ -344,22 +360,6 @@ body {
 }
 #info a:hover {
   text-decoration: underline;
-}
-#info h2 {
-  font-size: 5em;
-  font-weight: bold;
-  font-family: Courier, monospace;
-}
-#info h3 {
-  margin-top: 30px;
-  font-size: 1.1em;
-  font-family: 'Doppio One';
-  line-height: 1.3em;
-}
-#info h4 {
-  font-size: 1.65em;
-  font-family: 'Doppio One';
-  margin: 14px 0 30px 0;
 }
 #info table {
   width: 100%;
@@ -396,7 +396,7 @@ body {
   text-align: center;
   line-height: 1.5em;
   font-size: 1.6em;
-  margin: 0 20px 10px 5px;
+  margin: 0 20px 15px 5px;
 }
 #info table #facts li .icon.date {
   font-size: 0.75em;
@@ -494,7 +494,7 @@ body {
 }
 #twtr-widget-1 .twtr-timeline {
   height: auto !important;
-  min-height: 442px;
+  min-height: 467px;
   z-index: 0;
 }
 #twtr-widget-1 .twtr-tweet {
@@ -679,7 +679,12 @@ body {
   width: 150px;
   height: 150px;
   font-size: 8em;
-  background: #ddd;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #eee), color-stop(0.9, #999));
+  background: -webkit-linear-gradient(top left, #eee 0%, #999 90%);
+  background: -moz-linear-gradient(top left, #eee 0%, #999 90%);
+  background: -o-linear-gradient(top left, #eee 0%, #999 90%);
+  background: -ms-linear-gradient(top left, #eee 0%, #999 90%);
+  background: linear-gradient(top left, #eee 0%, #999 90%);
   color: #fff;
   text-align: center;
 }
@@ -734,11 +739,36 @@ body {
 #venue {
   clear: both;
   padding: 100px 0 0 0;
+#venuepicture {
+			background: -moz-radial-gradient(center, circle cover, #595959 1%, #000000 100%); /* FF3.6+ */
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#595959), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+			background: -webkit-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* Opera 12+ */
+			background: -ms-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* IE10+ */
+			background: radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* W3C */
+		}
 }
 #venue #venuedesc {
-  padding: 100px 0 1000px 0;
-  background: #ffa500;
+  background-color: #ffa500;
+  padding-bottom: 1000px;
 }
+#venue #venuepicture {
+  background-color: #000;
+  text-align: center;
+  padding: 60px 0;
+}
+#venue #venuepicture h2 {
+  color: #fff;
+  margin-bottom: 40px;
+}
+#venuepicture {
+			background: -moz-radial-gradient(center, circle cover, #595959 1%, #000000 100%); /* FF3.6+ */
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#595959), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+			background: -webkit-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* Opera 12+ */
+			background: -ms-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* IE10+ */
+			background: radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* W3C */
+		}
 #top {
   position: fixed;
   top: 0px;

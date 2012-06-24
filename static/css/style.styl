@@ -180,7 +180,26 @@ body
 			margin 10px
 			border 1px solid #eee
 			border-radius 8px
-			
+	
+	
+h2
+
+	font-size 5em
+	font-weight bold
+	font-family Courier, monospace
+
+h3
+	margin-top 30px
+	font-size 1.1em
+	font-family 'Doppio One'
+	line-height 1.3em
+	
+h4
+	font-size 1.65em
+	font-family 'Doppio One'
+	margin 14px 0 30px 0	
+
+
 
 #info
 	background linear-gradient(bottom left, #009000 0%, green 20%, green 60%, #009f00 100%)
@@ -194,23 +213,8 @@ body
 	
 		&:hover
 			text-decoration underline
-		
-	h2
 
-		font-size 5em
-		font-weight bold
-		font-family Courier, monospace
-	
-	h3
-		margin-top 30px
-		font-size 1.1em
-		font-family 'Doppio One'
-		line-height 1.3em
-		
-	h4
-		font-size 1.65em
-		font-family 'Doppio One'
-		margin 14px 0 30px 0
+
 			
 	table
 		width 100%
@@ -244,7 +248,7 @@ body
 					text-align center
 					line-height 1.5em
 					font-size 1.6em
-					margin 0 20px 10px 5px
+					margin 0 20px 15px 5px
 							
 					&.date
 						font-size 0.75em
@@ -334,7 +338,7 @@ body
 
 	.twtr-timeline
 		height auto !important
-		min-height 442px
+		min-height 467px
 		z-index 0
 	
 	.twtr-tweet
@@ -495,7 +499,7 @@ body
 					width 150px
 					height 150px
 					font-size 8em
-					background #ddd
+					background  linear-gradient(top left, #eee 0%, #999 90%)
 					color #fff
 					text-align center
 				
@@ -541,8 +545,29 @@ body
 	padding 100px 0 0 0
 	
 	#venuedesc
-		padding 100px 0 1000px 0
-		background jscampYellow
+		background-color jscampYellow
+		padding-bottom 1000px
+		
+	#venuepicture
+		h2
+			color #fff
+			margin-bottom 40px
+	
+		background-color #000
+		text-align center
+		padding 60px 0
+		
+	@css {
+		#venuepicture {
+			background: -moz-radial-gradient(center, circle cover, #595959 1%, #000000 100%); /* FF3.6+ */
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#595959), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+			background: -webkit-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* Opera 12+ */
+			background: -ms-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* IE10+ */
+			background: radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* W3C */
+		}
+	}
+
 
 			
 #top
