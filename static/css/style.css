@@ -343,6 +343,19 @@ h4 {
   font-family: 'Doppio One';
   margin: 14px 0 30px 0;
 }
+p {
+  margin: 100px 0 10px 0;
+  font-size: 0.85em;
+  line-height: 1.3em;
+  font-family: 'Open Sans';
+}
+.content table {
+  width: 100%;
+  margin-top: 60px;
+}
+.content table td {
+  vertical-align: top;
+}
 #info {
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0, #009000), color-stop(0.2, #008000), color-stop(0.6, #008000), color-stop(1, #009f00));
   background: -webkit-linear-gradient(bottom left, #009000 0%, #008000 20%, #008000 60%, #009f00 100%);
@@ -361,26 +374,19 @@ h4 {
 #info a:hover {
   text-decoration: underline;
 }
-#info table {
-  width: 100%;
-  margin-top: 60px;
-}
-#info table td {
-  vertical-align: top;
-}
-#info table #facts {
+#info #facts {
   font-size: 1.1em;
 }
-#info table #facts a {
+#info #facts a {
   display: block;
   cursor: pointer;
   font-family: 'Open Sans';
   font-weight: 300;
 }
-#info table #facts a:hover .icon {
+#info #facts a:hover .icon {
   background: #38acec;
 }
-#info table #facts li .icon {
+#info #facts li .icon {
   text-decoration: none;
   width: 48px;
   height: 48px;
@@ -398,26 +404,20 @@ h4 {
   font-size: 1.6em;
   margin: 0 20px 15px 5px;
 }
-#info table #facts li .icon.date {
+#info #facts li .icon.date {
   font-size: 0.75em;
   line-height: 3.7em;
 }
-#info table #facts li .icon.sprints,
-#info table #facts li .icon.talks,
-#info table #facts li .icon.venue {
+#info #facts li .icon.sprints,
+#info #facts li .icon.talks,
+#info #facts li .icon.venue {
   line-height: 1.6em;
 }
-#info table #facts p {
-  margin: 100px 0 10px 0;
-  font-size: 0.85em;
-  line-height: 1.3em;
-  font-family: 'Open Sans';
-}
-#info table #facts form {
+#info #facts form {
   position: relative;
   margin-bottom: 20px;
 }
-#info table #facts form input {
+#info #facts form input {
   border: 0;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -430,13 +430,13 @@ h4 {
   font-size: 1.2em;
   font-family: Courier, monospace;
 }
-#info table #facts form input[name='email'] {
+#info #facts form input[name='email'] {
   width: 260px;
   position: absolute;
   top: 0px;
   left: 0px;
 }
-#info table #facts form input[type='submit'] {
+#info #facts form input[type='submit'] {
   position: absolute;
   top: 0px;
   left: 300px;
@@ -448,15 +448,14 @@ h4 {
   position: relative;
   font-weight: bold;
 }
-#info table #facts form input[type='submit']:hover {
+#info #facts form input[type='submit']:hover {
   background: #38acec;
 }
-#info table #tweets {
+#info #tweets {
   padding-left: 30px;
   width: 280px;
-  font-size: 0.9em;
 }
-#info table #tweets .facebook {
+#info #tweets .facebook {
   font-family: 'Doppio One';
   display: inline-block;
   width: 16px;
@@ -494,7 +493,7 @@ h4 {
 }
 #twtr-widget-1 .twtr-timeline {
   height: auto !important;
-  min-height: 467px;
+  min-height: 462px;
   z-index: 0;
 }
 #twtr-widget-1 .twtr-tweet {
@@ -756,10 +755,24 @@ h4 {
   background-color: #000;
   text-align: center;
   padding: 60px 0;
+  margin-bottom: 50px;
 }
 #venue #venuepicture h2 {
   color: #fff;
   margin-bottom: 40px;
+}
+#venue #venuepicture #hotspots {
+  position: relative;
+}
+#venue #venuepicture #hotspots .hotspot {
+  text-align: left;
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  color: #fff;
+  font-family: 'Doppio One';
+  top: 435px;
+  left: 530px;
 }
 #venuepicture {
 			background: -moz-radial-gradient(center, circle cover, #595959 1%, #000000 100%); /* FF3.6+ */

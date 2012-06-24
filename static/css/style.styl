@@ -199,7 +199,19 @@ h4
 	font-family 'Doppio One'
 	margin 14px 0 30px 0	
 
-
+p
+	margin 100px 0 10px 0
+	font-size 0.85em
+	line-height 1.3em
+	font-family 'Open Sans'
+				
+.content 
+	table
+		width 100%
+		margin-top 60px
+		
+		td
+			vertical-align top
 
 #info
 	background linear-gradient(bottom left, #009000 0%, green 20%, green 60%, #009f00 100%)
@@ -213,105 +225,89 @@ h4
 	
 		&:hover
 			text-decoration underline
+		
+	#facts
+		font-size 1.1em
 
-
+		a
+			display block
+			cursor pointer
+			font-family 'Open Sans'
+			font-weight 300
 			
-	table
-		width 100%
-		margin-top 60px
+			&:hover	.icon
+					background jscampBlue
 		
-		td
-			vertical-align top
-		
-		#facts
-			font-size 1.1em
-		
-			a
-				display block
-				cursor pointer
-				font-family 'Open Sans'
-				font-weight 300
-				
-				&:hover	.icon
-						background jscampBlue
-			
-			li
-				.icon
-					text-decoration none
-					width 48px
-					height 48px
-					display inline-block
-					font-family Courier, monospace
-					font-weight bold
-					background jscampYellow
-					border-radius 3px
-					text-align center
-					line-height 1.5em
-					font-size 1.6em
-					margin 0 20px 15px 5px
-							
-					&.date
-						font-size 0.75em
-						line-height 3.7em
-					&.sprints, &.talks, &.venue
-						line-height 1.6em
-
-						
-			p
-				margin 100px 0 10px 0
-				font-size 0.85em
-				line-height 1.3em
-				font-family 'Open Sans'
-				
-			
-			form
-				position relative
-				margin-bottom 20px
-				
-				input
-					border 0
-					border-radius 3px
-					padding 0 15px
-					line-height 1.4em
-					height 42px
-					font-size 1.2em
-					font-family Courier, monospace
-				
-				input[name='email']
-					width 260px
-					position absolute
-					top 0px
-					left 0px
-					
-				input[type='submit']
-					position absolute
-					top 0px
-					left 300px
-					cursor pointer
-					font-family 'Doppio One'
-					font-size 0.8em
-					background jscampYellow
-					color #fff
-					position relative
-					font-weight bold
-					
-					&:hover
-						background jscampBlue
-					
-		
-		#tweets
-			padding-left 30px
-			width 280px
-			font-size 0.9em
-			
-			.facebook
-				font-family 'Doppio One'
+		li
+			.icon
+				text-decoration none
+				width 48px
+				height 48px
 				display inline-block
-				width 16px
-				font-size 1.4em
-				text-align center
+				font-family Courier, monospace
 				font-weight bold
-				margin 0 5px 0 11px
+				background jscampYellow
+				border-radius 3px
+				text-align center
+				line-height 1.5em
+				font-size 1.6em
+				margin 0 20px 15px 5px
+						
+				&.date
+					font-size 0.75em
+					line-height 3.7em
+				&.sprints, &.talks, &.venue
+					line-height 1.6em		
+		
+		form
+			position relative
+			margin-bottom 20px
+			
+			input
+				border 0
+				border-radius 3px
+				padding 0 15px
+				line-height 1.4em
+				height 42px
+				font-size 1.2em
+				font-family Courier, monospace
+			
+			input[name='email']
+				width 260px
+				position absolute
+				top 0px
+				left 0px
+				
+			input[type='submit']
+				position absolute
+				top 0px
+				left 300px
+				cursor pointer
+				font-family 'Doppio One'
+				font-size 0.8em
+				background jscampYellow
+				color #fff
+				position relative
+				font-weight bold
+				
+				&:hover
+					background jscampBlue
+					
+		
+	#tweets
+		padding-left 30px
+		width 280px
+
+		
+		.facebook
+			font-family 'Doppio One'
+			display inline-block
+			width 16px
+			font-size 1.4em
+			text-align center
+			font-weight bold
+			margin 0 5px 0 11px
+		
 		
 #twtr-widget-1
 	font-family 'Open Sans' !important
@@ -338,7 +334,7 @@ h4
 
 	.twtr-timeline
 		height auto !important
-		min-height 467px
+		min-height 462px
 		z-index 0
 	
 	.twtr-tweet
@@ -556,6 +552,20 @@ h4
 		background-color #000
 		text-align center
 		padding 60px 0
+		margin-bottom 50px
+		
+		#hotspots
+			position relative
+			
+			.hotspot
+				text-align left
+				position absolute
+				width 300px
+				height 40px
+				color #fff
+				font-family 'Doppio One'
+				top 435px
+				left 530px
 		
 	@css {
 		#venuepicture {
