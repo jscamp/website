@@ -331,20 +331,22 @@ h2 {
   font-size: 5em;
   font-weight: bold;
   font-family: Courier, monospace;
+  text-align: center;
 }
 h3 {
   margin-top: 30px;
   font-size: 1.1em;
   font-family: 'Doppio One';
   line-height: 1.3em;
+  text-align: center;
 }
-h4 {
+.content h4 {
   font-size: 1.65em;
   font-family: 'Doppio One';
   margin: 14px 0 30px 0;
 }
-p {
-  margin: 100px 0 10px 0;
+.content p {
+  margin: 50px 0 10px 0;
   font-size: 0.85em;
   line-height: 1.3em;
   font-family: 'Open Sans';
@@ -412,6 +414,9 @@ p {
 #info #facts li .icon.talks,
 #info #facts li .icon.venue {
   line-height: 1.6em;
+}
+#info #facts p {
+  margin-top: 100px;
 }
 #info #facts form {
   position: relative;
@@ -784,7 +789,7 @@ p {
 		}
 #top {
   position: fixed;
-  top: 0px;
+  top: -1px;
   left: 0px;
   right: 0px;
   display: none;
@@ -794,6 +799,7 @@ table.colors {
   font-size: 1.7em;
   line-height: 1em;
   border-bottom: 1px solid #f4faff;
+  border-top: 1px solid #f4faff;
 }
 table.colors td {
   padding: 3px 6px 5px 6px;

@@ -180,32 +180,34 @@ body
 			margin 10px
 			border 1px solid #eee
 			border-radius 8px
-	
-	
+
+
 h2
 
 	font-size 5em
 	font-weight bold
 	font-family Courier, monospace
+	text-align center
 
 h3
 	margin-top 30px
 	font-size 1.1em
 	font-family 'Doppio One'
 	line-height 1.3em
-	
-h4
-	font-size 1.65em
-	font-family 'Doppio One'
-	margin 14px 0 30px 0	
-
-p
-	margin 100px 0 10px 0
-	font-size 0.85em
-	line-height 1.3em
-	font-family 'Open Sans'
+	text-align center
 				
-.content 
+.content
+	h4
+		font-size 1.65em
+		font-family 'Doppio One'
+		margin 14px 0 30px 0	
+	
+	p
+		margin 50px 0 10px 0
+		font-size 0.85em
+		line-height 1.3em
+		font-family 'Open Sans'
+
 	table
 		width 100%
 		margin-top 60px
@@ -257,8 +259,11 @@ p
 					font-size 0.75em
 					line-height 3.7em
 				&.sprints, &.talks, &.venue
-					line-height 1.6em		
-		
+					line-height 1.6em
+					
+		p
+			margin-top 100px		
+			
 		form
 			position relative
 			margin-bottom 20px
@@ -582,7 +587,7 @@ p
 			
 #top
 	position fixed
-	top 0px
+	top -1px
 	left 0px
 	right 0px
 	display none
@@ -592,6 +597,7 @@ table.colors
 	font-size 1.7em
 	line-height 1.0em
 	border-bottom 1px solid #f4faff
+	border-top 1px solid #f4faff
 	
 	td
 		padding 3px 6px 5px 6px

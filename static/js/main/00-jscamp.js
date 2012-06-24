@@ -6,14 +6,14 @@ _.delay(function() {
 _.delay(function() {
 	$("#messageCont").find(".back").css({visibility: "visible"});
 	$("#messageCont").addClass("flipped");
-}, 6000);
+}, 5000);
 
 _.delay(function() {
 	$("#top").fadeIn(1000);
 	var scrollPos = $(window).scrollTop();
 	if(scrollPos == 0)
 		$("#homepage").animate({height: "680px"}, 800);
-}, 8000);
+}, 7000);
 
 var highlightTalks = _.once(function() {
 	$("#talks").addClass("current");
