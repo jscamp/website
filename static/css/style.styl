@@ -172,7 +172,7 @@ body
 		font-weight bold
 
 	
-	#sponsors
+	#sponsorsplash
 		font-size 0.8em
 		padding 15px 30px 25px 30px
 		
@@ -203,7 +203,7 @@ h3
 		margin 14px 0 30px 0	
 	
 	p
-		margin 50px 0 10px 0
+		margin 30px 0 10px 0
 		font-size 0.85em
 		line-height 1.3em
 		font-family 'Open Sans'
@@ -216,9 +216,9 @@ h3
 			vertical-align top
 
 #info
-	background linear-gradient(bottom left, #009000 0%, green 20%, green 60%, #009f00 100%)
+	background linear-gradient(bottom left, #00a200 0%, green 22%, green 60%, #00be00 100%)
 	color #fff
-	padding 80px 0 70px 0
+	padding 0 0 70px 0
 	margin-bottom 100px
 	
 	a
@@ -234,7 +234,7 @@ h3
 		a
 			display block
 			cursor pointer
-			font-family 'Open Sans'
+			font-family 'Doppio One'
 			font-weight 300
 			
 			&:hover	.icon
@@ -251,18 +251,19 @@ h3
 				background jscampYellow
 				border-radius 3px
 				text-align center
-				line-height 1.5em
+				line-height 1.6em
 				font-size 1.6em
 				margin 0 20px 15px 5px
+				border 1px solid #fff
 						
 				&.date
 					font-size 0.75em
-					line-height 3.7em
+					line-height 3.8em
 				&.sprints, &.talks, &.venue
-					line-height 1.6em
+					line-height 1.7em
 					
 		p
-			margin-top 100px		
+			margin-top 92px		
 			
 		form
 			position relative
@@ -383,6 +384,24 @@ h3
 			a
 				margin-left 27px
 
+
+a.icon
+	display inline-block
+	width 40px
+	height 40px
+	cursor pointer
+	border-radius 22px
+	margin 6px 6px
+	
+	&:hover
+		background-color jscampBlue
+		animation rotate 0.3s linear
+
+	&.twitter
+		background-image url(../img/twitter.png)
+		background-repeat no-repeat
+		background-position 6px 6px
+
 		
 #js
 	color #000
@@ -422,6 +441,7 @@ h3
 			position absolute
 			top 0px
 			transition all 0.5s ease-out
+			border 2px solid #fff
 			
 			&#workshops
 				padding 0.2em 0
@@ -509,23 +529,7 @@ h3
 					
 			.links
 				float right
-				
-				a
-					display block
-					width 40px
-					height 40px
-					cursor pointer
-					border-radius 22px
-					margin 6px 6px
-					
-					&:hover
-						background-color jscampBlue
-						animation rotate 0.3s linear
-			
-					&.twitter
-						background-image url(../img/twitter.png)
-						background-repeat no-repeat
-						background-position 6px 6px
+
 					
 			.name
 				font-family Courier, monospace
@@ -547,7 +551,7 @@ h3
 	
 	#venuedesc
 		background-color jscampYellow
-		padding-bottom 1000px
+		padding-bottom 80px
 		
 	#venuepicture
 		h2
@@ -556,7 +560,6 @@ h3
 	
 		background-color #000
 		text-align center
-		padding 60px 0
 		margin-bottom 50px
 		
 		#hotspots
@@ -573,7 +576,8 @@ h3
 				left 530px
 		
 	@css {
-		#venuepicture {
+		.black {
+			padding: 80px 0;
 			background: -moz-radial-gradient(center, circle cover, #595959 1%, #000000 100%); /* FF3.6+ */
 			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#595959), color-stop(100%,#000000)); /* Chrome,Safari4+ */
 			background: -webkit-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* Chrome10+,Safari5.1+ */
@@ -582,7 +586,75 @@ h3
 			background: radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* W3C */
 		}
 	}
+	
+	#wifi
+		padding-left 80px
+		width 200px
 
+	#wifiicon
+		text-align center
+		height 134px
+		width 138px
+		margin-bottom 40px
+		background jscampBlue
+		border 2px solid #fff
+		border-radius 8px
+		
+		img
+			margin-top 20px
+			
+#sponsors
+	height 120px
+	
+	
+#team
+	background jscampBlue
+	padding 60px 0
+
+	#logoanim
+		margin -10px 0 0 -40px
+		float left
+		width 340px
+		height 200px
+		font-size 3em
+		
+		*
+			color #fff !important
+			
+	#teamdesc
+		margin-left 360px
+		color #fff
+
+		li
+			padding 30px 0
+			height 30px
+		
+			img
+				float left
+				border-radius 8px
+				margin-left 5px
+				width 60px
+				height 60px
+			
+			.name
+				padding-top 6px
+				font-family 'Doppio One'
+				font-size 1.3em
+				line-height 1.3em
+				
+			a
+				color #fff
+				text-decoration none
+				
+				&:hover
+					text-decoration underline
+			
+			a.twitter
+				float left
+				margin 1px 5px 0 12px
+			
+			.mail
+				font-size 0.8em
 
 			
 #top
