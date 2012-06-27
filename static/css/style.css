@@ -450,15 +450,15 @@ h3 {
   font-weight: bold;
   top: 42px;
   left: 5px;
-  width: 248px;
+  width: 250px;
   cursor: pointer;
   background: rgba(0,0,0,0.5);
   padding: 10px 15px;
-  -webkit-border-radius: 0 0 8px 8px;
-  -moz-border-radius: 0 0 8px 8px;
-  -o-border-radius: 0 0 8px 8px;
-  -ms-border-radius: 0 0 8px 8px;
-  border-radius: 0 0 8px 8px;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  -o-border-radius: 0 0 3px 3px;
+  -ms-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
 }
 #info #facts form.success input[name='email'] {
   -webkit-animation: success 2s 1 ease-in;
