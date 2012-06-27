@@ -150,9 +150,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<p>
 							Drop your E-Mail and we'll remind you when ticket and pricing information becomes available!
 						</p>
-						<form>
+						<form id="subscribeForm" action="addsubscriber.php" method="get">
 							<input type="email" name="email" placeholder="your@email.com"/>
 							<input type="submit" value="Keep me updated" />
+							<div class="msg"></div>
 						</form>
 					</td>
 					<td id="tweets">
@@ -513,6 +514,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<script type="text/javascript" src="static/js/dependencies/0020-underscore-ck.js"></script>
 	<script type="text/javascript" src="static/js/dependencies/0050-audiofade-ck.js"></script>
 	<script type="text/javascript" src="static/js/dependencies/0070-jquery.scrollto-ck.js"></script>
+	<script type="text/javascript" src="static/js/dependencies/0080-jquery.form-ck.js"></script>
 	<script type="text/javascript" src="static/js/main/00-jscamp.js"></script>
 	<!-- end scripts-->
 

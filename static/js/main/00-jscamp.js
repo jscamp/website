@@ -62,3 +62,34 @@ krusovice.tools.fadeIn(document.getElementById("la_oceansound"),500,0.4,50);
 _.delay(function() {
 	krusovice.tools.fadeOut(document.getElementById("la_oceansound"),9000,0,50);
 },500);
+
+$("#subscribeForm").ajaxForm({
+	url: "./addsubscriber.php",
+	dataType: "html",
+	beforeSubmit: function() {
+		$("#subscribeForm .msg").slideUp();
+		$("#subscribeForm").removeClass("failure success").addClass("load");
+	},
+	success: function(r) {
+		if(r.substr(0,6) != "Thanks") {
+			$("#subscribeForm").removeClass("load").addClass("failure");
+			$("#subscribeForm .msg").text(r.substr(0,r.indexOf('<br/>'))).fadeIn(250);
+		}
+		else {
+			$("#subscribeForm").removeClass("load").addClass("success");
+			$("#subscribeForm .msg").text("Thanks! :)").fadeIn(250);
+			$("#subscribeForm input[name='email']").val("");
+			_.delay(function() {
+				$("#subscribeForm .msg").slideUp();
+			},2000);
+		}
+	},
+	error: function(r, s) {
+		$("#subscribeForm").removeClass("load").addClass("failure");
+		$("#subscribeForm .msg").text("Something went utterly wrong...").fadeIn(250);
+	}
+});
+
+$("#subscribeForm .msg").click(function() {
+	$("#subscribeForm .msg").slideUp();
+});

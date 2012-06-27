@@ -269,6 +269,87 @@ h3
 			position relative
 			margin-bottom 20px
 			
+			.msg
+				position absolute
+				display none
+				font-size 0.7em
+				font-weight bold
+				top 42px
+				left 5px
+				width 248px
+				cursor pointer
+				background rgba(0,0,0,0.5)
+				padding 10px 15px
+				border-radius 0 0 8px 8px
+			
+			&.success
+				input[name='email']
+					animation success 2s 1 ease-in	
+				
+			&.failure
+				input[name='email']
+					animation failure 2s 1 ease-in
+					
+			@css {
+				.load input[name='email'] {
+					background-image: -webkit-gradient(linear, 0 0, 100% 100%, 
+					      color-stop(.25, rgba(0, 0, 0, .1)), 
+					      color-stop(.25, transparent), color-stop(.5, transparent), 
+					      color-stop(.5, rgba(0, 0, 0, .1)), 
+					      color-stop(.75, rgba(0, 0, 0, .1)), 
+					      color-stop(.75, transparent), to(transparent)
+					   );
+					background-image: -webkit-linear-gradient(
+						  -45deg, 
+					      rgba(0, 0, 0, .1) 25%, 
+					      transparent 25%, 
+					      transparent 50%, 
+					      rgba(0, 0, 0, .1) 50%, 
+					      rgba(0, 0, 0, .1) 75%, 
+					      transparent 75%, 
+					      transparent
+					   );
+					background-image: -moz-linear-gradient(
+						  -45deg, 
+					      rgba(0, 0, 0, .1) 25%, 
+					      transparent 25%, 
+					      transparent 50%, 
+					      rgba(0, 0, 0, .1) 50%, 
+					      rgba(0, 0, 0, .1) 75%, 
+					      transparent 75%, 
+					      transparent
+					   );
+					background-image: -ms-linear-gradient(
+						  -45deg, 
+					      rgba(0, 0, 0, .1) 25%, 
+					      transparent 25%, 
+					      transparent 50%, 
+					      rgba(0, 0, 0, .1) 50%, 
+					      rgba(0, 0, 0, .1) 75%, 
+					      transparent 75%, 
+					      transparent
+					   );
+					background-image: -o-linear-gradient(
+						  -45deg, 
+					      rgba(0, 0, 0, .1) 25%, 
+					      transparent 25%, 
+					      transparent 50%, 
+					      rgba(0, 0, 0, .1) 50%, 
+					      rgba(0, 0, 0, .1) 75%, 
+					      transparent 75%, 
+					      transparent
+					   );
+					-webkit-background-size: 50px 50px;
+					-moz-background-size:    50px 50px;
+					background-size:         50px 50px;	
+					-webkit-animation: loading 2s infinite linear;
+					-moz-animation: loading 2s infinite linear;
+					-o-animation: loading 2s infinite linear;
+					-ms-animation: loading 2s infinite linear;
+					animation: loading 2s infinite linear;
+				}
+			}
+													
 			input
 				border 1px solid #eee
 				border-radius 3px
@@ -284,6 +365,7 @@ h3
 				top 0px
 				left 0px
 				border 0
+				outline 0
 				
 			input[type='submit']
 				position absolute
@@ -300,6 +382,9 @@ h3
 				&:hover
 					background jscampBlue
 					
+				&:active
+					background jscampGreen
+					
 		
 	#tweets
 		padding-left 30px
@@ -315,7 +400,29 @@ h3
 			font-weight bold
 			margin 0 5px 0 11px
 		
+
+@keyframes loading
+	0%
+		background-position 0 0
+	100%
+		background-position 50px 50px
+
+@keyframes failure
+	0%
+		box-shadow 0px 0px 0px white inset
+	1%
+		box-shadow 0px 0px 25px darkred inset		
+	100%
+		box-shadow 0px 0px 0px white inset
 		
+@keyframes success
+	0%
+		box-shadow 0px 0px 0px white inset
+	1%
+		box-shadow 0px 0px 35px #59E817 inset		
+	100%
+		box-shadow 0px 0px 0px white inset
+			
 #twtr-widget-1
 	font-family 'Open Sans' !important
 	font-size 1em !important
