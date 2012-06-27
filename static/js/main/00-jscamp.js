@@ -78,9 +78,9 @@ $("#subscribeForm").ajaxForm({
 		else {
 			$("#subscribeForm").removeClass("load").addClass("success");
 			$("#subscribeForm .msg").text("Thanks! :)").fadeIn(250);
-			$("#subscribeForm input[name='email']").val("");
 			_.delay(function() {
 				$("#subscribeForm .msg").slideUp();
+				$("#subscribeForm input[name='email']").val("");
 			},2000);
 		}
 	},
