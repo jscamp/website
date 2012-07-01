@@ -1,0 +1,26 @@
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/maccman" class="twitter icon" title="@maccman"></a>
+						</div>
+						<div class="img"><img src="static/img/speakers/alexmccaw.png" alt="Alex McCaw" border="0" /></div>
+						<div class="name">
+							Alex McCaw
+						</div>
+						<div class="bio">
+							<a href="http://blog.alexmaccaw.com/">Alex</a> is a Ruby and JavaScript developer, O'Reilly author and works for <a href="http://stripe.com">Stripe</a>, a developer focussed online-payment startup from San Francisco.
+						</div>
+					</li>
+					
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/secoif" class="twitter icon" title="@secoif"></a>
+						</div>
+						<div class="img"><img src="static/img/speakers/timoxley.png" alt="Tim Oxley" border="0" /></div>
+						<div class="name">
+							Tim Oxley
+						</div>
+						<div class="bio">
+							Tim is a JavaScript freelancer, working primarily with the node.js platform and client-side MVC applications. He is passionate about readable, maintainable, organised code though best-practices, refactoring and tests.
+							Tim usually works alongside Rails developers for international clients and loves dolphins.
+						</div>
+					</li>

@@ -5,7 +5,7 @@
 		
 	if(jQuery.browser.msie) {
 		userAgent.tooOld = jQuery.browser.version < 9;
-		userAgent.url = "http://www.microsoft.com/internetexplorer/";
+		userAgent.url = "http://www.browser-update.org/update.html";
 	}
 	else if(jQuery.browser.mozilla) {
 		userAgent.v = jQuery.browser.version.split('.');
@@ -29,20 +29,14 @@
 		userAgent.url = "http://www.opera.com/";
 	}
 	else {
-		alert("Surely you want to update your browser before attending this conference, because this one won't do.");
-		alert("Here be dragonsÉ");
+		userAgent.tooOld = true;
+		userAgent.url = "http://www.browser-update.org/update.html";
 	}
 	
-	if(userAgent.tooOld) {
-		if(userAgent.url) {
-			if(confirm("What aboutÉ a new browser?! :)"))
-				window.location = userAgent.url;
-			else
-				alert("Here be dragonsÉ");
-		}
-		else {
-			alert("Surely you want to update your browser before attending this conference, because this one won't do.");
-			alert("Here be dragonsÉ");
-		}
+	if(userAgent.tooOld && userAgent.url) {
+		if(confirm("Surely you want to switch to a modern browser before attending this conference, because this one won't do."))
+			window.location = userAgent.url;
+		else
+			alert("Here be dragons...");
 	}
 })();

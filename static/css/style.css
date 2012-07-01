@@ -104,6 +104,7 @@ body {
   -moz-font-smooth: never;
 }
 .clear {
+  height: 90px;
   clear: both;
 }
 #body {
@@ -113,7 +114,7 @@ body {
   bottom: 0px;
   right: 0px;
 }
-.page {
+#home {
   width: 100%;
   height: 100%;
   min-height: 680px;
@@ -124,6 +125,7 @@ body {
 }
 #bg {
   position: fixed;
+  background-color: #edf7ff;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #d1ebff), color-stop(0.6, #fff));
   background: -webkit-linear-gradient(top left, #d1ebff 0%, #fff 60%);
   background: -moz-linear-gradient(top left, #d1ebff 0%, #fff 60%);
@@ -359,6 +361,7 @@ h3 {
   vertical-align: top;
 }
 #info {
+  background-color: #008000;
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0, #00a200), color-stop(0.22, #008000), color-stop(0.6, #008000), color-stop(1, #00be00));
   background: -webkit-linear-gradient(bottom left, #00a200 0%, #008000 22%, #008000 60%, #00be00 100%);
   background: -moz-linear-gradient(bottom left, #00a200 0%, #008000 22%, #008000 60%, #00be00 100%);
@@ -654,13 +657,16 @@ a.icon.twitter {
   padding: 0.8em 0.2em 0em 0.6em;
   background: #ffe100;
 }
-#sessions {
+#sessions,
+#sponsors {
   position: relative;
 }
-#sessions a {
+#sessions a,
+#sponsors a {
   color: #a52a2a;
 }
-#sessions #sessionicon {
+#sessions #sessionicon,
+#sponsors #sessionicon {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -670,7 +676,8 @@ a.icon.twitter {
   position: relative;
   float: left;
 }
-#sessions #sessionicon > div {
+#sessions #sessionicon > div,
+#sponsors #sessionicon > div {
   cursor: pointer;
   width: 1.7em;
   height: 1.1em;
@@ -696,15 +703,18 @@ a.icon.twitter {
   transition: all 0.5s ease-out;
   border: 2px solid #fff;
 }
-#sessions #sessionicon > div#workshops {
+#sessions #sessionicon > div#workshops,
+#sponsors #sessionicon > div#workshops {
   padding: 0.2em 0;
   height: 1.2em;
 }
-#sessions #sessionicon > div#workshops span {
+#sessions #sessionicon > div#workshops span,
+#sponsors #sessionicon > div#workshops span {
   font-size: 0.3em;
   padding: 2.1em 0;
 }
-#sessions #sessionicon > div span {
+#sessions #sessionicon > div span,
+#sponsors #sessionicon > div span {
   opacity: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   position: absolute;
@@ -721,33 +731,41 @@ a.icon.twitter {
   -ms-border-radius: 8px;
   border-radius: 8px;
 }
-#sessions #sessionicon > div.current {
+#sessions #sessionicon > div.current,
+#sponsors #sessionicon > div.current {
   background: #38acec;
 }
-#sessions #sessionicon > div:hover span {
+#sessions #sessionicon > div:hover span,
+#sponsors #sessionicon > div:hover span {
   opacity: 1;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
 }
-#sessions .moved #workshops {
+#sessions .moved #workshops,
+#sponsors .moved #workshops {
   top: 1.9em;
 }
-#sessions .moved #sprints {
+#sessions .moved #sprints,
+#sponsors .moved #sprints {
   top: 3.8em;
 }
-#sessions .sessiondesc {
+#sessions .sessiondesc,
+#sponsors .sessiondesc {
   margin-left: 9em;
   display: none;
 }
-#sessions .sessiondesc.current {
+#sessions .sessiondesc.current,
+#sponsors .sessiondesc.current {
   display: block;
 }
-#sessions .sessiondesc .intro {
+#sessions .sessiondesc .intro,
+#sponsors .sessiondesc .intro {
   display: block;
   padding-bottom: 25px;
   line-height: 1.3em;
   font-family: 'Doppio One';
 }
-#sessions .sessiondesc .intro h4 {
+#sessions .sessiondesc .intro h4,
+#sponsors .sessiondesc .intro h4 {
   line-height: 1.3em;
   margin-bottom: 10px;
   font-size: 5.2em;
@@ -755,15 +773,18 @@ a.icon.twitter {
   font-family: Courier, monospace;
   color: #38acec;
 }
-#sessions .speakers {
+#sessions .speakers,
+#sponsors .speakers {
   float: left;
   margin: 0 20px 0 0;
   width: 12.8em;
 }
-#sessions .speakers:last-child {
+#sessions .speakers:last-child,
+#sponsors .speakers:last-child {
   margin: 0;
 }
-#sessions .speakers li {
+#sessions .speakers li,
+#sponsors .speakers li {
   margin: 0 0 18px 0;
   border: 1px solid #f2f2f2;
   background: #fff;
@@ -773,7 +794,8 @@ a.icon.twitter {
   -ms-border-radius: 8px;
   border-radius: 8px;
 }
-#sessions .speakers li .img {
+#sessions .speakers li .img,
+#sponsors .speakers li .img {
   -webkit-border-radius: 8px 8px 0 0;
   -moz-border-radius: 8px 8px 0 0;
   -o-border-radius: 8px 8px 0 0;
@@ -782,37 +804,28 @@ a.icon.twitter {
   background: #ffa500;
   height: 150px;
 }
-#sessions .speakers li .img .who {
-  width: 150px;
-  height: 150px;
-  font-size: 8em;
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #eee), color-stop(0.9, #999));
-  background: -webkit-linear-gradient(top left, #eee 0%, #999 90%);
-  background: -moz-linear-gradient(top left, #eee 0%, #999 90%);
-  background: -o-linear-gradient(top left, #eee 0%, #999 90%);
-  background: -ms-linear-gradient(top left, #eee 0%, #999 90%);
-  background: linear-gradient(top left, #eee 0%, #999 90%);
-  color: #fff;
-  text-align: center;
-}
-#sessions .speakers li .img > * {
+#sessions .speakers li .img > *,
+#sponsors .speakers li .img > * {
   -webkit-border-radius: 8px 0 0 0;
   -moz-border-radius: 8px 0 0 0;
   -o-border-radius: 8px 0 0 0;
   -ms-border-radius: 8px 0 0 0;
   border-radius: 8px 0 0 0;
 }
-#sessions .speakers li .links {
+#sessions .speakers li .links,
+#sponsors .speakers li .links {
   float: right;
 }
-#sessions .speakers li .name {
+#sessions .speakers li .name,
+#sponsors .speakers li .name {
   font-family: Courier, monospace;
   color: #38acec;
   font-weight: bold;
   font-size: 1.55em;
   padding: 15px 20px 0 20px;
 }
-#sessions .speakers li .bio {
+#sessions .speakers li .bio,
+#sponsors .speakers li .bio {
   padding: 15px 20px 20px 20px;
   font-weight: 20;
   line-height: 1.3em;
@@ -823,6 +836,7 @@ a.icon.twitter {
   padding: 100px 0 0 0;
 .black {
 			padding: 80px 0;
+			background-color: #444;
 			background: -moz-radial-gradient(center, circle cover, #595959 1%, #000000 100%); /* FF3.6+ */
 			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#595959), color-stop(100%,#000000)); /* Chrome,Safari4+ */
 			background: -webkit-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* Chrome10+,Safari5.1+ */
@@ -834,6 +848,9 @@ a.icon.twitter {
 #venue #venuedesc {
   background-color: #ffa500;
   padding-bottom: 80px;
+}
+#venue #venuedesc a {
+  color: #008000;
 }
 #venue #venuepicture {
   background-color: #000;
@@ -859,6 +876,7 @@ a.icon.twitter {
 }
 .black {
 			padding: 80px 0;
+			background-color: #444;
 			background: -moz-radial-gradient(center, circle cover, #595959 1%, #000000 100%); /* FF3.6+ */
 			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#595959), color-stop(100%,#000000)); /* Chrome,Safari4+ */
 			background: -webkit-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* Chrome10+,Safari5.1+ */
@@ -887,7 +905,29 @@ a.icon.twitter {
   margin-top: 20px;
 }
 #sponsors {
-  height: 120px;
+  margin: 60px auto 0 auto;
+}
+#sponsors #sponsorsdesc h2 {
+  color: #38acec;
+  text-align: left;
+}
+#sponsors #sponsorsdesc .speakers li {
+  width: 200px;
+}
+#sponsors #sponsorsdesc .speakers li .img {
+  height: 115px;
+}
+#sponsors #sponsorsdesc .speakers li .links a {
+  float: right;
+}
+#sponsors #sponsorsdesc .speakers li .links .www {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.4em;
+  font-family: Courier, monospace;
+  color: #fff;
+  text-decoration: none;
 }
 #team {
   background: #38acec;

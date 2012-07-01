@@ -6,13 +6,16 @@ _.delay(function() {
 _.delay(function() {
 	$("#messageCont").find(".back").css({visibility: "visible"});
 	$("#messageCont").addClass("flipped");
+	_.delay(function() {
+		$("#messageCont .front").css({visibility: "hidden"});
+	},0);
 }, 5000);
 
 _.delay(function() {
 	$("#top").fadeIn(1000);
 	var scrollPos = $(window).scrollTop();
 	if(scrollPos == 0)
-		$("#homepage").animate({height: "680px"}, 800);
+		$("#home").animate({height: "680px"}, 800);
 }, 7000);
 
 var highlightTalks = _.once(function() {
@@ -20,8 +23,12 @@ var highlightTalks = _.once(function() {
 });
 
 var scrollStart = _.once(function() {
+	var res = $(window).width();
+	if(res <= 900)
+		$("#top").css({position: "absolute"});
+		
 	$("#top").fadeIn();
-	$("#homepage").animate({height: "680px"}, 800);
+	$("#home").animate({height: "680px"}, 800);
 });
 
 $(window).scroll(function() {
@@ -45,10 +52,10 @@ $(window).scroll(function() {
 
 });
 
-$("#sessionicon div").click(function() {
+$("#sessions #sessionicon div").click(function() {
 	var nTop = $(this).css("top");
-	var cTop = $("#sessionicon div.current").css("top");
-	$("#sessionicon div.current").removeClass("current").css({top: nTop});
+	var cTop = $("#sessions #sessionicon div.current").css("top");
+	$("#sessions #sessionicon div.current").removeClass("current").css({top: nTop});
 	$(this).addClass("current").css({top: cTop});
 	
 	$("#sessions .sessiondesc").removeClass("current");
@@ -92,4 +99,43 @@ $("#subscribeForm").ajaxForm({
 
 $("#subscribeForm .msg").click(function() {
 	$("#subscribeForm .msg").slideUp();
+});
+
+
+function routeTo(href) {	
+	var goto = (href.indexOf("http") == 0) ? href.substr(20).toLowerCase() : href;
+	var offset = 110;
+	if(goto == "talks" || goto == "sprints" || goto == "workshops") {
+		$("#"+goto).click();
+	}
+	else {
+		var to = $("#" + goto);
+		if($(to).hasClass("goto")) {
+			$.scrollTo($(to).position().top + offset, {duration:500});
+		}
+	}
+}
+
+window.onpopstate = function(event) {
+	if(event.state) { // chrome pops on load as well, but this is empty
+		routeTo(event.state);
+	}
+}
+
+$(document).ready(function () {
+	$("a").click(function(event) {
+		var target = $(event.target).is("a") ? $(event.target) : $(event.target).closest("a");
+		var href = $(target).attr("href");
+		if(href.substr(0,2) == "./") {
+			href = href.substr(2);
+			event.preventDefault();
+			var html = $(target).html();
+			if(history.pushState)
+				history.pushState(href, html, href);
+			routeTo(href);
+			return false;
+		}
+	});
+	
+	routeTo(window.location.href);
 });
