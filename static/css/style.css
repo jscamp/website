@@ -865,14 +865,23 @@ a.icon.twitter {
   position: relative;
 }
 #venue #venuepicture #hotspots .hotspot {
+  font-size: 0.85em;
   text-align: left;
   position: absolute;
-  width: 300px;
+  width: 280px;
   height: 40px;
   color: #fff;
-  font-family: 'Doppio One';
-  top: 435px;
+  line-height: 1.2em;
+  top: 415px;
   left: 530px;
+}
+#venue #venuepicture #hotspots .hotspot b {
+  font-family: 'Doppio One';
+  line-height: 1.6em;
+}
+#venue #venuepicture #hotspots .hotspot .small {
+  font-size: 0.8em;
+  color: #888;
 }
 .black {
 			padding: 80px 0;
@@ -903,6 +912,24 @@ a.icon.twitter {
 }
 #venue #wifiicon img {
   margin-top: 20px;
+}
+#pins {
+  position: relative;
+}
+#pins li {
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  background-image: url("../img/pins.png");
+  background-repeat: no-repeat;
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+#pins li div {
+  display: none;
+}
+#pins li:hover {
+  background-position: 0px -52px;
 }
 #sponsors {
   margin: 60px auto 0 auto;

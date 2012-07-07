@@ -672,14 +672,22 @@ a.icon
 			position relative
 			
 			.hotspot
+				font-size 0.85em
 				text-align left
 				position absolute
-				width 300px
+				width 280px
 				height 40px
 				color #fff
-				font-family 'Doppio One'
-				top 435px
+				line-height 1.2em
+				top 415px
 				left 530px
+				
+				b
+					font-family 'Doppio One'	
+					line-height 1.6em
+				.small
+					font-size 0.8em
+					color #888
 		
 	@css {
 		.black {
@@ -709,6 +717,25 @@ a.icon
 		
 		img
 			margin-top 20px
+			
+#pins
+	position relative
+	
+	li
+		position absolute
+		width 40px
+		height 50px
+		background-image url(../img/pins.png)
+		background-repeat no-repeat
+		opacity 0
+		
+		div
+			display none
+			
+		&:hover
+			background-position 0px -52px
+			
+			
 			
 #sponsors
 	margin 60px auto 0 auto

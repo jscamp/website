@@ -22,6 +22,17 @@ var highlightTalks = _.once(function() {
 	$("#talks").addClass("current");
 });
 
+var dropPins = _.once(function() {
+	$("#pins li").each(function() {
+		var top = parseInt($(this).css("top"));
+		var t = this;
+		_.delay(function() {
+			$(t).animate({opacity: 1, top: (top+50)},400);
+		},(top-150));
+	});
+});
+
+
 var scrollStart = _.once(function() {
 	var res = $(window).width();
 	if(res <= 900)
@@ -42,6 +53,9 @@ $(window).scroll(function() {
 	if(scrollTop + wHeight/3*2 >= sTop) {
 		$("#sessionicon").addClass("moved");
 		_.delay(highlightTalks,1000);
+	}
+	if(scrollTop + wHeight/10 >= vTop) {
+		dropPins();
 	}
 	
 	var pos = scrollTop - sTop,
@@ -100,6 +114,12 @@ $("#subscribeForm").ajaxForm({
 $("#subscribeForm .msg").click(function() {
 	$("#subscribeForm .msg").slideUp();
 });
+
+$("#pins li").hover(function() {
+	$("#hotspots .hotspot").html($(this).find("div").html());
+},function() {
+	$("#hotspots .hotspot").html("");
+})
 
 
 function routeTo(href) {	
