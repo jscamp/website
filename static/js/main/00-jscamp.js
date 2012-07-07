@@ -14,12 +14,24 @@ _.delay(function() {
 _.delay(function() {
 	$("#top").fadeIn(1000);
 	var scrollPos = $(window).scrollTop();
-	if(scrollPos == 0)
+	if(scrollPos == 0) {
 		$("#home").animate({height: "680px"}, 800);
+		$.scrollTo(670, {duration: 800});
+	}
 }, 7000);
 
 var highlightTalks = _.once(function() {
 	$("#talks").addClass("current");
+});
+
+var showTweets = _.once(function() {
+	var d = 200;
+	$("#tweets .twtr-tweet").each(function() {
+		var t = this;
+		_.delay(function() {
+			$(t).animate({opacity: 1},400);
+		},(d+=150));
+	});
 });
 
 var dropPins = _.once(function() {
@@ -49,10 +61,14 @@ $(window).scroll(function() {
 		sTop = $("#sessions").position().top - 100,
 		sHeight = 340,
 		vTop = $("#venue").position().top - 115;
+		tTop = $("#tweets").position().top - 100;
 		
-	if(scrollTop + wHeight/3*2 >= sTop) {
+	if(scrollTop + wHeight/2 >= sTop) {
 		$("#sessionicon").addClass("moved");
 		_.delay(highlightTalks,1000);
+	}
+	if(scrollTop + wHeight/2 >= tTop) {
+		showTweets();
 	}
 	if(scrollTop + wHeight/10 >= vTop) {
 		dropPins();

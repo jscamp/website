@@ -585,6 +585,8 @@ h3 {
   position: relative;
   border: 0;
   margin: 15px 0;
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 }
 #twtr-widget-1 .twtr-tweet .twtr-tweet-text {
   margin-top: 1em;
