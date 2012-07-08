@@ -93,13 +93,6 @@ $("#sessions #sessionicon div").click(function() {
 	$.scrollTo($("#sessions").position().top - 100, {duration:300});
 });
 
-
-krusovice.tools.fadeIn(document.getElementById("la_oceansound"),500,0.4,50);
-
-_.delay(function() {
-	krusovice.tools.fadeOut(document.getElementById("la_oceansound"),9000,0,50);
-},500);
-
 $("#subscribeForm").ajaxForm({
 	url: "./addsubscriber.php",
 	dataType: "html",
@@ -139,7 +132,7 @@ $("#pins li").hover(function() {
 
 
 function routeTo(href) {	
-	var goto = (href.indexOf("http") == 0) ? href.substr(20).toLowerCase() : href;
+	var goto = (href.indexOf("http") == 0) ? href.substr(19).toLowerCase() : href;
 	var offset = 110;
 	if(goto == "talks" || goto == "sprints" || goto == "workshops") {
 		$("#"+goto).click();
@@ -159,6 +152,12 @@ window.onpopstate = function(event) {
 }
 
 $(document).ready(function () {
+	krusovice.tools.fadeIn(document.getElementById("la_oceansound"),500,0.4,50);
+	
+	_.delay(function() {
+		krusovice.tools.fadeOut(document.getElementById("la_oceansound"),9000,0,50);
+	},500);
+
 	$("a").click(function(event) {
 		var target = $(event.target).is("a") ? $(event.target) : $(event.target).closest("a");
 		var href = $(target).attr("href");
