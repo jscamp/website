@@ -640,7 +640,7 @@ h3 {
   margin-left: 27px;
 }
 a.icon {
-  display: inline-block;
+  display: block;
   width: 40px;
   height: 40px;
   cursor: pointer;
@@ -663,6 +663,15 @@ a.icon.twitter {
   background-image: url("../img/twitter.png");
   background-repeat: no-repeat;
   background-position: 6px 6px;
+}
+a.icon.gplus {
+  color: #fff !important;
+  font-size: 2.5em;
+  line-height: 40px;
+  font-weight: bold;
+  font-family: Courier, monospace;
+  text-align: center;
+  text-decoration: none;
 }
 #js {
   color: #000;
