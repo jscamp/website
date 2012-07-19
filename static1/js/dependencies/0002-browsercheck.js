@@ -17,7 +17,10 @@
 	else if(jQuery.browser.webkit) {
 		userAgent.v = jQuery.browser.version.split('.');
 		userAgent.tooOld = (userAgent.v[0] < 534) || (userAgent.v[0] == 534 && userAgent.v[1] < 17);
-		if(/chrome/.test(userAgent.string)) {
+		if(/android|iphone|ipad/.test(userAgent.string)) {
+			userAgent.mobile = true;
+		}
+		else if(/chrome/.test(userAgent.string)) {
 			userAgent.url = "http://www.google.com/chrome/";
 		}
 		else if(/safari/.test(userAgent.string)) {
@@ -34,9 +37,10 @@
 	}
 	
 	if(userAgent.tooOld && userAgent.url) {
-		if(confirm("Surely you want to switch to a modern browser before attending this conference, because this one won't do."))
+		if(confirm("Help us to bring web forward a bit today and install a more recent version of your browser."))
 			window.location = userAgent.url;
-		else
-			alert("Here be dragons...");
+	}
+	else if(userAgent.tooOld && userAgent.mobile) {
+		alert("Help us to bring web forward a bit today and install a more recent version of your browser or mobile OS.");
 	}
 })();
