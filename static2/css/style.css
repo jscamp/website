@@ -433,8 +433,9 @@ h3 {
 #info #facts li .icon.venue {
   line-height: 1.7em;
 }
-#info #facts p {
-  margin-top: 92px;
+#info #facts p.margin {
+  margin-top: 10px;
+  padding-bottom: 12px;
 }
 #info #facts form {
   position: relative;
