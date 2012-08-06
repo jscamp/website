@@ -41,7 +41,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 //-->
 	<meta charset="utf-8">
 
-	<title>JScamp.Asia - Undisclosured</title>
+	<title>JSCamp.Asia - Undisclosured</title>
 
 	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
 	<meta name="viewport" content="width=900" />
@@ -50,9 +50,9 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="http://jscamp.asia/"/>
 	<meta property="og:image" content="http://jscamp.asia/static4/img/jscampasia.jpg"/>
-	<meta property="og:site_name" content="JScamp.Asia"/>
+	<meta property="og:site_name" content="JSCamp.Asia"/>
 	<meta property="og:description" content="The hands-on JavaScript web and mobile developer conference for Asia. Singapore, 29th + 30th November 2012"/>
-	<meta name="title" content="JScamp.Asia - Undisclosured"/>
+	<meta name="title" content="JSCamp.Asia - Undisclosured"/>
 	<meta name="description" content="The hands-on JavaScript web and mobile developer conference for Asia. Singapore, 29th + 30th November 2012"/>
 	
 	<!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
@@ -106,10 +106,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<div class="back">
 					<div id="sponsorsplash">
 						with kind support of<br/>
-						<a href="http://www.google.com/about/" target="_blank"><img src="static4/img/sponsors/google.png" width="165" /></a>
-						<a href="http://www.softlayer.com" target="_blank"><img src="static4/img/sponsors/softlayer.png" width="165" /></a>
-						<a href="https://www.paypal.com.sg/" target="_blank"><img src="static4/img/sponsors/paypal.png" width="165" /></a>
-						<!--<a href="http://www.microsoft.com/en-sg/" target="_blank"><img src="static4/img/sponsors/microsoft.png" width="135" /></a>//-->
+						<a href="http://www.google.com/about/" target="_blank"><img src="static4/img/sponsors/google.png" width="135" /></a>
+						<a href="http://www.softlayer.com" target="_blank"><img src="static4/img/sponsors/softlayer.png" width="135" /></a>
+						<a href="https://www.paypal.com.sg/" target="_blank"><img src="static4/img/sponsors/paypal.png" width="135" /></a>
+						<a href="http://www.microsoft.com/en-sg/" target="_blank"><img src="static4/img/sponsors/microsoft.png" width="135" /></a>
 					</div>
 				</div>
 			</div>
@@ -515,25 +515,14 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							At JScamp they'll share insights into some of their newest web developments.
 						</div>
 					</li>
-					<!--<li>
+					<li>
 						<div class="links">
 							<a href="http://microsoft.com.sg/" target="_blank" class="www icon">www</a>
 							<a href="http://twitter.com/microsoft_sg" target="_blank" class="twitter icon" title="@microsoft_sg"></a>
 						</div>
 						<div class="img"><a href="http://microsoft.com.sg/" target="_blank"><img src="static4/img/sponsors/microsoft.png" /></a></div>
 						<div class="bio">
-							The biggest software company in the world has a long history of support for the Southeast Asian developer community. With their Windows and Office products they power the most popular platforms for developers to work with.
-						</div>
-					</li>//-->
-					<li>
-						<div class="links">
-							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
-						</div>
-						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static4/img/supporters/adz.png" /></a></div>
-						<div class="bio">
-							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
-							of JavaScript to deliver the best user experience in the industry.
+							Microsoft's Developer &amp; Platform Evangelism (DPE) group builds a vibrant solutions ecosystem through evangelism, community engagement and technology marketing. The biggest software company in the world has a long history of support for the Southeast Asian developer community. From consumer products to enterprise solutions they power the most popular platforms for developers around the world to work with.
 						</div>
 					</li>
 				</ul>
@@ -550,14 +539,16 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
-						<div class="name">
-							Become a Sponsor
+						<div class="links">
+							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
 						</div>
+						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static4/img/supporters/adz.png" /></a></div>
 						<div class="bio">
-							We are eager to make JScamp the web and mobile developer conference of the year and there is much to benefit from as our sponsor. <a href="mailto:sponsors@jscamp.asia">Drop us a mail</a>
+							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
+							of JavaScript to deliver the best user experience in the industry.
 						</div>
 					</li>
-
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -570,7 +561,14 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							PayPal is the safer, easier way to pay and get paid online. The service allows anyone to pay in any way they prefer, including through credit cards, bank accounts, PayPal Smart Connect or account balances, without sharing financial information.
 						</div>
 					</li>
-
+					<li>
+						<div class="name">
+							Become a Sponsor
+						</div>
+						<div class="bio">
+							We are eager to make JScamp the web and mobile developer conference of the year and there is much to benefit from as our sponsor. <a href="mailto:sponsors@jscamp.asia">Drop us a mail</a>
+						</div>
+					</li>
 				</ul>
 			</div>
 
