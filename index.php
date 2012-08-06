@@ -93,7 +93,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				00:00:00
 				</div>
 				<div id="ticketsale">
-				70% off Early-Bird ticket sale is TODAY from 3-8PM only!
+				70% off Early-Bird ticket sale is TODAY from 3-8PM SGT only!
 				</div>
 
 			</div>
