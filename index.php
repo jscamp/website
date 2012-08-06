@@ -49,7 +49,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<meta property="og:title" content="JScamp.Asia - Undisclosured"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="http://jscamp.asia/"/>
-	<meta property="og:image" content="http://jscamp.asia/static4/img/jscampasia.jpg"/>
+	<meta property="og:image" content="http://jscamp.asia/static5/img/jscampasia.jpg"/>
 	<meta property="og:site_name" content="JSCamp.Asia"/>
 	<meta property="og:description" content="The hands-on JavaScript web and mobile developer conference for Asia. Singapore, 29th + 30th November 2012"/>
 	<meta name="title" content="JSCamp.Asia - Undisclosured"/>
@@ -60,10 +60,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
-	<link rel="stylesheet" href="static4/css/style.css" />
+	<link rel="stylesheet" href="static5/css/style1.css" />
 	
 	<!-- All JavaScript at the bottom except shims -->
-	<!--[if lte IE 8 ]><script src="static4/js/libs/es5.js"></script><![endif]-->
+	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans' rel='stylesheet' type='text/css'>
 
 </head>
@@ -77,7 +77,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			<td>
 		
 			<div id="logoanim" class="content">
-				<img src="static4/img/jscampasia.jpg" border="0"/>
+				<img src="static5/img/jscampasia.jpg" border="0"/>
 				<div id="la_logo">
 					<div id="la_jscamp">jscamp</div>
 					<div id="la_asia">&nbsp;.asia</div>
@@ -89,12 +89,12 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<div id="la_trunk">/</div>
 					<span id="la_beach">~~~</span><span id="la_sea">~~</span>		
 				</div>
-				<div id="counter">
+				<!--<div id="counter">
 				00:00:00
 				</div>
 				<div id="ticketsale">
-				70% off Early-Bird ticket sale is TODAY from 3-8PM SGT only!
-				</div>
+				Thanks everybody! You're awesome!<br/>Next ticket sale will start on August 16th!
+				</div>//-->
 
 			</div>
 			
@@ -106,10 +106,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<div class="back">
 					<div id="sponsorsplash">
 						with kind support of<br/>
-						<a href="http://www.google.com/about/" target="_blank"><img src="static4/img/sponsors/google.png" width="135" /></a>
-						<a href="http://www.softlayer.com" target="_blank"><img src="static4/img/sponsors/softlayer.png" width="135" /></a>
-						<a href="https://www.paypal.com.sg/" target="_blank"><img src="static4/img/sponsors/paypal.png" width="135" /></a>
-						<a href="http://www.microsoft.com/en-sg/" target="_blank"><img src="static4/img/sponsors/microsoft.png" width="135" /></a>
+						<a href="http://www.google.com/about/" target="_blank"><img src="static5/img/sponsors/google.png" width="135" /></a>
+						<a href="http://www.softlayer.com" target="_blank"><img src="static5/img/sponsors/softlayer.png" width="135" /></a>
+						<a href="https://www.paypal.com.sg/" target="_blank"><img src="static5/img/sponsors/paypal.png" width="135" /></a>
+						<a href="http://spiffy.sg/" target="_blank"><img src="static5/img/sponsors/microsoft.png" width="135" /></a>
 					</div>
 				</div>
 			</div>
@@ -146,9 +146,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 								With all its awesome!<br/>
 								Forget bacon. Here comes chicken rice!<br/><br/>
 								<span class="announcement">
-									<img src="static4/img/earlybird.png" border="0" />
-									Get tickets <b>70% off</b> the corporate rate of 590SGD only<br/>
-									<a href="./JSCamp.Asia Early-Bird flash-sale.ics" style="text-decoration: underline;">TODAY 3-8pm SGT</a>
+									Ticket sales will be open on <b>August 16th</b> for a corporate rate of <b>590SGD</b>.
 								</span>
 					</h3>
 				</div>
@@ -235,7 +233,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<a href="http://twitter.com/ebidel" class="twitter icon" target="_blank" title="@ebidel"></a>
 							<a href="https://plus.google.com/115478738847874567952" target="_blank" class="gplus icon" title="+Eric Bidelman">+</a>
 						</div>
-						<div class="img"><img src="static4/img/speakers/ericbidelman.png" alt="Eric Bidelman" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/ericbidelman.png" alt="Eric Bidelman" border="0" /></div>
 						<div class="name">
 							Eric Bidelman
 						</div>
@@ -247,7 +245,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="links">
 							<a href="http://twitter.com/secoif" class="twitter icon" target="_blank" title="@secoif"></a>
 						</div>
-						<div class="img"><img src="static4/img/speakers/timoxley.png" alt="Tim Oxley" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/timoxley.png" alt="Tim Oxley" border="0" /></div>
 						<div class="name">
 							Tim Oxley
 						</div>
@@ -260,7 +258,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="links">
 							<a href="http://twitter.com/drbernhard" class="twitter icon" target="_blank" title="@drbernhard"></a>
 						</div>
-						<div class="img"><img src="static4/img/speakers/janjongboom.png" alt="Jan Jongboom" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/janjongboom.png" alt="Jan Jongboom" border="0" /></div>
 						<div class="name">
 							Jan Jongboom
 						</div>
@@ -277,7 +275,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<a href="http://twitter.com/ireneros" class="twitter icon" target="_blank" title="@ireneros"></a>
 							<a href="https://plus.google.com/110949345457543290862" class="gplus icon" target="_blank" title="+Irene Ros">+</a>
 						</div>
-						<div class="img"><img src="static4/img/speakers/ireneros.png" alt="Irene Ros" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/ireneros.png" alt="Irene Ros" border="0" /></div>
 						<div class="name">
 							Irene Ros
 						</div>
@@ -291,7 +289,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="links">
 							<a href="http://twitter.com/wonderchook" class="twitter icon" target="_blank" title="@wonderchook"></a>
 						</div>
-						<div class="img"><img src="static4/img/speakers/katechapman.png" alt="Kate Chapman" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/katechapman.png" alt="Kate Chapman" border="0" /></div>
 						<div class="name">
 							Kate Chapman
 						</div>
@@ -325,7 +323,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="links">
 							<a href="http://twitter.com/maccman" class="twitter icon" target="_blank" title="@maccman"></a>
 						</div>
-						<div class="img"><img src="static4/img/speakers/alexmccaw.png" alt="Alex McCaw" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/alexmccaw.png" alt="Alex McCaw" border="0" /></div>
 						<div class="name">
 							Alex MacCaw
 						</div>
@@ -337,7 +335,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="links">
 							<a href="http://twitter.com/michalbe" class="twitter icon" title="@michalbe" target="_blank"></a>
 						</div>
-						<div class="img"><img src="static4/img/speakers/michalbudzynski.png" alt="Michal Budzynski" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/michalbudzynski.png" alt="Michal Budzynski" border="0" /></div>
 						<div class="name">
 							Michal Budzynski
 						</div>
@@ -361,7 +359,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="links">
 							<a href="https://plus.google.com/115478738847874567952" target="_blank" class="gplus icon" title="+Shannon -jj Behrens">+</a>
 						</div>
-						<div class="img"><img src="static4/img/speakers/jj.png" alt="Shannon &quot;JJ&quot; Behrens" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/jj.png" alt="Shannon &quot;JJ&quot; Behrens" border="0" /></div>
 						<div class="name">
 							Shannon JJ Behrens
 						</div>
@@ -459,7 +457,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</div>
 					<h2 class="content">Our Venue</h2>
-					<img src="static4/img/venue.png" height="349" border="0" />
+					<img src="static5/img/venue.png" height="349" border="0" />
 				</div>
 				<div class="content">
 					<table border="0">
@@ -476,11 +474,11 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 								Singapore 119241
 								<br/><br/><br/>
 							</p>
-							<img src="static4/img/nuss.jpg" border="0" />
+							<img src="static5/img/nuss.jpg" border="0" />
 						</td>
 						<td id="wifi">
 							<div id="wifiicon">
-								<img src="static4/img/wifi.png" border="0" />
+								<img src="static5/img/wifi.png" border="0" />
 							</div>
 							<h4>Wi-Fi, free and open</h4>
 							<p>
@@ -509,7 +507,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<a href="http://www.google.com/about/" target="_blank" class="www icon">www</a>
 							<a href="http://twitter.com/googleatwork" target="_blank" class="twitter icon" title="@googleatwork"></a>
 						</div>
-						<div class="img"><a href="http://www.google.com/about/" target="_blank"><img src="static4/img/sponsors/google.png" /></a></div>
+						<div class="img"><a href="http://www.google.com/about/" target="_blank"><img src="static5/img/sponsors/google.png" /></a></div>
 						<div class="bio">
 							Google just moved into their brand-spanking new office here in Singapore and is a great supporter of the local developer community in South-East Asia.
 							At JScamp they'll share insights into some of their newest web developments.
@@ -517,10 +515,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://microsoft.com.sg/" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/microsoft_sg" target="_blank" class="twitter icon" title="@microsoft_sg"></a>
+							<a href="http://spiffy.sg/" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/gospiffy" target="_blank" class="twitter icon" title="@gospiffy"></a>
 						</div>
-						<div class="img"><a href="http://microsoft.com.sg/" target="_blank"><img src="static4/img/sponsors/microsoft.png" /></a></div>
+						<div class="img"><a href="http://spiffy.sg/" target="_blank"><img src="static5/img/sponsors/microsoft.png" /></a></div>
 						<div class="bio">
 							Microsoft's Developer &amp; Platform Evangelism (DPE) group builds a vibrant solutions ecosystem through evangelism, community engagement and technology marketing. The biggest software company in the world has a long history of support for the Southeast Asian developer community. From consumer products to enterprise solutions they power the most popular platforms for developers around the world to work with.
 						</div>
@@ -532,7 +530,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<a href="http://www.softlayer.com/" target="_blank" class="www icon">www</a>
 							<a href="http://twitter.com/softlayer" class="twitter icon" target="_blank" title="@softlayer"></a>
 						</div>
-						<div class="img"><a href="http://www.softlayer.com" target="_blank"><img src="static4/img/sponsors/softlayer.png" /></a></div>
+						<div class="img"><a href="http://www.softlayer.com" target="_blank"><img src="static5/img/sponsors/softlayer.png" /></a></div>
 						<div class="bio">
 							Softlayer just opened a huge datacenter here in Singapore to be able to serve Asia even better with their physical and virtual cloud offers.
 							We are happy that they support us in our mission to bring you a great conference.
@@ -543,7 +541,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
 							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
 						</div>
-						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static4/img/supporters/adz.png" /></a></div>
+						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
 						<div class="bio">
 							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
 							of JavaScript to deliver the best user experience in the industry.
@@ -556,7 +554,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<a href="http://www.paypal.com.sg" target="_blank" class="www icon">www</a>
 							<a href="http://twitter.com/paypal" class="twitter icon" target="_blank" title="@paypal"></a>
 						</div>
-						<div class="img"><a href="http://www.paypal.com.sg" target="_blank"><img src="static4/img/sponsors/paypal.png" /></a></div>
+						<div class="img"><a href="http://www.paypal.com.sg" target="_blank"><img src="static5/img/sponsors/paypal.png" /></a></div>
 						<div class="bio">
 							PayPal is the safer, easier way to pay and get paid online. The service allows anyone to pay in any way they prefer, including through credit cards, bank accounts, PayPal Smart Connect or account balances, without sharing financial information.
 						</div>
@@ -596,7 +594,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			<div class="content">
 		
 				<div id="logoanim">
-					<img src="static4/img/jscampasia.jpg" border="0"/>
+					<img src="static5/img/jscampasia.jpg" border="0"/>
 					<div id="la_logo">
 						<div id="la_jscamp">jscamp</div>
 						<div id="la_asia">&nbsp;.asia</div>
@@ -617,7 +615,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<ul>
 						<li>
 							
-							<a href="http://twitter.com/serrynaimo" target="_blank"><img src="static4/img/team/thomas.jpg" border="0" /></a>
+							<a href="http://twitter.com/serrynaimo" target="_blank"><img src="static5/img/team/thomas.jpg" border="0" /></a>
 							<div class="name">
 								<a href="http://twitter.com/serrynaimo" target="_blank">Thomas Gorissen</a>
 								<a href="http://twitter.com/serrynaimo" target="_blank" class="twitter icon" title="@serrynaimo"></a>
@@ -629,7 +627,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</li>
 						<li>
 							
-							<a href="http://twitter.com/sayanee_" target="_blank"><img src="static4/img/team/sayanee.jpg" border="0" /></a>
+							<a href="http://twitter.com/sayanee_" target="_blank"><img src="static5/img/team/sayanee.jpg" border="0" /></a>
 							<div class="name">
 								<a href="http://twitter.com/sayanee_" target="_blank">Sayanee Basu</a>
 								<a href="http://twitter.com/sayanee_" target="_blank" class="twitter icon" title="@sayanee_"></a>
@@ -642,7 +640,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						
 						<li>
 							
-							<a href="http://twitter.com/sebdeckers" target="_blank"><img src="static4/img/team/seb.jpg" border="0" /></a>
+							<a href="http://twitter.com/sebdeckers" target="_blank"><img src="static5/img/team/seb.jpg" border="0" /></a>
 							<div class="name">
 								<a href="http://twitter.com/sebdeckers" target="_blank">Sebastiaan Deckers</a>
 								<a href="http://twitter.com/sebdeckers" target="_blank" class="twitter icon" title="@sebdeckers"></a>
@@ -694,7 +692,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
 	<!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> -->
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.js"></script>
-    <script type="text/javascript">window.jQuery || document.write('<script src="static4/js/libs/jquery.min.js">\x3C/script>')</script>
+    <script type="text/javascript">window.jQuery || document.write('<script src="static5/js/libs/jquery.min.js">\x3C/script>')</script>
 
 	<!-- Setup Adz bootstrapping -->
 	<script type="text/javascript">
@@ -702,20 +700,20 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	</script>
 
 	<!-- scripts concatenated and minified via ant build script-->
-	<script type="text/javascript" src="static4/js/dependencies/0002-browsercheck-ck.js"></script>
-	<script type="text/javascript" src="static4/js/dependencies/0020-underscore-ck.js"></script>
-	<script type="text/javascript" src="static4/js/dependencies/0050-audiofade-ck.js"></script>
-	<script type="text/javascript" src="static4/js/dependencies/0070-jquery.scrollto-ck.js"></script>
-	<script type="text/javascript" src="static4/js/dependencies/0080-jquery.form-ck.js"></script>
-	<script type="text/javascript" src="static4/js/main/00-jscamp-ck.js"></script>
+	<script type="text/javascript" src="static5/js/dependencies/0002-browsercheck-ck.js"></script>
+	<script type="text/javascript" src="static5/js/dependencies/0020-underscore-ck.js"></script>
+	<script type="text/javascript" src="static5/js/dependencies/0050-audiofade-ck.js"></script>
+	<script type="text/javascript" src="static5/js/dependencies/0070-jquery.scrollto-ck.js"></script>
+	<script type="text/javascript" src="static5/js/dependencies/0080-jquery.form-ck.js"></script>
+	<script type="text/javascript" src="static5/js/main/01-jscamp-ck.js"></script>
 	<!-- end scripts-->
 	
 	<audio id="la_oceansound" preload="auto" autobuffer="autobuffer" style="display: none"> 
-	  <source src="static4/fx/ocean_edge.wav" />
+	  <source src="static5/fx/ocean_edge.wav" />
 	</audio>
 
     <!-- Resource strings used in Javascript for localization (and other variables and third-party additions) -->
-	<!--<script type="text/javascript" src="static4/js/l10n/en.js"></script> -->
+	<!--<script type="text/javascript" src="static5/js/l10n/en.js"></script> -->
 	
 	<script type="text/javascript" defer="defer">
 
@@ -726,7 +724,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	s.parentNode.insertBefore(g,s)}(document,'script'));
  
 	//time to countdown in seconds, and element ID
-	javascript_countdown.init(<?php echo getSecs(); ?>, 'counter');
+	//javascript_countdown.init(0, 'counter');
 
 	</script>
 </body>

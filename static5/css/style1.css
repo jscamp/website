@@ -183,7 +183,7 @@ body {
 }
 #gettickets {
   font-size: 0.3em;
-  padding: 30px 60px;
+  padding: 30px 80px;
   background: #008000;
   border: 3px solid #fff;
   color: #fff;
@@ -195,11 +195,6 @@ body {
   border-radius: 12px;
   position: relative;
   top: -30px;
-  -webkit-animation: blink 1s infinite linear;
-  -moz-animation: blink 1s infinite linear;
-  -o-animation: blink 1s infinite linear;
-  -ms-animation: blink 1s infinite linear;
-  animation: blink 1s infinite linear;
 }
 #ticketsale {
   position: relative;

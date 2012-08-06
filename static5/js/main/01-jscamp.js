@@ -6,11 +6,11 @@ _.delay(function() {
 _.delay(function() {
 	$("#messageCont").find(".back").css({visibility: "visible"});
 	$("#messageCont").addClass("flipped");
-	$("#logoanim").addClass("small");
+	//$("#logoanim").addClass("small");
 	_.delay(function() {
 		$("#messageCont .front").css({visibility: "hidden"});
 	},0);
-}, 5000);
+}, 4000);
 
 _.delay(function() {
 	$("#top").fadeIn(1000);
@@ -19,7 +19,7 @@ _.delay(function() {
 		$("#home").animate({height: "680px"}, 800);
 		//$.scrollTo(670, {duration: 800});
 	}
-}, 10000);
+},6000);
 
 var highlightTalks = _.once(function() {
 	$("#talks").addClass("current");
@@ -182,7 +182,7 @@ var javascript_countdown = function () {
 	var time_left = 10; //number of seconds for countdown
 	var output_element_id = 'counter';
 	var keep_counting = 1;
-	var no_time_left_message = "<a href='https://jscamp.wufoo.eu/forms/earlybird-70-off/' target='_blank' id='gettickets'>Get your ticket now!</div>";
+	var no_time_left_message = "<span id='gettickets'>Sold out!</span>";
  
 	function countdown() {
 		if(time_left < 2) {
