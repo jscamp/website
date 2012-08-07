@@ -146,7 +146,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 								With all its awesome!<br/>
 								Forget bacon. Here comes chicken rice!<br/><br/>
 								<span class="announcement">
-									Ticket sales will be open on <b>August 16th</b> for a corporate rate of <b>590SGD</b>.
+									Ticket sales will be open on <b><a href="http://jscamp.asia/JSCamp.Asia%202012%20Ticket-Sale.ics">August 16th, 3pm SGT</a></b><br/>for a corporate rate of <b>590SGD</b>.
 								</span>
 					</h3>
 				</div>
@@ -321,6 +321,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<ul class="speakers">
 					<li>
 						<div class="links">
+							<a href="http://twitter.com/angustweets" class="twitter icon" target="_blank" title="@angustweets"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/anguscroll.png" alt="Angus Croll" border="0" /></div>
+						<div class="name">
+							Angus Croll
+						</div>
+						<div class="bio">
+							Angus is a member of the Web Core team at <a href="http://twitter.com" target="_blank">Twitter</a>. He is author of the <a href="http://javascriptweblog.wordpress.com" target="_blank">JavaScript JavaScript blog</a> and an upcoming JavaScript book for No Starch Press. Originally from the UK, Angus now lives in Sausalito, California.
+						</div>
+					</li>
+					<li>
+						<div class="links">
 							<a href="http://twitter.com/maccman" class="twitter icon" target="_blank" title="@maccman"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/alexmccaw.png" alt="Alex McCaw" border="0" /></div>
@@ -370,6 +382,21 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				</ul>
 				<ul class="speakers">
 					<li>
+						<div class="links">
+							<a href="http://twitter.com/rstacruz" class="twitter icon" title="@rstacruz" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/ricostacruz.png" alt="Rico Sta. Cruz" border="0" /></div>
+						<div class="name">
+							Rico Sta. Cruz
+						</div>
+						<div class="bio">
+							<a href="http://www.ricostacruz.com" target="_blank">Rico</a> is a Ruby and JavaScript developer from the Philippines whose passion lies in building great web applications and slick user interfaces.
+							He is the co-founder of a small web development team in Manila called <a href="http://nadarei.co" target="_blank">Nadarei</a>, the author of the Backbone.js guide <a href="http://ricostacruz.com/backbone-patterns" target="_blank">Backbone Patterns</a> among other open-source projects that help people build great apps.
+						</div>
+					</li>
+				</ul>
+				<ul class="speakers">
+					<li>
 						<div class="name">
 							Soon!
 						</div>
@@ -381,9 +408,6 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>!
 						</div>
 					</li>
-				</ul>
-				<ul class="speakers">
-	
 				</ul>
 			</div>
 			<div class="sessiondesc" id="sprintsdesc">
@@ -599,7 +623,9 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div id="la_jscamp">jscamp</div>
 						<div id="la_asia">&nbsp;.asia</div>
 						<div id="la_undisclosured">UNDISCLOSURED</div>
-						<div id="ls_info">Singapore,<br/>29th + 30th November 2012<br/><br/><br/>A Nerdherd Pte. Ltd. event</div>
+						<div id="ls_info">Singapore,<br/>29th + 30th November 2012<br/><br/><br/>A Nerdherd Pte. Ltd. event
+							<br/><a href="terms.html" style="font-size: 0.8em; font-family: 'Open Sans'; opacity: 0.5;">Terms &amp; Conditions</a>
+						</div>
 					</div>
 				</div>
 				
