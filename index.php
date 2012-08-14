@@ -281,7 +281,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Divya Manian
 						</div>
 						<div class="bio">
-							Divya Manian is part of the <a href="http://html.adobe.com/" target="_blank">Adobe Web Platform Team</a>. She
+							Divya is part of the <a href="http://html.adobe.com/" target="_blank">Adobe Web Platform Team</a>. She
 							made the jump from developing device drivers for Motorola phones to
 							designing websites and has not looked back since. She takes her duties as
 							an Open Web vigilante seriously which has resulted in collaborative
