@@ -274,6 +274,22 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<ul class="speakers">
 					<li>
 						<div class="links">
+							<a href="http://twitter.com/divya" class="twitter icon" target="_blank" title="@divya"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/divyamanian.png" alt="Divya Manian" border="0" /></div>
+						<div class="name">
+							Divya Manian
+						</div>
+						<div class="bio">
+							Divya Manian is part of the <a href="http://html.adobe.com/" target="_blank">Adobe Web Platform Team</a>. She
+							made the jump from developing device drivers for Motorola phones to
+							designing websites and has not looked back since. She takes her duties as
+							an Open Web vigilante seriously which has resulted in collaborative
+							projects such as <a href="http://html5please.com/" target="_blank">HTML5 Please</a> and <a href="http://html5boilerplate.com/" target="_blank">HTML5 Boilerplate</a>.
+						</div>
+					</li>
+					<li>
+						<div class="links">
 							<a href="http://twitter.com/ireneros" class="twitter icon" target="_blank" title="@ireneros"></a>
 							<a href="https://plus.google.com/110949345457543290862" class="gplus icon" target="_blank" title="+Irene Ros">+</a>
 						</div>
@@ -305,18 +321,6 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							to collect infrastructure data. Kate was involved in development of multiple web-GIS applications.
 							She acted as Developer Community Lead for <a href="http://geocommons.com/" target="_blank">GeoCommons</a> and served in
 							various technical roles at <a href="http://imapdata.com/" target="_blank">iMapData</a>.
-						</div>
-					</li>
-					<li>
-						<div class="name">
-							Check back every week
-						</div>
-						<div class="bio">
-							We'll reveal more speakers every week. Be sure to check back and get the updates!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a><br/><br/>
-							Tell us who you miss on this list in our 
-							<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>!
 						</div>
 					</li>
 				</ul>
@@ -358,6 +362,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							In his free time he creates many ridiculous experiments like <a href="https://developer.mozilla.org/pl/demos/detail/css-nyan-cat" target="_blank">CSS Nyan Cat</a> or <a href="https://demoparty.mozillalabs.com/gallery/43/al-your-gradient-are-belong-to-us" target="_blank">All your gradient are belong to us</a>.
 							He officiates as an HTML5 GameDev trainer in W3C and ran technical workshops and tech-talks in many countries on different continents. He organizes <a href="http://ongamestart.com/" target="_blank">onGameStart</a> in Warsaw, the first HTML5 games conference and safely says that making web a better place is not just his job - it's his lifestyle.
 							That's why he founds <a href="http://bly.sk" target="_blank">BLYSK</a>, very first serious web animation tool.
+						</div>
+					</li>
+					<li>
+						<div class="name">
+							Check back every week
+						</div>
+						<div class="bio">
+							We'll reveal more speakers every week. Be sure to check back and get the updates!<br/><br/>
+							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
+							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a><br/><br/>
+							Tell us who you miss on this list in our 
+							<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>!
 						</div>
 					</li>
 				</ul>
