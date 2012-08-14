@@ -106,10 +106,11 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<div class="back">
 					<div id="sponsorsplash">
 						with kind support of<br/>
-						<a href="http://www.google.com/about/" target="_blank"><img src="static5/img/sponsors/google.png" width="135" /></a>
-						<a href="http://www.softlayer.com" target="_blank"><img src="static5/img/sponsors/softlayer.png" width="135" /></a>
-						<a href="https://www.paypal.com.sg/" target="_blank"><img src="static5/img/sponsors/paypal.png" width="135" /></a>
-						<a href="http://spiffy.sg/" target="_blank"><img src="static5/img/sponsors/microsoft.png" width="135" /></a>
+						<a href="http://www.google.com/about/" target="_blank"><img src="static5/img/sponsors/google.png" width="103" /></a>
+						<a href="http://www.softlayer.com" target="_blank"><img src="static5/img/sponsors/softlayer.png" width="103" /></a>
+						<a href="https://www.paypal.com.sg/" target="_blank"><img src="static5/img/sponsors/paypal.png" width="103" /></a>
+						<a href="http://spiffy.sg/" target="_blank"><img src="static5/img/sponsors/microsoft.png" width="103" /></a>
+						<a href="http://html.adobe.com/" target="_blank"><img src="static5/img/sponsors/adobe.png" width="103" /></a>
 					</div>
 				</div>
 			</div>
@@ -580,13 +581,12 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
+							<a href="http://html.adobe.com" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/adobe" class="twitter icon" target="_blank" title="@paypal"></a>
 						</div>
-						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
+						<div class="img"><a href="http://html.adobe.com" target="_blank"><img src="static5/img/sponsors/adobe.png" /></a></div>
 						<div class="bio">
-							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
-							of JavaScript to deliver the best user experience in the industry.
+							
 						</div>
 					</li>
 				</ul>
@@ -599,6 +599,17 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="img"><a href="http://www.paypal.com.sg" target="_blank"><img src="static5/img/sponsors/paypal.png" /></a></div>
 						<div class="bio">
 							PayPal is the safer, easier way to pay and get paid online. The service allows anyone to pay in any way they prefer, including through credit cards, bank accounts, PayPal Smart Connect or account balances, without sharing financial information.
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
+						</div>
+						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
+						<div class="bio">
+							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
+							of JavaScript to deliver the best user experience in the industry.
 						</div>
 					</li>
 					<li>
