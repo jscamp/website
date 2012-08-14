@@ -146,7 +146,9 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 								With all its awesome!<br/>
 								Forget bacon. Here comes chicken rice!<br/><br/>
 								<span class="announcement">
+
 									Ticket sales will be open on <b><a href="http://jscamp.asia/JSCamp.Asia%202012%20Ticket-Sale.ics">August 16th, 3pm SGT</a></b><br/>for a corporate rate of <b>590SGD</b>.
+
 								</span>
 					</h3>
 				</div>
