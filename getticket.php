@@ -20,7 +20,8 @@ $discounts = array(
 	"GREENWAVEREALITY"	=> 30,
 	"WEBGEEKPH"			=> 50,
 	"FIID"				=> 50,
-	"ADOBEHTML"			=> 30
+	"ADOBEHTML"			=> 30,
+	"TWIA"				=> 30
 
 );
 
