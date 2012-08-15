@@ -3,7 +3,7 @@ date_default_timezone_set("Asia/Singapore");
 
 function getSecs() {
 
-	$now = date("U",strtotime("2012-08-06 15:00:00")) - date("U");
+	$now = date("U",strtotime("2012-08-16 15:00:00")) - date("U");
 	
 	return $now;
 
