@@ -60,7 +60,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
-	<link rel="stylesheet" href="static5/css/style3.css" />
+	<link rel="stylesheet" href="static5/css/style4.css" />
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
@@ -87,15 +87,15 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<div id="la_landscape">
 					<div id="la_palm">}</div>
 					<div id="la_trunk">/</div>
-					<span id="la_beach">~~~</span><span id="la_sea">~~</span>		
+					<span id="la_beach">~~~</span><span id="la_sea">~~</span>
 				</div>
-				<div id="counter">
+				<!--<div id="counter">
 				00:00:00
 				</div>
 				<div id="ticketsale">
 				Registration is open for a corporate rate of 590SGD!
 				<br/><a href="http://www.techinasia.com/jscamp-asia-undisclosured-conference-singapore/" target="_blank">Find out more</a>
-				</div>
+				</div>//-->
 
 			</div>
 			
@@ -149,7 +149,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 								Forget bacon. Here comes chicken rice!<br/><br/>
 								<span class="announcement">
 
-									Ticket sales will be open on <b><a href="http://jscamp.asia/JSCamp.Asia%202012%20Ticket-Sale.ics">August 16th, 3pm SGT</a></b><br/>for a corporate rate of <b>590SGD</b>.
+									<a href="getticket.php" id="ticketbutton">Register now!</a>		
 
 								</span>
 					</h3>
@@ -167,6 +167,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<li><a href="./workshops"><span class="icon workshops">()</span>6 workshops</a></li>
 							<li><a href="./sprints"><span class="icon sprints">&gt;&gt;</span>2 day coding sprints</a></li>
 							<li><a href="./venue"><span class="icon venue">@</span>NUSS Kent Ridge Guild House</a></li>
+							<li><a href="getticket.php"><span class="icon price">$</span>S$590 ticket price</a></li>
 						</ul>
 						
 						<p class="margin">
@@ -188,7 +189,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						new TWTR.Widget({
 						  version: 2,
 						  type: 'profile',
-						  rpp: 3,
+						  rpp: 4,
 						  interval: 30000,
 						  width: '280',
 						  height: '300',
@@ -739,6 +740,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			
 			</td>
 			<td>
+				<a href="getticket.php" target="_blank">Register now!</a>
 				<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>
 			</td>
 		</tr>
@@ -762,7 +764,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<script type="text/javascript" src="static5/js/dependencies/0050-audiofade-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0070-jquery.scrollto-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0080-jquery.form-ck.js"></script>
-	<script type="text/javascript" src="static5/js/main/03-jscamp-ck.js"></script>
+	<script type="text/javascript" src="static5/js/main/04-jscamp-ck.js"></script>
 	<!-- end scripts-->
 	
 	<audio id="la_oceansound" preload="auto" autobuffer="autobuffer" style="display: none"> 
