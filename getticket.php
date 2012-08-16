@@ -22,7 +22,8 @@ $discounts = array(
 	"FIID"				=> 50,
 	"ADOBEHTML"			=> 30,
 	"TWIA"				=> 30,
-	"HELLOASIA"			=> 50
+	"HELLOASIA"			=> 50,
+	"NODEJSSG"			=> 50
 
 );
 
