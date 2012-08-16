@@ -93,7 +93,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				00:00:00
 				</div>
 				<div id="ticketsale">
-				Registration will open today from on 3pm SGT.
+				Registration is open for a corporate rate of 590SGD!
 				<br/><a href="http://www.techinasia.com/jscamp-asia-undisclosured-conference-singapore/" target="_blank">Find out more</a>
 				</div>
 
@@ -780,7 +780,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	s.parentNode.insertBefore(g,s)}(document,'script'));
  
 	//time to countdown in seconds, and element ID
-	javascript_countdown.init(<?php echo getSecs(); ?>, 'counter');
+	javascript_countdown.init(0, 'counter');
 
 	</script>
 </body>
