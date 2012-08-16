@@ -60,7 +60,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
-	<link rel="stylesheet" href="static5/css/style2.css" />
+	<link rel="stylesheet" href="static5/css/style3.css" />
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
@@ -761,7 +761,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<script type="text/javascript" src="static5/js/dependencies/0050-audiofade-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0070-jquery.scrollto-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0080-jquery.form-ck.js"></script>
-	<script type="text/javascript" src="static5/js/main/02-jscamp-ck.js"></script>
+	<script type="text/javascript" src="static5/js/main/03-jscamp-ck.js"></script>
 	<!-- end scripts-->
 	
 	<audio id="la_oceansound" preload="auto" autobuffer="autobuffer" style="display: none"> 

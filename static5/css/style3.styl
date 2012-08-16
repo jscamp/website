@@ -1,0 +1,1062 @@
+@import "nib-index.styl"
+@charset "utf-8";
+
+global-reset()
+/*
+@font-face
+   font-family Courier
+   font-style normal
+   src url(../font/Courier.ttf)*/
+
+@css {
+	input::-moz-focus-inner, button::-moz-focus-inner { border: 0; }
+}
+
+backgroundColor = #fff
+jscampYellow = orange
+jscampBrown = brown
+jscampGreen = green
+jscampBlue = #38ACEC
+mWidth = 800px
+
+body
+	font-family 'Open Sans'
+	-moz-text-rendering optimizeLegibility
+	-webkit-font-smoothing antialiased
+	-moz-font-smooth never
+
+.clear
+	height 90px
+	clear both
+
+#body
+	position absolute
+	top 0px
+	left 0px
+	bottom 0px
+	right 0px
+
+#home
+	width 100%
+	height 100%
+	min-height 680px
+	
+.content
+	margin 0 auto
+	width mWidth
+
+#bg
+	position fixed
+	background-color #EDF7FF
+	background linear-gradient(top left, #D1EBFF 0%, white 60%)
+	top 0px
+	left 0px
+	right 0px
+	bottom 0px
+
+#logoanim
+	font-size 5em
+	font-weight bold
+	font-family Courier, monospace
+	transition all 0.5s ease-out
+
+	position relative
+	height 380px
+	margin-top 50px
+	
+	img
+		display none
+		
+	&.small
+		font-size 3em
+		
+		#la_logo
+			left 305px
+		
+		#la_landscape
+			opacity 0
+			
+		#counter, #ticketsale
+			opacity 1
+
+#discountcode	
+	text-align center
+	margin-top -120px
+	
+	span
+		font-weight bold
+		font-size 1.3em
+		line-height 1.3em
+		
+	a
+		color jscampGreen
+	
+	.form
+		position relative
+		width 350px
+		margin 0 auto
+		text-align left
+		
+		input
+			position absolute
+			top 35px
+			left 0px
+			border 1px solid #eee
+			border-radius 3px
+			padding 0 15px
+			line-height 1.4em
+			height 42px
+			font-size 1.2em
+			font-family Courier, monospace
+			
+		input[type='text']
+			width 325px
+		
+		input[type='submit']
+			position absolute
+			top 36px
+			left 266px
+			width 90px
+			cursor pointer
+			font-family 'Doppio One'
+			font-size 0.8em
+			background jscampYellow
+			color #fff
+			position relative
+			font-weight bold
+			
+			&:hover
+				background jscampGreen
+
+		
+#counter
+	position relative
+	top 170px
+	width mWidth * 2
+	margin-left -(mWidth/2)
+	margin-right -(mWidth/2)
+	text-align center
+	font-size 3.1em
+	color jscampYellow
+	font-family Courier, monospace
+	opacity 0
+
+#gettickets
+	font-size 0.3em
+	padding 30px 80px
+	background jscampGreen
+	border 3px solid #fff
+	color #fff
+	text-decoration none
+	border-radius 12px
+	position relative
+	top -30px
+	animation blink 1s infinite linear
+
+#ticketsale
+	position relative
+	top 170px
+	width mWidth
+	text-align center
+	font-size 0.4em
+	color jscampYellow
+	font-family 'Doppio One'
+	opacity 0
+	line-height 1.3em
+	
+	a
+		color jscampBlue
+	
+#la_logo
+	line-height 0.8em
+	position absolute
+	left 80px
+
+	
+	#la_jscamp
+		color jscampBlue
+	
+	#la_asia
+		color jscampYellow
+	
+	#la_undisclosured
+		color white
+		background-color black
+		font-size 0.58em
+		line-height 1em
+		transform rotate(-9deg)
+		position relative
+		left -0.8em
+		animation punch 1s linear
+	
+	#ls_info
+		font-family 'Doppio One'
+		font-size 0.28em
+		line-height 1em
+		margin 1.2em 0 0 -3em
+		text-align center
+		line-height 1.35em
+		color #444
+		animation fadein 1.5s linear
+
+#la_landscape
+	position absolute
+	top 170px
+	left -20px
+	font-size 3.5em
+
+	div
+		position absolute
+
+	#la_palm
+		color jscampGreen
+		font-size 1.05em
+		top -0.99em
+		left 1.63em
+		transform rotate(-80deg)
+		animation palm 10s infinite ease-in-out
+		
+	#la_trunk
+		color jscampBrown
+		top -0.5em
+		left 1.55em
+		
+	#la_sea
+		color jscampBlue
+		position relative
+		animation sea 8s infinite ease-in-out
+	
+	#la_beach
+		color jscampYellow
+
+#messageCont
+	display none
+	position relative
+	margin 0 auto
+	width 700px
+	height 130px
+	text-align center
+	transform perspective(500px)
+	transform-origin center center
+	transform-style preserve-3d
+
+	&.flipped
+		.front
+			transform rotateX(-180deg)
+		.back
+			transform rotateX(0deg)
+	
+	div
+		position absolute
+		top 0px
+		bottom 0px
+		left 0px
+		right 0px
+		backface-visibility hidden
+		transition all 0.4s ease-out
+
+
+		&.front
+			border-radius 8px
+			border 1px solid jscampYellow
+			background jscampYellow
+			color #fff
+			transform rotateX(0deg)
+			
+		&.back
+			visibility hidden
+			transform rotateX(180deg)
+
+	
+	#message
+		padding 31px 40px
+		line-height 1.4em
+		font-size 1.5em
+		font-weight bold
+
+	
+	#sponsorsplash
+		font-size 0.8em
+		padding 15px 30px 25px 30px
+		
+		img
+			margin 10px
+			border 1px solid #eee
+			border-radius 8px
+
+
+h2
+
+	font-size 5em
+	font-weight bold
+	font-family Courier, monospace
+	text-align center
+
+h3
+	margin-top 30px
+	font-size 1.1em
+	font-family 'Doppio One'
+	line-height 1.3em
+	text-align center
+				
+.content
+	h4
+		font-size 1.65em
+		font-family 'Doppio One'
+		margin 14px 0 30px 0	
+	
+	p
+		margin 30px 0 10px 0
+		font-size 0.85em
+		line-height 1.3em
+		font-family 'Open Sans'
+
+	table
+		width 100%
+		margin-top 60px
+		
+		td
+			vertical-align top
+
+#info
+	background-color green
+	background linear-gradient(bottom left, #00a200 0%, green 22%, green 60%, #00be00 100%)
+	color #fff
+	padding 0 0 70px 0
+	margin-bottom 100px
+	
+	.announcement
+		position relative
+		display inline-block
+		top 58px
+		padding 25px 70px
+		margin -25px 0
+		background jscampYellow
+		border-radius 8px 8px 8px 8px
+		border 1px solid #fff
+		
+		img
+			position absolute
+			top -50px
+			right -60px
+		
+	.black
+		padding-bottom 40px
+		
+	a
+		color #fff
+		text-decoration none
+	
+		&:hover
+			text-decoration underline
+		
+	#facts
+		font-size 1.1em
+
+		a
+			cursor pointer
+			font-family 'Doppio One'
+			font-weight 300
+			
+			&:hover	.icon
+					background jscampBlue
+		
+		li
+			.icon
+				text-decoration none
+				width 48px
+				height 48px
+				display inline-block
+				font-family Courier, monospace
+				font-weight bold
+				background jscampYellow
+				border-radius 3px
+				text-align center
+				line-height 1.6em
+				font-size 1.6em
+				margin 0 20px 15px 5px
+				border 1px solid #eee
+						
+				&.date
+					font-size 0.75em
+					line-height 3.8em
+				&.sprints, &.talks, &.venue
+					line-height 1.7em
+					
+		p.margin
+			margin-top 10px
+			padding-bottom 12px
+			
+		form
+			position relative
+			margin-bottom 20px
+			
+			.msg
+				position absolute
+				display none
+				font-size 0.7em
+				font-weight bold
+				top 42px
+				left 5px
+				width 250px
+				cursor pointer
+				background rgba(0,0,0,0.5)
+				padding 10px 15px
+				border-radius 0 0 3px 3px
+			
+			&.success
+				input[name='email']
+					animation success 2s 1 ease-in	
+				
+			&.failure
+				input[name='email']
+					animation failure 2s 1 ease-in
+					
+			@css {
+				.load input[name='email'] {
+					background-image: -webkit-gradient(linear, 0 0, 100% 100%, 
+					      color-stop(.25, rgba(0, 0, 0, .1)), 
+					      color-stop(.25, transparent), color-stop(.5, transparent), 
+					      color-stop(.5, rgba(0, 0, 0, .1)), 
+					      color-stop(.75, rgba(0, 0, 0, .1)), 
+					      color-stop(.75, transparent), to(transparent)
+					   );
+					background-image: -webkit-linear-gradient(
+						  -45deg, 
+					      rgba(0, 0, 0, .1) 25%, 
+					      transparent 25%, 
+					      transparent 50%, 
+					      rgba(0, 0, 0, .1) 50%, 
+					      rgba(0, 0, 0, .1) 75%, 
+					      transparent 75%, 
+					      transparent
+					   );
+					background-image: -moz-linear-gradient(
+						  -45deg, 
+					      rgba(0, 0, 0, .1) 25%, 
+					      transparent 25%, 
+					      transparent 50%, 
+					      rgba(0, 0, 0, .1) 50%, 
+					      rgba(0, 0, 0, .1) 75%, 
+					      transparent 75%, 
+					      transparent
+					   );
+					background-image: -ms-linear-gradient(
+						  -45deg, 
+					      rgba(0, 0, 0, .1) 25%, 
+					      transparent 25%, 
+					      transparent 50%, 
+					      rgba(0, 0, 0, .1) 50%, 
+					      rgba(0, 0, 0, .1) 75%, 
+					      transparent 75%, 
+					      transparent
+					   );
+					background-image: -o-linear-gradient(
+						  -45deg, 
+					      rgba(0, 0, 0, .1) 25%, 
+					      transparent 25%, 
+					      transparent 50%, 
+					      rgba(0, 0, 0, .1) 50%, 
+					      rgba(0, 0, 0, .1) 75%, 
+					      transparent 75%, 
+					      transparent
+					   );
+					-webkit-background-size: 50px 50px;
+					-moz-background-size:    50px 50px;
+					background-size:         50px 50px;	
+					-webkit-animation: loading 2s infinite linear;
+					-moz-animation: loading 2s infinite linear;
+					-o-animation: loading 2s infinite linear;
+					-ms-animation: loading 2s infinite linear;
+					animation: loading 2s infinite linear;
+				}
+			}
+													
+			input
+				border 1px solid #eee
+				border-radius 3px
+				padding 0 15px
+				line-height 1.4em
+				height 42px
+				font-size 1.2em
+				font-family Courier, monospace
+			
+			input[name='email']
+				width 260px
+				position absolute
+				top 0px
+				left 0px
+				border 0
+				outline 0
+				
+			input[type='submit']
+				position absolute
+				top 0px
+				left 300px
+				cursor pointer
+				font-family 'Doppio One'
+				font-size 0.8em
+				background jscampYellow
+				color #fff
+				position relative
+				font-weight bold
+				
+				&:hover
+					background jscampBlue
+					
+				&:active
+					background jscampGreen
+					
+		
+	#tweets
+		padding-left 30px
+		width 280px
+
+		
+		.facebook
+			font-family 'Doppio One'
+			display inline-block
+			width 16px
+			font-size 1.4em
+			text-align center
+			font-weight bold
+			margin 0 5px 0 11px
+		
+
+@keyframes loading
+	0%
+		background-position 0 0
+	100%
+		background-position 50px 50px
+
+@keyframes failure
+	0%
+		box-shadow 0px 0px 0px white inset
+	1%
+		box-shadow 0px 0px 25px darkred inset		
+	100%
+		box-shadow 0px 0px 0px white inset
+		
+@keyframes success
+	0%
+		box-shadow 0px 0px 0px white inset
+	1%
+		box-shadow 0px 0px 35px #59E817 inset		
+	100%
+		box-shadow 0px 0px 0px white inset
+			
+#twtr-widget-1
+	font-family 'Open Sans' !important
+	font-size 1em !important
+	
+	.twtr-profile-img
+		display none
+		border-radius 3px
+	
+	h3
+		display none
+		
+	h4
+		font-family 'Doppio One' !important
+		line-height 1.4em !important
+		font-size 2em !important
+		margin-left 0 !important
+		
+		a
+			display inline-block
+		
+		a:before
+			content: "@"
+
+	.twtr-timeline
+		height auto !important
+		min-height 462px
+		z-index 0
+	
+	.twtr-tweet
+		position relative
+		border 0
+		margin 15px 0
+		opacity 0
+		
+		.twtr-tweet-text
+			margin-top 1em
+		
+			a
+				text-decoration underline !important
+		
+			em
+				color green
+				font-size 0.8em !important
+				text-align right
+				
+				a
+					color white !important
+					text-decoration none !important
+					font-family 'Doppio One' !important
+					
+					&:hover
+						text-decoration underline !important
+					
+				.twtr-timestamp
+					text-decoration none !important
+					position absolute
+					top 0px
+					left 8px
+					font-weight bold
+					font-size 1.3em
+	.twtr-ft
+		margin 0 0 -6px 0
+	
+		span
+			float none
+			text-align left
+			
+			a
+				margin-left 27px
+
+
+a.icon
+	display block
+	width 40px
+	height 40px
+	cursor pointer
+	border-radius 22px
+	margin 6px 6px
+	
+	&:hover
+		background-color jscampBlue
+		animation rotate 0.3s linear
+
+	&.twitter
+		background-image url(../img/twitter.png)
+		background-repeat no-repeat
+		background-position 6px 6px
+	
+	&.gplus
+		color #fff !important
+		font-size 2.5em
+		line-height 40px
+		font-weight bold
+		font-family Courier, monospace
+		text-align center
+		text-decoration none
+
+		
+#js
+	color #000
+	width 3em
+	height 3em
+	font-size 0.5em
+	font-family Helvetica, Arial
+	padding 0.8em 0.2em 0em 0.6em
+	background #FFE100
+
+	
+#sessions, #sponsors
+	position relative
+	
+	a
+		color jscampBrown
+	
+	#sessionicon
+		-webkit-touch-callout none
+		user-select none
+		position relative
+		float left
+		
+		> div		
+			cursor pointer
+			width 1.7em
+			height 1.1em
+			font-family Courier, monospace
+			font-weight bold
+			color #fff
+			background jscampYellow
+			border-radius 8px
+			text-align center
+			font-size 4em
+			padding 0.3em 0 0.2em 0
+			margin-bottom 20px
+			position absolute
+			top 0px
+			transition all 0.5s ease-out
+			border 2px solid #fff
+			
+			&#workshops
+				padding 0.2em 0
+				height 1.2em
+				
+				span
+					font-size 0.3em
+					padding 2.1em 0
+				
+			span
+				opacity 0
+				position absolute
+				top 0px
+				left 0px
+				bottom 0px
+				right 0px
+				font-size 0.36em
+				padding 1.7em 0
+				background jscampBlue
+				border-radius 8px
+			
+			&.current 
+				background jscampBlue
+			
+			&:hover span
+				opacity 1
+
+				
+	.moved
+		#workshops
+			top 1.9em
+		#sprints
+			top 3.8em
+		
+	.sessiondesc
+		margin-left 9em
+		display none
+		
+		&.current
+			display block
+		
+		.intro
+			display block
+			padding-bottom 25px
+			line-height 1.3em
+			font-family 'Doppio One'
+			
+			h4
+				line-height 1.3em
+				margin-bottom 10px
+				font-size 5.2em
+				font-weight bold
+				font-family Courier, monospace
+				color jscampBlue
+
+	.speakers
+		float left
+		margin 0 20px 0 0
+		width 12.8em
+		
+		&:last-child
+			margin 0
+		
+		li
+			margin 0 0 18px 0
+			border 1px solid #f2f2f2
+			background #fff
+			border-radius 8px
+			
+			.img
+				border-radius 8px 8px 0 0
+				background jscampYellow
+				height 150px
+				
+				> *
+					border-radius 8px 0 0 0
+					
+			.links
+				float right
+
+					
+			.name
+				font-family Courier, monospace
+				color jscampBlue
+				font-weight bold
+				font-size 1.55em
+				padding 15px 20px 0 20px
+				
+			.bio
+				padding 15px 20px 20px 20px
+				font-weight 20
+				line-height 1.3em
+				font-size 0.9em
+			
+	
+#venue
+	clear both
+	padding 100px 0 0 0
+	
+	#venuedesc
+		background-color jscampYellow
+		padding-bottom 80px
+		
+		a
+			color jscampGreen
+		
+	#venuepicture
+		h2
+			color #fff
+			margin-bottom 40px
+	
+		background-color #000
+		text-align center
+		margin-bottom 50px
+		
+		#hotspots
+			position relative
+			
+			.hotspot
+				font-size 0.85em
+				text-align left
+				position absolute
+				width 280px
+				height 40px
+				color #fff
+				line-height 1.2em
+				top 415px
+				left 530px
+				
+				b
+					font-family 'Doppio One'	
+					line-height 1.6em
+				.small
+					font-size 0.8em
+					color #888
+		
+	@css {
+		.black {
+			padding: 80px 0;
+			background-color: #444;
+			background: -moz-radial-gradient(center, circle cover, #595959 1%, #000000 100%); /* FF3.6+ */
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#595959), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+			background: -webkit-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* Opera 12+ */
+			background: -ms-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* IE10+ */
+			background: radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* W3C */
+		}
+	}
+	
+	#wifi
+		padding-left 80px
+		width 200px
+
+	#wifiicon
+		text-align center
+		height 134px
+		width 138px
+		margin-bottom 40px
+		background jscampBlue
+		border 2px solid #fff
+		border-radius 8px
+		
+		img
+			margin-top 20px
+			
+#pins
+	position relative
+	
+	li
+		position absolute
+		width 40px
+		height 50px
+		background-image url(../img/pins.png)
+		background-repeat no-repeat
+		opacity 0
+		
+		div
+			display none
+			
+		&:hover
+			background-position 0px -52px
+			
+			
+			
+#sponsors
+	margin 60px auto 0 auto
+
+	#sponsorsdesc
+		
+		h2
+			color jscampBlue
+			text-align left
+		
+		.speakers
+			li
+				width 200px
+											
+				.img
+					height 115px
+					
+				.links
+					a
+						float right
+						
+					.www
+						font-size 1em
+						font-weight bold
+						text-align center
+						line-height 2.4em
+						font-family Courier, monospace
+						color #fff
+						text-decoration none
+	
+	
+#team
+	background jscampBlue
+	padding 60px 0
+
+	#logoanim
+		margin -10px 0 0 -40px
+		float left
+		width 340px
+		height 200px
+		font-size 3em
+		
+		*
+			color #fff !important
+			
+	#teamdesc
+		margin-left 360px
+		color #fff
+
+		li
+			padding 30px 0
+			height 30px
+		
+			img
+				float left
+				border-radius 8px
+				margin-left 5px
+				width 60px
+				height 60px
+			
+			.name
+				padding-top 6px
+				font-family 'Doppio One'
+				font-size 1.3em
+				line-height 1.3em
+				
+			a
+				color #fff
+				text-decoration none
+				
+				&:hover
+					text-decoration underline
+			
+			a.twitter
+				float left
+				margin 1px 5px 0 12px
+			
+			.mail
+				font-size 0.8em
+
+			
+#top
+	position fixed
+	top -1px
+	left 0px
+	right 0px
+	display none
+
+table.colors
+	width 100%
+	font-size 1.7em
+	line-height 1.0em
+	border-bottom 1px solid #f4faff
+	border-top 1px solid #f4faff
+	
+	td
+		padding 3px 6px 5px 6px
+		font-weight bold
+		height 5px
+		
+		a
+			float right
+			font-size 0.5em
+			color #fff
+			text-decoration none
+			padding-right 5px
+			
+
+	td:nth-child(1)
+		font-family Courier, monospace
+		background #D1EBFF
+		width 7em
+		text-align center
+	td:nth-child(2)
+		font-family 'Doppio One'
+		background #000
+		color #fff
+		width 2.4em
+		font-size 0.75em
+	td:nth-child(3)
+		background jscampBrown
+		width 0.2em
+	td:nth-child(4)
+		background jscampGreen
+		width 2em
+	td:nth-child(5)
+		background jscampYellow
+	td:nth-child(6)
+		font-family 'Doppio One'
+		background jscampBlue
+		width 30%
+
+.jscamp
+	color jscampBlue
+.asia
+	color jscampYellow
+
+
+@keyframes punch
+	0%
+		opacity 0
+	72%
+		opacity 0
+	75% 
+		opacity 1
+		transform scale(3), rotate(-3deg)
+	90% 
+		transform scale(0.9), rotate(-9deg)
+	100% 
+		transform scale(1), rotate(-9deg)
+
+@keyframes sea
+	0% 
+		left -0.15em
+	50% 
+		left 0.05em
+	100% 
+		left -0.15em
+		
+@keyframes blink
+	0% 
+		background jscampGreen
+	50% 
+		background jscampGreen
+	51% 
+		background jscampYellow
+	100%
+		background jscampYellow
+		
+@keyframes fadein
+	0% 
+		opacity 0
+	80% 
+		opacity 0
+	100% 
+		opacity 1
+
+@keyframes palm
+	0% 
+		transform rotate(-80deg)
+	40% 
+		transform rotate(-82deg)
+	55% 
+		transform rotate(-88deg)
+	85% 
+		transform rotate(-82deg)
+	100% 
+		transform rotate(-80deg)
+		
+@keyframes rotate
+	0%
+		transform rotate(0deg)
+	100%
+		transform rotate(359deg)
+	
