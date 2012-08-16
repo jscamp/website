@@ -60,7 +60,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
-	<link rel="stylesheet" href="static5/css/style1.css" />
+	<link rel="stylesheet" href="static5/css/style2.css" />
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
@@ -89,12 +89,13 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<div id="la_trunk">/</div>
 					<span id="la_beach">~~~</span><span id="la_sea">~~</span>		
 				</div>
-				<!--<div id="counter">
+				<div id="counter">
 				00:00:00
 				</div>
 				<div id="ticketsale">
-				Thanks everybody! You're awesome!<br/>Next ticket sale will start on August 16th!
-				</div>//-->
+				Registration will open today from on 3pm SGT.
+				<br/><a href="http://www.techinasia.com/jscamp-asia-undisclosured-conference-singapore/" target="_blank">Find out more</a>
+				</div>
 
 			</div>
 			
@@ -110,7 +111,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<a href="http://www.softlayer.com" target="_blank"><img src="static5/img/sponsors/softlayer.png" width="103" /></a>
 						<a href="https://www.paypal.com.sg/" target="_blank"><img src="static5/img/sponsors/paypal.png" width="103" /></a>
 						<a href="http://spiffy.sg/" target="_blank"><img src="static5/img/sponsors/microsoft.png" width="103" /></a>
-						<a href="http://html.adobe.com/" target="_blank"><img src="static5/img/sponsors/adobe.png" width="103" /></a>
+						<!--<a href="http://html.adobe.com/" target="_blank"><img src="static5/img/sponsors/adobe.png" width="103" /></a>//-->
 					</div>
 				</div>
 			</div>
@@ -273,7 +274,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 
 				</ul>
 				<ul class="speakers">
-					<li>
+					<!--<li>
 						<div class="links">
 							<a href="http://twitter.com/divya" class="twitter icon" target="_blank" title="@divya"></a>
 						</div>
@@ -288,7 +289,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							an Open Web vigilante seriously which has resulted in collaborative
 							projects such as <a href="http://html5please.com/" target="_blank">HTML5 Please</a> and <a href="http://html5boilerplate.com/" target="_blank">HTML5 Boilerplate</a>.
 						</div>
-					</li>
+					</li>//-->
 					<li>
 						<div class="links">
 							<a href="http://twitter.com/ireneros" class="twitter icon" target="_blank" title="@ireneros"></a>
@@ -760,7 +761,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<script type="text/javascript" src="static5/js/dependencies/0050-audiofade-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0070-jquery.scrollto-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0080-jquery.form-ck.js"></script>
-	<script type="text/javascript" src="static5/js/main/01-jscamp-ck.js"></script>
+	<script type="text/javascript" src="static5/js/main/02-jscamp-ck.js"></script>
 	<!-- end scripts-->
 	
 	<audio id="la_oceansound" preload="auto" autobuffer="autobuffer" style="display: none"> 
@@ -779,7 +780,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	s.parentNode.insertBefore(g,s)}(document,'script'));
  
 	//time to countdown in seconds, and element ID
-	//javascript_countdown.init(0, 'counter');
+	javascript_countdown.init(<?php echo getSecs(); ?>, 'counter');
 
 	</script>
 </body>

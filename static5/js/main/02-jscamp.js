@@ -6,7 +6,7 @@ _.delay(function() {
 _.delay(function() {
 	$("#messageCont").find(".back").css({visibility: "visible"});
 	$("#messageCont").addClass("flipped");
-	//$("#logoanim").addClass("small");
+	$("#logoanim").addClass("small");
 	_.delay(function() {
 		$("#messageCont .front").css({visibility: "hidden"});
 	},0);
@@ -182,7 +182,7 @@ var javascript_countdown = function () {
 	var time_left = 10; //number of seconds for countdown
 	var output_element_id = 'counter';
 	var keep_counting = 1;
-	var no_time_left_message = "<span id='gettickets'>Sold out!</span>";
+	var no_time_left_message = "<a href='gettickets.php' id='gettickets'>Get your ticket now!</a>";
  
 	function countdown() {
 		if(time_left < 2) {

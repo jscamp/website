@@ -195,6 +195,11 @@ body {
   border-radius: 12px;
   position: relative;
   top: -30px;
+  -webkit-animation: blink 1s infinite linear;
+  -moz-animation: blink 1s infinite linear;
+  -o-animation: blink 1s infinite linear;
+  -ms-animation: blink 1s infinite linear;
+  animation: blink 1s infinite linear;
 }
 #ticketsale {
   position: relative;
@@ -206,6 +211,10 @@ body {
   font-family: 'Doppio One';
   opacity: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  line-height: 1.3em;
+}
+#ticketsale a {
+  color: #38acec;
 }
 #la_logo {
   line-height: 0.8em;
