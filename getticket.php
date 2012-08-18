@@ -28,7 +28,9 @@ $discounts = array(
 	"RIM"				=> 30,
 	"BRISJS"			=> 50,
 	"MELBJS"			=> 50,
-	"SYDJS"				=> 50
+	"SYDJS"				=> 50,
+	"BKKJS"				=> 50,
+	"TECHPROPULSION"	=> 30
 
 );
 
