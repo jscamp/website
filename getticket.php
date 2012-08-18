@@ -24,7 +24,11 @@ $discounts = array(
 	"TWIA"				=> 30,
 	"HELLOASIA"			=> 50,
 	"NODEJSSG"			=> 50,
-	"STARTUPLOKAL"		=> 50
+	"STARTUPLOKAL"		=> 50,
+	"RIM"				=> 30,
+	"BRISJS"			=> 50,
+	"MELBJS"			=> 50,
+	"SYDJS"				=> 50
 
 );
 
@@ -42,20 +46,8 @@ if($discount != 0) {
 	$url = isset($urls[$discount]) ? $urls[$discount] : $urls[0];
 	
 	header("location: ".$url);
-exit;
+	exit;
 }
-?>
-<?php
-date_default_timezone_set("Asia/Singapore");
-
-function getSecs() {
-
-	$now = date("U",strtotime("2012-08-16 15:00:00")) - date("U");
-	
-	return 0;
-
-}
-
 ?>
 <!doctype html>
 <!--[if IE 8 ]> <html class="no-js ie8" lang="en"> <![endif]-->
