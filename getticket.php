@@ -23,7 +23,8 @@ $discounts = array(
 	"ADOBEHTML"			=> 30,
 	"TWIA"				=> 30,
 	"HELLOASIA"			=> 50,
-	"NODEJSSG"			=> 50
+	"NODEJSSG"			=> 50,
+	"STARTUPLOKAL"		=> 50
 
 );
 
