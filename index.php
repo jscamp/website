@@ -49,7 +49,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<meta property="og:title" content="JScamp.Asia - Undisclosured"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="http://jscamp.asia/"/>
-	<meta property="og:image" content="http://jscamp.asia/static5/img/jscampasia.jpg"/>
+	<meta property="og:image" content="http://jscamp.asia/asset/jscampasia.jpg"/>
 	<meta property="og:site_name" content="JSCamp.Asia"/>
 	<meta property="og:description" content="The hands-on JavaScript web and mobile developer conference for Asia. Singapore, 29th + 30th November 2012"/>
 	<meta name="title" content="JSCamp.Asia - Undisclosured"/>
