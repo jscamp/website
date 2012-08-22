@@ -111,7 +111,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<a href="http://www.softlayer.com" target="_blank"><img src="static5/img/sponsors/softlayer.png" width="103" /></a>
 						<a href="https://www.paypal.com.sg/" target="_blank"><img src="static5/img/sponsors/paypal.png" width="103" /></a>
 						<a href="http://spiffy.sg/" target="_blank"><img src="static5/img/sponsors/microsoft.png" width="103" /></a>
-						<!--<a href="http://html.adobe.com/" target="_blank"><img src="static5/img/sponsors/adobe.png" width="103" /></a>//-->
+						<a href="http://html.adobe.com/" target="_blank"><img src="static5/img/sponsors/adobe.png" width="103" /></a>
 					</div>
 				</div>
 			</div>
@@ -275,7 +275,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 
 				</ul>
 				<ul class="speakers">
-					<!--<li>
+					<li>
 						<div class="links">
 							<a href="http://twitter.com/divya" class="twitter icon" target="_blank" title="@divya"></a>
 						</div>
@@ -290,7 +290,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							an Open Web vigilante seriously which has resulted in collaborative
 							projects such as <a href="http://html5please.com/" target="_blank">HTML5 Please</a> and <a href="http://html5boilerplate.com/" target="_blank">HTML5 Boilerplate</a>.
 						</div>
-					</li>//-->
+					</li>
 					<li>
 						<div class="links">
 							<a href="http://twitter.com/ireneros" class="twitter icon" target="_blank" title="@ireneros"></a>
@@ -583,25 +583,14 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
-						</div>
-						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
-						<div class="bio">
-							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
-							of JavaScript to deliver the best user experience in the industry.
-						</div>
-					</li>
-					<!--<li>
-						<div class="links">
 							<a href="http://html.adobe.com" target="_blank" class="www icon">www</a>
 							<a href="http://twitter.com/adobe" class="twitter icon" target="_blank" title="@paypal"></a>
 						</div>
 						<div class="img"><a href="http://html.adobe.com" target="_blank"><img src="static5/img/sponsors/adobe.png" /></a></div>
 						<div class="bio">
-							
+							Along with the community, Adobe is developing new web standards and advancing existing ones. Adobe wants to make the web more wonderful by championing features in the W3C and engineering those features directly in open browser engines like Webkit.
 						</div>
-					</li>//-->
+					</li>
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -614,7 +603,17 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							PayPal is the safer, easier way to pay and get paid online. The service allows anyone to pay in any way they prefer, including through credit cards, bank accounts, PayPal Smart Connect or account balances, without sharing financial information.
 						</div>
 					</li>
-
+					<li>
+						<div class="links">
+							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
+						</div>
+						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
+						<div class="bio">
+							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
+							of JavaScript to deliver the best user experience in the industry.
+						</div>
+					</li>
 					<li>
 						<div class="name">
 							Become a Sponsor
