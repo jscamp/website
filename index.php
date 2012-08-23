@@ -174,7 +174,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							You would like to come, but you need to convince your boss?<br/><a href="http://jscamp.asia/Why%20your%20employees%20need%20to%20attend%20JSCamp.pdf">This PDF will help.</a>
 						</p>
 						<p>
-							Drop your E-Mail and we'll remind you when tickets are available!<br/>
+							Drop your E-Mail and we'll inform you when there are news!<br/>
 							You can also add our <a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Google Calendar</a>.
 						</p>
 						<form id="subscribeForm" action="addsubscriber.php" method="get">
