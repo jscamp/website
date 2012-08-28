@@ -584,7 +584,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://html.adobe.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adobe" class="twitter icon" target="_blank" title="@paypal"></a>
+							<a href="http://twitter.com/AdobeWebPlatfrm" class="twitter icon" target="_blank" title="@AdobeWebPlatfrm"></a>
 						</div>
 						<div class="img"><a href="http://html.adobe.com" target="_blank"><img src="static5/img/sponsors/adobe.png" /></a></div>
 						<div class="bio">
