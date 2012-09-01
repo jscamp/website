@@ -32,7 +32,9 @@ $discounts = array(
 	"BKKJS"				=> 50,
 	"TECHPROPULSION"	=> 30,
 	"FRONTENDSG"		=> 50,
-	"MOBILEMONDAY"		=> 30
+	"MOBILEMONDAY"		=> 30,
+	"INFOCOMM"			=> 30,
+	"SGGEEKGIRLS"		=> 50
 
 );
 
