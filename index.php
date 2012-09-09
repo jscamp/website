@@ -174,7 +174,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							You would like to come, but you need to convince your boss?<br/><a href="http://jscamp.asia/Why%20your%20employees%20need%20to%20attend%20JSCamp.pdf">This PDF will help.</a>
 						</p>
 						<p>
-							Drop your E-Mail and we'll inform you when there are news!<br/>
+							Drop your E-Mail and we'll remind you when tickets are available!<br/>
 							You can also add our <a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Google Calendar</a>.
 						</p>
 						<form id="subscribeForm" action="addsubscriber.php" method="get">
@@ -272,7 +272,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							making bad jokes about VBScript and dreaming of happy hour. The only native Brit in the company described him in one word: 'cheeky'. You can see him live on stage regularly, with talks about Cloud9, node.js, scaling and mobile development.
 						</div>
 					</li>
-
+					<li>
+						<div class="name">
+							Check back every week
+						</div>
+						<div class="bio">
+							We'll reveal more speakers every week. Be sure to check back and get the updates!<br/><br/>
+							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
+							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a><br/><br/>
+							Tell us who you miss on this list in our 
+							<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>!
+						</div>
+					</li>
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -368,13 +379,15 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
+						<div class="links">
+							<a href="http://twitter.com/_jhs" class="twitter icon" title="@_jhs" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/jason.png" alt="Jason Smith" border="0" /></div>
 						<div class="name">
-							Check back every week
+							Jason Smith
 						</div>
 						<div class="bio">
-							We'll reveal more speakers every week. Be sure to check back and get the updates!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+							Jason has been an entrepreneur since 2002. He is an expert deploying, managing, and using CouchDB in the enterprise. He built the <a href="http://www.iriscouch.com" target="_blank">Iris Couch</a> infrastructure and provides the technical vision of the Iris Couch platform.
 						</div>
 					</li>
 				</ul>
@@ -422,7 +435,9 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							More Workshop hosts and the topics will be announced closer to the conference. Be sure to check back and get the updates!<br/><br/>
 							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a><br/><br/>
+							Suggest your favorite host in our
+							<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>!
 						</div>
 					</li>
 				</ul>
@@ -432,7 +447,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<h4>Sprints</h4>
 					The weekend after the conference we have a very special offer. Interested people can come together in Singapores trendy co-working spaces
 					and contribute as a group to open source JavaScript projects. That means a combined 4 days of JavaScript goodness.<br/><br/>
-					If you're interested in using our conference to find contributors for your project and have the best people in the region work on it, please apply in our <a href="http://jscamp.wufoo.com/forms/sprint-application">Sprint Application</a>.
+					If you're interested in using our conference to find contributors for your project and have the best people in the region work on it, please apply in our <a href="http://jscamp.wufoo.com/forms/call-for-speakers">Call for Speakers</a>.
 				</span>
 				<ul class="speakers">
 					<li>
@@ -442,7 +457,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							Sprints will be announced two months before the conference.<br/><br/>
 							If you want to host one, please let us know in our
-							<a href="http://jscamp.wufoo.com/forms/sprint-application" target="_blank">Sprint Application</a>!<br/><br/>
+							<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>!<br/><br/>
 							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
 							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
@@ -580,7 +595,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://html.adobe.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/AdobeWebPlatfrm" class="twitter icon" target="_blank" title="@AdobeWebPlatfrm"></a>
+							<a href="http://twitter.com/adobe" class="twitter icon" target="_blank" title="@paypal"></a>
 						</div>
 						<div class="img"><a href="http://html.adobe.com" target="_blank"><img src="static5/img/sponsors/adobe.png" /></a></div>
 						<div class="bio">
@@ -736,6 +751,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			</td>
 			<td>
 				<a href="getticket.php" target="_blank">Register now!</a>
+				<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>
 			</td>
 		</tr>
 		</table>
