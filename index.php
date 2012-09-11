@@ -279,9 +279,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							We'll reveal more speakers every week. Be sure to check back and get the updates!<br/><br/>
 							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a><br/><br/>
-							Tell us who you miss on this list in our 
-							<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>!
+							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
 					</li>
 				</ul>
@@ -435,9 +433,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							More Workshop hosts and the topics will be announced closer to the conference. Be sure to check back and get the updates!<br/><br/>
 							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a><br/><br/>
-							Suggest your favorite host in our
-							<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>!
+							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
 					</li>
 				</ul>
@@ -447,7 +443,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<h4>Sprints</h4>
 					The weekend after the conference we have a very special offer. Interested people can come together in Singapores trendy co-working spaces
 					and contribute as a group to open source JavaScript projects. That means a combined 4 days of JavaScript goodness.<br/><br/>
-					If you're interested in using our conference to find contributors for your project and have the best people in the region work on it, please apply in our <a href="http://jscamp.wufoo.com/forms/call-for-speakers">Call for Speakers</a>.
+					If you're interested in using our conference to find contributors for your project and have the best people in the region work on it, please apply in our <a href="http://jscamp.wufoo.com/forms/sprint-application">Sprint Application</a>.
 				</span>
 				<ul class="speakers">
 					<li>
@@ -457,7 +453,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							Sprints will be announced two months before the conference.<br/><br/>
 							If you want to host one, please let us know in our
-							<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>!<br/><br/>
+							<a href="http://jscamp.wufoo.com/forms/sprint-application">Sprint Application</a>!<br/><br/>
 							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
 							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
@@ -751,7 +747,6 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			</td>
 			<td>
 				<a href="getticket.php" target="_blank">Register now!</a>
-				<a href="http://jscamp.wufoo.com/forms/call-for-speakers" target="_blank">Call for Speakers</a>
 			</td>
 		</tr>
 		</table>
