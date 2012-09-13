@@ -335,6 +335,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							various technical roles at <a href="http://imapdata.com/" target="_blank">iMapData</a>.
 						</div>
 					</li>
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/nonstopgamers" class="twitter icon" target="_blank" title="@nonstopgamers"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/henrik.jpg" alt="Henrik Karlstr&ouml;m" border="0" /></div>
+						<div class="name">
+							Henrik Karlstr&ouml;m
+						</div>
+						<div class="bio">
+							Henrik is the lead client developer and co-founder at HTML5 gaming startup <a href="http://nonstop-games.com" target="_blank">NonStop Games</a>. Originally from Finland, Henrik now lives in and works in Singapore.
+						</div>
+					</li>
 				</ul>
 				<ul class="speakers">
 					<li>
