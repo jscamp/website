@@ -261,6 +261,20 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
+							<a href="http://twitter.com/jedschmidt" class="twitter icon" target="_blank" title="@jedschmidt"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/jed.jpg" alt="Jed Schmidt" border="0" /></div>
+						<div class="name">
+							Jed Schmidt
+						</div>
+						<div class="bio">
+							Jed is a JavaScript developer based in Tokyo, and has been using node.js since just before its debut in 2009. He maintains a
+							variety of open-source JavaScript libraries from database bindings to DOM builders, and has built several fun projects, including
+							<a href="http://140byt.es" target="_blank">140byt.es</a>, a tweet-sized code golfing contest, and <a href="http://ramendan.com" target="_blank">Ramendan</a>, a grueling month-long test of ramen devotion.
+						</div>
+					</li>
+					<li>
+						<div class="links">
 							<a href="http://twitter.com/drbernhard" class="twitter icon" target="_blank" title="@drbernhard"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/janjongboom.png" alt="Jan Jongboom" border="0" /></div>
@@ -270,16 +284,6 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							Jan Jongboom got in a real life fight when someone declared JavaScript 'just some scripting language'. During the day he channels his JavaScript love as a member of the <a href="http://c9.io" target="_blank">Cloud9 IDE</a> development team,
 							making bad jokes about VBScript and dreaming of happy hour. The only native Brit in the company described him in one word: 'cheeky'. You can see him live on stage regularly, with talks about Cloud9, node.js, scaling and mobile development.
-						</div>
-					</li>
-					<li>
-						<div class="name">
-							Check back every week
-						</div>
-						<div class="bio">
-							We'll reveal more speakers every week. Be sure to check back and get the updates!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
 					</li>
 				</ul>
@@ -398,6 +402,16 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 						<div class="bio">
 							Jason has been an entrepreneur since 2002. He is an expert deploying, managing, and using CouchDB in the enterprise. He built the <a href="http://www.iriscouch.com" target="_blank">Iris Couch</a> infrastructure and provides the technical vision of the Iris Couch platform.
+						</div>
+					</li>
+					<li>
+						<div class="name">
+							Check back every week
+						</div>
+						<div class="bio">
+							We'll reveal more speakers every week. Be sure to check back and get the updates!<br/><br/>
+							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
+							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
 					</li>
 				</ul>
