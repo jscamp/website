@@ -601,6 +601,17 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Microsoft's Developer &amp; Platform Evangelism (DPE) group builds a vibrant solutions ecosystem through evangelism, community engagement and technology marketing. The biggest software company in the world has a long history of support for the Southeast Asian developer community. From consumer products to enterprise solutions they power the most popular platforms for developers around the world to work with.
 						</div>
 					</li>
+					<li>
+						<div class="links">
+							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
+						</div>
+						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
+						<div class="bio">
+							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
+							of JavaScript to deliver the best user experience in the industry.
+						</div>
+					</li>
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -624,6 +635,14 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Along with the community, Adobe is developing new web standards and advancing existing ones. Adobe wants to make the web more wonderful by championing features in the W3C and engineering those features directly in open browser engines like Webkit.
 						</div>
 					</li>
+					<li>
+						<div class="name">
+							Become a Sponsor
+						</div>
+						<div class="bio">
+							We are eager to make JScamp the web and mobile developer conference of the year and there is much to benefit from as our sponsor. <a href="mailto:sponsors@jscamp.asia">Drop us a mail</a>
+						</div>
+					</li>
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -638,23 +657,16 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
+							<a href="http://www.github.com" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/github" class="twitter icon" target="_blank" title="@github"></a>
 						</div>
-						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
+						<div class="img"><a href="http://www.github.com" target="_blank"><img src="static5/img/supporters/github.png" /></a></div>
 						<div class="bio">
-							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
-							of JavaScript to deliver the best user experience in the industry.
+							GitHub is version control for software development and so much more. Whether it's a weekend side project, your favorite open source
+							library, a startup destined for glory, or your company's app, GitHub helps everyone work together with tools for easier collaboration and more visibility. Check it out — open source is free!
 						</div>
 					</li>
-					<li>
-						<div class="name">
-							Become a Sponsor
-						</div>
-						<div class="bio">
-							We are eager to make JScamp the web and mobile developer conference of the year and there is much to benefit from as our sponsor. <a href="mailto:sponsors@jscamp.asia">Drop us a mail</a>
-						</div>
-					</li>
+
 				</ul>
 			</div>
 
