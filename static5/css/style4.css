@@ -1008,7 +1008,7 @@ a.icon.gplus {
 }
 #venue {
   clear: both;
-  padding: 100px 0 0 0;
+  padding: 100px 0 30px 0;
 .black {
 			padding: 80px 0;
 			background-color: #444;
@@ -1019,18 +1019,29 @@ a.icon.gplus {
 			background: -ms-radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* IE10+ */
 			background: radial-gradient(center, circle cover, #595959 1%,#000000 100%); /* W3C */
 		}
+#nuss, #travel {
+			background-color: orange;
+			background: -moz-radial-gradient(center bottom, circle farthest-side, #ffc000 1%, orange 100%); /* FF3.6+ */
+			background: -webkit-gradient(radial, center bottom, 0px, center bottom, 100%, color-stop(1%,#ffc000), color-stop(100%,orange)); /* Chrome,Safari4+ */
+			background: -webkit-radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* Opera 12+ */
+			background: -ms-radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* IE10+ */
+			background: radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* W3C */
+			padding: 1px 0 50px 0;
+		}
 }
 #venue #venuedesc {
   background-color: #ffa500;
-  padding-bottom: 80px;
 }
 #venue #venuedesc a {
   color: #008000;
 }
+#venue #venuedesc table {
+  margin-top: 40px;
+}
 #venue #venuepicture {
   background-color: #000;
   text-align: center;
-  margin-bottom: 50px;
 }
 #venue #venuepicture h2 {
   color: #fff;
@@ -1088,6 +1099,16 @@ a.icon.gplus {
 #venue #wifiicon img {
   margin-top: 20px;
 }
+#nuss, #travel {
+			background-color: orange;
+			background: -moz-radial-gradient(center bottom, circle farthest-side, #ffc000 1%, orange 100%); /* FF3.6+ */
+			background: -webkit-gradient(radial, center bottom, 0px, center bottom, 100%, color-stop(1%,#ffc000), color-stop(100%,orange)); /* Chrome,Safari4+ */
+			background: -webkit-radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* Opera 12+ */
+			background: -ms-radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* IE10+ */
+			background: radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* W3C */
+			padding: 1px 0 50px 0;
+		}
 #pins {
   position: relative;
 }
@@ -1105,6 +1126,28 @@ a.icon.gplus {
 }
 #pins li:hover {
   background-position: 0px -52px;
+}
+#travel td {
+  width: 50%;
+  padding: 0 0 0 20px;
+}
+#travel td:first-child {
+  padding: 0 20px 0 0;
+}
+#travel img {
+  width: 100px;
+  float: left;
+}
+#travel h4 {
+  font-size: 1.2em;
+}
+#travel p,
+#travel h4 {
+  margin-left: 120px;
+}
+#travel a {
+  font-size: 1em;
+  color: #008000;
 }
 #sponsors {
   margin: 60px auto 0 auto;
@@ -1204,14 +1247,16 @@ table.colors td {
   height: 5px;
 }
 table.colors td a {
+  text-decoration: none;
+}
+table.colors td a.link {
   float: right;
   font-size: 0.5em;
   color: #fff;
-  text-decoration: none;
   padding-right: 5px;
   margin-left: 20px;
 }
-table.colors td a:hover {
+table.colors td a.link:hover {
   text-decoration: underline;
 }
 table.colors td:nth-child(1) {
