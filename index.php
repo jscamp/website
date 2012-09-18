@@ -60,7 +60,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
-	<link rel="stylesheet" href="static5/css/style4.css" />
+	<link rel="stylesheet" href="static5/css/style5.css" />
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
@@ -174,8 +174,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							You would like to come, but you need to convince your boss?<br/><a href="http://jscamp.asia/Why%20your%20employees%20need%20to%20attend%20JSCamp.pdf">This PDF will help.</a>
 						</p>
 						<p>
-							Drop your E-Mail and we'll remind you when tickets are available!<br/>
-							You can also add our <a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Google Calendar</a>.
+							Drop your E-Mail and we'll keep you updated!<br/>
+							You can also add our <a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Google Calendar</a> to not miss important events.
 						</p>
 						<form id="subscribeForm" action="addsubscriber.php" method="get">
 							<input type="email" name="email" placeholder="your@email.com"/>
@@ -561,38 +561,66 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<h2 class="content">Our Venue</h2>
 					<img src="static5/img/venue.png" height="349" border="0" />
 				</div>
-				<div class="content">
+				<div id="nuss">
+					<div class="content">
+						<table border="0">
+						<tr>
+							<td>
+								<h4>NUSS Kent Ridge Guild House</h4>
+								<p>
+									In the south of the National University of Singapore nests this modern Alumni Club. Besides flexible
+									conference functions it offers its members all kinds of sport facilities, restaurants and bars.
+									Some of those will also be available to our guests during the time of JSCamp. Just to make a great event yet a little bit better.
+									<br/><br/>
+									<b>Address:</b> (<a href="https://maps.google.com/maps?q=NUSS+Kent+Ridge+Guild+House,+Singapore&hl=en&sll=37.0625,-95.677068&sspn=82.939223,80.15625&t=h&hq=kent+ridge+guild+house,&hnear=Singapore&cid=8550792046711281217&z=18&iwloc=A" target="_blank">Map</a>)<br/>
+									9 Kent Ridge Drive<br/>
+									Singapore 119241
+									<br/><br/><br/>
+								</p>
+								<img src="static5/img/nuss.jpg" border="0" />
+							</td>
+							<td id="wifi">
+								<div id="wifiicon">
+									<img src="static5/img/wifi.png" border="0" />
+								</div>
+								<h4>Wi-Fi, free and open</h4>
+								<p>
+									We are making a great extra effort to provide an open and free Wi-Fi internet connection capable of feeding several hundred devices.<br/>
+									This way you can use all your favorite webservices during our workshops and connect right away with the other amazing
+									people you're going to meet.
+								</p>
+							</td>
+						</tr>
+						</table>
+					</div>
+				</div>
+				<div id="travel" class="content">
 					<table border="0">
 					<tr>
-						<td>
-							<h4>NUSS Kent Ridge Guild House</h4>
+						<td id="flight">
+							<a href="http://flyscoot.com" target="_blank"><img src="static5/img/scoot.png" border="0" /></a>
+							<h4>How to come?</h4>
 							<p>
-								In the south of the National University of Singapore nests this modern Alumni Club. Besides flexible
-								conference functions it offers its members all kinds of sport facilities, restaurants and bars.
-								Some of those will also be available to our guests during the time of JSCamp. Just to make a great event yet a little bit better.
+								With scoot there is a new budget airline in town that wants to make travel from and to Singapore even cheaper. They already cover some locations throughout Southeast Asia and Australia and are worth checking out.
 								<br/><br/>
-								<b>Address:</b> (<a href="https://maps.google.com/maps?q=NUSS+Kent+Ridge+Guild+House,+Singapore&hl=en&sll=37.0625,-95.677068&sspn=82.939223,80.15625&t=h&hq=kent+ridge+guild+house,&hnear=Singapore&cid=8550792046711281217&z=18&iwloc=A" target="_blank">Map</a>)<br/>
-								9 Kent Ridge Drive<br/>
-								Singapore 119241
-								<br/><br/><br/>
+								<a href="http://flyscoot.com" target="_blank">http://flyscoot.com</a>
 							</p>
-							<img src="static5/img/nuss.jpg" border="0" />
 						</td>
-						<td id="wifi">
-							<div id="wifiicon">
-								<img src="static5/img/wifi.png" border="0" />
-							</div>
-							<h4>Wi-Fi, free and open</h4>
+						<td>
+							<a href="http://www.ibishotel.com/gb/hotel-6657-ibis-singapore-on-bencoolen/index.shtml" target="_blank"><img src="static5/img/ibis.png" border="0" /></a>
+							<h4>Where to stay?</h4>
 							<p>
-								We are making a great extra effort to provide an open and free Wi-Fi internet connection capable of feeding several hundred devices.<br/>
-								This way you can use all your favorite webservices during our workshops and connect right away with the other amazing
-								people you're going to meet.
+								The ibis Hotel Bencoolen is a modern, sleek budget hotel with solid service, good breakfast and, of course, in-room Wi-Fi.
+								It's located very central in Singapore and we'll offer transfer services from this hotel to the conference.
+								<br/><br/>
+								<a href="http://www.ibishotel.com/gb/hotel-6657-ibis-singapore-on-bencoolen/index.shtml" target="_blank">http://ibishotel.com</a>
 							</p>
 						</td>
 					</tr>
-					</table>
+					</table>			
 				</div>
 			</div>
+
 		</div>
 		
 		<div id="sponsors" class="goto content">
@@ -625,17 +653,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Microsoft's Developer &amp; Platform Evangelism (DPE) group builds a vibrant solutions ecosystem through evangelism, community engagement and technology marketing. The biggest software company in the world has a long history of support for the Southeast Asian developer community. From consumer products to enterprise solutions they power the most popular platforms for developers around the world to work with.
 						</div>
 					</li>
-					<li>
-						<div class="links">
-							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
-						</div>
-						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
-						<div class="bio">
-							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
-							of JavaScript to deliver the best user experience in the industry.
-						</div>
-					</li>
+
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -679,7 +697,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							PayPal is the safer, easier way to pay and get paid online. The service allows anyone to pay in any way they prefer, including through credit cards, bank accounts, PayPal Smart Connect or account balances, without sharing financial information.
 						</div>
 					</li>
-					<li>
+					<!--<li>
 						<div class="links">
 							<a href="http://www.github.com" target="_blank" class="www icon">www</a>
 							<a href="http://twitter.com/github" class="twitter icon" target="_blank" title="@github"></a>
@@ -689,8 +707,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							GitHub is version control for software development and so much more. Whether it's a weekend side project, your favorite open source
 							library, a startup destined for glory, or your company's app, GitHub helps everyone work together with tools for easier collaboration and more visibility. Check it out — open source is free!
 						</div>
+					</li>//-->
+					<li>
+						<div class="links">
+							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
+						</div>
+						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
+						<div class="bio">
+							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
+							of JavaScript to deliver the best user experience in the industry.
+						</div>
 					</li>
-
 				</ul>
 			</div>
 
@@ -793,7 +821,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 		<table class="colors">
 		<tr>
 			<td>
-				<span class="jscamp">jscamp</span><span class="asia">.asia</span>
+				<a href="#" onclick="routeTo("home");"><span class="jscamp">jscamp</span><span class="asia">.asia</span></a>
 			</td>
 			<td>
 				2012
@@ -808,7 +836,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			
 			</td>
 			<td>
-				<a href="getticket.php" target="_blank">Register now!</a>
+				<a href="getticket.php" target="_blank" class="link">Register now!</a>
 			</td>
 		</tr>
 		</table>
