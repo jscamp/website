@@ -37,7 +37,10 @@ $discounts = array(
 	"SGGEEKGIRLS"		=> 50,
 	"JSDCTW"			=> 50,
 	"KNOREX"			=> 30,
-	"OCTOCAT"			=> 50
+	"OCTOCAT"			=> 50,
+	"AUTODESK"			=> 30,
+	"2359MEDIA"			=> 30,
+	"ZOPIM"				=> 30
 
 );
 
