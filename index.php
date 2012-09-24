@@ -261,6 +261,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
+							<a href="http://twitter.com/gisardo" class="twitter icon" title="@gisardo" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/giorgio.png" alt="Giorgio Sardo" border="0" /></div>
+						<div class="name">
+							Giorgio Sardo
+						</div>
+						<div class="bio">
+							Giorgio is a Senior Tech Evangelist at Microsoft and in the last 5 years he has presented at many conferences worldwide about HTML5, the Web and Mobile Platform. He is the mind behind <a href="http://beautyoftheweb.com" target="_blank">many beautiful HTML5 applications and games</a> and Cut the Rope for IE.
+						</div>
+					</li>
+					<li>
+						<div class="links">
 							<a href="http://twitter.com/jedschmidt" class="twitter icon" target="_blank" title="@jedschmidt"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/jed.jpg" alt="Jed Schmidt" border="0" /></div>
@@ -349,6 +361,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 						<div class="bio">
 							Henrik is the lead client developer and co-founder at HTML5 gaming startup <a href="http://nonstop-games.com" target="_blank">NonStop Games</a>. Originally from Finland, Henrik now lives in and works in Singapore.
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/tjanczuk" class="twitter icon" title="@tjanczuk" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/tomasz.png" alt="Tomasz Janczuk" border="0" /></div>
+						<div class="name">
+							Tomasz Janczuk
+						</div>
+						<div class="bio">
+							Tomasz is helping to develop and ship software for Microsoft. His current area of focus is node.js, JavaScript, and Windows Azure. Tomasz created <a href="https://github.com/tjanczuk/iisnode/wiki" target="_blank">iisnode</a>, a mechanism that allows hosting node.js applications in IIS on Windows and Windows Azure. Before node.js he worked on .NET Framework and Silverlight, specializing in web service technologies, in particular security.
 						</div>
 					</li>
 				</ul>
@@ -452,30 +476,6 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 				</ul>
 				<ul class="speakers">
-					<li>
-						<div class="links">
-							<a href="http://twitter.com/tjanczuk" class="twitter icon" title="@tjanczuk" target="_blank"></a>
-						</div>
-						<div class="img"><img src="static5/img/speakers/tomasz.png" alt="Tomasz Janczuk" border="0" /></div>
-						<div class="name">
-							Tomasz Janczuk
-						</div>
-						<div class="bio">
-							Tomasz is helping to develop and ship software for Microsoft. His current area of focus is node.js, JavaScript, and Windows Azure. Tomasz created <a href="https://github.com/tjanczuk/iisnode/wiki" target="_blank">iisnode</a>, a mechanism that allows hosting node.js applications in IIS on Windows and Windows Azure. Before node.js he worked on .NET Framework and Silverlight, specializing in web service technologies, in particular security.
-						</div>
-					</li>
-					<li>
-						<div class="links">
-							<a href="http://twitter.com/gisardo" class="twitter icon" title="@gisardo" target="_blank"></a>
-						</div>
-						<div class="img"><img src="static5/img/speakers/giorgio.png" alt="Giorgio Sardo" border="0" /></div>
-						<div class="name">
-							Giorgio Sardo
-						</div>
-						<div class="bio">
-							Giorgio is a Senior Tech Evangelist at Microsoft and in the last 5 years he has presented at many conferences worldwide about HTML5, the Web and Mobile Platform. He is the mind behind <a href="http://beautyoftheweb.com" target="_blank">many beautiful HTML5 applications and games</a> and Cut the Rope for IE.
-						</div>
-					</li>
 					<li>
 						<div class="name">
 							Soon!

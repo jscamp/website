@@ -40,7 +40,10 @@ $discounts = array(
 	"OCTOCAT"			=> 50,
 	"AUTODESK"			=> 30,
 	"2359MEDIA"			=> 30,
-	"ZOPIM"				=> 30
+	"ZOPIM"				=> 30,
+	"SOFTLAYER"			=> 30,
+	"JSDCTW"			=> 50,
+	"VERITRANS"			=> 30
 
 );
 
