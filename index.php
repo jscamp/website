@@ -459,6 +459,33 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							JJ is a developer advocate at Google. His goal is to help people write high-fidelity, high-performance, rich, client-side applications in <a href="http://code.google.com/p/dart/" target="_blank">Dart</a>. He's a well-known member of the Python community. He <a href="http://jjinux.blogspot.com" target="_blank">blogs</a> on topics such as Python, Ruby, Linux, open source software, the Web, and lesser-known programming languages.
 						</div>
 					</li>
+					<li>
+						<div class="name">
+							Soon!
+						</div>
+						<div class="bio">
+							More Workshop hosts and the topics will be announced closer to the conference. Be sure to check back and get the updates!<br/><br/>
+							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
+							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="speakers">
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/johndbritton" class="twitter icon" title="@johndbritton" target="_blank"></a>
+							<a href="http://twitter.com/shepbook" class="twitter icon" title="@shepbook" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/johnjared.png" alt="John Britton and Jared Koumentis" border="0" /></div>
+						<div class="name">
+							John and Jared
+						</div>
+						<div class="bio">
+							John Britton is a developer and community builder active in open source and education. He has organized events such as Open Everything and Mozilla Drumbeat in service of the open source community.<br/>
+							Jared Koumentis, aka "The Double Agentocat", is a Linux SysAdmin by trade, a budding programmer and loves to help people to the "Ah Ha!" moment.
+							Together they join us from the US as the GitHub team of Liaisons for JSCamp.Asia!
+						</div>
+					</li>
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -472,18 +499,6 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							<a href="http://www.ricostacruz.com" target="_blank">Rico</a> is a Ruby and JavaScript developer from the Philippines whose passion lies in building great web applications and slick user interfaces.
 							He is the co-founder of a small web development team in Manila called <a href="http://nadarei.co" target="_blank">Nadarei</a>, the author of the Backbone.js guide <a href="http://ricostacruz.com/backbone-patterns" target="_blank">Backbone Patterns</a> among other open-source projects that help people build great apps.
-						</div>
-					</li>
-				</ul>
-				<ul class="speakers">
-					<li>
-						<div class="name">
-							Soon!
-						</div>
-						<div class="bio">
-							More Workshop hosts and the topics will be announced closer to the conference. Be sure to check back and get the updates!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
 					</li>
 				</ul>
@@ -653,7 +668,14 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Microsoft's Developer &amp; Platform Evangelism (DPE) group builds a vibrant solutions ecosystem through evangelism, community engagement and technology marketing. The biggest software company in the world has a long history of support for the Southeast Asian developer community. From consumer products to enterprise solutions they power the most popular platforms for developers around the world to work with.
 						</div>
 					</li>
-
+					<li>
+						<div class="name">
+							Become a Sponsor
+						</div>
+						<div class="bio">
+							We are eager to make JScamp the web and mobile developer conference of the year and there is much to benefit from as our sponsor. <a href="mailto:sponsors@jscamp.asia">Drop us a mail</a>
+						</div>
+					</li>
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -678,11 +700,14 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
-						<div class="name">
-							Become a Sponsor
+						<div class="links">
+							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
 						</div>
+						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
 						<div class="bio">
-							We are eager to make JScamp the web and mobile developer conference of the year and there is much to benefit from as our sponsor. <a href="mailto:sponsors@jscamp.asia">Drop us a mail</a>
+							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
+							of JavaScript to deliver the best user experience in the industry.
 						</div>
 					</li>
 				</ul>
@@ -697,7 +722,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							PayPal is the safer, easier way to pay and get paid online. The service allows anyone to pay in any way they prefer, including through credit cards, bank accounts, PayPal Smart Connect or account balances, without sharing financial information.
 						</div>
 					</li>
-					<!--<li>
+					<li>
 						<div class="links">
 							<a href="http://www.github.com" target="_blank" class="www icon">www</a>
 							<a href="http://twitter.com/github" class="twitter icon" target="_blank" title="@github"></a>
@@ -706,17 +731,6 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							GitHub is version control for software development and so much more. Whether it's a weekend side project, your favorite open source
 							library, a startup destined for glory, or your company's app, GitHub helps everyone work together with tools for easier collaboration and more visibility. Check it out — open source is free!
-						</div>
-					</li>//-->
-					<li>
-						<div class="links">
-							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
-						</div>
-						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
-						<div class="bio">
-							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
-							of JavaScript to deliver the best user experience in the industry.
 						</div>
 					</li>
 				</ul>
