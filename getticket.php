@@ -43,7 +43,8 @@ $discounts = array(
 	"ZOPIM"				=> 30,
 	"SOFTLAYER"			=> 30,
 	"JSDCTW"			=> 50,
-	"VERITRANS"			=> 30
+	"VERITRANS"			=> 30,
+	"BLK71"				=> 50
 
 );
 

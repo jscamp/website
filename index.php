@@ -268,7 +268,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Giorgio Sardo
 						</div>
 						<div class="bio">
-							Giorgio is a Senior Tech Evangelist at Microsoft and in the last 5 years he has presented at many conferences worldwide about HTML5, the Web and Mobile Platform. He is the mind behind <a href="http://beautyoftheweb.com" target="_blank">many beautiful HTML5 applications and games</a> and Cut the Rope for IE.
+							Giorgio is a Director of the Windows Evangelism group at Microsoft in Redmond, winner of the Imagine Cup worldwide championship and nominated as Best Consultant of the Year from the British Computer Society. Giorgio is a popular speaker worldwide and in the last 5 years he has presented at hundreds of conferences around the globe. He is the mind behind many beautiful HTML5 applications and games available at <a href="http://beautyoftheweb.com" target="_blank">beautyoftheweb.com</a> and in the Windows Store.
 						</div>
 					</li>
 					<li>
