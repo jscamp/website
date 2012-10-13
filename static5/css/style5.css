@@ -871,11 +871,11 @@ a.icon.gplus {
   margin-bottom: 20px;
   position: absolute;
   top: 0px;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  -ms-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
   border: 2px solid #fff;
 }
 #sessions #sessionicon > div#workshops,

@@ -86,8 +86,8 @@ $(window).scroll(function() {
 $("#sessions #sessionicon div").click(function() {
 	var nTop = $(this).css("top");
 	var cTop = $("#sessions #sessionicon div.current").css("top");
-	$("#sessions #sessionicon div.current").removeClass("current").css({top: nTop});
-	$(this).addClass("current").css({top: cTop});
+	$("#sessions #sessionicon div.current").removeClass("current").animate({top: nTop},500);
+	$(this).addClass("current").animate({top: cTop},500);
 	
 	$("#sessions .sessiondesc").removeClass("current");
 	$("#" + $(this).attr("id") + "desc").addClass("current")
