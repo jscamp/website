@@ -810,16 +810,14 @@ a.icon
 	
 #venue
 	clear both
-	padding 100px 0 30px 0
+	padding 100px 0 0 0
 	
 	#venuedesc
 		background-color jscampYellow
+		padding-bottom 80px
 		
 		a
 			color jscampGreen
-			
-		table
-			margin-top 40px
 		
 	#venuepicture
 		h2
@@ -828,6 +826,7 @@ a.icon
 	
 		background-color #000
 		text-align center
+		margin-bottom 50px
 		
 		#hotspots
 			position relative
@@ -879,20 +878,6 @@ a.icon
 		img
 			margin-top 20px
 			
-	@css{	
-		#nuss, #travel {
-			background-color: orange;
-			background: -moz-radial-gradient(center bottom, circle farthest-side, #ffc000 1%, orange 100%); /* FF3.6+ */
-			background: -webkit-gradient(radial, center bottom, 0px, center bottom, 100%, color-stop(1%,#ffc000), color-stop(100%,orange)); /* Chrome,Safari4+ */
-			background: -webkit-radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* Chrome10+,Safari5.1+ */
-			background: -o-radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* Opera 12+ */
-			background: -ms-radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* IE10+ */
-			background: radial-gradient(center bottom, circle farthest-side, #ffc000 1%,orange 100%); /* W3C */
-			padding: 1px 0 50px 0;
-		}
-	}
-	
-			
 #pins
 	position relative
 	
@@ -910,29 +895,7 @@ a.icon
 		&:hover
 			background-position 0px -52px
 			
-#travel
-	
-	td
-		width 50%
-		padding 0 0 0 20px
-	
-	td:first-child
-		padding 0 20px 0 0
-	
-	img
-		width 100px
-		float left
-	
-	h4
-		font-size 1.2em
-	
-	p, h4
-		margin-left 120px
-	
-	a
-		font-size 1em
-		color jscampGreen
-
+			
 			
 #sponsors
 	margin 60px auto 0 auto
@@ -1034,12 +997,10 @@ table.colors
 		height 5px
 		
 		a
-			text-decoration none
-		
-		a.link
 			float right
 			font-size 0.5em
 			color #fff
+			text-decoration none
 			padding-right 5px
 			margin-left 20px
 			&:hover

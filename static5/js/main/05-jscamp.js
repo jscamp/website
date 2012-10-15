@@ -22,7 +22,8 @@ _.delay(function() {
 },6000);
 
 var highlightTalks = _.once(function() {
-	$("#talks").addClass("current");
+	if($("#sessionicon div.current").length == 0)
+		$("#talks").addClass("current");
 });
 
 var showTweets = _.once(function() {
@@ -86,8 +87,8 @@ $(window).scroll(function() {
 $("#sessions #sessionicon div").click(function() {
 	var nTop = $(this).css("top");
 	var cTop = $("#sessions #sessionicon div.current").css("top");
-	$("#sessions #sessionicon div.current").removeClass("current").css({top: nTop});
-	$(this).addClass("current").css({top: cTop});
+	$("#sessions #sessionicon div.current").removeClass("current").animate({top: nTop},500);
+	$(this).addClass("current").animate({top: cTop},500);
 	
 	$("#sessions .sessiondesc").removeClass("current");
 	$("#" + $(this).attr("id") + "desc").addClass("current")
@@ -135,10 +136,13 @@ $("#pins li").hover(function() {
 function routeTo(href) {
 	var goto = (href.indexOf("http") == 0) ? href.substr(19).toLowerCase() : href;
 	var offset = goto == "sponsors" || goto == "info" ? 0 : 110;
+	if(goto == "events") goto = "sprints";
 	if($("#" + goto).length)
 		$("#home").css({height: "680px"});
 	if(goto == "talks" || goto == "sprints" || goto == "workshops") {
-		$("#"+goto).click();
+		$("#talks").addClass("current");
+		$.scrollTo($("#sessions").position().top - 100, {duration:300});
+		_.delay(function() { $("#"+goto).click() }, 500);
 	}
 	else {
 		var to = $("#" + goto);

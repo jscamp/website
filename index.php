@@ -60,7 +60,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
-	<link rel="stylesheet" href="static5/css/style5.css" />
+	<link rel="stylesheet" href="static5/css/style6.css" />
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
@@ -222,7 +222,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				
 		<div id="sessions" class="goto content">
 			<div id="sessionicon">
-				<div id="sprints">&gt;&gt;<span>Sprints</span></div>
+				<div id="sprints">#!<span>Events</span></div>
 				<div id="workshops">()<span>Workshops</span></div>
 				<div id="talks">/*<span>Talks</span></div>
 			</div>
@@ -257,6 +257,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							Tim is a JavaScript freelancer from Brisbane, working with the node.js platform and client-side MVC applications. He is passionate about readable, maintainable, organized code though best-practices, refactoring and tests.
 							He works alongside Rails developers for international clients and organizes <a href="http://campjs.com">CampJS</a> in Australia.
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/gisardo" class="twitter icon" title="@gisardo" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/giorgio.png" alt="Giorgio Sardo" border="0" /></div>
+						<div class="name">
+							Giorgio Sardo
+						</div>
+						<div class="bio">
+							Giorgio is a Director of the Windows Evangelism group at Microsoft in Redmond, winner of the Imagine Cup worldwide championship and nominated as Best Consultant of the Year from the British Computer Society. Giorgio is a popular speaker worldwide and in the last 5 years he has presented at hundreds of conferences around the globe. He is the mind behind many beautiful HTML5 applications and games available at <a href="http://beautyoftheweb.com" target="_blank">beautyoftheweb.com</a> and in the Windows Store.
 						</div>
 					</li>
 					<li>
@@ -351,6 +363,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Henrik is the lead client developer and co-founder at HTML5 gaming startup <a href="http://nonstop-games.com" target="_blank">NonStop Games</a>. Originally from Finland, Henrik now lives in and works in Singapore.
 						</div>
 					</li>
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/tjanczuk" class="twitter icon" title="@tjanczuk" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/tomasz.png" alt="Tomasz Janczuk" border="0" /></div>
+						<div class="name">
+							Tomasz Janczuk
+						</div>
+						<div class="bio">
+							Tomasz is helping to develop and ship software for Microsoft. His current area of focus is node.js, JavaScript, and Windows Azure. Tomasz created <a href="https://github.com/tjanczuk/iisnode/wiki" target="_blank">iisnode</a>, a mechanism that allows hosting node.js applications in IIS on Windows and Windows Azure. Before node.js he worked on .NET Framework and Silverlight, specializing in web service technologies, in particular security.
+						</div>
+					</li>
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -435,6 +459,45 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							JJ is a developer advocate at Google. His goal is to help people write high-fidelity, high-performance, rich, client-side applications in <a href="http://code.google.com/p/dart/" target="_blank">Dart</a>. He's a well-known member of the Python community. He <a href="http://jjinux.blogspot.com" target="_blank">blogs</a> on topics such as Python, Ruby, Linux, open source software, the Web, and lesser-known programming languages.
 						</div>
 					</li>
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/gisardo" class="twitter icon" title="@gisardo" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/giorgio.png" alt="Giorgio Sardo" border="0" /></div>
+						<div class="name">
+							Giorgio Sardo
+						</div>
+						<div class="bio">
+							Giorgio is a Director of the Windows Evangelism group at Microsoft in Redmond, winner of the Imagine Cup worldwide championship and nominated as Best Consultant of the Year from the British Computer Society. Giorgio is a popular speaker worldwide and in the last 5 years he has presented at hundreds of conferences around the globe. He is the mind behind many beautiful HTML5 applications and games available at <a href="http://beautyoftheweb.com" target="_blank">beautyoftheweb.com</a> and in the Windows Store.
+						</div>
+					</li>
+				</ul>
+				<ul class="speakers">
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/johndbritton" class="twitter icon" title="@johndbritton" target="_blank"></a>
+							<a href="http://twitter.com/shepbook" class="twitter icon" title="@shepbook" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/johnjared.png" alt="John Britton and Jared Koumentis" border="0" /></div>
+						<div class="name">
+							John and Jared
+						</div>
+						<div class="bio">
+							John Britton is a developer and community builder active in open source and education. He has organized events such as Open Everything and Mozilla Drumbeat in service of the open source community.<br/>
+							Jared Koumentis, aka "The Double Agentocat", is a Linux SysAdmin by trade, a budding programmer and loves to help people to the "Ah Ha!" moment.
+							Together they join us from the US as the GitHub team of Liaisons for JSCamp.Asia!
+						</div>
+					</li>
+					<li>
+						<div class="name">
+							Soon!
+						</div>
+						<div class="bio">
+							More Workshop hosts and the topics will be announced closer to the conference. Be sure to check back and get the updates!<br/><br/>
+							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
+							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+						</div>
+					</li>
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -451,25 +514,13 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 				</ul>
-				<ul class="speakers">
-					<li>
-						<div class="name">
-							Soon!
-						</div>
-						<div class="bio">
-							More Workshop hosts and the topics will be announced closer to the conference. Be sure to check back and get the updates!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
-						</div>
-					</li>
-				</ul>
 			</div>
 			<div class="sessiondesc" id="sprintsdesc">
 				<span class="intro">
-					<h4>Sprints</h4>
-					The weekend after the conference we have a very special offer. Interested people can come together in Singapores trendy co-working spaces
-					and contribute as a group to open source JavaScript projects. That means a combined 4 days of JavaScript goodness.<br/><br/>
-					If you're interested in using our conference to find contributors for your project and have the best people in the region work on it, please apply in our <a href="http://jscamp.wufoo.com/forms/sprint-application">Sprint Application</a>.
+					<h4>Events</h4>
+					JSCamp is not all Singapore has to offer for developers. Interested people can come together in Singapores trendy co-working spaces
+					and work or contribute as a group to open source JavaScript projects or just hang out and socialize. We inform you here about events and places to go around the time of the conference.<br/><br/>
+					If you're interested in using our conference to find contributors or visitors for your event or project and get to know the finest web developers in the region, please <a href="mailto:thomas@jscamp.asia">let us know</a>.
 				</span>
 				<ul class="speakers">
 					<li>
@@ -477,9 +528,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Soon!
 						</div>
 						<div class="bio">
-							Sprints will be announced two months before the conference.<br/><br/>
-							If you want to host one, please let us know in our
-							<a href="http://jscamp.wufoo.com/forms/sprint-application">Sprint Application</a>!<br/><br/>
+						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add our Events Calendar</a></b>
+							Events around the conference will be announced short before the conference.<br/><br/>
+							If you want to host one, please
+							<a href="mailto:thomas@jscamp.asia">let us know</a>!<br/><br/>
 							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
 							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
@@ -630,14 +682,11 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
-						<div class="links">
-							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
+						<div class="name">
+							Become a Sponsor
 						</div>
-						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
 						<div class="bio">
-							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
-							of JavaScript to deliver the best user experience in the industry.
+							We are eager to make JScamp the web and mobile developer conference of the year and there is much to benefit from as our sponsor. <a href="mailto:sponsors@jscamp.asia">Drop us a mail</a>
 						</div>
 					</li>
 				</ul>
@@ -664,11 +713,14 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
-						<div class="name">
-							Become a Sponsor
+						<div class="links">
+							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
 						</div>
+						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
 						<div class="bio">
-							We are eager to make JScamp the web and mobile developer conference of the year and there is much to benefit from as our sponsor. <a href="mailto:sponsors@jscamp.asia">Drop us a mail</a>
+							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
+							of JavaScript to deliver the best user experience in the industry.
 						</div>
 					</li>
 				</ul>
@@ -834,7 +886,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<script type="text/javascript" src="static5/js/dependencies/0050-audiofade-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0070-jquery.scrollto-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0080-jquery.form-ck.js"></script>
-	<script type="text/javascript" src="static5/js/main/04-jscamp-ck.js"></script>
+	<script type="text/javascript" src="static5/js/main/05-jscamp-ck.js"></script>
 	<!-- end scripts-->
 	
 	<audio id="la_oceansound" preload="auto" autobuffer="autobuffer" style="display: none"> 
@@ -853,7 +905,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	s.parentNode.insertBefore(g,s)}(document,'script'));
  
 	//time to countdown in seconds, and element ID
-	javascript_countdown.init(0, 'counter');
+	//javascript_countdown.init(0, 'counter');
 
 	</script>
 </body>

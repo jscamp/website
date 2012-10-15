@@ -37,7 +37,15 @@ $discounts = array(
 	"SGGEEKGIRLS"		=> 50,
 	"JSDCTW"			=> 50,
 	"KNOREX"			=> 30,
-	"OCTOCAT"			=> 50
+	"OCTOCAT"			=> 50,
+	"AUTODESK"			=> 30,
+	"2359MEDIA"			=> 30,
+	"ZOPIM"				=> 30,
+	"SOFTLAYER"			=> 30,
+	"JSDCTW"			=> 50,
+	"VERITRANS"			=> 30,
+	"BLK71"				=> 50,
+	"INFOCOMM"			=> 30
 
 );
 
@@ -108,7 +116,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
-	<link rel="stylesheet" href="static5/css/style5.css" />
+	<link rel="stylesheet" href="static5/css/style6.css" />
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
