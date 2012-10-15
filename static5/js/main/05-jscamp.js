@@ -22,7 +22,7 @@ _.delay(function() {
 },6000);
 
 var highlightTalks = _.once(function() {
-	if($("#sessionicon div.current").length == 0)
+	if($("#sessions #sessionicon .current").length == 0)
 		$("#talks").addClass("current");
 });
 
@@ -142,7 +142,7 @@ function routeTo(href) {
 	if(goto == "talks" || goto == "sprints" || goto == "workshops") {
 		$("#talks").addClass("current");
 		$.scrollTo($("#sessions").position().top - 100, {duration:300});
-		_.delay(function() { $("#"+goto).click() }, 500);
+		_.delay(function() { $("#"+goto).click() }, 800);
 	}
 	else {
 		var to = $("#" + goto);
