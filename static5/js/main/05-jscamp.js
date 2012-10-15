@@ -159,12 +159,14 @@ window.onpopstate = function(event) {
 }
 
 $(document).ready(function () {
-	krusovice.tools.fadeIn(document.getElementById("la_oceansound"),500,0.4,50);
-	
-	_.delay(function() {
-		krusovice.tools.fadeOut(document.getElementById("la_oceansound"),9000,0,50);
-	},500);
 
+	if(window.location.pathname == "/") {
+		krusovice.tools.fadeIn(document.getElementById("la_oceansound"),500,0.4,50);
+		
+		_.delay(function() {
+			krusovice.tools.fadeOut(document.getElementById("la_oceansound"),9000,0,50);
+		},500);
+	}
 	$("a").click(function(event) {
 		var target = $(event.target).is("a") ? $(event.target) : $(event.target).closest("a");
 		var href = $(target).attr("href");

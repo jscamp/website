@@ -519,7 +519,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<span class="intro">
 					<h4>Events</h4>
 					JSCamp is not all Singapore has to offer for developers. Interested people can come together in Singapores trendy co-working spaces
-					and work or contribute as a group to open source JavaScript projects or just hang out and socialize. We inform you here about events and places to go around the time of the conference.<br/><br/>
+					and work or contribute as a group to open source JavaScript projects or just hang out and socialize. We inform you here about events and places to go to around the time of the conference.<br/><br/>
 					If you're interested in using our conference to find contributors or visitors for your event or project and get to know the finest web developers in the region, please <a href="mailto:thomas@jscamp.asia">let us know</a>.
 				</span>
 				<ul class="speakers">
@@ -864,6 +864,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			</td>
 			<td>
 				<a href="getticket.php" target="_blank" class="link">Register now!</a>
+				<a href="http://blog.jscamp.asia" target="_blank" class="link">Blog</a>
 			</td>
 		</tr>
 		</table>
