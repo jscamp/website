@@ -714,13 +714,12 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
+							<a href="http://www.propertyguru.com.sg" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/SGPropertyGuru" class="twitter icon" target="_blank" title="@SGPropertyGuru"></a>
 						</div>
-						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
+						<div class="img"><a href="http://www.propertyguru.com.sg" target="_blank"><img src="static5/img/supporters/propertyguru.png" /></a></div>
 						<div class="bio">
-							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
-							of JavaScript to deliver the best user experience in the industry.
+							PropertyGuru.com.sg is the leading Singapore Property website - the best place to start your real estate search whether you are an investor, buying for own use, or looking for a place to rent. In PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
 						</div>
 					</li>
 				</ul>
@@ -744,6 +743,17 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							GitHub is version control for software development and so much more. Whether it's a weekend side project, your favorite open source
 							library, a startup destined for glory, or your company's app, GitHub helps everyone work together with tools for easier collaboration and more visibility. Check it out — open source is free!
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
+						</div>
+						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
+						<div class="bio">
+							ADZ is South-East Asia's first online advertisement Demand-Side Platform. Build on top of state-of-the-art Real-Time-Bidding infrastructure ADZ uses huge amounts
+							of JavaScript to deliver the best user experience in the industry.
 						</div>
 					</li>
 				</ul>
