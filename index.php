@@ -489,13 +489,17 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
+						<div class="links">
+							<a href="https://plus.google.com/117614030945250277079/posts" class="gplus icon" title="+Joshua Koo" target="_blank">+</a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/joshuakoo.jpg" alt="Joshua Koo" border="0" /></div>
 						<div class="name">
-							Soon!
+							Joshua Koo
 						</div>
 						<div class="bio">
-							More Workshop hosts and the topics will be announced closer to the conference. Be sure to check back and get the updates!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+							Joshua's from Singapore, currently working for <a href="http://www.zopim.com" target="_blank">Zopim</a>, an award winning startup based locally.
+							He experiments with and contributes to <a href="http://mrdoob.github.com/three.js/" target="_blank">three.js</a>, a popular JavaScript 3D library.
+							Some might already know him for his JavaScript and <a href="http://www.chromeexperiments.com/detail/arabesque/?f=" target="_blank">WebGL</a> <a href="http://www.chromeexperiments.com/detail/it-came-upon/?f=" target="_blank">experiments</a>.							
 						</div>
 					</li>
 				</ul>
@@ -511,6 +515,16 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							<a href="http://www.ricostacruz.com" target="_blank">Rico</a> is a Ruby and JavaScript developer from the Philippines whose passion lies in building great web applications and slick user interfaces.
 							He is the co-founder of a small web development team in Manila called <a href="http://nadarei.co" target="_blank">Nadarei</a>, the author of the Backbone.js guide <a href="http://ricostacruz.com/backbone-patterns" target="_blank">Backbone Patterns</a> among other open-source projects that help people build great apps.
+						</div>
+					</li>
+					<li>
+						<div class="name">
+							Soon!
+						</div>
+						<div class="bio">
+							More Workshop hosts and the topics will be announced closer to the conference. Be sure to check back and get the updates!<br/><br/>
+							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
+							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
 					</li>
 				</ul>
