@@ -988,8 +988,8 @@ a.icon.www {
   background: #ffa500;
   height: 150px;
 }
-#sessions .speakers li .img > *,
-#sponsors .speakers li .img > * {
+#sessions .speakers li .img *,
+#sponsors .speakers li .img * {
   -webkit-border-radius: 8px 0 0 0;
   -moz-border-radius: 8px 0 0 0;
   -o-border-radius: 8px 0 0 0;

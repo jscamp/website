@@ -60,7 +60,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
-	<link rel="stylesheet" href="static5/css/style6.css" />
+	<link rel="stylesheet" href="static5/css/style7.css" />
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
@@ -538,21 +538,35 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				</span>
 				<ul class="speakers">
 					<li>
+						<div class="links">
+							<a href="http://twitter.com/jfdiasia" class="twitter icon" title="@jfdiasia" target="_blank"></a>
+							<a href="http://jfdi.asia" class="www icon" title="JFDI.Asia" target="_blank">www</a>
+						</div>
+						<div class="img"><a href="http://jfdi.asia" target="_blank"><img src="static5/img/events/jfdi.png" alt="Joyful Frog Digital Incubator" border="0" /></a></div>
+						<div class="name">
+							Tech Entre- preneurship Meetup by JFDI
+						</div>
+						<div class="bio">
+							<b><a href="Tech Entrepreneurship Meetup by JFDI.ics">Nov 28, 7pm</a></b><br/><br/>
+							Only JSCamp attendees can upgrade their ticket to attend the Tech Entrepreneurship Meetup by JFDI on the evening of November 28th for an additional S$60.
+							The <a href="http://jfdi.asia" target="_blank">Joyful Frog Digital Incubator</a>, Southeast Asia’s first Global Accelerator Network seed accelerator, is offering you the exclusive chance to connect with tech entrepreneurs and investors from all over the region over delicious food and drinks.
+						</div>
+					</li>
+				</ul>
+				<ul class="speakers">
+					<li>
 						<div class="name">
 							Soon!
 						</div>
 						<div class="bio">
 						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add the Google Events Calendar</a></b><br/><br/>
-							Events around the conference will be announced short before the conference.<br/><br/>
+							Events around the conference will be announced over the next weeks.<br/><br/>
 							If you want to host one, please
 							<a href="mailto:thomas@jscamp.asia">let us know</a>!<br/><br/>
 							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
 							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
 					</li>
-				</ul>
-				<ul class="speakers">
-					
 				</ul>
 				<ul class="speakers">
 					
