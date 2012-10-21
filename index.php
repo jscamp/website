@@ -429,6 +429,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
+						<div class="links">
+							<a href="http://twitter.com/laktek" class="twitter icon" title="@laktek" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/lakshan.jpg" alt="Lakshan Perera" border="0" /></div>
+						<div class="name">
+							Lakshan Perera
+						</div>
+						<div class="bio">
+							Lakshan is a JavaScript developer from Colombo, Sri Lanka. He is the creator of <a href="https://github.com/laktek/punch" target="_blank">Punch</a>, web publishing framework and contributes to <a href="http://www.aloha-editor.org" target="_blank">Aloha Editor</a> project. He loves to experiment with different web technologies and build open source tools to increase developer happiness. Currently, he works as the lead developer of <a href="http://curdbee.com" target="_blank">CurdBee</a>, online invoicing service.
+						</div>
+					</li>
+					<li>
 						<div class="name">
 							Check back every week
 						</div>
@@ -757,7 +769,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Along with the community, Adobe is developing new web standards and advancing existing ones. Adobe wants to make the web more wonderful by championing features in the W3C and engineering those features directly in open browser engines like Webkit.
 						</div>
 					</li>
-					<li>
+					<!--<li>
 						<div class="links">
 							<a href="http://www.propertyguru.com.sg" target="_blank" class="www icon">www</a>
 							<a href="http://twitter.com/SGPropertyGuru" class="twitter icon" target="_blank" title="@SGPropertyGuru"></a>
@@ -766,7 +778,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							PropertyGuru.com.sg is the leading Singapore Property website - the best place to start your real estate search whether you are an investor, buying for own use, or looking for a place to rent. In PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
 						</div>
-					</li>
+					</li>//-->
 				</ul>
 				<ul class="speakers">
 					<li>
