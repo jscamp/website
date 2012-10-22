@@ -30,6 +30,7 @@ $discounts = array(
 	"MELBJS"			=> 50,
 	"SYDJS"				=> 50,
 	"BKKJS"				=> 50,
+	"DRUPALSG"			=> 50,
 	"TECHPROPULSION"	=> 30,
 	"FRONTENDSG"		=> 50,
 	"MOBILEMONDAY"		=> 30,
@@ -116,6 +117,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
+	<link rel="stylesheet" href="static5/css/style6.css" />
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
