@@ -45,7 +45,8 @@ $discounts = array(
 	"JSDCTW"			=> 50,
 	"VERITRANS"			=> 30,
 	"BLK71"				=> 50,
-	"INFOCOMM"			=> 30
+	"INFOCOMM"			=> 30,
+	"SSC"				=> 50
 
 );
 
