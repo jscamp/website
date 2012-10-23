@@ -3,63 +3,7 @@
 $code = trim(strtoupper(str_replace(" ","",$_GET['code'])));
 $waitinglist = false;
 
-$discounts = array(
-
-	"LATEBIRD" 			=> 50,
-	"HACKERSPACESG" 	=> 50,
-	"SMARTSPACESG"		=> 50,
-	"THEHUBSG"			=> 50,
-	"GIRLSINTECHSG"		=> 50,
-	"NUSHACKERS"		=> 50,
-	"FISG"				=> 50,
-	"JFDIASIA"			=> 50,
-	"SPIFFY"			=> 30,
-	"VIKI"				=> 30,
-	"GOOGLESG"			=> 30,
-	"PAYPALSG"			=> 30,
-	"PWDOORG"			=> 50,
-	"GREENWAVEREALITY"	=> 30,
-	"WEBGEEKPH"			=> 50,
-	"FIID"				=> 50,
-	"ADOBEHTML"			=> 30,
-	"TWIA"				=> 30,
-	"HELLOASIA"			=> 50,
-	"NODEJSSG"			=> 50,
-	"STARTUPLOKAL"		=> 50,
-	"RIM"				=> 30,
-	"BRISJS"			=> 50,
-	"MELBJS"			=> 50,
-	"SYDJS"				=> 50,
-	"BKKJS"				=> 50,
-	"TECHPROPULSION"	=> 30,
-	"FRONTENDSG"		=> 50,
-	"MOBILEMONDAY"		=> 30,
-	"INFOCOMM"			=> 30,
-	"SGGEEKGIRLS"		=> 50,
-	"JSDCTW"			=> 50,
-	"KNOREX"			=> 30,
-	"OCTOCAT"			=> 50,
-	"AUTODESK"			=> 30,
-	"2359MEDIA"			=> 30,
-	"ZOPIM"				=> 30,
-	"SOFTLAYER"			=> 30,
-	"JSDCTW"			=> 50,
-	"VERITRANS"			=> 30,
-	"BLK71"				=> 50,
-	"INFOCOMM"			=> 30,
-	"SSC"				=> 50,
-	"DRUPALSG"			=> 50,
-	"TEST"				=> 51
-
-);
-
-$urls = array(
-
-	50 	=> "https://jscamp.wufoo.com/forms/r7x2s9/def/Field638=".$code,
-	30 	=> "https://jscamp.wufoo.com/forms/q7x3a1/def/Field638=".$code,
-	0 	=> "https://jscamp.wufoo.com/forms/jscamp-full-pass/"
-
-);
+require_once("configs.php");
 
 $discount = isset($discounts[$code]) ? $discounts[$code] : 0;
 
