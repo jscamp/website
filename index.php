@@ -165,7 +165,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<li><a href="JSCamp.Asia 2012.ics"><span class="icon date">DD:MM</span>29th + 30th November 2012</a></li>
 							<li><a href="./talks"><span class="icon talks">/*</span>16 talks in 2 tracks</a></li>
 							<li><a href="./workshops"><span class="icon workshops">()</span>6 workshops</a></li>
-							<li><a href="./sprints"><span class="icon sprints">&gt;&gt;</span>2 day coding sprints</a></li>
+							<li><a href="./events"><span class="icon sprints">!#</span>Developer events around the conference</a></li>
 							<li><a href="./venue"><span class="icon venue">@</span>NUSS Kent Ridge Guild House</a></li>
 							<li><a href="getticket.php"><span class="icon price">$</span>S$590 ticket price</a></li>
 						</ul>
@@ -943,10 +943,6 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="static5/js/libs/jquery.min.js">\x3C/script>')</script>
 
-	<!-- Setup Adz bootstrapping -->
-	<script type="text/javascript">
-
-	</script>
 
 	<!-- scripts concatenated and minified via ant build script-->
 	<script type="text/javascript" src="static5/js/dependencies/0002-browsercheck-ck.js"></script>

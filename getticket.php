@@ -1,6 +1,7 @@
 <?php
 
 $code = trim(strtoupper(str_replace(" ","",$_GET['code'])));
+$waitinglist = false;
 
 $discounts = array(
 
@@ -47,7 +48,8 @@ $discounts = array(
 	"BLK71"				=> 50,
 	"INFOCOMM"			=> 30,
 	"SSC"				=> 50,
-	"DRUPALSG"			=> 50
+	"DRUPALSG"			=> 50,
+	"TEST"				=> 51
 
 );
 
@@ -61,7 +63,10 @@ $urls = array(
 
 $discount = isset($discounts[$code]) ? $discounts[$code] : 0;
 
-if($discount != 0) {
+if($discount == 51) {
+	$waitinglist = true;
+}
+else if($discount != 0) {
 	$url = isset($urls[$discount]) ? $urls[$discount] : $urls[0];
 	
 	header("location: ".$url);
@@ -133,6 +138,24 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 		<table id="home" class="goto">
 		<tr>
 			<td>
+			
+			<?php if($waitinglist) { ?>
+			
+			<form action="addsubscriber.php" id="subscribeForm" method="get">
+			<div id="discountcode" class="content">
+				<span class="msg">Sorry. We're sold out here...<br/>Add yourself to the waiting list:</span><br/>
+				<div class="form">
+				<input type="text" name="email" id="code" autofocus="autofocus" value="" placeholder="your@email.com" />
+				<input type="hidden" name="list" value="waitinglist" />
+				<input type="submit" value="Add eMail" />
+				</div><br/><br/><br/><br/><br/>
+				<a href="https://jscamp.wufoo.com/forms/jscamp-full-pass/">I want to register now anyway!</a><br/><br/>
+				<a href="http://jscamp.asia/">Back to jscamp.asia</a>
+			</div>
+			</form>
+			
+			<?php } else { ?>
+			
 			<form action="getticket.php" method="get">
 			<div id="discountcode" class="content">
 				<?php if($code) { ?>
@@ -148,6 +171,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<a href="http://jscamp.asia/">Back to jscamp.asia</a>
 			</div>
 			</form>
+			
+			<?php } ?>
 		
 			</td>
 		</tr>
@@ -181,10 +206,38 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 		
 	</div>
 	
-	<!-- end scripts-->
-
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+	<!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> -->
+    <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.js"></script>
+    <script type="text/javascript">window.jQuery || document.write('<script src="static5/js/libs/jquery.min.js">\x3C/script>')</script>
+	
+	<!-- scripts-->
+	<script type="text/javascript" src="static5/js/dependencies/0080-jquery.form-ck.js"></script>
 	<script type="text/javascript" defer="defer">
-
+	
+$("#subscribeForm").ajaxForm({
+	url: "./addsubscriber.php",
+	dataType: "html",
+	beforeSubmit: function() {
+		$("#subscribeForm").removeClass("failure success").addClass("load");
+	},
+	success: function(r) {
+		if(r.substr(0,6) != "Thanks") {
+			$("#subscribeForm").removeClass("load").addClass("failure");
+			$("#subscribeForm .msg").text(r.substr(0,r.indexOf('<br/>')));
+		}
+		else {
+			$("#subscribeForm").removeClass("load").addClass("success");
+			$("#subscribeForm .msg").text("Thanks! :)");
+			$("#subscribeForm input[name='email']").val("");
+		}
+	},
+	error: function(r, s) {
+		$("#subscribeForm").removeClass("load").addClass("failure");
+		$("#subscribeForm .msg").text("Something went utterly wrong...");
+	}
+});
+	
 	// Google Analytics
 	var _gaq=[['_setAccount','UA-31025490-1'],['_setDomainName', 'jscamp.asia'],['_trackPageview'],['_trackPageLoadTime']];
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;

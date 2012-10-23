@@ -208,8 +208,8 @@ body {
 #discountcode .form input[type='submit'] {
   position: absolute;
   top: 36px;
-  left: 266px;
-  width: 90px;
+  left: 256px;
+  width: 100px;
   cursor: pointer;
   font-family: 'Doppio One';
   font-size: 0.8em;
