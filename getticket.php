@@ -87,13 +87,13 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			
 			<form action="addsubscriber.php" id="subscribeForm" method="get">
 			<div id="discountcode" class="content">
-				<span class="msg">Sorry. We're sold out here...<br/>Add yourself to the waiting list:</span><br/>
+				<span class="msg">Sorry. We're <span style="color: white; background-color: black; padding: 0 3px; font-size: 0.95em;">SOLD OUT</span> here.<br/>Add yourself to the waiting list:</span><br/>
 				<div class="form">
 				<input type="text" name="email" id="code" autofocus="autofocus" value="" placeholder="your@email.com" />
 				<input type="hidden" name="list" value="waitinglist" />
 				<input type="submit" value="Add eMail" />
 				</div><br/><br/><br/><br/><br/>
-				<a href="https://jscamp.wufoo.com/forms/jscamp-full-pass/">I want to register now anyway!</a><br/><br/>
+				<a href="getticket.php">I want to use a different code!</a><br/><br/>
 				<a href="http://jscamp.asia/">Back to jscamp.asia</a>
 			</div>
 			</form>
@@ -103,7 +103,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			<form action="getticket.php" method="get">
 			<div id="discountcode" class="content">
 				<?php if($code) { ?>
-					<span>Sorry! &quot;<?php echo $code ?>&quot; isn't valid.<br/>You want to try again?</span>
+					<span>Sorry. &quot;<?php echo $code ?>&quot; isn't valid.<br/>You want to try again?</span>
 				<?php } else { ?>
 					<span>Wohoo! Let's sign up!<br/>Do you have a discount code?</span><br/>
 				<?php } ?>
