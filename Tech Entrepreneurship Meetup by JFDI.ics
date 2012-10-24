@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Apple Inc.//Mac OS X 10.8.2//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND:20121128T155900Z
+UID:5gkt62fppd0tm7dlvbkj5933gc@google.com
+DTSTAMP:20121015T105011Z
+LOCATION:Block 71\, Ayer Rajah Crescent\, #05-11
+DESCRIPTION:Only JSCamp attendees can upgrade their ticket to attend the
+  Tech Entrepreneurship Meetup by JFDI on the evening of November 28th fo
+ r an additional S$60.\nThe Joyful Frog Digital Incubator\, Southeast Asi
+ a’s first Global Accelerator Network seed accelerator\, is offering you 
+ the exclusive chance to connect with tech entrepreneurs and investors fr
+ om all over the region over delicious food and drinks.\n
+STATUS:CONFIRMED
+SEQUENCE:1
+CLASS:PUBLIC
+SUMMARY:Tech Entrepreneurship Meetup by JFDI
+LAST-MODIFIED:20121015T104441Z
+DTSTART:20121128T110000Z
+CREATED:20121005T142502Z
+END:VEVENT
+END:VCALENDAR

@@ -1,65 +1,16 @@
 <?php
 
 $code = trim(strtoupper(str_replace(" ","",$_GET['code'])));
+$waitinglist = false;
 
-$discounts = array(
-
-	"LATEBIRD" 			=> 50,
-	"HACKERSPACESG" 	=> 50,
-	"SMARTSPACESG"		=> 50,
-	"THEHUBSG"			=> 50,
-	"GIRLSINTECHSG"		=> 50,
-	"NUSHACKERS"		=> 50,
-	"FISG"				=> 50,
-	"JFDIASIA"			=> 50,
-	"SPIFFY"			=> 30,
-	"VIKI"				=> 30,
-	"GOOGLESG"			=> 30,
-	"PAYPALSG"			=> 30,
-	"PWDOORG"			=> 50,
-	"GREENWAVEREALITY"	=> 30,
-	"WEBGEEKPH"			=> 50,
-	"FIID"				=> 50,
-	"ADOBEHTML"			=> 30,
-	"TWIA"				=> 30,
-	"HELLOASIA"			=> 50,
-	"NODEJSSG"			=> 50,
-	"STARTUPLOKAL"		=> 50,
-	"RIM"				=> 30,
-	"BRISJS"			=> 50,
-	"MELBJS"			=> 50,
-	"SYDJS"				=> 50,
-	"BKKJS"				=> 50,
-	"TECHPROPULSION"	=> 30,
-	"FRONTENDSG"		=> 50,
-	"MOBILEMONDAY"		=> 30,
-	"INFOCOMM"			=> 30,
-	"SGGEEKGIRLS"		=> 50,
-	"JSDCTW"			=> 50,
-	"KNOREX"			=> 30,
-	"OCTOCAT"			=> 50,
-	"AUTODESK"			=> 30,
-	"2359MEDIA"			=> 30,
-	"ZOPIM"				=> 30,
-	"SOFTLAYER"			=> 30,
-	"JSDCTW"			=> 50,
-	"VERITRANS"			=> 30,
-	"BLK71"				=> 50,
-	"INFOCOMM"			=> 30
-
-);
-
-$urls = array(
-
-	50 	=> "https://jscamp.wufoo.com/forms/r7x2s9/def/Field638=".$code,
-	30 	=> "https://jscamp.wufoo.com/forms/q7x3a1/def/Field638=".$code,
-	0 	=> "https://jscamp.wufoo.com/forms/jscamp-full-pass/"
-
-);
+require_once("configs.php");
 
 $discount = isset($discounts[$code]) ? $discounts[$code] : 0;
 
-if($discount != 0) {
+if($discount == 51) {
+	$waitinglist = true;
+}
+else if($discount != 0) {
 	$url = isset($urls[$discount]) ? $urls[$discount] : $urls[0];
 	
 	header("location: ".$url);
@@ -116,6 +67,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
+	<link rel="stylesheet" href="static5/css/style7.css" />
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
@@ -130,10 +82,28 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 		<table id="home" class="goto">
 		<tr>
 			<td>
+			
+			<?php if($waitinglist) { ?>
+			
+			<form action="addsubscriber.php" id="subscribeForm" method="get">
+			<div id="discountcode" class="content">
+				<span class="msg">Sorry. We're <span style="color: white; background-color: black; padding: 0 3px; font-size: 0.95em;">SOLD OUT</span> here.<br/>Add yourself to the waiting list:</span><br/>
+				<div class="form">
+				<input type="text" name="email" id="code" autofocus="autofocus" value="" placeholder="your@email.com" />
+				<input type="hidden" name="list" value="waitinglist" />
+				<input type="submit" value="Add eMail" />
+				</div><br/><br/><br/><br/><br/>
+				<a href="getticket.php">I want to use a different code!</a><br/><br/>
+				<a href="http://jscamp.asia/">Back to jscamp.asia</a>
+			</div>
+			</form>
+			
+			<?php } else { ?>
+			
 			<form action="getticket.php" method="get">
 			<div id="discountcode" class="content">
 				<?php if($code) { ?>
-					<span>Sorry! &quot;<?php echo $code ?>&quot; isn't valid.<br/>You want to try again?</span>
+					<span>Sorry. &quot;<?php echo $code ?>&quot; isn't valid.<br/>You want to try again?</span>
 				<?php } else { ?>
 					<span>Wohoo! Let's sign up!<br/>Do you have a discount code?</span><br/>
 				<?php } ?>
@@ -145,6 +115,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<a href="http://jscamp.asia/">Back to jscamp.asia</a>
 			</div>
 			</form>
+			
+			<?php } ?>
 		
 			</td>
 		</tr>
@@ -178,10 +150,38 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 		
 	</div>
 	
-	<!-- end scripts-->
-
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+	<!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> -->
+    <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.js"></script>
+    <script type="text/javascript">window.jQuery || document.write('<script src="static5/js/libs/jquery.min.js">\x3C/script>')</script>
+	
+	<!-- scripts-->
+	<script type="text/javascript" src="static5/js/dependencies/0080-jquery.form-ck.js"></script>
 	<script type="text/javascript" defer="defer">
-
+	
+$("#subscribeForm").ajaxForm({
+	url: "./addsubscriber.php",
+	dataType: "html",
+	beforeSubmit: function() {
+		$("#subscribeForm").removeClass("failure success").addClass("load");
+	},
+	success: function(r) {
+		if(r.substr(0,6) != "Thanks") {
+			$("#subscribeForm").removeClass("load").addClass("failure");
+			$("#subscribeForm .msg").text(r.substr(0,r.indexOf('<br/>')));
+		}
+		else {
+			$("#subscribeForm").removeClass("load").addClass("success");
+			$("#subscribeForm .msg").text("Thanks! :)");
+			$("#subscribeForm input[name='email']").val("");
+		}
+	},
+	error: function(r, s) {
+		$("#subscribeForm").removeClass("load").addClass("failure");
+		$("#subscribeForm .msg").text("Something went utterly wrong...");
+	}
+});
+	
 	// Google Analytics
 	var _gaq=[['_setAccount','UA-31025490-1'],['_setDomainName', 'jscamp.asia'],['_trackPageview'],['_trackPageLoadTime']];
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;

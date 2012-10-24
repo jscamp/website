@@ -60,7 +60,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 	<!-- CSS: implied media="all" -->
-	<link rel="stylesheet" href="static5/css/style6.css" />
+	<link rel="stylesheet" href="static5/css/style7.css" />
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
@@ -165,7 +165,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<li><a href="JSCamp.Asia 2012.ics"><span class="icon date">DD:MM</span>29th + 30th November 2012</a></li>
 							<li><a href="./talks"><span class="icon talks">/*</span>16 talks in 2 tracks</a></li>
 							<li><a href="./workshops"><span class="icon workshops">()</span>6 workshops</a></li>
-							<li><a href="./sprints"><span class="icon sprints">&gt;&gt;</span>2 day coding sprints</a></li>
+							<li><a href="./events"><span class="icon sprints">!#</span>Developer events around the conference</a></li>
 							<li><a href="./venue"><span class="icon venue">@</span>NUSS Kent Ridge Guild House</a></li>
 							<li><a href="getticket.php"><span class="icon price">$</span>S$590 ticket price</a></li>
 						</ul>
@@ -429,6 +429,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
+						<div class="links">
+							<a href="http://twitter.com/laktek" class="twitter icon" title="@laktek" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/lakshan.jpg" alt="Lakshan Perera" border="0" /></div>
+						<div class="name">
+							Lakshan Perera
+						</div>
+						<div class="bio">
+							Lakshan is a JavaScript developer from Colombo, Sri Lanka. He is the creator of <a href="https://github.com/laktek/punch" target="_blank">Punch</a>, web publishing framework and contributes to <a href="http://www.aloha-editor.org" target="_blank">Aloha Editor</a> project. He loves to experiment with different web technologies and build open source tools to increase developer happiness. Currently, he works as the lead developer of <a href="http://curdbee.com" target="_blank">CurdBee</a>, online invoicing service.
+						</div>
+					</li>
+					<li>
 						<div class="name">
 							Check back every week
 						</div>
@@ -538,24 +550,55 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				</span>
 				<ul class="speakers">
 					<li>
+						<div class="links">
+							<a href="http://twitter.com/jfdiasia" class="twitter icon" title="@jfdiasia" target="_blank"></a>
+							<a href="http://jfdi.asia" class="www icon" title="JFDI.Asia" target="_blank">www</a>
+						</div>
+						<div class="img"><a href="http://jfdi.asia" target="_blank"><img src="static5/img/events/jfdi.png" alt="Joyful Frog Digital Incubator" border="0" /></a></div>
+						<div class="name">
+							Tech Entre- preneurship Meetup by JFDI
+						</div>
+						<div class="bio">
+							<b><a href="Tech Entrepreneurship Meetup by JFDI.ics">Nov 28, 7pm</a></b><br/><br/>
+							Only JSCamp attendees can upgrade their ticket to attend the Tech Entrepreneurship Meetup by JFDI on the evening of November 28th for an additional S$60.
+							The <a href="http://jfdi.asia" target="_blank">Joyful Frog Digital Incubator</a>, Southeast Asia’s first Global Accelerator Network seed accelerator, is offering you the exclusive chance to connect with tech entrepreneurs and investors from all over the region over delicious food and drinks.
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">#05-11 Block 71, Ayer Rajah Crescent, Singapore 139951 at one-north MRT</span>
+						</div>
+					</li>
+				</ul>
+				<ul class="speakers">
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/hubsg" class="twitter icon" title="@hubsg" target="_blank"></a>
+							<a href="http://singapore.the-hub.net/" class="www icon" title="The HUB Singapore" target="_blank">www</a>
+						</div>
+						<div class="img"><a href="http://singapore.the-hub.net/" target="_blank"><img src="static5/img/events/hub.png" alt="Joyful Frog Digital Incubator" border="0" /></a></div>
+						<div class="name">
+							Meet up at The HUB Singapore
+						</div>
+						<div class="bio">
+							<b><a href="Meet up at the HUB Singapore.ics">Nov 27+28, Dec 1+2</a></b><br/><br/>
+							For those arriving days early or leaving late for JSCamp, The HUB Singapore offers you a desk, Wi-Fi to get some work done and like-minded people to hang out with. It's centrally located at Somerset MRT and they do great coffee. This offer is valid only for JSCamp attendees and only the two days before and after the event. <a href="http://singapore.the-hub.net" target="_blank">Check it out!</a>
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">National Youth Council Academy, 113 Somerset Road, Singapore 238165 at Somerset MRT</span>
+						</div>
+					</li>
+				</ul>
+				<ul class="speakers">
+					<li>
 						<div class="name">
 							Soon!
 						</div>
 						<div class="bio">
 						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add the Google Events Calendar</a></b><br/><br/>
-							Events around the conference will be announced short before the conference.<br/><br/>
+							Events around the conference will be announced over the next weeks.<br/><br/>
 							If you want to host one, please
 							<a href="mailto:thomas@jscamp.asia">let us know</a>!<br/><br/>
 							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
 							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
 					</li>
-				</ul>
-				<ul class="speakers">
-					
-				</ul>
-				<ul class="speakers">
-					
 				</ul>
 			</div>
 
@@ -726,7 +769,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Along with the community, Adobe is developing new web standards and advancing existing ones. Adobe wants to make the web more wonderful by championing features in the W3C and engineering those features directly in open browser engines like Webkit.
 						</div>
 					</li>
-					<li>
+					<!--<li>
 						<div class="links">
 							<a href="http://www.propertyguru.com.sg" target="_blank" class="www icon">www</a>
 							<a href="http://twitter.com/SGPropertyGuru" class="twitter icon" target="_blank" title="@SGPropertyGuru"></a>
@@ -735,7 +778,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							PropertyGuru.com.sg is the leading Singapore Property website - the best place to start your real estate search whether you are an investor, buying for own use, or looking for a place to rent. In PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
 						</div>
-					</li>
+					</li>//-->
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -900,10 +943,6 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="static5/js/libs/jquery.min.js">\x3C/script>')</script>
 
-	<!-- Setup Adz bootstrapping -->
-	<script type="text/javascript">
-
-	</script>
 
 	<!-- scripts concatenated and minified via ant build script-->
 	<script type="text/javascript" src="static5/js/dependencies/0002-browsercheck-ck.js"></script>
