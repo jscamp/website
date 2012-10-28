@@ -692,13 +692,13 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							</p>
 						</td>
 						<td>
-							<a href="http://www.ibishotel.com/gb/hotel-6657-ibis-singapore-on-bencoolen/index.shtml" target="_blank"><img src="static5/img/ibis.png" border="0" /></a>
+							<a href="http://www.agoda.com/asia/singapore/singapore/ibis_singapore_on_bencoolen_hotel.html?cid=1464398" target="_blank"><img src="static5/img/ibis.png" border="0" /></a>
 							<h4>Where to stay?</h4>
 							<p>
 								The ibis Hotel Bencoolen is a modern, sleek budget hotel with solid service, good breakfast and, of course, in-room Wi-Fi.
 								It's located very central in Singapore and we'll offer transfer services from this hotel to the conference.
 								<br/><br/>
-								<a href="http://www.ibishotel.com/gb/hotel-6657-ibis-singapore-on-bencoolen/index.shtml" target="_blank">http://ibishotel.com</a>
+								<a href="http://www.agoda.com/asia/singapore/singapore/ibis_singapore_on_bencoolen_hotel.html?cid=1464398" target="_blank">http://ibishotel.com</a>
 							</p>
 						</td>
 					</tr>
