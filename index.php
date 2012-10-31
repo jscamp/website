@@ -163,7 +163,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						
 						<ul>
 							<li><a href="JSCamp.Asia 2012.ics"><span class="icon date">DD:MM</span>29th + 30th November 2012</a></li>
-							<li><a href="./talks"><span class="icon talks">/*</span>16 talks in 2 tracks</a></li>
+							<li><a href="./talks"><span class="icon talks">/*</span>17 talks in 2 tracks</a></li>
 							<li><a href="./workshops"><span class="icon workshops">()</span>6 workshops</a></li>
 							<li><a href="./events"><span class="icon sprints">!#</span>Developer events around the conference</a></li>
 							<li><a href="./venue"><span class="icon venue">@</span>NUSS Kent Ridge Guild House</a></li>
@@ -298,6 +298,15 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							making bad jokes about VBScript and dreaming of happy hour. The only native Brit in the company described him in one word: 'cheeky'. You can see him live on stage regularly, with talks about Cloud9, node.js, scaling and mobile development.
 						</div>
 					</li>
+					<li>
+						<div class="name">
+							Follow them all!
+						</div>
+						<div class="bio">
+							For all Twitter updates from our talk hosts, follow our list!<br/>
+							<a href="http://twitter.com/jscamp_asia/lists/talks" target="_blank">JSCamp 2012 talks</a><br/>
+						</div>
+					</li>
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -333,34 +342,26 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/wonderchook" class="twitter icon" target="_blank" title="@wonderchook"></a>
+							<a href="http://twitter.com/_jhs" class="twitter icon" title="@_jhs" target="_blank"></a>
 						</div>
-						<div class="img"><img src="static5/img/speakers/katechapman.png" alt="Kate Chapman" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/jason.png" alt="Jason Smith" border="0" /></div>
 						<div class="name">
-							Kate Chapman
+							Jason Smith
 						</div>
 						<div class="bio">
-							Kate Chapman is the Executive Director and a founding member of the
-							<a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team (HOT)</a>.  HOT utilizes OpenStreetMap to
-							create free geographic data for disaster preparedness, response, and
-							recovery. 
-							Kate's most recent work has been in Indonesia in partnership with
-							<a href="http://www.ausaid.gov.au/Pages/home.aspx" target="_blank">AusAID</a> and the <a href="http://www.bnpb.go.id/website/asp/index.asp" target="_blank">Indonesian National Disaster Management Agency (BNPB)</a>
-							to collect infrastructure data. Kate was involved in development of multiple web-GIS applications.
-							She acted as Developer Community Lead for <a href="http://geocommons.com/" target="_blank">GeoCommons</a> and served in
-							various technical roles at <a href="http://imapdata.com/" target="_blank">iMapData</a>.
+							Jason has been an entrepreneur since 2002. He is an expert deploying, managing, and using CouchDB in the enterprise. He built the <a href="http://www.iriscouch.com" target="_blank">Iris Couch</a> infrastructure and provides the technical vision of the Iris Couch platform.
 						</div>
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/nonstopgamers" class="twitter icon" target="_blank" title="@nonstopgamers"></a>
+							<a href="http://twitter.com/laktek" class="twitter icon" title="@laktek" target="_blank"></a>
 						</div>
-						<div class="img"><img src="static5/img/speakers/henrik.jpg" alt="Henrik Karlstr&ouml;m" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/lakshan.jpg" alt="Lakshan Perera" border="0" /></div>
 						<div class="name">
-							Henrik Karlstr&ouml;m
+							Lakshan Perera
 						</div>
 						<div class="bio">
-							Henrik is the lead client developer and co-founder at HTML5 gaming startup <a href="http://nonstop-games.com" target="_blank">NonStop Games</a>. Originally from Finland, Henrik now lives in and works in Singapore.
+							Lakshan is a JavaScript developer from Colombo, Sri Lanka. He is the creator of <a href="https://github.com/laktek/punch" target="_blank">Punch</a>, web publishing framework and contributes to <a href="http://www.aloha-editor.org" target="_blank">Aloha Editor</a> project. He loves to experiment with different web technologies and build open source tools to increase developer happiness. Currently, he works as the lead developer of <a href="http://curdbee.com" target="_blank">CurdBee</a>, online invoicing service.
 						</div>
 					</li>
 					<li>
@@ -373,6 +374,18 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 						<div class="bio">
 							Tomasz is helping to develop and ship software for Microsoft. His current area of focus is node.js, JavaScript, and Windows Azure. Tomasz created <a href="https://github.com/tjanczuk/iisnode/wiki" target="_blank">iisnode</a>, a mechanism that allows hosting node.js applications in IIS on Windows and Windows Azure. Before node.js he worked on .NET Framework and Silverlight, specializing in web service technologies, in particular security.
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/davidshimjs" class="twitter icon" title="@davidshimjs" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/sangmin.jpg" alt="Sangmin Shim" border="0" /></div>
+						<div class="name">
+							Sangmin Shim
+						</div>
+						<div class="bio">
+							Sangmin is a Senior JavaScript developer working at <a href="http://www.nhncorp.com/nhnen/index.nhn" target="_blank">NHN</a> and the creator of the JavaScript animation library <a href="http://jindo.dev.naver.com/collie/" target="_blank">Collie</a>. He is very interested in making JavaScript apps run faster and more smoothly. He has authored a book titled "What You Need to Know about JavaScript’s Performance" and also writes mobile games using Collie.
 						</div>
 					</li>
 				</ul>
@@ -418,36 +431,46 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/_jhs" class="twitter icon" title="@_jhs" target="_blank"></a>
+							<a href="http://twitter.com/wonderchook" class="twitter icon" target="_blank" title="@wonderchook"></a>
 						</div>
-						<div class="img"><img src="static5/img/speakers/jason.png" alt="Jason Smith" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/katechapman.png" alt="Kate Chapman" border="0" /></div>
 						<div class="name">
-							Jason Smith
+							Kate Chapman
 						</div>
 						<div class="bio">
-							Jason has been an entrepreneur since 2002. He is an expert deploying, managing, and using CouchDB in the enterprise. He built the <a href="http://www.iriscouch.com" target="_blank">Iris Couch</a> infrastructure and provides the technical vision of the Iris Couch platform.
+							Kate Chapman is the Executive Director and a founding member of the
+							<a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team (HOT)</a>.  HOT utilizes OpenStreetMap to
+							create free geographic data for disaster preparedness, response, and
+							recovery. 
+							Kate's most recent work has been in Indonesia in partnership with
+							<a href="http://www.ausaid.gov.au/Pages/home.aspx" target="_blank">AusAID</a> and the <a href="http://www.bnpb.go.id/website/asp/index.asp" target="_blank">Indonesian National Disaster Management Agency (BNPB)</a>
+							to collect infrastructure data. Kate was involved in development of multiple web-GIS applications.
+							She acted as Developer Community Lead for <a href="http://geocommons.com/" target="_blank">GeoCommons</a> and served in
+							various technical roles at <a href="http://imapdata.com/" target="_blank">iMapData</a>.
 						</div>
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/laktek" class="twitter icon" title="@laktek" target="_blank"></a>
+							<a href="http://twitter.com/bradleypriest" class="twitter icon" title="@bradleypriest" target="_blank"></a>
 						</div>
-						<div class="img"><img src="static5/img/speakers/lakshan.jpg" alt="Lakshan Perera" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/brad.jpg" alt="Bradley Priest" border="0" /></div>
 						<div class="name">
-							Lakshan Perera
+							Bradley Priest
 						</div>
 						<div class="bio">
-							Lakshan is a JavaScript developer from Colombo, Sri Lanka. He is the creator of <a href="https://github.com/laktek/punch" target="_blank">Punch</a>, web publishing framework and contributes to <a href="http://www.aloha-editor.org" target="_blank">Aloha Editor</a> project. He loves to experiment with different web technologies and build open source tools to increase developer happiness. Currently, he works as the lead developer of <a href="http://curdbee.com" target="_blank">CurdBee</a>, online invoicing service.
+							<a href="http://bradleypriest.com" target="_blank">Bradley</a> is the CTO and lead developer of a Singapore-based startup, <a href="http://tradegecko.com" target="_blank">TradeGecko</a>. Previously primarily a Ruby developer, over the last 18 months he has thrown himself into the world of JS and client-side technologies, and is now a frequent contributor to <a href="http://emberjs.com" target="_blank">Ember.js</a>.
 						</div>
 					</li>
 					<li>
+						<div class="links">
+							<a href="http://twitter.com/nonstopgamers" class="twitter icon" target="_blank" title="@nonstopgamers"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/henrik.jpg" alt="Henrik Karlstr&ouml;m" border="0" /></div>
 						<div class="name">
-							Check back every week
+							Henrik Karlstr&ouml;m
 						</div>
 						<div class="bio">
-							We'll reveal more speakers every week. Be sure to check back and get the updates!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+							Henrik is the lead client developer and co-founder at HTML5 gaming startup <a href="http://nonstop-games.com" target="_blank">NonStop Games</a>. Originally from Finland, Henrik now lives in and works in Singapore.
 						</div>
 					</li>
 				</ul>
