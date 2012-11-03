@@ -600,7 +600,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Tech Entre- preneurship Meetup by JFDI
 						</div>
 						<div class="bio">
-							<b><a href="Tech Entrepreneurship Meetup by JFDI.ics">Nov 28, 7pm</a></b><br/><br/>
+							<b><a href="Tech Entrepreneurship Meetup by JFDI.ics">Wed, Nov 28, 7pm</a></b><br/><br/>
 							Only JSCamp attendees can upgrade their ticket to attend the Tech Entrepreneurship Meetup by JFDI on the evening of November 28th for an additional S$60.
 							The <a href="http://jfdi.asia" target="_blank">Joyful Frog Digital Incubator</a>, Southeast Asia’s first Global Accelerator Network seed accelerator, is offering you the exclusive chance to connect with tech entrepreneurs and investors from all over the region over delicious food and drinks.
 							<br/><br/>
@@ -619,7 +619,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Meet up at The HUB Singapore
 						</div>
 						<div class="bio">
-							<b><a href="Meet up at the HUB Singapore.ics">Nov 27+28, Dec 1+2</a></b><br/><br/>
+							<b><a href="Meet up at the HUB Singapore.ics">Nov 27+28 (Tue/Wed), Dec 1+2 (Sat/Sun)</a></b><br/><br/>
 							For those arriving days early or leaving late for JSCamp, The HUB Singapore offers you a desk, Wi-Fi to get some work done and like-minded people to hang out with. It's centrally located at Somerset MRT and they do great coffee. This offer is valid only for JSCamp attendees and only the two days before and after the event. <a href="http://singapore.the-hub.net" target="_blank">Check it out!</a>
 							<br/><br/>
 							<span style="font-size: 0.8em; line-height: 0.9em;">National Youth Council Academy, 113 Somerset Road, Singapore 238165 at Somerset MRT</span>
