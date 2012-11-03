@@ -230,7 +230,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<span class="intro">
 					<h4>Talks</h4>
 					We are so happy to host some of the most amazing people who shape the web everyday and who want to inspire
-					and share their experience with you. Over the two days 16 speakers from all over the world will host in-depth sessions
+					and share their experience with you. Over the two days 17 speakers from all over the world will host in-depth sessions
 					in 2 tracks.</span>
 				<ul class="speakers">
 					<li>
@@ -243,6 +243,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Eric Bidelman
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/34889081313/jscamp-talk-eric-bidelman-web-components-are-the" target="_blank">"Web Components Are the Future!"</a></b>
+							<br/><br/>
 							Eric is a Senior Developer Programs Engineer on the <a href="http://www.google.com/chrome" target="_blank">Google Chrome</a> team. He is the author of "Using the HTML5 Filesystem API" and a core contributor to <a href="http://www.html5rocks.com" target="_blank">html5rocks.com</a>. Prior to Google, Eric worked as a software engineer at the University of Michigan where he designed rich web applications and APIs for the university's 19 libraries.
 						</div>
 					</li>
@@ -318,6 +320,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Divya Manian
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/34889290406/jscamp-talk-divya-manian-css-next" target="_blank">"CSS Next"</a></b>
+							<br/><br/>
 							Divya is part of the <a href="http://html.adobe.com/" target="_blank">Adobe Web Platform Team</a>. She
 							made the jump from developing device drivers for Motorola phones to
 							designing websites and has not looked back since. She takes her duties as
@@ -399,6 +403,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Angus Croll
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/34889385302/jscamp-talk-angus-croll-parlez-vous-javascript" target="_blank">"Parlez-Vous JavaScript?"</a></b>
+							<br/><br/>
 							Angus is a member of the Web Core team at <a href="http://twitter.com" target="_blank">Twitter</a>. He is author of the <a href="http://javascriptweblog.wordpress.com" target="_blank">JavaScript JavaScript blog</a> and an upcoming JavaScript book for No Starch Press. Originally from the UK, Angus now lives in Sausalito, California.
 						</div>
 					</li>
@@ -553,13 +559,25 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
+						<div class="links">
+							<a href="https://github.com/coffeesam" class="www icon" title="coffeesam on github" target="_blank">git</a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/sam.jpg" alt="Sam Hon" border="0" /></div>
 						<div class="name">
-							Soon!
+							Sam Hon
 						</div>
 						<div class="bio">
-							More Workshop hosts and the topics will be announced closer to the conference. Be sure to check back and get the updates!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+							Sam spent over 10 years at startups focusing on multi-platform technologies. He now organizes a monthly <a href="https://www.facebook.com/groups/sg.nodejs/" target="_blank">Singapore Node.JS User Group meet up</a>
+							and is a Ruby on Rails + Node.JS developer. Apart from building scalable high volume applications, he also has an interest in DevOps and Continuous Deployment. 
+						</div>
+					</li>
+					<li>
+						<div class="name">
+							Follow them all!
+						</div>
+						<div class="bio">
+							For all Twitter updates from our workshop hosts, follow our list!<br/>
+							<a href="http://twitter.com/jscamp_asia/lists/workshops" target="_blank">JSCamp 2012 workshops</a><br/>
 						</div>
 					</li>
 				</ul>
@@ -785,11 +803,21 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://html.adobe.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adobe" class="twitter icon" target="_blank" title="@paypal"></a>
+							<a href="http://twitter.com/adobe" class="twitter icon" target="_blank" title="@adobe"></a>
 						</div>
 						<div class="img"><a href="http://html.adobe.com" target="_blank"><img src="static5/img/sponsors/adobe.png" /></a></div>
 						<div class="bio">
 							Along with the community, Adobe is developing new web standards and advancing existing ones. Adobe wants to make the web more wonderful by championing features in the W3C and engineering those features directly in open browser engines like Webkit.
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="http://www.mozilla.org" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/mozilla" class="twitter icon" target="_blank" title="@mozilla"></a>
+						</div>
+						<div class="img"><a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank"><img src="static5/img/supporters/mozilla.png" /></a></div>
+						<div class="bio">
+							Mozilla is a proudly non-profit organization dedicated to keeping the power of the Web in people’s hands. We’re a global community of users, contributors and developers working to innovate on your behalf. When you use Firefox, or any Mozilla product, you become a part of that community, helping us build a brighter future for the Web.
 						</div>
 					</li>
 					<!--<li>
