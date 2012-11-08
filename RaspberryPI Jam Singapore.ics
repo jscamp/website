@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTSTART:20121129T113000Z
+DTEND:20121129T140000Z
+CREATED:20121107T100919Z
+UID:88BF4C85-BD43-4659-AC81-54ECDBADC4A0
+LOCATION:Hackerspace Singapore 70A Bussorah Street Singapore 199483
+DESCRIPTION:Singapore RaspberryPI hardware geek group is meeting up with two presentations while you can mingle at the Hackerspace Singapore! (1) Hackerspace Door opening/close Hack using Raspberry Pi++ by Michael Cheng. (2) Coconut Pi By Eng Wei/Shan. The event is free, just register here: https://www.facebook.com/events/136561019825149 
+URL;VALUE=URI:https://www.facebook.com/events/136561019825149
+SUMMARY:RaspberryPI Jam Singapore
+END:VEVENT
+END:VCALENDAR
