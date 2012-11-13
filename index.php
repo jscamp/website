@@ -163,7 +163,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						
 						<ul>
 							<li><a href="JSCamp.Asia 2012.ics"><span class="icon date">DD:MM</span>29th + 30th November 2012</a></li>
-							<li><a href="./talks"><span class="icon talks">/*</span>17 talks in 2 tracks</a></li>
+							<li><a href="./talks"><span class="icon talks">/*</span>18 talks in 2 tracks</a></li>
 							<li><a href="./workshops"><span class="icon workshops">()</span>6 workshops</a></li>
 							<li><a href="./events"><span class="icon sprints">!#</span>Developer events around the conference</a></li>
 							<li><a href="./venue"><span class="icon venue">@</span>NUSS Kent Ridge Guild House</a></li>
@@ -230,7 +230,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<span class="intro">
 					<h4>Talks</h4>
 					We are so happy to host some of the most amazing people who shape the web everyday and who want to inspire
-					and share their experience with you. Over the two days 17 speakers from all over the world will host in-depth sessions
+					and share their experience with you. Over the two days 18 speakers from all over the world will host in-depth sessions
 					in 2 tracks.</span>
 				<ul class="speakers">
 					<li>
@@ -302,6 +302,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Jan Jongboom
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35327936017/jscamp-talk-jan-jongboom-the-architect-way" target="_blank">“The Architect Way”</a></b>
+							<br/><br/>
 							Jan Jongboom got in a real life fight when someone declared JavaScript 'just some scripting language'. During the day he channels his JavaScript love as a member of the <a href="http://c9.io" target="_blank">Cloud9 IDE</a> development team,
 							making bad jokes about VBScript and dreaming of happy hour. The only native Brit in the company described him in one word: 'cheeky'. You can see him live on stage regularly, with talks about Cloud9, node.js, scaling and mobile development.
 						</div>
@@ -354,16 +356,24 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/_jhs" class="twitter icon" title="@_jhs" target="_blank"></a>
+							<a href="http://twitter.com/wonderchook" class="twitter icon" target="_blank" title="@wonderchook"></a>
 						</div>
-						<div class="img"><img src="static5/img/speakers/jason.png" alt="Jason Smith" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/katechapman.png" alt="Kate Chapman" border="0" /></div>
 						<div class="name">
-							Jason Smith
+							Kate Chapman
 						</div>
 						<div class="bio">
-							<b><a href="http://blog.jscamp.asia/post/35110120470/jscamp-talk-jason-smith-real-world-javascript" target="_blank">“Real-world JavaScript”</a></b>
+							<b><a href="http://blog.jscamp.asia/post/35262740737/jscamp-talk-kate-chapman-custom-maps-through" target="_blank">“Custom Maps Through OpenStreetMap”</a></b>
 							<br/><br/>
-							Jason has been an entrepreneur since 2002. He is an expert deploying, managing, and using CouchDB in the enterprise. He built the <a href="http://www.iriscouch.com" target="_blank">Iris Couch</a> infrastructure and provides the technical vision of the Iris Couch platform.
+							Kate Chapman is the Executive Director and a founding member of the
+							<a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team (HOT)</a>.  HOT utilizes OpenStreetMap to
+							create free geographic data for disaster preparedness, response, and
+							recovery. 
+							Kate's most recent work has been in Indonesia in partnership with
+							<a href="http://www.ausaid.gov.au/Pages/home.aspx" target="_blank">AusAID</a> and the <a href="http://www.bnpb.go.id/website/asp/index.asp" target="_blank">Indonesian National Disaster Management Agency (BNPB)</a>
+							to collect infrastructure data. Kate was involved in development of multiple web-GIS applications.
+							She acted as Developer Community Lead for <a href="http://geocommons.com/" target="_blank">GeoCommons</a> and served in
+							various technical roles at <a href="http://imapdata.com/" target="_blank">iMapData</a>.
 						</div>
 					</li>
 					<li>
@@ -389,6 +399,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Tomasz Janczuk
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35328004510/jscamp-talk-tomasz-janczuk-node-js-on-windows" target="_blank">“Node.js on Windows”</a></b>
+							<br/><br/>
 							Tomasz is helping to develop and ship software for Microsoft. His current area of focus is node.js, JavaScript, and Windows Azure. Tomasz created <a href="https://github.com/tjanczuk/iisnode/wiki" target="_blank">iisnode</a>, a mechanism that allows hosting node.js applications in IIS on Windows and Windows Azure. Before node.js he worked on .NET Framework and Silverlight, specializing in web service technologies, in particular security.
 						</div>
 					</li>
@@ -401,6 +413,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Sangmin Shim
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35620008524/jscamp-talk-sangmin-shim-high-performance-mobile" target="_blank">“High Performance Mobile Web Game Development in HTML5”</a></b>
+							<br/><br/>
 							Sangmin is a Senior JavaScript developer working at <a href="http://www.nhncorp.com/nhnen/index.nhn" target="_blank">NHN</a> and the creator of the JavaScript animation library <a href="http://jindo.dev.naver.com/collie/" target="_blank">Collie</a>. He is very interested in making JavaScript apps run faster and more smoothly. He has authored a book titled "What You Need to Know about JavaScript’s Performance" and also writes mobile games using Collie.
 						</div>
 					</li>
@@ -453,24 +467,16 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/wonderchook" class="twitter icon" target="_blank" title="@wonderchook"></a>
+							<a href="http://twitter.com/_jhs" class="twitter icon" title="@_jhs" target="_blank"></a>
 						</div>
-						<div class="img"><img src="static5/img/speakers/katechapman.png" alt="Kate Chapman" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/jason.png" alt="Jason Smith" border="0" /></div>
 						<div class="name">
-							Kate Chapman
+							Jason Smith
 						</div>
 						<div class="bio">
-							<b><a href="http://blog.jscamp.asia/post/35262740737/jscamp-talk-kate-chapman-custom-maps-through" target="_blank">“Custom Maps Through OpenStreetMap”</a></b>
+							<b><a href="http://blog.jscamp.asia/post/35110120470/jscamp-talk-jason-smith-real-world-javascript" target="_blank">“Real-world JavaScript”</a></b>
 							<br/><br/>
-							Kate Chapman is the Executive Director and a founding member of the
-							<a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team (HOT)</a>.  HOT utilizes OpenStreetMap to
-							create free geographic data for disaster preparedness, response, and
-							recovery. 
-							Kate's most recent work has been in Indonesia in partnership with
-							<a href="http://www.ausaid.gov.au/Pages/home.aspx" target="_blank">AusAID</a> and the <a href="http://www.bnpb.go.id/website/asp/index.asp" target="_blank">Indonesian National Disaster Management Agency (BNPB)</a>
-							to collect infrastructure data. Kate was involved in development of multiple web-GIS applications.
-							She acted as Developer Community Lead for <a href="http://geocommons.com/" target="_blank">GeoCommons</a> and served in
-							various technical roles at <a href="http://imapdata.com/" target="_blank">iMapData</a>.
+							Jason has been an entrepreneur since 2002. He is an expert deploying, managing, and using CouchDB in the enterprise. He built the <a href="http://www.iriscouch.com" target="_blank">Iris Couch</a> infrastructure and provides the technical vision of the Iris Couch platform.
 						</div>
 					</li>
 					<li>
@@ -482,6 +488,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Bradley Priest
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35328141319/jscamp-talk-bradley-priest-a-shallow-dive-into" target="_blank">“A Shallow Dive into Ember.JS”</a></b>
+							<br/><br/>
 							<a href="http://bradleypriest.com" target="_blank">Bradley</a> is the CTO and lead developer of a Singapore-based startup, <a href="http://tradegecko.com" target="_blank">TradeGecko</a>. Previously primarily a Ruby developer, over the last 18 months he has thrown himself into the world of JS and client-side technologies, and is now a frequent contributor to <a href="http://emberjs.com" target="_blank">Ember.js</a>.
 						</div>
 					</li>
@@ -494,7 +502,24 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Henrik Karlstr&ouml;m
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35619694277/jscamp-talk-henrik-karlstom-developing-a" target="_blank">“Developing a multiplatform PvP game in JS”</a></b>
+							<br/><br/>
 							Henrik is the lead client developer and co-founder at HTML5 gaming startup <a href="http://nonstop-games.com" target="_blank">NonStop Games</a>. Originally from Finland, Henrik now lives in and works in Singapore.
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/hasclass" class="twitter icon" target="_blank" title="@hasclass"></a>
+							<a href="http://github.com/hasclass" class="www icon" target="_blank" title="hasclass on github">git</a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/sburkhard.jpg" alt="Sebastian Burkhard" border="0" /></div>
+						<div class="name">
+							Sebastian Burkhard
+						</div>
+						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35620189144/jscamp-talk-sebastian-burkhard-the-missing-ruby" target="_blank">“The missing Ruby core library for JavaScript”</a></b>
+							<br/><br/>
+							Sebastian cultivates a passionate on-and-off relationship with JavaScript. The past 5 years he neglected JS in favour of Ruby/Rails. He is working on RubyJS, a JS library that combines the good parts of JS with Ruby. 
 						</div>
 					</li>
 				</ul>
@@ -529,6 +554,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Giorgio Sardo
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35391180327/jscamp-workshop-giorgio-sardo-build-engaging" target="_blank">“Build engaging Windows 8 UI Apps”</a></b>
+							<br/><br/>
 							Giorgio is a Director of the Windows Evangelism group at Microsoft in Redmond, winner of the Imagine Cup worldwide championship and nominated as Best Consultant of the Year from the British Computer Society. Giorgio is a popular speaker worldwide and in the last 5 years he has presented at hundreds of conferences around the globe. He is the mind behind many beautiful HTML5 applications and games available at <a href="http://beautyoftheweb.com" target="_blank">beautyoftheweb.com</a> and in the Windows Store.
 						</div>
 					</li>
@@ -537,17 +564,17 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://twitter.com/johndbritton" class="twitter icon" title="@johndbritton" target="_blank"></a>
-							<a href="http://twitter.com/shepbook" class="twitter icon" title="@shepbook" target="_blank"></a>
+							<a href="http://github.com/razic" class="www icon" title="Zachary Adam Kaplan on github" target="_blank">git</a>
 						</div>
-						<div class="img"><img src="static5/img/speakers/johnjared.png" alt="John Britton and Jared Koumentis" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/johnzach.jpg" alt="John Britton and Zachary Adam Kaplan" border="0" /></div>
 						<div class="name">
-							John and Jared
+							John and Zachary
 						</div>
 						<div class="bio">
-							<b><a href="http://blog.jscamp.asia/post/35190498111/jscamp-workshop-john-britton-and-jared-koumentis" target="_blank">"Getting Bootstrapped with git"</a></b>
+							<b><a href="http://blog.jscamp.asia/post/35190498111/jscamp-workshop-john-britton-and-zachary-adam-kaplan" target="_blank">"Getting Bootstrapped with git"</a></b>
 							<br/><br/>
 							John Britton is a developer and community builder active in open source and education. He has organized events such as Open Everything and Mozilla Drumbeat in service of the open source community.<br/>
-							Jared Koumentis, aka "The Double Agentocat", is a Linux SysAdmin by trade, a budding programmer and loves to help people to the "Ah Ha!" moment.
+							Zachary Adam Kaplan is a programmer. Seriously!
 							Together they join us from the US as the GitHub team of Liaisons for JSCamp.Asia!
 						</div>
 					</li>
@@ -560,6 +587,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Joshua Koo
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35391257372/jscamp-workshop-joshua-koo-getting-started-with" target="_blank">“Getting Started with Three.js”</a></b>
+							<br/><br/>
 							Joshua's from Singapore, currently working for <a href="http://www.zopim.com" target="_blank">Zopim</a>, an award winning startup based locally.
 							He experiments with and contributes to <a href="http://mrdoob.github.com/three.js/" target="_blank">three.js</a>, a popular JavaScript 3D library.
 							Some might already know him for his JavaScript and <a href="http://www.chromeexperiments.com/detail/arabesque/?f=" target="_blank">WebGL</a> <a href="http://www.chromeexperiments.com/detail/it-came-upon/?f=" target="_blank">experiments</a>.							
@@ -591,6 +620,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Sam Hon
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35391386222/jscamp-workshop-sam-hon-scaling-mmo-games-with" target="_blank">“Scaling MMO Games with Node.JS”</a></b>
+							<br/><br/>						
 							Sam spent over 10 years at startups focusing on multi-platform technologies. He now organizes a monthly <a href="https://www.facebook.com/groups/sg.nodejs/" target="_blank">Singapore Node.JS User Group meet up</a>
 							and is a Ruby on Rails + Node.JS developer. Apart from building scalable high volume applications, he also has an interest in DevOps and Continuous Deployment. 
 						</div>
@@ -1066,6 +1097,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
     <!-- Resource strings used in Javascript for localization (and other variables and third-party additions) -->
 	<!--<script type="text/javascript" src="static5/js/l10n/en.js"></script> -->
 	
+	<img src="http://ads.adzhub.com/seg?add=471538" width="1" height="1"/>
 	<script type="text/javascript" defer="defer">
 
 	// Google Analytics
