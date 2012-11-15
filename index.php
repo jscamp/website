@@ -664,20 +664,66 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="https://www.facebook.com/events/136561019825149/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="RasberryPi Jam Singapore on Facebook" target="_blank">f</a>
+							<a href="https://www.facebook.com/events/270738326363246/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="Singapore PHP User Group Meetup Event on Facebook" target="_blank">f</a>
 						</div>
-						<div class="img"><a href="https://www.facebook.com/events/136561019825149/" target="_blank"><img src="static5/img/events/rasberry.png" alt="RasberryPi Jam Singapore" border="0" /></a></div>
+						<div class="img"><a href="https://www.facebook.com/groups/frontendsingapore/" target="_blank"><img src="static5/img/events/frontend.png" alt="Singapore PHP User Group Meetup" border="0" /></a></div>
 						<div class="name">
-							RaspberryPI Jam Singapore
+							Frontend Developer User Group Meetup
 						</div>
 						<div class="bio">
-							<b><a href="RaspberryPI Jam Singapore.ics">Thu, Nov 29, 7:30pm</a></b><br/><br/>
-							Singapore RaspberryPI hardware geek group is meeting up with two presentations while you can mingle at the <a href="http://hackerspace.sg" target="_blank">Hackerspace Singapore</a>! (1) Hackerspace Door opening/close Hack using Raspberry Pi++ by Michael Cheng. (2) <a href="https://www.facebook.com/coconutpi" target="_blank">Coconut Pi</a> By Eng Wei/Shan. The event is free, just <a href="https://www.facebook.com/events/136561019825149/" target="_blank">register here</a>!
+							<b><a href="Frontend Developer user group Meetup.ics">Tue, Nov 27, 7:00pm</a></b><br/><br/>
+							Singapore' Frontend User group will be having their very first meetup and there will be 3 talks along with fast paced lightning talks form the audience. [Talk 1] DRY CSS with SASS 3.2, css pre-processor along with new features and SASS gems by Vinay. [Talks 2]  Things I learnt about responsive design and animation by Shiaw Uen. The user group is also looking for a 3rd speaker, so <a href="https://www.facebook.com/groups/frontendsingapore/" target="_blank">join the user group</a> and <a href="https://www.facebook.com/events/270738326363246/" target="_blank">register and come down for the meetup.</a>
 							<br/><br/>
 							<span style="font-size: 0.8em; line-height: 0.9em;">Hackerspace.SG, 70A Bussorah Street, Singapore 199483, 10min walk from Bugis MRT</span>
 						</div>
-					</li>					
+					</li>
+					<li>
+						<div class="name">
+							Soon!
+						</div>
+						<div class="bio">
+						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add the Google Events Calendar</a></b><br/><br/>
+							Events around the conference will be announced over the next weeks.<br/><br/>
+							If you want to host one, please
+							<a href="mailto:thomas@jscamp.asia">let us know</a>!<br/><br/>
+							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
+							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+						</div>
+					</li>
 				</ul>
+				<ul class="speakers">
+					<li>
+						<div class="links">
+							<a href="http://mambo.sg" class="www icon" title="JFDI.Asia" target="_blank">www</a>
+						</div>
+						<div class="img"><a href="http://mambo.sg" target="_blank"><img src="static5/img/events/mambo.png" alt="Mambo - Sentosa Siloso Beach" border="0" /></a></div>
+						<div class="name">
+							JSCamp.Asia Beach BBQ at Mambo
+						</div>
+						<div class="bio">
+							<b><a href="JSCamp Beach BBQ at Mambo.ics">Fri, Nov 30, 6pm</a></b><br/><br/>
+							Don't forget to pack your swimsuit for JSCamp. We'll have a legit beach party with iced cocktails, BBQ, a pool and the sea to round up the conference and get smoothly into the weekend. Everybody is invited, but only JSCamp attendees get free drinks and food and they don't need to worry about how to get there. We'll have in-style direct transport from the venue.
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">Mambo - Sentosa Siloso Beach, 40 Siloso Beach Walk, Singapore 098996</span>
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="https://www.facebook.com/events/493158247373020" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="Singapore PHP User Group Meetup Event on Facebook" target="_blank">f</a>
+						</div>
+						<div class="img"><a href="https://www.facebook.com/events/493158247373020" target="_blank"><img src="static5/img/events/php.png" alt="Singapore PHP User Group Meetup" border="0" /></a></div>
+						<div class="name">
+							Singapore PHP User Group Meetup
+						</div>
+						<div class="bio">
+							<b><a href="PHP usergroup meetup.ics">Wed, Nov 28, 7:30pm</a></b><br/><br/>
+							Singapore PHP developer group is meeting up with 2 talks in a row for the evening. (1) Kohana - Yet Another PHP Framework by Leong Hean Hong, freelance web developer. The speaker has been using Kohana for his personal projects, and would like to introduce it by comparing it against another popular php framework, CakePHP. (2) Soft-Launch of Open Source Project: PHP-Queue by Michael Cheng, Senior Software Engineer, mig33. PHP-Queue is an unified front-end for different queuing backends. Includes a REST server, CLI interface, daemon worker roles, etc. The event is free, so <a href="https://www.facebook.com/events/493158247373020" target="_blank">register here</a> and mingle with other fellow PHP developers!
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">Microsoft Singapore, One Marina Boulevard, 22nd floor, Room 12, Singapore 018989 at Raffles Place MRT</span>
+						</div>
+					</li>
+				</ul>
+
 				<ul class="speakers">
 					<li>
 						<div class="links">
@@ -696,36 +742,21 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
+						<div class="links">
+							<a href="https://www.facebook.com/events/136561019825149/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="RasberryPi Jam Singapore on Facebook" target="_blank">f</a>
+						</div>
+						<div class="img"><a href="https://www.facebook.com/events/136561019825149/" target="_blank"><img src="static5/img/events/rasberry.png" alt="RasberryPi Jam Singapore" border="0" /></a></div>
 						<div class="name">
-							Soon!
+							RaspberryPI Jam Singapore
 						</div>
 						<div class="bio">
-						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add the Google Events Calendar</a></b><br/><br/>
-							Events around the conference will be announced over the next weeks.<br/><br/>
-							If you want to host one, please
-							<a href="mailto:thomas@jscamp.asia">let us know</a>!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+							<b><a href="RaspberryPI Jam Singapore.ics">Thu, Nov 29, 7:30pm</a></b><br/><br/>
+							Singapore RaspberryPI hardware geek group is meeting up with two presentations while you can mingle at the <a href="http://hackerspace.sg" target="_blank">Hackerspace Singapore</a>! (1) Hackerspace Door opening/close Hack using Raspberry Pi++ by Michael Cheng. (2) <a href="https://www.facebook.com/coconutpi" target="_blank">Coconut Pi</a> By Eng Wei/Shan. The event is free, just <a href="https://www.facebook.com/events/136561019825149/" target="_blank">register here</a>!
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">Hackerspace.SG, 70A Bussorah Street, Singapore 199483, 10min walk from Bugis MRT</span>
 						</div>
 					</li>	
-				</ul>
-
-				<ul class="speakers">
-					<li>
-						<div class="links">
-							<a href="https://www.facebook.com/events/493158247373020" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="Singapore PHP User Group Meetup Event on Facebook" target="_blank">f</a>
-						</div>
-						<div class="img"><a href="https://www.facebook.com/events/493158247373020" target="_blank"><img src="static5/img/events/php.png" alt="Singapore PHP User Group Meetup" border="0" /></a></div>
-						<div class="name">
-							Singapore PHP User Group Meetup
-						</div>
-						<div class="bio">
-							<b><a href="PHP usergroup meetup.ics">Wed, Nov 28, 7:30pm</a></b><br/><br/>
-							Singapore PHP developer group is meeting up with 2 talks in a row for the evening. (1) Kohana - Yet Another PHP Framework by Leong Hean Hong, freelance web developer. The speaker has been using Kohana for his personal projects, and would like to introduce it by comparing it against another popular php framework, CakePHP. (2) Soft-Launch of Open Source Project: PHP-Queue by Michael Cheng, Senior Software Engineer, mig33. PHP-Queue is an unified front-end for different queuing backends. Includes a REST server, CLI interface, daemon worker roles, etc. The event is free, so <a href="https://www.facebook.com/events/493158247373020" target="_blank">register here</a> and mingle with other fellow PHP developers!
-							<br/><br/>
-							<span style="font-size: 0.8em; line-height: 0.9em;">Microsoft Singapore, One Marina Boulevard, 22nd floor, Room 12, Singapore 018989 at Raffles Place MRT</span>
-						</div>
-					</li>
+	
 				</ul>
 			</div>
 
@@ -866,11 +897,13 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
-						<div class="name">
-							Become a Sponsor
+						<div class="links">
+							<a href="http://www.propertyguru.com.sg" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/SGPropertyGuru" class="twitter icon" target="_blank" title="@SGPropertyGuru"></a>
 						</div>
+						<div class="img"><a href="http://www.propertyguru.com.sg" target="_blank"><img src="static5/img/supporters/propertyguru.png" /></a></div>
 						<div class="bio">
-							We are eager to make JScamp the web and mobile developer conference of the year and there is much to benefit from as our sponsor. <a href="mailto:sponsors@jscamp.asia">Drop us a mail</a>
+							PropertyGuru.com.sg is the leading Singapore Property website - the best place to start your real estate search whether you are an investor, buying for own use, or looking for a place to rent. In PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
 						</div>
 					</li>
 				</ul>
@@ -906,16 +939,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Mozilla is a proudly non-profit organization dedicated to keeping the power of the Web in people’s hands. We’re a global community of users, contributors and developers working to innovate on your behalf. When you use Firefox, or any Mozilla product, you become a part of that community, helping us build a brighter future for the Web.
 						</div>
 					</li>
-					<!--<li>
-						<div class="links">
-							<a href="http://www.propertyguru.com.sg" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/SGPropertyGuru" class="twitter icon" target="_blank" title="@SGPropertyGuru"></a>
-						</div>
-						<div class="img"><a href="http://www.propertyguru.com.sg" target="_blank"><img src="static5/img/supporters/propertyguru.png" /></a></div>
-						<div class="bio">
-							PropertyGuru.com.sg is the leading Singapore Property website - the best place to start your real estate search whether you are an investor, buying for own use, or looking for a place to rent. In PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
-						</div>
-					</li>//-->
+					<!--//-->
 				</ul>
 				<ul class="speakers">
 					<li>

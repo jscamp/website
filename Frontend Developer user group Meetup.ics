@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTSTART:20121127T110000Z
+DTEND:20121127T140000Z
+CREATED:20121107T100919Z
+UID:88BF4C85-BD43-4659-AC81-54ECD836C962
+LOCATION:Hackerspace Singapore 70A Bussorah Street Singapore 199483
+DESCRIPTION:Singapore' Frontend User group will be having their very first meetup and there will be 3 talks along with fast paced lightning talks form the audience. [Talk 1] DRY CSS with SASS 3.2, css pre-processor along with new features and SASS gems by Vinay. [Talks 2]  Things I learnt about responsive design and animation by Shiaw Uen. The user group is also looking for a 3rd speaker, so join the user group and register and come down for the meetup. https://www.facebook.com/events/270738326363246/
+URL;VALUE=URI:https://www.facebook.com/events/270738326363246/
+SUMMARY:Frontend Developer Usergroup meetup
+END:VEVENT
+END:VCALENDAR
