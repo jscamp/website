@@ -678,18 +678,20 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
+						<div class="links">
+							<a href="https://www.facebook.com/events/432979803424767/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="RasberryPi Jam Singapore on Facebook" target="_blank">f</a>
+						</div>
+						<div class="img"><a href="https://www.facebook.com/groups/pythonsg/" target="_blank"><img src="static5/img/events/python.png" alt="RasberryPi Jam Singapore" border="0" /></a></div>
 						<div class="name">
-							Soon!
+							Python User Group Meetup
 						</div>
 						<div class="bio">
-						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add the Google Events Calendar</a></b><br/><br/>
-							Events around the conference will be announced over the next weeks.<br/><br/>
-							If you want to host one, please
-							<a href="mailto:thomas@jscamp.asia">let us know</a>!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+							<b><a href="Python usergroup Meetup.ics">Sat, Dec 1, 7:00pm</a></b><br/><br/>
+							Singapore' Python user group is meeting up in December! Join them as the developers speak and share about all things python. (Talk 1) Fun ways to learn Python by Chris and Christian Boesch (Talk 2) Fun with GeoDjango by Chuan Yeong, Nai and Calvin. <a href="https://www.facebook.com/groups/pythonsg/" target="_blank">Join the Singapore Python User Group</a> and if you are interested, you are welcome to submit a talk as well. <a href="https://www.facebook.com/events/432979803424767/" target="_blank">Do register for the event and drop by!</a>
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">Hackerspace.SG, 70A Bussorah Street, Singapore 199483, 10min walk from Bugis MRT</span>
 						</div>
-					</li>
+					</li>	
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -720,6 +722,19 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Singapore PHP developer group is meeting up with 2 talks in a row for the evening. (1) Kohana - Yet Another PHP Framework by Leong Hean Hong, freelance web developer. The speaker has been using Kohana for his personal projects, and would like to introduce it by comparing it against another popular php framework, CakePHP. (2) Soft-Launch of Open Source Project: PHP-Queue by Michael Cheng, Senior Software Engineer, mig33. PHP-Queue is an unified front-end for different queuing backends. Includes a REST server, CLI interface, daemon worker roles, etc. The event is free, so <a href="https://www.facebook.com/events/493158247373020" target="_blank">register here</a> and mingle with other fellow PHP developers!
 							<br/><br/>
 							<span style="font-size: 0.8em; line-height: 0.9em;">Microsoft Singapore, One Marina Boulevard, 22nd floor, Room 12, Singapore 018989 at Raffles Place MRT</span>
+						</div>
+					</li>
+					<li>
+						<div class="name">
+							Soon!
+						</div>
+						<div class="bio">
+						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add the Google Events Calendar</a></b><br/><br/>
+							More events around the conference will be announced over the next weeks.<br/><br/>
+							If you want to host one, please
+							<a href="mailto:thomas@jscamp.asia">let us know</a>!<br/><br/>
+							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
+							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
 					</li>
 				</ul>
