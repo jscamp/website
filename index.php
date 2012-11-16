@@ -664,9 +664,9 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="https://www.facebook.com/events/270738326363246/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="Singapore PHP User Group Meetup Event on Facebook" target="_blank">f</a>
+							<a href="https://www.facebook.com/events/270738326363246/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="Frontend Developer User Group Meetup Event on Facebook" target="_blank">f</a>
 						</div>
-						<div class="img"><a href="https://www.facebook.com/groups/frontendsingapore/" target="_blank"><img src="static5/img/events/frontend.png" alt="Singapore PHP User Group Meetup" border="0" /></a></div>
+						<div class="img"><a href="https://www.facebook.com/groups/frontendsingapore/" target="_blank"><img src="static5/img/events/frontend.png" alt="Frontend Developer User Group" border="0" /></a></div>
 						<div class="name">
 							Frontend Developer User Group Meetup
 						</div>
@@ -679,9 +679,9 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="https://www.facebook.com/events/432979803424767/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="RasberryPi Jam Singapore on Facebook" target="_blank">f</a>
+							<a href="https://www.facebook.com/events/432979803424767/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="Python User Group Meetup Event on Facebook" target="_blank">f</a>
 						</div>
-						<div class="img"><a href="https://www.facebook.com/groups/pythonsg/" target="_blank"><img src="static5/img/events/python.png" alt="RasberryPi Jam Singapore" border="0" /></a></div>
+						<div class="img"><a href="https://www.facebook.com/groups/pythonsg/" target="_blank"><img src="static5/img/events/python.png" alt="Python User Group" border="0" /></a></div>
 						<div class="name">
 							Python User Group Meetup
 						</div>
