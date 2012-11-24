@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTSTART:20121201T040000Z
+DTEND:20121202T040000Z
+CREATED:20121107T100919Z
+UID:88BF4C85-BD43-4659-AC81-91ECDBADC962
+LOCATION:JFDI Offices\, #05-11 Block 71\, Ayer Rajah Crescent\, Singapore 139951
+DESCRIPTION:RedWire is a Hackathon un-conference, where any ideas to create something (useful or not) can be made reality. The event focuses on the collaborative creation of actual products from wild and wacky ideas for the sheer pleasure of hacking and building something. We've had many ideas for fun projects bandied around, and it's high time we sat down and worked on some of them. Redwire.SG - Because the only thing scarier than a hardware guy with a software patch is a software guy with a soldering iron. http://www.eventbrite.sg/event/4847602309?ref=ebtnebregn
+URL;VALUE=URI:http://redwire.sg
+SUMMARY:Redwire.SG Hackathon
+END:VEVENT
+END:VCALENDAR

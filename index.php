@@ -231,7 +231,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<h4>Talks</h4>
 					We are so happy to host some of the most amazing people who shape the web everyday and who want to inspire
 					and share their experience with you. Over the two days 18 speakers from all over the world will host in-depth sessions
-					in 2 tracks.</span>
+					in 2 tracks.
+					<br/><br/>
+					<a href="http://blog.jscamp.asia/post/36413691360/jscamp-asia-2012-the-undisclosured-schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
+				</span>
 				<ul class="speakers">
 					<li>
 						<div class="links">
@@ -529,6 +532,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<h4>Workshops</h4>
 					Over the time of the conference we want you to get your hands dirty. There's plenty of time, power and Wi-Fi to check out this new library,
 					concept or idea you've heard about while the entire community is around. Even better: Professional hosts will explain and guide you in our workshop sessions.
+					<br/><br/>
+					<a href="http://blog.jscamp.asia/post/36413691360/jscamp-asia-2012-the-undisclosured-schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
 				</span>
 				<ul class="speakers">
 					<li>
@@ -642,7 +647,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<h4>Events</h4>
 					JSCamp is not all Singapore has to offer for developers. Interested people can come together in Singapores trendy co-working spaces
 					and work or contribute as a group to open source JavaScript projects or just hang out and socialize. We inform you here about events and places to go to around the time of the conference.<br/><br/>
-					If you're interested in using our conference to find contributors or visitors for your event or project and get to know the finest web developers in the region, please <a href="mailto:thomas@jscamp.asia">let us know</a>.
+					<a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add the JSCamp Events Calendar</a>
 				</span>
 				<ul class="speakers">
 					<li>
@@ -697,6 +702,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://mambo.sg" class="www icon" title="JFDI.Asia" target="_blank">www</a>
+<a href="https://www.facebook.com/events/474791105905394/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="JSCamp.Asia 2012 Beach Party Event on Facebook" target="_blank">f</a>
 						</div>
 						<div class="img"><a href="http://mambo.sg" target="_blank"><img src="static5/img/events/mambo.png" alt="Mambo - Sentosa Siloso Beach" border="0" /></a></div>
 						<div class="name">
@@ -705,6 +711,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							<b><a href="JSCamp Beach BBQ at Mambo.ics">Fri, Nov 30, 6pm</a></b><br/><br/>
 							Don't forget to pack your swimsuit for JSCamp. We'll have a legit beach party with iced cocktails, BBQ, a pool and the sea to round up the conference and get smoothly into the weekend. Everybody is invited, but only JSCamp attendees get free drinks and food and they don't need to worry about how to get there. We'll have in-style direct transport from the venue.
+							<a href="https://www.facebook.com/events/474791105905394/" target="_blank">Here is our facebook event so you can invite your friends.</a>
 							<br/><br/>
 							<span style="font-size: 0.8em; line-height: 0.9em;">Mambo - Sentosa Siloso Beach, 40 Siloso Beach Walk, Singapore 098996</span>
 						</div>
@@ -726,13 +733,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="name">
-							Soon!
+							Get the calendar!
 						</div>
 						<div class="bio">
-						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add the Google Events Calendar</a></b><br/><br/>
-							More events around the conference will be announced over the next weeks.<br/><br/>
-							If you want to host one, please
-							<a href="mailto:thomas@jscamp.asia">let us know</a>!<br/><br/>
+						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add our Google Events Calendar</a></b><br/><br/>
 							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
 							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
 						</div>
@@ -770,8 +774,25 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<br/><br/>
 							<span style="font-size: 0.8em; line-height: 0.9em;">Hackerspace.SG, 70A Bussorah Street, Singapore 199483, 10min walk from Bugis MRT</span>
 						</div>
-					</li>	
-	
+					</li>
+					<li>
+						<div class="links">
+							<a href="http://redwire.sg/" class="www icon" title="Redwire website" target="_blank">www</a>
+						</div>
+						<div class="img"><a href="http://redwire.sg/" target="_blank"><img src="static5/img/events/redwire.jpg" alt="Singapore PHP User Group Meetup" border="0" /></a></div>
+						<div class="name">
+							Redwire.SG Hackathon
+						</div>
+						<div class="bio">
+							<b><a href="Redwire.SG.ics">Sat, Dec 1, 12:00pm</a></b><br/><br/>
+							RedWire is a Hackathon un-conference, where any ideas to create something (useful or not) can be made reality.
+							The event focuses on the collaborative creation of actual products from wild and wacky ideas for the sheer pleasure of hacking and building something. We've had many ideas for fun projects bandied around, and it's high time we sat down and worked on some of them.
+							Redwire.SG - Because the only thing scarier than a hardware guy with a software patch is a software guy with a soldering iron. <a href="http://www.eventbrite.sg/event/4847602309?ref=ebtnebregn" target="_blank">Register here</a>
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">#05-11 Block 71, Ayer Rajah Crescent, Singapore 139951 at one-north MRT</span>
+						</div>
+					</li>
+
 				</ul>
 			</div>
 
