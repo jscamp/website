@@ -165,7 +165,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<li><a href="JSCamp.Asia 2012.ics"><span class="icon date">DD:MM</span>29th + 30th November 2012</a></li>
 							<li><a href="./talks"><span class="icon talks">/*</span>18 talks in 2 tracks</a></li>
 							<li><a href="./workshops"><span class="icon workshops">()</span>6 workshops</a></li>
-							<li><a href="./events"><span class="icon sprints">!#</span>Developer events around the conference</a></li>
+							<li><a href="./events"><span class="icon sprints">#!</span>Developer events around the conference</a></li>
 							<li><a href="./venue"><span class="icon venue">@</span>NUSS Kent Ridge Guild House</a></li>
 							<li><a href="getticket.php"><span class="icon price">$</span>S$590 ticket price</a></li>
 						</ul>
@@ -1127,7 +1127,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			
 			</td>
 			<td>
-				<a href="getticket.php" target="_blank" class="link">Register now!</a>
+				<a href="getticket.php" target="_blank" class="link">Register now</a>
 				<a href="http://blog.jscamp.asia" target="_blank" class="link">Blog</a>
 			</td>
 		</tr>
@@ -1147,7 +1147,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<script type="text/javascript" src="static5/js/dependencies/0050-audiofade-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0070-jquery.scrollto-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0080-jquery.form-ck.js"></script>
-	<script type="text/javascript" src="static5/js/main/05-jscamp-ck.js"></script>
+	<script type="text/javascript" src="static5/js/main/06-jscamp-ck.js"></script>
 	<!-- end scripts-->
 	
 	<audio id="la_oceansound" preload="auto" autobuffer="autobuffer" style="display: none"> 
