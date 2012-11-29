@@ -1,0 +1,79 @@
+img
+	width: 50%
+	margin: 0
+	float: left
+
+#bg
+	position: fixed
+	background-color: #EDF7FF
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0, $blue-light), color-stop(0.6, white))
+	background: -webkit-linear-gradient(top left, $blue-light 0%, white 60%)
+	background: -moz-linear-gradient(top left, $blue-light 0%, white 60%)
+	background: -o-linear-gradient(top left, $blue-light 0%, white 60%)
+	background: -ms-linear-gradient(top left, $blue-light 0%, white 60%)
+	background: linear-gradient(top left, $blue-light 0%, white 60%)
+	top: 0px
+	left: 0px
+	right: 0px
+	bottom: 0px
+	z-index: -1000
+
+#top
+	position: fixed
+	top: -1px
+	left: 0px
+	right: 0px
+	z-index: 100
+
+table
+	border-collapse: separate
+	border-spacing: 0
+	vertical-align: middle
+	&.colors
+		width: 100%
+		font-size: 1.7em
+		line-height: 1em
+		border-bottom: 1px solid #F4FAFF
+		border-top: 1px solid #F4FAFF
+		td
+			padding: 3px 6px 5px 6px
+			font-weight: bold
+			height: 5px
+			&:nth-child(1)
+				font-family: Courier, monospace
+				background: #D1EBFF
+				width: 7em
+				text-align: center
+			&:nth-child(2)
+				font-family: 'Doppio One'
+				background: black
+				color: white
+				width: 2.4em
+				font-size: 0.75em
+			&:nth-child(3)
+				background: brown
+				width: 0.2em
+			&:nth-child(4)
+				background: green
+				width: 2em
+			&:nth-child(5)
+				background: orange
+			&:nth-child(6)
+				font-family: 'Doppio One'
+				background: #38ACEC
+				width: 30%
+			a
+				text-decoration: none
+				&.link
+					float: right
+					font-size: 0.5em
+					color: white
+					padding-right: 5px
+					margin-left: 20px
+
+.jscamp
+	color: $blue
+
+.asia
+	color: orange
+

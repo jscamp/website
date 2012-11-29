@@ -233,7 +233,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					and share their experience with you. Over the two days 18 speakers from all over the world will host in-depth sessions
 					in 2 tracks.
 					<br/><br/>
-					<a href="http://blog.jscamp.asia/post/36413691360/jscamp-asia-2012-the-undisclosured-schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
+					<a href="http://jscamp.asia/schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
 				</span>
 				<ul class="speakers">
 					<li>
@@ -533,7 +533,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					Over the time of the conference we want you to get your hands dirty. There's plenty of time, power and Wi-Fi to check out this new library,
 					concept or idea you've heard about while the entire community is around. Even better: Professional hosts will explain and guide you in our workshop sessions.
 					<br/><br/>
-					<a href="http://blog.jscamp.asia/post/36413691360/jscamp-asia-2012-the-undisclosured-schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
+					<a href="http://jscamp.asia/schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
 				</span>
 				<ul class="speakers">
 					<li>
@@ -825,10 +825,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 								<div><b>The Della &amp; Seng Gee Guild Hall</b><br/>This big room will host the keynotes and the <b>Under Water Track</b> as well as our workshop introductions.</div></li>
 							<li style="top: 245px; left: 229px;">
 								<div><b>Cluny/Dalvey/Evans</b><br/>The three rooms on the second floor combined host our <b>Beach Track</b> of talks and workshops.</div></li>
-							<li style="top: 121px; left: 324px;">
-								<div><b>The Activity Room</b><br/>For workshops we can use this room as a flexible break-out option.</div></li>
 							<li style="top: 155px; left: 290px;">
-								<div><b>The Sports Bar</b><br/>Parallel to all ongoings we'll offer hang-out space, power and Wifi up on the open 3rd floor for you.</div></li>
+								<div><b>The JSCamp Café</b><br/>Parallel to all ongoings we'll offer hang-out space, power and Wifi up on the 3rd floor for you. You'll also find our <b>Palm Track</b> here and <b>Jimmy Monkey's Café</b>.</div></li>
 							<li style="top: 170px; left: 520px;">
 								<div><b>Café on the Ridge</b><br/>If buffet is not enough, the Café offers Western and Asian cuisines inside and on its terrace right next to the pool.<br/><span class="small">This is an NUSS offer and not included in the ticket.</span></div></li>
 							<li style="top: 253px; left: 478px;">
@@ -1105,7 +1103,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 		</div>
 		
 	</div>
-
+3
 	
 	<div id="top">
 		
@@ -1127,7 +1125,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			
 			</td>
 			<td>
-				<a href="getticket.php" target="_blank" class="link">Register now</a>
+				<a href="getticket.php" target="_blank" class="link">Register now!</a>
 				<a href="http://blog.jscamp.asia" target="_blank" class="link">Blog</a>
 			</td>
 		</tr>

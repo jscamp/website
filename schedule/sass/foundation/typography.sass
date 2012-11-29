@@ -1,0 +1,43 @@
+// ----- Fonts ----- //
+$courier: Courier, monospace
+$opensans: 'Open Sans'
+
+
+body
+	font-size: 16px //12pt
+	line-height: 1.25 // 20px
+	font-family: $opensans
+
+h1, h2, h3, h4, h5, h6
+	margin: 0
+
+h2
+	line-height: 1.3em
+	margin: 30px 0 10px 0
+	font-size: 5.2em
+	font-weight: bold
+	font-family: $courier
+	color: $blue
+
+h3
+	font-size: 2em
+	font-weight: bold
+	font-family: $courier
+	a
+		text-decoration: none
+		color: orange
+		margin: 0 40px 0 0
+		padding: 5px 10px
+		&:hover, &:active, &.active
+			background-color: orange
+			text-decoration: none
+			@include border-radius(5px)
+			color: white
+
+a
+	color: blue
+	text-decoration: none
+	&:link, &:visited
+		text-decoration: none
+	&:hover, &:active
+		text-decoration: underline
