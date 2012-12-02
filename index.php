@@ -149,7 +149,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 								Forget bacon. Here comes chicken rice!<br/><br/>
 								<span class="announcement">
 
-									<a href="getticket.php" id="ticketbutton">Register now!</a>		
+									<a href="http://storify.com/jscamp_asia/jscamp-asia-undisclosured?utm_campaign=&utm_source=t.co&utm_medium=sfy.co-twitter&utm_content=storify-pingback&awesm=sfy.co_mCDB" id="ticketbutton">Thank you!</a>		
 
 								</span>
 					</h3>
@@ -167,13 +167,13 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<li><a href="./workshops"><span class="icon workshops">()</span>6 workshops</a></li>
 							<li><a href="./events"><span class="icon sprints">#!</span>Developer events around the conference</a></li>
 							<li><a href="./venue"><span class="icon venue">@</span>NUSS Kent Ridge Guild House</a></li>
-							<li><a href="getticket.php"><span class="icon price">$</span>S$590 ticket price</a></li>
 						</ul>
 						
 						<p class="margin">
 							You would like to come, but you need to convince your boss?<br/><a href="http://jscamp.asia/Why%20your%20employees%20need%20to%20attend%20JSCamp.pdf">This PDF will help.</a>
 						</p>
 						<p>
+							<br/><br/>
 							Drop your E-Mail and we'll keep you updated!<br/>
 							You can also add our <a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Google Calendar</a> to not miss important events.
 						</p>
@@ -1125,8 +1125,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			
 			</td>
 			<td>
-				<a href="getticket.php" target="_blank" class="link">Register now!</a>
-				<a href="http://blog.jscamp.asia" target="_blank" class="link">Blog</a>
+				<a href="http://blog.jscamp.asia" target="_blank" class="link">blog.jscamp</a>
 			</td>
 		</tr>
 		</table>
