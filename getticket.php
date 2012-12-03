@@ -7,7 +7,7 @@ require_once("configs.php");
 
 $discount = isset($discounts[$code]) ? $discounts[$code] : 0;
 
-if($discount == 51) {
+if($discount == 51 || $discount == 31) {
 	$waitinglist = true;
 }
 else if($discount != 0) {
@@ -87,7 +87,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			
 			<form action="addsubscriber.php" id="subscribeForm" method="get">
 			<div id="discountcode" class="content">
-				<span class="msg">Sorry. We're <span style="color: white; background-color: black; padding: 0 3px; font-size: 0.95em;">SOLD OUT</span> here.<br/>Add yourself to the waiting list:</span><br/>
+				<span class="msg">Sorry. We're <span style="color: white; background-color: black; padding: 0 3px; font-size: 0.95em;">SOLD OUT</span> here.<br/>
+				Add yourself to our newsletter:</span><br/>
 				<div class="form">
 				<input type="text" name="email" id="code" autofocus="autofocus" value="" placeholder="your@email.com" />
 				<input type="hidden" name="list" value="waitinglist" />
@@ -111,7 +112,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<input type="text" name="code" id="code" autofocus="autofocus" value="" placeholder="Discount code" />
 				<input type="submit" value="Let's go" />
 				</div><br/><br/><br/><br/><br/>
-				<a href="https://jscamp.wufoo.com/forms/jscamp-full-pass/">No, I don't have a discount code</a><br/><br/>
+				<a href="getticket.php?code=waiting">No, I don't have a discount code</a><br/><br/>
 				<a href="http://jscamp.asia/">Back to jscamp.asia</a>
 			</div>
 			</form>
