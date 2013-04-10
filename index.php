@@ -210,10 +210,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						    live: true,
 						    behavior: 'all'
 						  }
-						}).render().setUser('jscamp_asia').start();
+						}).render().setUser('jsconf_asia').start();
 						</script>
 						<span class="facebook">f</span>
-						<a href="http://facebook.com/javascriptcamp" target="_blank">Find us on Facebook</a>
+						<a href="http://facebook.com/JSConfAsia" target="_blank">Find us on Facebook</a>
 					</td>
 				</tr>
 				</table>
@@ -317,7 +317,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 						<div class="bio">
 							For all Twitter updates from our talk hosts, follow our list!<br/>
-							<a href="http://twitter.com/jscamp_asia/lists/talks" target="_blank">JSCamp 2012 talks</a><br/>
+							<a href="http://twitter.com/jsconf_asia/lists/talks" target="_blank">JSCamp 2012 talks</a><br/>
 						</div>
 					</li>
 				</ul>
@@ -637,7 +637,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 						<div class="bio">
 							For all Twitter updates from our workshop hosts, follow our list!<br/>
-							<a href="http://twitter.com/jscamp_asia/lists/workshops" target="_blank">JSCamp 2012 workshops</a><br/>
+							<a href="http://twitter.com/jsconf_asia/lists/workshops" target="_blank">JSCamp 2012 workshops</a><br/>
 						</div>
 					</li>
 				</ul>
@@ -737,8 +737,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 						<div class="bio">
 						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add our Google Events Calendar</a></b><br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+							Follow us on <a href="http://twitter.com/jsconf_asia" target="_blank">Twitter</a><br/>
+							and <a href="http://facebook.com/JSConfAsia" target="_blank">Facebook</a>
 						</div>
 					</li>
 				</ul>
