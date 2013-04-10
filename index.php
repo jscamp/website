@@ -149,7 +149,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 								Forget bacon. Here comes chicken rice!<br/><br/>
 								<span class="announcement">
 
-									<a href="http://storify.com/jscamp_asia/jscamp-asia-undisclosured?utm_campaign=&utm_source=t.co&utm_medium=sfy.co-twitter&utm_content=storify-pingback&awesm=sfy.co_mCDB" id="ticketbutton">Thank you!</a>		
+									<a href="http://www.youtube.com/user/JSCampAsia" id="ticketbutton">Watch the Videos!</a>		
 
 								</span>
 					</h3>
