@@ -149,7 +149,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 								Forget bacon. Here comes chicken rice!<br/><br/>
 								<span class="announcement">
 
-									<a href="getticket.php" id="ticketbutton">Register now!</a>		
+									<a href="http://www.youtube.com/user/JSCampAsia" id="ticketbutton">Watch the Videos!</a>		
 
 								</span>
 					</h3>
@@ -163,17 +163,17 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						
 						<ul>
 							<li><a href="JSCamp.Asia 2012.ics"><span class="icon date">DD:MM</span>29th + 30th November 2012</a></li>
-							<li><a href="./talks"><span class="icon talks">/*</span>16 talks in 2 tracks</a></li>
+							<li><a href="./talks"><span class="icon talks">/*</span>18 talks in 2 tracks</a></li>
 							<li><a href="./workshops"><span class="icon workshops">()</span>6 workshops</a></li>
-							<li><a href="./events"><span class="icon sprints">!#</span>Developer events around the conference</a></li>
+							<li><a href="./events"><span class="icon sprints">#!</span>Developer events around the conference</a></li>
 							<li><a href="./venue"><span class="icon venue">@</span>NUSS Kent Ridge Guild House</a></li>
-							<li><a href="getticket.php"><span class="icon price">$</span>S$590 ticket price</a></li>
 						</ul>
 						
 						<p class="margin">
 							You would like to come, but you need to convince your boss?<br/><a href="http://jscamp.asia/Why%20your%20employees%20need%20to%20attend%20JSCamp.pdf">This PDF will help.</a>
 						</p>
 						<p>
+							<br/><br/>
 							Drop your E-Mail and we'll keep you updated!<br/>
 							You can also add our <a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Google Calendar</a> to not miss important events.
 						</p>
@@ -210,10 +210,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						    live: true,
 						    behavior: 'all'
 						  }
-						}).render().setUser('jscamp_asia').start();
+						}).render().setUser('jsconf_asia').start();
 						</script>
 						<span class="facebook">f</span>
-						<a href="http://facebook.com/javascriptcamp" target="_blank">Find us on Facebook</a>
+						<a href="http://facebook.com/JSConfAsia" target="_blank">Find us on Facebook</a>
 					</td>
 				</tr>
 				</table>
@@ -230,8 +230,11 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<span class="intro">
 					<h4>Talks</h4>
 					We are so happy to host some of the most amazing people who shape the web everyday and who want to inspire
-					and share their experience with you. Over the two days 16 speakers from all over the world will host in-depth sessions
-					in 2 tracks.</span>
+					and share their experience with you. Over the two days 18 speakers from all over the world will host in-depth sessions
+					in 2 tracks.
+					<br/><br/>
+					<a href="http://jscamp.asia/schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
+				</span>
 				<ul class="speakers">
 					<li>
 						<div class="links">
@@ -243,6 +246,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Eric Bidelman
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/34889081313/jscamp-talk-eric-bidelman-web-components-are-the" target="_blank">"Web Components Are the Future!"</a></b>
+							<br/><br/>
 							Eric is a Senior Developer Programs Engineer on the <a href="http://www.google.com/chrome" target="_blank">Google Chrome</a> team. He is the author of "Using the HTML5 Filesystem API" and a core contributor to <a href="http://www.html5rocks.com" target="_blank">html5rocks.com</a>. Prior to Google, Eric worked as a software engineer at the University of Michigan where he designed rich web applications and APIs for the university's 19 libraries.
 						</div>
 					</li>
@@ -255,6 +260,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Tim Oxley
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35036976524/jscamp-talk-tim-oxley-client-side-frameworks-a" target="_blank">"Client-side Frameworks: A Vehicle of Oppression"</a></b>
+							<br/><br/>
 							Tim is a JavaScript freelancer from Brisbane, working with the node.js platform and client-side MVC applications. He is passionate about readable, maintainable, organized code though best-practices, refactoring and tests.
 							He works alongside Rails developers for international clients and organizes <a href="http://campjs.com">CampJS</a> in Australia.
 						</div>
@@ -268,6 +275,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Giorgio Sardo
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35109945078/jscamp-talk-giorgio-sardo-from-zero-to-hero" target="_blank">“From Zero to Hero! Building a Windows Store Game in HTML5”</a></b>
+							<br/><br/>
 							Giorgio is a Director of the Windows Evangelism group at Microsoft in Redmond, winner of the Imagine Cup worldwide championship and nominated as Best Consultant of the Year from the British Computer Society. Giorgio is a popular speaker worldwide and in the last 5 years he has presented at hundreds of conferences around the globe. He is the mind behind many beautiful HTML5 applications and games available at <a href="http://beautyoftheweb.com" target="_blank">beautyoftheweb.com</a> and in the Windows Store.
 						</div>
 					</li>
@@ -280,6 +289,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Jed Schmidt
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35262658185/jscamp-talk-jed-schmidt-markup-and-style-without" target="_blank">“Markup and Style without HTML and CSS”</a></b>
+							<br/><br/>
 							Jed is a JavaScript developer based in Tokyo, and has been using node.js since just before its debut in 2009. He maintains a
 							variety of open-source JavaScript libraries from database bindings to DOM builders, and has built several fun projects, including
 							<a href="http://140byt.es" target="_blank">140byt.es</a>, a tweet-sized code golfing contest, and <a href="http://ramendan.com" target="_blank">Ramendan</a>, a grueling month-long test of ramen devotion.
@@ -294,8 +305,19 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Jan Jongboom
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35327936017/jscamp-talk-jan-jongboom-the-architect-way" target="_blank">“The Architect Way”</a></b>
+							<br/><br/>
 							Jan Jongboom got in a real life fight when someone declared JavaScript 'just some scripting language'. During the day he channels his JavaScript love as a member of the <a href="http://c9.io" target="_blank">Cloud9 IDE</a> development team,
 							making bad jokes about VBScript and dreaming of happy hour. The only native Brit in the company described him in one word: 'cheeky'. You can see him live on stage regularly, with talks about Cloud9, node.js, scaling and mobile development.
+						</div>
+					</li>
+					<li>
+						<div class="name">
+							Follow them all!
+						</div>
+						<div class="bio">
+							For all Twitter updates from our talk hosts, follow our list!<br/>
+							<a href="http://twitter.com/jsconf_asia/lists/talks" target="_blank">JSCamp 2012 talks</a><br/>
 						</div>
 					</li>
 				</ul>
@@ -309,6 +331,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Divya Manian
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/34889290406/jscamp-talk-divya-manian-css-next" target="_blank">"CSS Next"</a></b>
+							<br/><br/>
 							Divya is part of the <a href="http://html.adobe.com/" target="_blank">Adobe Web Platform Team</a>. She
 							made the jump from developing device drivers for Motorola phones to
 							designing websites and has not looked back since. She takes her duties as
@@ -326,6 +350,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Irene Ros
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35037224230/jscamp-talk-irene-ros-building-better-apps-with" target="_blank">"Building Better Apps with Client-side Data"</a></b>
+							<br/><br/>
 							Irene is a Senior Developer and Data Visualization Specialist at <a href="http://bocoup.com" target="_blank">Bocoup</a>.
 							Most recently Irene has been working with the Guardian Interactive Team in the UK on the <a href="http://misoproject.com" target="_blank">Miso Project</a>,
 							an open source toolkit designed to expedite the creation of high-quality interactive storytelling and data visualisation content.
@@ -340,6 +366,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Kate Chapman
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35262740737/jscamp-talk-kate-chapman-custom-maps-through" target="_blank">“Custom Maps Through OpenStreetMap”</a></b>
+							<br/><br/>
 							Kate Chapman is the Executive Director and a founding member of the
 							<a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team (HOT)</a>.  HOT utilizes OpenStreetMap to
 							create free geographic data for disaster preparedness, response, and
@@ -353,14 +381,16 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/nonstopgamers" class="twitter icon" target="_blank" title="@nonstopgamers"></a>
+							<a href="http://twitter.com/laktek" class="twitter icon" title="@laktek" target="_blank"></a>
 						</div>
-						<div class="img"><img src="static5/img/speakers/henrik.jpg" alt="Henrik Karlstr&ouml;m" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/lakshan.jpg" alt="Lakshan Perera" border="0" /></div>
 						<div class="name">
-							Henrik Karlstr&ouml;m
+							Lakshan Perera
 						</div>
 						<div class="bio">
-							Henrik is the lead client developer and co-founder at HTML5 gaming startup <a href="http://nonstop-games.com" target="_blank">NonStop Games</a>. Originally from Finland, Henrik now lives in and works in Singapore.
+							<b><a href="http://blog.jscamp.asia/post/35262692331/jscamp-talk-lakshan-perera-embracing-the-static" target="_blank">“Embracing the Static Web”</a></b>
+							<br/><br/>
+							Lakshan is a JavaScript developer from Colombo, Sri Lanka. He is the creator of <a href="https://github.com/laktek/punch" target="_blank">Punch</a>, web publishing framework and contributes to <a href="http://www.aloha-editor.org" target="_blank">Aloha Editor</a> project. He loves to experiment with different web technologies and build open source tools to increase developer happiness. Currently, he works as the lead developer of <a href="http://curdbee.com" target="_blank">CurdBee</a>, online invoicing service.
 						</div>
 					</li>
 					<li>
@@ -372,7 +402,23 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Tomasz Janczuk
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35328004510/jscamp-talk-tomasz-janczuk-node-js-on-windows" target="_blank">“Node.js on Windows”</a></b>
+							<br/><br/>
 							Tomasz is helping to develop and ship software for Microsoft. His current area of focus is node.js, JavaScript, and Windows Azure. Tomasz created <a href="https://github.com/tjanczuk/iisnode/wiki" target="_blank">iisnode</a>, a mechanism that allows hosting node.js applications in IIS on Windows and Windows Azure. Before node.js he worked on .NET Framework and Silverlight, specializing in web service technologies, in particular security.
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/davidshimjs" class="twitter icon" title="@davidshimjs" target="_blank"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/sangmin.jpg" alt="Sangmin Shim" border="0" /></div>
+						<div class="name">
+							Sangmin Shim
+						</div>
+						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35620008524/jscamp-talk-sangmin-shim-high-performance-mobile" target="_blank">“High Performance Mobile Web Game Development in HTML5”</a></b>
+							<br/><br/>
+							Sangmin is a Senior JavaScript developer working at <a href="http://www.nhncorp.com/nhnen/index.nhn" target="_blank">NHN</a> and the creator of the JavaScript animation library <a href="http://jindo.dev.naver.com/collie/" target="_blank">Collie</a>. He is very interested in making JavaScript apps run faster and more smoothly. He has authored a book titled "What You Need to Know about JavaScript’s Performance" and also writes mobile games using Collie.
 						</div>
 					</li>
 				</ul>
@@ -386,6 +432,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Angus Croll
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/34889385302/jscamp-talk-angus-croll-parlez-vous-javascript" target="_blank">"Parlez-Vous JavaScript?"</a></b>
+							<br/><br/>
 							Angus is a member of the Web Core team at <a href="http://twitter.com" target="_blank">Twitter</a>. He is author of the <a href="http://javascriptweblog.wordpress.com" target="_blank">JavaScript JavaScript blog</a> and an upcoming JavaScript book for No Starch Press. Originally from the UK, Angus now lives in Sausalito, California.
 						</div>
 					</li>
@@ -398,6 +446,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Alex MacCaw
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35037554361/jscamp-talk-alex-maccaw-vastly-better-user" target="_blank">"Vastly Better User Experiences"</a></b>
+							<br/><br/>
 							<a href="http://blog.alexmaccaw.com/" target="_blank">Alex</a> is a Ruby and JavaScript developer, O'Reilly author and works for <a href="http://stripe.com" target="_blank">Stripe</a>, a developer focussed online-payment startup from San Francisco.
 						</div>
 					</li>
@@ -410,6 +460,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Michal Budzynski
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35110229372/jscamp-talk-michal-budzynski-yo-mamas-so-ugly-she" target="_blank">“Yo mama’s so ugly, she makes onions cry.”</a></b>
+							<br/><br/>
 							Michal is an Open Web Alchemist, working on Boot2Gecko project at Mozilla.
 							In his free time he creates many ridiculous experiments like <a href="https://developer.mozilla.org/pl/demos/detail/css-nyan-cat" target="_blank">CSS Nyan Cat</a> or <a href="https://demoparty.mozillalabs.com/gallery/43/al-your-gradient-are-belong-to-us" target="_blank">All your gradient are belong to us</a>.
 							He officiates as an HTML5 GameDev trainer in W3C and ran technical workshops and tech-talks in many countries on different continents. He organizes <a href="http://ongamestart.com/" target="_blank">onGameStart</a> in Warsaw, the first HTML5 games conference and safely says that making web a better place is not just his job - it's his lifestyle.
@@ -425,29 +477,52 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Jason Smith
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35110120470/jscamp-talk-jason-smith-real-world-javascript" target="_blank">“Real-world JavaScript”</a></b>
+							<br/><br/>
 							Jason has been an entrepreneur since 2002. He is an expert deploying, managing, and using CouchDB in the enterprise. He built the <a href="http://www.iriscouch.com" target="_blank">Iris Couch</a> infrastructure and provides the technical vision of the Iris Couch platform.
 						</div>
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/laktek" class="twitter icon" title="@laktek" target="_blank"></a>
+							<a href="http://twitter.com/bradleypriest" class="twitter icon" title="@bradleypriest" target="_blank"></a>
 						</div>
-						<div class="img"><img src="static5/img/speakers/lakshan.jpg" alt="Lakshan Perera" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/brad.jpg" alt="Bradley Priest" border="0" /></div>
 						<div class="name">
-							Lakshan Perera
+							Bradley Priest
 						</div>
 						<div class="bio">
-							Lakshan is a JavaScript developer from Colombo, Sri Lanka. He is the creator of <a href="https://github.com/laktek/punch" target="_blank">Punch</a>, web publishing framework and contributes to <a href="http://www.aloha-editor.org" target="_blank">Aloha Editor</a> project. He loves to experiment with different web technologies and build open source tools to increase developer happiness. Currently, he works as the lead developer of <a href="http://curdbee.com" target="_blank">CurdBee</a>, online invoicing service.
+							<b><a href="http://blog.jscamp.asia/post/35328141319/jscamp-talk-bradley-priest-a-shallow-dive-into" target="_blank">“A Shallow Dive into Ember.JS”</a></b>
+							<br/><br/>
+							<a href="http://bradleypriest.com" target="_blank">Bradley</a> is the CTO and lead developer of a Singapore-based startup, <a href="http://tradegecko.com" target="_blank">TradeGecko</a>. Previously primarily a Ruby developer, over the last 18 months he has thrown himself into the world of JS and client-side technologies, and is now a frequent contributor to <a href="http://emberjs.com" target="_blank">Ember.js</a>.
 						</div>
 					</li>
 					<li>
+						<div class="links">
+							<a href="http://twitter.com/nonstopgamers" class="twitter icon" target="_blank" title="@nonstopgamers"></a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/henrik.jpg" alt="Henrik Karlstr&ouml;m" border="0" /></div>
 						<div class="name">
-							Check back every week
+							Henrik Karlstr&ouml;m
 						</div>
 						<div class="bio">
-							We'll reveal more speakers every week. Be sure to check back and get the updates!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+							<b><a href="http://blog.jscamp.asia/post/35619694277/jscamp-talk-henrik-karlstom-developing-a" target="_blank">“Developing a multiplatform PvP game in JS”</a></b>
+							<br/><br/>
+							Henrik is the lead client developer and co-founder at HTML5 gaming startup <a href="http://nonstop-games.com" target="_blank">NonStop Games</a>. Originally from Finland, Henrik now lives in and works in Singapore.
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="http://twitter.com/hasclass" class="twitter icon" target="_blank" title="@hasclass"></a>
+							<a href="http://github.com/hasclass" class="www icon" target="_blank" title="hasclass on github">git</a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/sburkhard.jpg" alt="Sebastian Burkhard" border="0" /></div>
+						<div class="name">
+							Sebastian Burkhard
+						</div>
+						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35620189144/jscamp-talk-sebastian-burkhard-the-missing-ruby" target="_blank">“The missing Ruby core library for JavaScript”</a></b>
+							<br/><br/>
+							Sebastian cultivates a passionate on-and-off relationship with JavaScript. The past 5 years he neglected JS in favour of Ruby/Rails. He is working on RubyJS, a JS library that combines the good parts of JS with Ruby. 
 						</div>
 					</li>
 				</ul>
@@ -457,6 +532,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<h4>Workshops</h4>
 					Over the time of the conference we want you to get your hands dirty. There's plenty of time, power and Wi-Fi to check out this new library,
 					concept or idea you've heard about while the entire community is around. Even better: Professional hosts will explain and guide you in our workshop sessions.
+					<br/><br/>
+					<a href="http://jscamp.asia/schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
 				</span>
 				<ul class="speakers">
 					<li>
@@ -468,6 +545,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Shannon JJ Behrens
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35190233515/jscamp-workshop-shannon-jj-behrens-dart-web" target="_blank">"Dart Web Components"</a></b>
+							<br/><br/>
 							JJ is a developer advocate at Google. His goal is to help people write high-fidelity, high-performance, rich, client-side applications in <a href="http://code.google.com/p/dart/" target="_blank">Dart</a>. He's a well-known member of the Python community. He <a href="http://jjinux.blogspot.com" target="_blank">blogs</a> on topics such as Python, Ruby, Linux, open source software, the Web, and lesser-known programming languages.
 						</div>
 					</li>
@@ -480,6 +559,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Giorgio Sardo
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35391180327/jscamp-workshop-giorgio-sardo-build-engaging" target="_blank">“Build engaging Windows 8 UI Apps”</a></b>
+							<br/><br/>
 							Giorgio is a Director of the Windows Evangelism group at Microsoft in Redmond, winner of the Imagine Cup worldwide championship and nominated as Best Consultant of the Year from the British Computer Society. Giorgio is a popular speaker worldwide and in the last 5 years he has presented at hundreds of conferences around the globe. He is the mind behind many beautiful HTML5 applications and games available at <a href="http://beautyoftheweb.com" target="_blank">beautyoftheweb.com</a> and in the Windows Store.
 						</div>
 					</li>
@@ -488,15 +569,17 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://twitter.com/johndbritton" class="twitter icon" title="@johndbritton" target="_blank"></a>
-							<a href="http://twitter.com/shepbook" class="twitter icon" title="@shepbook" target="_blank"></a>
+							<a href="http://github.com/razic" class="www icon" title="Zachary Adam Kaplan on github" target="_blank">git</a>
 						</div>
-						<div class="img"><img src="static5/img/speakers/johnjared.png" alt="John Britton and Jared Koumentis" border="0" /></div>
+						<div class="img"><img src="static5/img/speakers/johnzach.jpg" alt="John Britton and Zachary Adam Kaplan" border="0" /></div>
 						<div class="name">
-							John and Jared
+							John and Zachary
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35190498111/jscamp-workshop-john-britton-and-zachary-adam-kaplan" target="_blank">"Getting Bootstrapped with git"</a></b>
+							<br/><br/>
 							John Britton is a developer and community builder active in open source and education. He has organized events such as Open Everything and Mozilla Drumbeat in service of the open source community.<br/>
-							Jared Koumentis, aka "The Double Agentocat", is a Linux SysAdmin by trade, a budding programmer and loves to help people to the "Ah Ha!" moment.
+							Zachary Adam Kaplan is a programmer. Seriously!
 							Together they join us from the US as the GitHub team of Liaisons for JSCamp.Asia!
 						</div>
 					</li>
@@ -509,6 +592,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Joshua Koo
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35391257372/jscamp-workshop-joshua-koo-getting-started-with" target="_blank">“Getting Started with Three.js”</a></b>
+							<br/><br/>
 							Joshua's from Singapore, currently working for <a href="http://www.zopim.com" target="_blank">Zopim</a>, an award winning startup based locally.
 							He experiments with and contributes to <a href="http://mrdoob.github.com/three.js/" target="_blank">three.js</a>, a popular JavaScript 3D library.
 							Some might already know him for his JavaScript and <a href="http://www.chromeexperiments.com/detail/arabesque/?f=" target="_blank">WebGL</a> <a href="http://www.chromeexperiments.com/detail/it-came-upon/?f=" target="_blank">experiments</a>.							
@@ -525,18 +610,34 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Rico Sta. Cruz
 						</div>
 						<div class="bio">
+							<b><a href="http://blog.jscamp.asia/post/35190645228/jscamp-workshop-rico-sta-cruz-maintainable" target="_blank">“Maintainable Single-page Web Apps with Backbone.js”</a></b>
+							<br/><br/>
 							<a href="http://www.ricostacruz.com" target="_blank">Rico</a> is a Ruby and JavaScript developer from the Philippines whose passion lies in building great web applications and slick user interfaces.
 							He is the co-founder of a small web development team in Manila called <a href="http://nadarei.co" target="_blank">Nadarei</a>, the author of the Backbone.js guide <a href="http://ricostacruz.com/backbone-patterns" target="_blank">Backbone Patterns</a> among other open-source projects that help people build great apps.
 						</div>
 					</li>
 					<li>
+						<div class="links">
+							<a href="https://github.com/coffeesam" class="www icon" title="coffeesam on github" target="_blank">git</a>
+						</div>
+						<div class="img"><img src="static5/img/speakers/sam.jpg" alt="Sam Hon" border="0" /></div>
 						<div class="name">
-							Soon!
+							Sam Hon
 						</div>
 						<div class="bio">
-							More Workshop hosts and the topics will be announced closer to the conference. Be sure to check back and get the updates!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+							<b><a href="http://blog.jscamp.asia/post/35391386222/jscamp-workshop-sam-hon-scaling-mmo-games-with" target="_blank">“Scaling MMO Games with Node.JS”</a></b>
+							<br/><br/>						
+							Sam spent over 10 years at startups focusing on multi-platform technologies. He now organizes a monthly <a href="https://www.facebook.com/groups/sg.nodejs/" target="_blank">Singapore Node.JS User Group meet up</a>
+							and is a Ruby on Rails + Node.JS developer. Apart from building scalable high volume applications, he also has an interest in DevOps and Continuous Deployment. 
+						</div>
+					</li>
+					<li>
+						<div class="name">
+							Follow them all!
+						</div>
+						<div class="bio">
+							For all Twitter updates from our workshop hosts, follow our list!<br/>
+							<a href="http://twitter.com/jsconf_asia/lists/workshops" target="_blank">JSCamp 2012 workshops</a><br/>
 						</div>
 					</li>
 				</ul>
@@ -546,7 +647,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<h4>Events</h4>
 					JSCamp is not all Singapore has to offer for developers. Interested people can come together in Singapores trendy co-working spaces
 					and work or contribute as a group to open source JavaScript projects or just hang out and socialize. We inform you here about events and places to go to around the time of the conference.<br/><br/>
-					If you're interested in using our conference to find contributors or visitors for your event or project and get to know the finest web developers in the region, please <a href="mailto:thomas@jscamp.asia">let us know</a>.
+					<a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add the JSCamp Events Calendar</a>
 				</span>
 				<ul class="speakers">
 					<li>
@@ -559,14 +660,89 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Tech Entre- preneurship Meetup by JFDI
 						</div>
 						<div class="bio">
-							<b><a href="Tech Entrepreneurship Meetup by JFDI.ics">Nov 28, 7pm</a></b><br/><br/>
+							<b><a href="Tech Entrepreneurship Meetup by JFDI.ics">Wed, Nov 28, 7pm</a></b><br/><br/>
 							Only JSCamp attendees can upgrade their ticket to attend the Tech Entrepreneurship Meetup by JFDI on the evening of November 28th for an additional S$60.
 							The <a href="http://jfdi.asia" target="_blank">Joyful Frog Digital Incubator</a>, Southeast Asia’s first Global Accelerator Network seed accelerator, is offering you the exclusive chance to connect with tech entrepreneurs and investors from all over the region over delicious food and drinks.
 							<br/><br/>
 							<span style="font-size: 0.8em; line-height: 0.9em;">#05-11 Block 71, Ayer Rajah Crescent, Singapore 139951 at one-north MRT</span>
 						</div>
 					</li>
+					<li>
+						<div class="links">
+							<a href="https://www.facebook.com/events/270738326363246/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="Frontend Developer User Group Meetup Event on Facebook" target="_blank">f</a>
+						</div>
+						<div class="img"><a href="https://www.facebook.com/groups/frontendsingapore/" target="_blank"><img src="static5/img/events/frontend.png" alt="Frontend Developer User Group" border="0" /></a></div>
+						<div class="name">
+							Frontend Developer User Group Meetup
+						</div>
+						<div class="bio">
+							<b><a href="Frontend Developer user group Meetup.ics">Tue, Nov 27, 7:00pm</a></b><br/><br/>
+							Singapore' Frontend User group will be having their very first meetup and there will be 3 talks along with fast paced lightning talks form the audience. [Talk 1] DRY CSS with SASS 3.2, css pre-processor along with new features and SASS gems by Vinay. [Talks 2]  Things I learnt about responsive design and animation by Shiaw Uen. The user group is also looking for a 3rd speaker, so <a href="https://www.facebook.com/groups/frontendsingapore/" target="_blank">join the user group</a> and <a href="https://www.facebook.com/events/270738326363246/" target="_blank">register and come down for the meetup.</a>
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">Hackerspace.SG, 70A Bussorah Street, Singapore 199483, 10min walk from Bugis MRT</span>
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="https://www.facebook.com/events/432979803424767/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="Python User Group Meetup Event on Facebook" target="_blank">f</a>
+						</div>
+						<div class="img"><a href="https://www.facebook.com/groups/pythonsg/" target="_blank"><img src="static5/img/events/python.png" alt="Python User Group" border="0" /></a></div>
+						<div class="name">
+							Python User Group Meetup
+						</div>
+						<div class="bio">
+							<b><a href="Python usergroup Meetup.ics">Sat, Dec 1, 7:00pm</a></b><br/><br/>
+							Singapore' Python user group is meeting up in December! Join them as the developers speak and share about all things python. (Talk 1) Fun ways to learn Python by Chris and Christian Boesch (Talk 2) Fun with GeoDjango by Chuan Yeong, Nai and Calvin. <a href="https://www.facebook.com/groups/pythonsg/" target="_blank">Join the Singapore Python User Group</a> and if you are interested, you are welcome to submit a talk as well. <a href="https://www.facebook.com/events/432979803424767/" target="_blank">Do register for the event and drop by!</a>
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">Hackerspace.SG, 70A Bussorah Street, Singapore 199483, 10min walk from Bugis MRT</span>
+						</div>
+					</li>	
 				</ul>
+				<ul class="speakers">
+					<li>
+						<div class="links">
+							<a href="http://mambo.sg" class="www icon" title="JFDI.Asia" target="_blank">www</a>
+<a href="https://www.facebook.com/events/474791105905394/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="JSCamp.Asia 2012 Beach Party Event on Facebook" target="_blank">f</a>
+						</div>
+						<div class="img"><a href="http://mambo.sg" target="_blank"><img src="static5/img/events/mambo.png" alt="Mambo - Sentosa Siloso Beach" border="0" /></a></div>
+						<div class="name">
+							JSCamp.Asia Beach BBQ at Mambo
+						</div>
+						<div class="bio">
+							<b><a href="JSCamp Beach BBQ at Mambo.ics">Fri, Nov 30, 6pm</a></b><br/><br/>
+							Don't forget to pack your swimsuit for JSCamp. We'll have a legit beach party with iced cocktails, BBQ, a pool and the sea to round up the conference and get smoothly into the weekend. Everybody is invited, but only JSCamp attendees get free drinks and food and they don't need to worry about how to get there. We'll have in-style direct transport from the venue.
+							<a href="https://www.facebook.com/events/474791105905394/" target="_blank">Here is our facebook event so you can invite your friends.</a>
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">Mambo - Sentosa Siloso Beach, 40 Siloso Beach Walk, Singapore 098996</span>
+						</div>
+					</li>
+					<li>
+						<div class="links">
+							<a href="https://www.facebook.com/events/493158247373020" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="Singapore PHP User Group Meetup Event on Facebook" target="_blank">f</a>
+						</div>
+						<div class="img"><a href="https://www.facebook.com/events/493158247373020" target="_blank"><img src="static5/img/events/php.png" alt="Singapore PHP User Group Meetup" border="0" /></a></div>
+						<div class="name">
+							Singapore PHP User Group Meetup
+						</div>
+						<div class="bio">
+							<b><a href="PHP usergroup meetup.ics">Wed, Nov 28, 7:30pm</a></b><br/><br/>
+							Singapore PHP developer group is meeting up with 2 talks in a row for the evening. (1) Kohana - Yet Another PHP Framework by Leong Hean Hong, freelance web developer. The speaker has been using Kohana for his personal projects, and would like to introduce it by comparing it against another popular php framework, CakePHP. (2) Soft-Launch of Open Source Project: PHP-Queue by Michael Cheng, Senior Software Engineer, mig33. PHP-Queue is an unified front-end for different queuing backends. Includes a REST server, CLI interface, daemon worker roles, etc. The event is free, so <a href="https://www.facebook.com/events/493158247373020" target="_blank">register here</a> and mingle with other fellow PHP developers!
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">Microsoft Singapore, One Marina Boulevard, 22nd floor, Room 12, Singapore 018989 at Raffles Place MRT</span>
+						</div>
+					</li>
+					<li>
+						<div class="name">
+							Get the calendar!
+						</div>
+						<div class="bio">
+						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add our Google Events Calendar</a></b><br/><br/>
+							Follow us on <a href="http://twitter.com/jsconf_asia" target="_blank">Twitter</a><br/>
+							and <a href="http://facebook.com/JSConfAsia" target="_blank">Facebook</a>
+						</div>
+					</li>
+				</ul>
+
 				<ul class="speakers">
 					<li>
 						<div class="links">
@@ -578,27 +754,45 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							Meet up at The HUB Singapore
 						</div>
 						<div class="bio">
-							<b><a href="Meet up at the HUB Singapore.ics">Nov 27+28, Dec 1+2</a></b><br/><br/>
+							<b><a href="Meet up at the HUB Singapore.ics">Nov 27+28 (Tue/Wed), Dec 1+2 (Sat/Sun)</a></b><br/><br/>
 							For those arriving days early or leaving late for JSCamp, The HUB Singapore offers you a desk, Wi-Fi to get some work done and like-minded people to hang out with. It's centrally located at Somerset MRT and they do great coffee. This offer is valid only for JSCamp attendees and only the two days before and after the event. <a href="http://singapore.the-hub.net" target="_blank">Check it out!</a>
 							<br/><br/>
 							<span style="font-size: 0.8em; line-height: 0.9em;">National Youth Council Academy, 113 Somerset Road, Singapore 238165 at Somerset MRT</span>
 						</div>
 					</li>
-				</ul>
-				<ul class="speakers">
 					<li>
+						<div class="links">
+							<a href="https://www.facebook.com/events/136561019825149/" class="www icon" style="font-size: 2em; line-height: 1.2em;" title="RasberryPi Jam Singapore on Facebook" target="_blank">f</a>
+						</div>
+						<div class="img"><a href="https://www.facebook.com/events/136561019825149/" target="_blank"><img src="static5/img/events/rasberry.png" alt="RasberryPi Jam Singapore" border="0" /></a></div>
 						<div class="name">
-							Soon!
+							RaspberryPI Jam Singapore
 						</div>
 						<div class="bio">
-						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add the Google Events Calendar</a></b><br/><br/>
-							Events around the conference will be announced over the next weeks.<br/><br/>
-							If you want to host one, please
-							<a href="mailto:thomas@jscamp.asia">let us know</a>!<br/><br/>
-							Follow us on <a href="http://twitter.com/jscamp_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/javascriptcamp" target="_blank">Facebook</a>
+							<b><a href="RaspberryPI Jam Singapore.ics">Thu, Nov 29, 7:30pm</a></b><br/><br/>
+							Singapore RaspberryPI hardware geek group is meeting up with two presentations while you can mingle at the <a href="http://hackerspace.sg" target="_blank">Hackerspace Singapore</a>! (1) Hackerspace Door opening/close Hack using Raspberry Pi++ by Michael Cheng. (2) <a href="https://www.facebook.com/coconutpi" target="_blank">Coconut Pi</a> By Eng Wei/Shan. The event is free, just <a href="https://www.facebook.com/events/136561019825149/" target="_blank">register here</a>!
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">Hackerspace.SG, 70A Bussorah Street, Singapore 199483, 10min walk from Bugis MRT</span>
 						</div>
 					</li>
+					<li>
+						<div class="links">
+							<a href="http://redwire.sg/" class="www icon" title="Redwire website" target="_blank">www</a>
+						</div>
+						<div class="img"><a href="http://redwire.sg/" target="_blank"><img src="static5/img/events/redwire.jpg" alt="Singapore PHP User Group Meetup" border="0" /></a></div>
+						<div class="name">
+							Redwire.SG Hackathon
+						</div>
+						<div class="bio">
+							<b><a href="Redwire.SG.ics">Sat, Dec 1, 12:00pm</a></b><br/><br/>
+							RedWire is a Hackathon un-conference, where any ideas to create something (useful or not) can be made reality.
+							The event focuses on the collaborative creation of actual products from wild and wacky ideas for the sheer pleasure of hacking and building something. We've had many ideas for fun projects bandied around, and it's high time we sat down and worked on some of them.
+							Redwire.SG - Because the only thing scarier than a hardware guy with a software patch is a software guy with a soldering iron. <a href="http://www.eventbrite.sg/event/4847602309?ref=ebtnebregn" target="_blank">Register here</a>
+							<br/><br/>
+							<span style="font-size: 0.8em; line-height: 0.9em;">#05-11 Block 71, Ayer Rajah Crescent, Singapore 139951 at one-north MRT</span>
+						</div>
+					</li>
+
 				</ul>
 			</div>
 
@@ -628,13 +822,11 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<li style="top: 304px; left: 334px;">
 								<div><b>The Entrance hall</b><br/>Make yourself at home. NUSS will serve you snacks, drinks and a delicious lunch buffet here.</div></li>
 							<li style="top: 305px; left:208px;">
-								<div><b>The Della &amp; Seng Gee Guild Hall</b><br/>This big room will host the keynotes and the first track as well as our workshop introductions.</div></li>
+								<div><b>The Della &amp; Seng Gee Guild Hall</b><br/>This big room will host the keynotes and the <b>Under Water Track</b> as well as our workshop introductions.</div></li>
 							<li style="top: 245px; left: 229px;">
-								<div><b>Cluny/Dalvey/Evans</b><br/>The three rooms on the second floor combined host our second track of talks and workshops.</div></li>
-							<li style="top: 121px; left: 324px;">
-								<div><b>The Activity Room</b><br/>For workshops we can use this room as a flexible break-out option.</div></li>
+								<div><b>Cluny/Dalvey/Evans</b><br/>The three rooms on the second floor combined host our <b>Beach Track</b> of talks and workshops.</div></li>
 							<li style="top: 155px; left: 290px;">
-								<div><b>The Sports Bar</b><br/>Parallel to all ongoings we'll offer hang-out space, power and Wifi up on the open 3rd floor for you.</div></li>
+								<div><b>The JSCamp Café</b><br/>Parallel to all ongoings we'll offer hang-out space, power and Wifi up on the 3rd floor for you. You'll also find our <b>Palm Track</b> here and <b>Jimmy Monkey's Café</b>.</div></li>
 							<li style="top: 170px; left: 520px;">
 								<div><b>Café on the Ridge</b><br/>If buffet is not enough, the Café offers Western and Asian cuisines inside and on its terrace right next to the pool.<br/><span class="small">This is an NUSS offer and not included in the ticket.</span></div></li>
 							<li style="top: 253px; left: 478px;">
@@ -657,9 +849,9 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 									conference functions it offers its members all kinds of sport facilities, restaurants and bars.
 									Some of those will also be available to our guests during the time of JSCamp. Just to make a great event yet a little bit better.
 									<br/><br/>
-									<b>Address:</b> (<a href="https://maps.google.com/maps?q=NUSS+Kent+Ridge+Guild+House,+Singapore&hl=en&sll=37.0625,-95.677068&sspn=82.939223,80.15625&t=h&hq=kent+ridge+guild+house,&hnear=Singapore&cid=8550792046711281217&z=18&iwloc=A" target="_blank">Map</a>)<br/>
-									9 Kent Ridge Drive<br/>
-									Singapore 119241
+									<a href="http://blog.jscamp.asia/post/34970219076/getting-to-the-venue" target="_blank"><b>Getting to the venue</b></a> &nbsp; &nbsp; &nbsp; <a href="http://nuss.org.sg/clubhouse.aspx?cid=2" target="_blank"><b>KRGH website</b></a>
+									<br/><br/>
+									Address: 9 Kent Ridge Drive, Singapore 119241
 									<br/><br/><br/>
 								</p>
 								<img src="static5/img/nuss.jpg" border="0" />
@@ -692,13 +884,13 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							</p>
 						</td>
 						<td>
-							<a href="http://www.ibishotel.com/gb/hotel-6657-ibis-singapore-on-bencoolen/index.shtml" target="_blank"><img src="static5/img/ibis.png" border="0" /></a>
+							<a href="http://www.agoda.com/asia/singapore/singapore/ibis_singapore_on_bencoolen_hotel.html?cid=1464398" target="_blank"><img src="static5/img/ibis.png" border="0" /></a>
 							<h4>Where to stay?</h4>
 							<p>
 								The ibis Hotel Bencoolen is a modern, sleek budget hotel with solid service, good breakfast and, of course, in-room Wi-Fi.
 								It's located very central in Singapore and we'll offer transfer services from this hotel to the conference.
 								<br/><br/>
-								<a href="http://www.ibishotel.com/gb/hotel-6657-ibis-singapore-on-bencoolen/index.shtml" target="_blank">http://ibishotel.com</a>
+								<a href="http://www.agoda.com/asia/singapore/singapore/ibis_singapore_on_bencoolen_hotel.html?cid=1464398" target="_blank">http://ibishotel.com</a>
 							</p>
 						</td>
 					</tr>
@@ -739,11 +931,13 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 					</li>
 					<li>
-						<div class="name">
-							Become a Sponsor
+						<div class="links">
+							<a href="http://www.propertyguru.com.sg" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/SGPropertyGuru" class="twitter icon" target="_blank" title="@SGPropertyGuru"></a>
 						</div>
+						<div class="img"><a href="http://www.propertyguru.com.sg" target="_blank"><img src="static5/img/supporters/propertyguru.png" /></a></div>
 						<div class="bio">
-							We are eager to make JScamp the web and mobile developer conference of the year and there is much to benefit from as our sponsor. <a href="mailto:sponsors@jscamp.asia">Drop us a mail</a>
+							PropertyGuru.com.sg is the leading Singapore Property website - the best place to start your real estate search whether you are an investor, buying for own use, or looking for a place to rent. In PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
 						</div>
 					</li>
 				</ul>
@@ -762,23 +956,24 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://html.adobe.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adobe" class="twitter icon" target="_blank" title="@paypal"></a>
+							<a href="http://twitter.com/adobe" class="twitter icon" target="_blank" title="@adobe"></a>
 						</div>
 						<div class="img"><a href="http://html.adobe.com" target="_blank"><img src="static5/img/sponsors/adobe.png" /></a></div>
 						<div class="bio">
 							Along with the community, Adobe is developing new web standards and advancing existing ones. Adobe wants to make the web more wonderful by championing features in the W3C and engineering those features directly in open browser engines like Webkit.
 						</div>
 					</li>
-					<!--<li>
+					<li>
 						<div class="links">
-							<a href="http://www.propertyguru.com.sg" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/SGPropertyGuru" class="twitter icon" target="_blank" title="@SGPropertyGuru"></a>
+							<a href="http://www.mozilla.org" target="_blank" class="www icon">www</a>
+							<a href="http://twitter.com/mozilla" class="twitter icon" target="_blank" title="@mozilla"></a>
 						</div>
-						<div class="img"><a href="http://www.propertyguru.com.sg" target="_blank"><img src="static5/img/supporters/propertyguru.png" /></a></div>
+						<div class="img"><a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank"><img src="static5/img/supporters/mozilla.png" /></a></div>
 						<div class="bio">
-							PropertyGuru.com.sg is the leading Singapore Property website - the best place to start your real estate search whether you are an investor, buying for own use, or looking for a place to rent. In PropertyGuru, you can find thousands of properties for sale and rent with detailed information about each property, including maps and photos.
+							Mozilla is a proudly non-profit organization dedicated to keeping the power of the Web in people’s hands. We’re a global community of users, contributors and developers working to innovate on your behalf. When you use Firefox, or any Mozilla product, you become a part of that community, helping us build a brighter future for the Web.
 						</div>
-					</li>//-->
+					</li>
+					<!--//-->
 				</ul>
 				<ul class="speakers">
 					<li>
@@ -908,7 +1103,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 		</div>
 		
 	</div>
-
+3
 	
 	<div id="top">
 		
@@ -930,8 +1125,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 			
 			</td>
 			<td>
-				<a href="getticket.php" target="_blank" class="link">Register now!</a>
-				<a href="http://blog.jscamp.asia" target="_blank" class="link">Blog</a>
+				<a href="http://blog.jscamp.asia" target="_blank" class="link">blog.jscamp</a>
 			</td>
 		</tr>
 		</table>
@@ -950,7 +1144,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<script type="text/javascript" src="static5/js/dependencies/0050-audiofade-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0070-jquery.scrollto-ck.js"></script>
 	<script type="text/javascript" src="static5/js/dependencies/0080-jquery.form-ck.js"></script>
-	<script type="text/javascript" src="static5/js/main/05-jscamp-ck.js"></script>
+	<script type="text/javascript" src="static5/js/main/06-jscamp-ck.js"></script>
 	<!-- end scripts-->
 	
 	<audio id="la_oceansound" preload="auto" autobuffer="autobuffer" style="display: none"> 
@@ -960,6 +1154,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
     <!-- Resource strings used in Javascript for localization (and other variables and third-party additions) -->
 	<!--<script type="text/javascript" src="static5/js/l10n/en.js"></script> -->
 	
+	<img src="http://ads.adzhub.com/seg?add=471538" width="1" height="1"/>
 	<script type="text/javascript" defer="defer">
 
 	// Google Analytics

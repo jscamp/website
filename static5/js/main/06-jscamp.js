@@ -84,7 +84,7 @@ $(window).scroll(function() {
 
 });
 
-$("#sessions #sessionicon div").click(function() {
+var sessioniconclick = function() {
 	var nTop = $(this).css("top");
 	var cTop = $("#sessions #sessionicon div.current").css("top");
 	$("#sessions #sessionicon div.current").removeClass("current").animate({top: nTop},500);
@@ -93,7 +93,9 @@ $("#sessions #sessionicon div").click(function() {
 	$("#sessions .sessiondesc").removeClass("current");
 	$("#" + $(this).attr("id") + "desc").addClass("current")
 	$.scrollTo($("#sessions").position().top - 100, {duration:300});
-});
+};
+
+$("#sessions #sessionicon div").click(_.debounce(sessioniconclick, 1000, true));
 
 $("#subscribeForm").ajaxForm({
 	url: "./addsubscriber.php",

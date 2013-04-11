@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTSTART:20121201T110000Z
+DTEND:20121201T140000Z
+CREATED:20121107T100919Z
+UID:88BF4C85-BD43-4659-AC81-54ECDBA1A92
+LOCATION:Hackerspace Singapore\, 70A Bussorah Street\, Singapore 199483
+DESCRIPTION:Singapore' Python user group is meeting up in December! Join them as the developers speak and share about all things python. (Talk 1) Fun ways to learn Python by Chris and Christian Boesch (Talk 2) Fun with GeoDjango by Chuan Yeong, Nai and Calvin. Join the Singapore Python User Group and if you are interested, you are welcome to submit a talk as well. Do register for the event and drop by! https://www.facebook.com/events/432979803424767/
+URL;VALUE=URI:https://www.facebook.com/events/432979803424767/
+SUMMARY:Python User Group Meetup
+END:VEVENT
+END:VCALENDAR

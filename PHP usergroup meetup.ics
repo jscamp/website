@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTSTART:20121128T113000Z
+DTEND:20121128T140000Z
+CREATED:20121107T100919Z
+UID:88BF4C85-BD43-4659-AC81-54ECDBADC962
+LOCATION:Microsoft Singapore One Marina Boulevard Room 12 Floor 22 Singapore 018989
+DESCRIPTION:2 talks. (1) Kohana - Yet Another PHP Framework by Leong Hean Hong, freelance web developer. (2) Soft-Launch of Open Source Project: PHP-Queue by Michael Cheng, Senior Software Engineer, mig33. Register here: https://www.facebook.com/events/493158247373020
+URL;VALUE=URI:https://www.facebook.com/events/493158247373020
+SUMMARY:Singapore PHP User Group Meetup November 2012
+END:VEVENT
+END:VCALENDAR
