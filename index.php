@@ -184,34 +184,11 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</form>
 					</td>
 					<td id="tweets">
-						<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-						<script>
-						new TWTR.Widget({
-						  version: 2,
-						  type: 'profile',
-						  rpp: 4,
-						  interval: 30000,
-						  width: '280',
-						  height: '300',
-						  theme: {
-						    shell: {
-						      background: 'transparent',
-						      color: '#ffffff'
-						    },
-						    tweets: {
-						      background: 'transparent',
-						      color: '#ffffff',
-						      links: '#ffffff'
-						    }
-						  },
-						  features: {
-						    scrollbar: false,
-						    loop: false,
-						    live: true,
-						    behavior: 'all'
-						  }
-						}).render().setUser('jsconf_asia').start();
-						</script>
+<br/>
+<a class="twitter-timeline" href="https://twitter.com/jsconf_asia" height="388" width="300" data-widget-id="362068104920039424">Tweets by @jsconf_asia</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<br/><br/>
 						<span class="facebook">f</span>
 						<a href="http://facebook.com/JSConfAsia" target="_blank">Find us on Facebook</a>
 					</td>
