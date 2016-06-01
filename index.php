@@ -48,8 +48,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta property="og:title" content="JScamp.Asia - Undisclosured"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="http://jscamp.asia/"/>
-	<meta property="og:image" content="http://jscamp.asia/asset/jscampasia.jpg"/>
+	<meta property="og:url" content="//jscamp.asia/"/>
+	<meta property="og:image" content="//jscamp.asia/asset/jscampasia.jpg"/>
 	<meta property="og:site_name" content="JSCamp.Asia"/>
 	<meta property="og:description" content="The hands-on JavaScript web and mobile developer conference for Asia. Singapore, 29th + 30th November 2012"/>
 	<meta name="title" content="JSCamp.Asia - Undisclosured"/>
@@ -64,7 +64,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 	
 	<!-- All JavaScript at the bottom except shims -->
 	<!--[if lte IE 8 ]><script src="static5/js/libs/es5.js"></script><![endif]-->
-	<link href='http://fonts.googleapis.com/css?family=Doppio+One|Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Doppio+One|Open+Sans' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -149,7 +149,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 								Forget bacon. Here comes chicken rice!<br/><br/>
 								<span class="announcement">
 
-									<a href="http://www.youtube.com/user/JSCampAsia" id="ticketbutton">Watch the Videos!</a>		
+									<a href="https://www.youtube.com/user/JSCampAsia" id="ticketbutton">Watch the Videos!</a>		
 
 								</span>
 					</h3>
@@ -170,7 +170,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</ul>
 						
 						<p class="margin">
-							You would like to come, but you need to convince your boss?<br/><a href="http://jscamp.asia/Why%20your%20employees%20need%20to%20attend%20JSCamp.pdf">This PDF will help.</a>
+							You would like to come, but you need to convince your boss?<br/><a href="//jscamp.asia/Why%20your%20employees%20need%20to%20attend%20JSCamp.pdf">This PDF will help.</a>
 						</p>
 						<p>
 							<br/><br/>
@@ -190,7 +190,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 
 <br/><br/>
 						<span class="facebook">f</span>
-						<a href="http://facebook.com/JSConfAsia" target="_blank">Find us on Facebook</a>
+						<a href="https://facebook.com/JSConfAsia" target="_blank">Find us on Facebook</a>
 					</td>
 				</tr>
 				</table>
@@ -210,12 +210,12 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					and share their experience with you. Over the two days 18 speakers from all over the world will host in-depth sessions
 					in 2 tracks.
 					<br/><br/>
-					<a href="http://jscamp.asia/schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
+					<a href="//jscamp.asia/schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
 				</span>
 				<ul class="speakers">
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/ebidel" class="twitter icon" target="_blank" title="@ebidel"></a>
+							<a href="https://twitter.com/ebidel" class="twitter icon" target="_blank" title="@ebidel"></a>
 							<a href="https://plus.google.com/115478738847874567952" target="_blank" class="gplus icon" title="+Eric Bidelman">+</a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/ericbidelman.png" alt="Eric Bidelman" border="0" /></div>
@@ -230,7 +230,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/secoif" class="twitter icon" target="_blank" title="@secoif"></a>
+							<a href="https://twitter.com/secoif" class="twitter icon" target="_blank" title="@secoif"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/timoxley.png" alt="Tim Oxley" border="0" /></div>
 						<div class="name">
@@ -245,7 +245,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/gisardo" class="twitter icon" title="@gisardo" target="_blank"></a>
+							<a href="https://twitter.com/gisardo" class="twitter icon" title="@gisardo" target="_blank"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/giorgio.png" alt="Giorgio Sardo" border="0" /></div>
 						<div class="name">
@@ -259,14 +259,14 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/jedschmidt" class="twitter icon" target="_blank" title="@jedschmidt"></a>
+							<a href="https://twitter.com/jedschmidt" class="twitter icon" target="_blank" title="@jedschmidt"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/jed.jpg" alt="Jed Schmidt" border="0" /></div>
 						<div class="name">
 							Jed Schmidt
 						</div>
 						<div class="bio">
-							<b><a href="http://blog.jscamp.asia/post/35262658185/jscamp-talk-jed-schmidt-markup-and-style-without" target="_blank">“Markup and Style without HTML and CSS”</a></b>
+							<b><a href="https://blog.jscamp.asia/post/35262658185/jscamp-talk-jed-schmidt-markup-and-style-without" target="_blank">“Markup and Style without HTML and CSS”</a></b>
 							<br/><br/>
 							Jed is a JavaScript developer based in Tokyo, and has been using node.js since just before its debut in 2009. He maintains a
 							variety of open-source JavaScript libraries from database bindings to DOM builders, and has built several fun projects, including
@@ -275,7 +275,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/drbernhard" class="twitter icon" target="_blank" title="@drbernhard"></a>
+							<a href="https://twitter.com/drbernhard" class="twitter icon" target="_blank" title="@drbernhard"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/janjongboom.png" alt="Jan Jongboom" border="0" /></div>
 						<div class="name">
@@ -294,14 +294,14 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 						<div class="bio">
 							For all Twitter updates from our talk hosts, follow our list!<br/>
-							<a href="http://twitter.com/jsconf_asia/lists/talks" target="_blank">JSCamp 2012 talks</a><br/>
+							<a href="https://twitter.com/jsconf_asia/lists/talks" target="_blank">JSCamp 2012 talks</a><br/>
 						</div>
 					</li>
 				</ul>
 				<ul class="speakers">
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/divya" class="twitter icon" target="_blank" title="@divya"></a>
+							<a href="https://twitter.com/divya" class="twitter icon" target="_blank" title="@divya"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/divyamanian.png" alt="Divya Manian" border="0" /></div>
 						<div class="name">
@@ -319,7 +319,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/ireneros" class="twitter icon" target="_blank" title="@ireneros"></a>
+							<a href="https://twitter.com/ireneros" class="twitter icon" target="_blank" title="@ireneros"></a>
 							<a href="https://plus.google.com/110949345457543290862" class="gplus icon" target="_blank" title="+Irene Ros">+</a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/ireneros.png" alt="Irene Ros" border="0" /></div>
@@ -336,7 +336,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/wonderchook" class="twitter icon" target="_blank" title="@wonderchook"></a>
+							<a href="https://twitter.com/wonderchook" class="twitter icon" target="_blank" title="@wonderchook"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/katechapman.png" alt="Kate Chapman" border="0" /></div>
 						<div class="name">
@@ -358,7 +358,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/laktek" class="twitter icon" title="@laktek" target="_blank"></a>
+							<a href="https://twitter.com/laktek" class="twitter icon" title="@laktek" target="_blank"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/lakshan.jpg" alt="Lakshan Perera" border="0" /></div>
 						<div class="name">
@@ -372,7 +372,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/tjanczuk" class="twitter icon" title="@tjanczuk" target="_blank"></a>
+							<a href="https://twitter.com/tjanczuk" class="twitter icon" title="@tjanczuk" target="_blank"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/tomasz.png" alt="Tomasz Janczuk" border="0" /></div>
 						<div class="name">
@@ -402,7 +402,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<ul class="speakers">
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/angustweets" class="twitter icon" target="_blank" title="@angustweets"></a>
+							<a href="https://twitter.com/angustweets" class="twitter icon" target="_blank" title="@angustweets"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/anguscroll.png" alt="Angus Croll" border="0" /></div>
 						<div class="name">
@@ -416,7 +416,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/maccman" class="twitter icon" target="_blank" title="@maccman"></a>
+							<a href="https://twitter.com/maccman" class="twitter icon" target="_blank" title="@maccman"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/alexmccaw.png" alt="Alex McCaw" border="0" /></div>
 						<div class="name">
@@ -425,12 +425,12 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						<div class="bio">
 							<b><a href="http://blog.jscamp.asia/post/35037554361/jscamp-talk-alex-maccaw-vastly-better-user" target="_blank">"Vastly Better User Experiences"</a></b>
 							<br/><br/>
-							<a href="http://blog.alexmaccaw.com/" target="_blank">Alex</a> is a Ruby and JavaScript developer, O'Reilly author and works for <a href="http://stripe.com" target="_blank">Stripe</a>, a developer focussed online-payment startup from San Francisco.
+							<a href="http://blog.alexmaccaw.com/" target="_blank">Alex</a> is a Ruby and JavaScript developer, O'Reilly author and works for <a href="https://stripe.com" target="_blank">Stripe</a>, a developer focussed online-payment startup from San Francisco.
 						</div>
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/michalbe" class="twitter icon" title="@michalbe" target="_blank"></a>
+							<a href="https://twitter.com/michalbe" class="twitter icon" title="@michalbe" target="_blank"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/michalbudzynski.png" alt="Michal Budzynski" border="0" /></div>
 						<div class="name">
@@ -447,7 +447,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/_jhs" class="twitter icon" title="@_jhs" target="_blank"></a>
+							<a href="https://twitter.com/_jhs" class="twitter icon" title="@_jhs" target="_blank"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/jason.png" alt="Jason Smith" border="0" /></div>
 						<div class="name">
@@ -461,7 +461,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/bradleypriest" class="twitter icon" title="@bradleypriest" target="_blank"></a>
+							<a href="https://twitter.com/bradleypriest" class="twitter icon" title="@bradleypriest" target="_blank"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/brad.jpg" alt="Bradley Priest" border="0" /></div>
 						<div class="name">
@@ -475,7 +475,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/nonstopgamers" class="twitter icon" target="_blank" title="@nonstopgamers"></a>
+							<a href="https://twitter.com/nonstopgamers" class="twitter icon" target="_blank" title="@nonstopgamers"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/henrik.jpg" alt="Henrik Karlstr&ouml;m" border="0" /></div>
 						<div class="name">
@@ -489,8 +489,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/hasclass" class="twitter icon" target="_blank" title="@hasclass"></a>
-							<a href="http://github.com/hasclass" class="www icon" target="_blank" title="hasclass on github">git</a>
+							<a href="https://twitter.com/hasclass" class="twitter icon" target="_blank" title="@hasclass"></a>
+							<a href="https://github.com/hasclass" class="www icon" target="_blank" title="hasclass on github">git</a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/sburkhard.jpg" alt="Sebastian Burkhard" border="0" /></div>
 						<div class="name">
@@ -510,7 +510,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					Over the time of the conference we want you to get your hands dirty. There's plenty of time, power and Wi-Fi to check out this new library,
 					concept or idea you've heard about while the entire community is around. Even better: Professional hosts will explain and guide you in our workshop sessions.
 					<br/><br/>
-					<a href="http://jscamp.asia/schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
+					<a href="//jscamp.asia/schedule" target="_blank">JSCamp.Asia 2012 Schedule</a>
 				</span>
 				<ul class="speakers">
 					<li>
@@ -529,7 +529,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					</li>
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/gisardo" class="twitter icon" title="@gisardo" target="_blank"></a>
+							<a href="https://twitter.com/gisardo" class="twitter icon" title="@gisardo" target="_blank"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/giorgio.png" alt="Giorgio Sardo" border="0" /></div>
 						<div class="name">
@@ -545,8 +545,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<ul class="speakers">
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/johndbritton" class="twitter icon" title="@johndbritton" target="_blank"></a>
-							<a href="http://github.com/razic" class="www icon" title="Zachary Adam Kaplan on github" target="_blank">git</a>
+							<a href="https://twitter.com/johndbritton" class="twitter icon" title="@johndbritton" target="_blank"></a>
+							<a href="https://github.com/razic" class="www icon" title="Zachary Adam Kaplan on github" target="_blank">git</a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/johnzach.jpg" alt="John Britton and Zachary Adam Kaplan" border="0" /></div>
 						<div class="name">
@@ -572,7 +572,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 							<b><a href="http://blog.jscamp.asia/post/35391257372/jscamp-workshop-joshua-koo-getting-started-with" target="_blank">“Getting Started with Three.js”</a></b>
 							<br/><br/>
 							Joshua's from Singapore, currently working for <a href="http://www.zopim.com" target="_blank">Zopim</a>, an award winning startup based locally.
-							He experiments with and contributes to <a href="http://mrdoob.github.com/three.js/" target="_blank">three.js</a>, a popular JavaScript 3D library.
+							He experiments with and contributes to <a href="https://mrdoob.github.com/three.js/" target="_blank">three.js</a>, a popular JavaScript 3D library.
 							Some might already know him for his JavaScript and <a href="http://www.chromeexperiments.com/detail/arabesque/?f=" target="_blank">WebGL</a> <a href="http://www.chromeexperiments.com/detail/it-came-upon/?f=" target="_blank">experiments</a>.							
 						</div>
 					</li>
@@ -580,7 +580,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<ul class="speakers">
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/rstacruz" class="twitter icon" title="@rstacruz" target="_blank"></a>
+							<a href="https://twitter.com/rstacruz" class="twitter icon" title="@rstacruz" target="_blank"></a>
 						</div>
 						<div class="img"><img src="static5/img/speakers/ricostacruz.png" alt="Rico Sta. Cruz" border="0" /></div>
 						<div class="name">
@@ -614,7 +614,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 						<div class="bio">
 							For all Twitter updates from our workshop hosts, follow our list!<br/>
-							<a href="http://twitter.com/jsconf_asia/lists/workshops" target="_blank">JSCamp 2012 workshops</a><br/>
+							<a href="https://twitter.com/jsconf_asia/lists/workshops" target="_blank">JSCamp 2012 workshops</a><br/>
 						</div>
 					</li>
 				</ul>
@@ -629,7 +629,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<ul class="speakers">
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/jfdiasia" class="twitter icon" title="@jfdiasia" target="_blank"></a>
+							<a href="https://twitter.com/jfdiasia" class="twitter icon" title="@jfdiasia" target="_blank"></a>
 							<a href="http://jfdi.asia" class="www icon" title="JFDI.Asia" target="_blank">www</a>
 						</div>
 						<div class="img"><a href="http://jfdi.asia" target="_blank"><img src="static5/img/events/jfdi.png" alt="Joyful Frog Digital Incubator" border="0" /></a></div>
@@ -714,8 +714,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</div>
 						<div class="bio">
 						 	<b><a href="https://www.google.com/calendar/embed?src=cjVtYXNwN2pkOG5tMDlrMG40bWFuYzZjNDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&gsessionid=OK" target="_blank">Add our Google Events Calendar</a></b><br/><br/>
-							Follow us on <a href="http://twitter.com/jsconf_asia" target="_blank">Twitter</a><br/>
-							and <a href="http://facebook.com/JSConfAsia" target="_blank">Facebook</a>
+							Follow us on <a href="https://twitter.com/jsconf_asia" target="_blank">Twitter</a><br/>
+							and <a href="https://facebook.com/JSConfAsia" target="_blank">Facebook</a>
 						</div>
 					</li>
 				</ul>
@@ -723,7 +723,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<ul class="speakers">
 					<li>
 						<div class="links">
-							<a href="http://twitter.com/hubsg" class="twitter icon" title="@hubsg" target="_blank"></a>
+							<a href="https://twitter.com/hubsg" class="twitter icon" title="@hubsg" target="_blank"></a>
 							<a href="http://singapore.the-hub.net/" class="www icon" title="The HUB Singapore" target="_blank">www</a>
 						</div>
 						<div class="img"><a href="http://singapore.the-hub.net/" target="_blank"><img src="static5/img/events/hub.png" alt="Joyful Frog Digital Incubator" border="0" /></a></div>
@@ -888,8 +888,8 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 				<ul class="speakers">
 					<li>
 						<div class="links">
-							<a href="http://www.google.com/about/" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/googleatwork" target="_blank" class="twitter icon" title="@googleatwork"></a>
+							<a href="https://www.google.com/about/" target="_blank" class="www icon">www</a>
+							<a href="https://twitter.com/googleatwork" target="_blank" class="twitter icon" title="@googleatwork"></a>
 						</div>
 						<div class="img"><a href="http://www.google.com/about/" target="_blank"><img src="static5/img/sponsors/google.png" /></a></div>
 						<div class="bio">
@@ -900,7 +900,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://spiffy.sg/" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/gospiffy" target="_blank" class="twitter icon" title="@gospiffy"></a>
+							<a href="https://twitter.com/gospiffy" target="_blank" class="twitter icon" title="@gospiffy"></a>
 						</div>
 						<div class="img"><a href="http://spiffy.sg/" target="_blank"><img src="static5/img/sponsors/microsoft.png" /></a></div>
 						<div class="bio">
@@ -910,7 +910,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://www.propertyguru.com.sg" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/SGPropertyGuru" class="twitter icon" target="_blank" title="@SGPropertyGuru"></a>
+							<a href="https://twitter.com/SGPropertyGuru" class="twitter icon" target="_blank" title="@SGPropertyGuru"></a>
 						</div>
 						<div class="img"><a href="http://www.propertyguru.com.sg" target="_blank"><img src="static5/img/supporters/propertyguru.png" /></a></div>
 						<div class="bio">
@@ -922,7 +922,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://www.softlayer.com/" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/softlayer" class="twitter icon" target="_blank" title="@softlayer"></a>
+							<a href="https://twitter.com/softlayer" class="twitter icon" target="_blank" title="@softlayer"></a>
 						</div>
 						<div class="img"><a href="http://www.softlayer.com" target="_blank"><img src="static5/img/sponsors/softlayer.png" /></a></div>
 						<div class="bio">
@@ -933,7 +933,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://html.adobe.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adobe" class="twitter icon" target="_blank" title="@adobe"></a>
+							<a href="https://twitter.com/adobe" class="twitter icon" target="_blank" title="@adobe"></a>
 						</div>
 						<div class="img"><a href="http://html.adobe.com" target="_blank"><img src="static5/img/sponsors/adobe.png" /></a></div>
 						<div class="bio">
@@ -943,7 +943,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://www.mozilla.org" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/mozilla" class="twitter icon" target="_blank" title="@mozilla"></a>
+							<a href="https://twitter.com/mozilla" class="twitter icon" target="_blank" title="@mozilla"></a>
 						</div>
 						<div class="img"><a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank"><img src="static5/img/supporters/mozilla.png" /></a></div>
 						<div class="bio">
@@ -956,7 +956,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://www.paypal.com.sg" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/paypal" class="twitter icon" target="_blank" title="@paypal"></a>
+							<a href="https://twitter.com/paypal" class="twitter icon" target="_blank" title="@paypal"></a>
 						</div>
 						<div class="img"><a href="http://www.paypal.com.sg" target="_blank"><img src="static5/img/sponsors/paypal.png" /></a></div>
 						<div class="bio">
@@ -966,7 +966,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://www.github.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/github" class="twitter icon" target="_blank" title="@github"></a>
+							<a href="https://twitter.com/github" class="twitter icon" target="_blank" title="@github"></a>
 						</div>
 						<div class="img"><a href="http://www.github.com" target="_blank"><img src="static5/img/supporters/github.png" /></a></div>
 						<div class="bio">
@@ -977,7 +977,7 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<li>
 						<div class="links">
 							<a href="http://www.adzcentral.com" target="_blank" class="www icon">www</a>
-							<a href="http://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
+							<a href="https://twitter.com/adzcentral" class="twitter icon" target="_blank" title="@adzcentral"></a>
 						</div>
 						<div class="img"><a href="http://www.adzcentral.com" target="_blank"><img src="static5/img/supporters/adz.png" /></a></div>
 						<div class="bio">
@@ -1035,10 +1035,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 					<ul>
 						<li>
 							
-							<a href="http://twitter.com/serrynaimo" target="_blank"><img src="static5/img/team/thomas.jpg" border="0" /></a>
+							<a href="https://twitter.com/serrynaimo" target="_blank"><img src="static5/img/team/thomas.jpg" border="0" /></a>
 							<div class="name">
-								<a href="http://twitter.com/serrynaimo" target="_blank">Thomas Gorissen</a>
-								<a href="http://twitter.com/serrynaimo" target="_blank" class="twitter icon" title="@serrynaimo"></a>
+								<a href="https://twitter.com/serrynaimo" target="_blank">Thomas Gorissen</a>
+								<a href="https://twitter.com/serrynaimo" target="_blank" class="twitter icon" title="@serrynaimo"></a>
 							</div>
 							<div class="mail">
 								<a href="mailto:thomas@jscamp.asia">thomas@jscamp.asia</a>
@@ -1047,10 +1047,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						</li>
 						<li>
 							
-							<a href="http://twitter.com/sayanee_" target="_blank"><img src="static5/img/team/sayanee.jpg" border="0" /></a>
+							<a href="https://twitter.com/sayanee_" target="_blank"><img src="static5/img/team/sayanee.jpg" border="0" /></a>
 							<div class="name">
-								<a href="http://twitter.com/sayanee_" target="_blank">Sayanee Basu</a>
-								<a href="http://twitter.com/sayanee_" target="_blank" class="twitter icon" title="@sayanee_"></a>
+								<a href="https://twitter.com/sayanee_" target="_blank">Sayanee Basu</a>
+								<a href="https://twitter.com/sayanee_" target="_blank" class="twitter icon" title="@sayanee_"></a>
 							</div>
 							<div class="mail">
 								<a href="mailto:sayanee@jscamp.asia">sayanee@jscamp.asia</a>
@@ -1060,10 +1060,10 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
 						
 						<li>
 							
-							<a href="http://twitter.com/sebdeckers" target="_blank"><img src="static5/img/team/seb.jpg" border="0" /></a>
+							<a href="https://twitter.com/sebdeckers" target="_blank"><img src="static5/img/team/seb.jpg" border="0" /></a>
 							<div class="name">
-								<a href="http://twitter.com/sebdeckers" target="_blank">Sebastiaan Deckers</a>
-								<a href="http://twitter.com/sebdeckers" target="_blank" class="twitter icon" title="@sebdeckers"></a>
+								<a href="https://twitter.com/sebdeckers" target="_blank">Sebastiaan Deckers</a>
+								<a href="https://twitter.com/sebdeckers" target="_blank" class="twitter icon" title="@sebdeckers"></a>
 							</div>
 							<div class="mail">
 								<a href="mailto:seb@jscamp.asia">seb@jscamp.asia</a>
@@ -1131,7 +1131,6 @@ _,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,.-=~'`^`'~=-.,__,.-=~'
     <!-- Resource strings used in Javascript for localization (and other variables and third-party additions) -->
 	<!--<script type="text/javascript" src="static5/js/l10n/en.js"></script> -->
 	
-	<img src="http://ads.adzhub.com/seg?add=471538" width="1" height="1"/>
 	<script type="text/javascript" defer="defer">
 
 	// Google Analytics
